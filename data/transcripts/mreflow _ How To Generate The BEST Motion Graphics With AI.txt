@@ -1,0 +1,29 @@
+Feed: mreflow
+Episode: How To Generate The BEST Motion Graphics With AI
+Method: description
+Language: en
+Words: 225
+URL: https://www.youtube.com/shorts/sNzsGC2zf6c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+How to generate motion graphics using AI:
+
+Step 1: Choose your AI assistant
+These frameworks act as plugins or "skills" that work directly inside AI coding assistants. In the video, I used Claude Code, but they also work with VS Code, GitHub Copilot, Codex, Cowork, and more.
+
+Step 2: Find the framework you want to use
+To make this work, you'll need a programmable video framework like Remotion or Hyperframes. You can find ones like Remotion or Hyperframes (the ones I use in this video) by simply searching for them on GitHub or in a search engine. 
+
+Step 3: Install it
+You don’t need to be a developer to set this up. I literally went into the Claude Code prompt box, pasted the GitHub URL for the framework, and typed: "Install this for me, please." That is actually how easy it is.
+
+Step 4: Write your prompt
+Just describe the exact animation you want. The AI writes the underlying code and automatically renders out a clean MP4 file that you can drop directly into your video edit.
+
+If you need professional looking graphics but don't want to spend hours keyframing in After Effects, this workflow is going to save you an enormous amount of time.
+
+SAVE this reel so you can try out this workflow next time you need it!
+
+#motiongraphics #videoediting #AI #AIhack #contentcreator
