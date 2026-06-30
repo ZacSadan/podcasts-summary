@@ -1,0 +1,20 @@
+Feed: Israeli Tech Radar
+Episode: פעם היינו רגילים לכתוב מערכות דטרמיניסטיות.
+Method: description
+Language: he
+Words: 94
+URL: https://www.youtube.com/shorts/KviyczfxezI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+היו לנו Unit Tests וכלי בדיקה.
+אבל בעולם של מערכות אג'נטיות זה כבר לא מספיק.
+כותבים Agent, מריצים כמה Prompts, מקבלים תוצאה, והכל נראה מצוין.
+עד שמגיעים לפרודקשן. פתאום מופיעים מקרי קצה.
+דברים מתחילים להישבר. כאן נכנסים ה Evals.
+כחלק מ Harness Engineering, הם מאפשרים להגדיר מראש איך נראית הצלחה, לבדוק את ה Agent לאורך כל תהליך הפיתוח, ולהמשיך למדוד אותו גם בפרודקשן.
+ה AI לא יהיה דטרמיניסטי כמו המערכות של פעם.
+אבל אפשר לקרב אותו לשם הרבה יותר.
+🎥 רוצים לשמוע עוד?
+לחצו על ההרצאה המלאה – Agentic SDLC: From Prompting to Engineering
