@@ -1,0 +1,24 @@
+Feed: Google Israel
+Episode: What is Nano Banana?
+Method: description
+Language: en
+Words: 123
+URL: https://www.youtube.com/watch?v=TglEnUdBb3o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, we're learning all about Nano Banana, Google’s image generation model. Join Nano Banana Product Manager Naina (who named the model!) as she walks you through the amazing things you can create — from 3D product renders to architectural blueprints to personalized children's storybook and more.
+ 
+Here’s where you can try out Nano Banana today:
+- For Everyday: The Gemini app, AI Mode in Google Search, and NotebookLM
+- For Work: Google Workspace (Slides and Videos), Gemini Enterprise Agent Platform, and Google Ads
+- For Builders: Google AI Studio and Gemini API 
+
+ #GoogleAI #GoogleGemini #NanoBanana #AI 
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google
