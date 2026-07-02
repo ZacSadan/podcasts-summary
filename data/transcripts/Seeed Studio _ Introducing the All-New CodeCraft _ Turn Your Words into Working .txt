@@ -1,0 +1,18 @@
+Feed: Seeed Studio
+Episode: Introducing the All-New CodeCraft | Turn Your Words into Working Hardware
+Method: description
+Language: en
+Words: 59
+URL: https://www.youtube.com/watch?v=aHfSjicf4Cg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🚀 CodeCraft is now live!
+Turn your words into working hardware with CodeCraft:
+✅ Generate code with natural language
+✅ Zero local setup
+✅ Flash firmware in one click
+🎁 Register now through July 13 and get 1 month of CodeCraft PRO for free.
+Start building here:https://codecraft.seeed.cc/?utm_source=codecraft_new&utm_medium=youtube
+What would you build first with CodeCraft? Drop your idea below 👇
