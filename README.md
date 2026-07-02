@@ -1,6 +1,6 @@
 # Podcast & YouTube Summarizer
 
-An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates detailed bilingual summaries (Hebrew + English). Runs entirely on GitHub Actions — no local setup, no external paid APIs.
+An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates a detailed Hebrew summary for each (an English summary is only produced when the local fallback models are used, see [Summarization Pipeline](#summarization-pipeline)). Runs entirely on GitHub Actions — no local setup, no external paid APIs.
 Results are delivered automatically to a configured Telegram channel.
 ---
 
@@ -33,9 +33,9 @@ Every hour (GitHub Actions cron)
         │
         ▼
   For each new episode:
-    ├─ Try to get transcript (7 methods, cheapest first)
-    ├─ Summarize with GitHub Models (gpt-4o / gpt-4o-mini)
-    ├─ Format bilingual output (Hebrew + English)
+    ├─ Try to get transcript (8 methods, cheapest first)
+    ├─ Summarize with GitHub Models (gpt-4o / gpt-4o-mini) — Hebrew only
+    ├─ Format output (Hebrew summary + original description + links)
     ├─ Validate and resolve all links
     └─ Send to Telegram
         │
@@ -50,8 +50,8 @@ The pipeline runs on a free GitHub-hosted Ubuntu runner. All state is stored in 
 ## Features
 
 - **Fully automated** — GitHub Actions cron fires every hour, processes new episodes, and commits results back
-- **Bilingual output** — Long Hebrew summary (800–1200 words) + concise English summary (200–300 words)
-- **7 transcript methods** — Tries every available source before falling back to Whisper audio transcription
+- **Long Hebrew summary** — 800–1200 words (1200–1500 for long show notes), bold section headers, bullet points. An English summary is only generated as part of the local BART+Helsinki fallback (used when `MODELS_TOKEN` is unavailable) and is written to `results.txt.md` only — it is never sent to Telegram
+- **8 transcript methods** — Tries every available source (including PDF show notes) before falling back to Whisper audio transcription
 - **Transcript caching** — Whisper results are saved to `data/transcripts/` and re-used on subsequent runs, avoiding costly re-transcription. Files older than 30 days are deleted automatically on each run.
 - **Whisper budget** — Only 1 audio transcription per run to stay within GitHub Actions runner time limits; remaining episodes are deferred to the next cron run
 - **Smart link handling** — Dead links are dropped, `example.com` removed, and URL shorteners (`bit.ly`, `t.co`, etc.) resolved to their final destination
@@ -84,9 +84,6 @@ By default, summaries are sent to Telegram only. To also write them to `results.
 **Hebrew Summary:**
 <detailed Hebrew summary — 800–1200 words, bold section headers, bullet points>
 
-**English Summary:**
-<concise English summary — 200–300 words>
-
 **Original description:**
 <first 600 characters of the RSS description>
 
@@ -97,7 +94,7 @@ By default, summaries are sent to Telegram only. To also write them to `results.
 ---
 *Pipeline:*
   • Transcript: <method> (<N> words, lang=<lang>) — <audio analysis note>
-  • Summary: GitHub Models gpt-4o-mini (he+en)
+  • Summary: GitHub Models gpt-4o-mini (he)
 ```
 
 The **Pipeline** section shows:
@@ -105,21 +102,24 @@ The **Pipeline** section shows:
 - Whether the **full audio file was transcribed** (Whisper) or show notes / captions were used instead
 - Which summarization model ran
 
+An **English Summary** block is only added when the local BART+Helsinki fallback ran (no `MODELS_TOKEN`/`GITHUB_TOKEN` available) — in that case it appears in `results.txt.md` between the Hebrew summary and the original description, but it is **never** included in the Telegram message, which always contains only the Hebrew summary and the pipeline footer.
+
 ---
 
 ## Transcript Extraction Methods
 
-Methods are tried in order from cheapest (no download) to most expensive (full audio):
+Methods are tried in order from cheapest (no download) to most expensive (full audio). If Whisper fails or is skipped, the pipeline retries the text-based methods once more as a last resort (including a lower-bar description check) before giving up:
 
 | # | Method | Description |
 |---|--------|-------------|
 | 0 | **Cache** | Loads a previously saved transcript from `data/transcripts/` — skips all other methods |
-| 1 | **RSS `<podcast:transcript>` tag** | Parses a transcript URL embedded in the RSS feed (VTT, SRT, or HTML formats) |
-| 2 | **YouTube captions** | Uses `youtube-transcript-api` to fetch manual or auto-generated captions; falls back to `yt-dlp --write-auto-sub` |
-| 3 | **Episode web page** | Fetches the episode's URL and extracts body text — useful for shows like Reversim where the web page has 3× more content than the RSS description |
-| 4 | **RSS description** | Uses the RSS `<description>` field if it is ≥1500 words (likely full show notes) |
-| 5 | **Short description fallback** | Accepts any description ≥50 words as a last resort before audio download — helps when YouTube bot-detection blocks yt-dlp on CI runners |
-| 6 | **Whisper** | Downloads audio via `yt-dlp`, transcribes with `faster-whisper` (small model, CPU, int8). Limited to `max_whisper_per_run` per run (default: 1) |
+| 1 | **PDF show notes** | Scans the RSS description and episode page for a linked `.pdf` (e.g. Security Now) and extracts its text with `pypdf`; skippable with `--no-pdf` / the `no_pdf` workflow input |
+| 2 | **RSS `<podcast:transcript>` tag** | Parses a transcript URL embedded in the RSS feed (VTT, SRT, or HTML formats) |
+| 3 | **YouTube captions** | Uses `youtube-transcript-api` to fetch manual or auto-generated captions; falls back to `yt-dlp --write-auto-sub` |
+| 4 | **Episode web page** | Fetches the episode's URL and extracts body text — useful for shows like Reversim where the web page has 3× more content than the RSS description |
+| 5 | **RSS description** | Uses the RSS `<description>` field if it is ≥1500 words (likely full show notes) |
+| 6 | **Whisper** | Downloads audio via `yt-dlp` (falling back to `pytubefix` for YouTube), transcribes with `faster-whisper` (small model, CPU, int8). Limited to `max_whisper_per_run` per run (default: 1) |
+| 7 | **Short description fallback** | If Whisper failed or was skipped, retries methods 2–5 and finally accepts any description ≥50 words as a last resort — helps when YouTube bot-detection blocks yt-dlp on CI runners |
 
 Language priority: Hebrew episodes prefer `he/iw` captions first, then `en`. English episodes prefer `en` first.
 
@@ -132,9 +132,9 @@ Language priority: Hebrew episodes prefer `he/iw` captions first, then `en`. Eng
 Requires a GitHub Personal Access Token with Models API access stored as `MODELS_TOKEN` secret.
 
 - Tries **gpt-4o** first (2,000 word input limit to stay under free-tier TPM)
-- Falls back to **gpt-4o-mini** (6,000 word input limit)
+- Falls back to **gpt-4o-mini** (4,000 word input limit)
 - Prompts the model to produce a structured Hebrew summary with bold headers and bullet points, preserving all English tech terms, product names, and URLs
-- Returns both Hebrew (800–1200 words) and English (200–300 words) summaries
+- Returns a Hebrew summary only (800–1200 words, or 1200–1500 words when based on full PDF/long show notes) — no English summary is requested from this path
 
 ### Fallback: BART + Helsinki (local models)
 
@@ -165,13 +165,16 @@ All feeds and settings live in `config/feeds.yaml`.
 
 ```yaml
 settings:
-  hours_lookback: 168          # Look back N hours for new episodes (default: 7 days)
-  description_min_length: 1500 # Min word count to treat RSS description as transcript
-  whisper_model: small         # faster-whisper model size (tiny/base/small/medium/large)
-  max_whisper_per_run: 1       # Max Whisper jobs per cron run (defers the rest)
-  bart_chunk_words: 800        # BART input chunk size in words
-  extractive_max_sentences: 15 # Sentences to keep in extractive fallback
+  hours_lookback: 168              # Look back N hours for new episodes (default: 7 days)
+  description_min_length: 1500     # Min word count to treat RSS description as transcript
+  max_audio_duration_minutes: 120  # Present in config for documentation purposes; not currently read by the code
+  whisper_model: small             # faster-whisper model size (tiny/base/small/medium/large)
+  max_whisper_per_run: 1           # Max Whisper jobs per cron run (defers the rest)
+  bart_chunk_words: 800            # BART input chunk size in words
+  summary_sentences: 8             # Present in config for documentation purposes; not currently read by the code
 ```
+
+Note: `extractive_max_sentences` (default 15) controls the extractive-summary fallback in code but is not currently set in `feeds.yaml` — it always uses its hardcoded default.
 
 ### Adding a Feed
 
@@ -188,6 +191,13 @@ To force Whisper transcription for a specific feed (skipping captions/descriptio
   - name: My Channel
     url: https://www.youtube.com/feeds/videos.xml?channel_id=UC...
     enforce_whisper: true   # always use Whisper, skip captions/description
+```
+
+To temporarily disable a feed without removing it from the list:
+```yaml
+  - name: My Channel
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UC...
+    disabled: true   # feed is skipped entirely until removed
 ```
 
 For YouTube channels, use the channel RSS URL:
@@ -221,6 +231,7 @@ Language is auto-detected from feed metadata and Hebrew character ratio. Overrid
 | `feed` | Optional substring to filter by feed name (e.g. `רברס` or `Creative Channel`) |
 | `test` | If checked, processes only 1 small episode per feed type (YouTube / Spotify-RSS / other RSS) — fast verification without triggering Whisper |
 | `resend_history` | If checked, re-sends every entry already in `results.txt.md` to Telegram (requires `--write-results` to have been used previously) |
+| `no_pdf` | If checked, skips the PDF show-notes transcript method (method 1) — useful for before/after comparison testing |
 
 ### First Run
 
@@ -234,7 +245,7 @@ The pipeline is designed to run on GitHub Actions, not locally. To trigger a run
 
 1. Go to the repository on GitHub
 2. Click **Actions** → **Podcast Summary** → **Run workflow**
-3. Optionally fill in `feed` (e.g. `בזמן שעבדתם`) and check `test` for a quick run
+3. Optionally fill in `feed` (e.g. `בזמן שעבדתם`), check `test` for a quick run, and check `no_pdf` to skip PDF show-notes extraction
 4. Click **Run workflow**
 
 Results are sent to Telegram after the run. To also write them to `results.txt.md`, add `--write-results` to the workflow inputs.
@@ -295,11 +306,13 @@ URL: <episode URL>
 | `PyYAML` | 6.0.2 | Config file parsing |
 | `youtube-transcript-api` | 1.2.4 | YouTube caption fetching (no download) |
 | `yt-dlp` | 2026.3.17 | Audio download and YouTube subtitle fallback |
+| `pytubefix` | ≥8.0.0 | Fallback YouTube audio downloader when `yt-dlp` is blocked |
 | `faster-whisper` | 1.0.3 | CPU-optimized Whisper transcription |
 | `transformers` | 4.57.6 | BART summarization + Helsinki translation models |
 | `torch` | 2.12.0 | PyTorch backend for local models |
 | `sentencepiece` | 0.2.0 | Tokenizer for Helsinki translation models |
 | `sacremoses` | 0.1.1 | Text normalization for translation |
+| `pypdf` | ≥4.0.0 | Text extraction from linked PDF show notes |
 
 ---
 
@@ -321,6 +334,7 @@ Fetches from untrusted RSS sources are capped to prevent memory exhaustion:
 | Fetch type | Cap |
 |---|---|
 | RSS transcript tag, episode web page | 500 MB |
+| PDF show-notes download | 20 MB |
 | Link liveness / title check | 1 MB |
 
 ### Path traversal protection
