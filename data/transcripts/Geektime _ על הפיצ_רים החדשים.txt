@@ -1,0 +1,17 @@
+Feed: Geektime
+Episode: על הפיצ׳רים החדשים
+Method: description
+Language: he
+Words: 32
+URL: https://www.youtube.com/shorts/XFMHaGMqRts
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+אור סגל הוא Tech lead והוא זה שאחראי על תכנון פיצ'רים חדשים והובלת פיתוחים מבוססי AI ב-Surecomp
+השיחה המלאה איתו בעמוד החדש של שורקומפ בגיקטיים אינסיידר
+
+בשיתוף Surecomp
+
+ #LifeAtTech  #techtalk
+#הייטקיסטים #הייטק
