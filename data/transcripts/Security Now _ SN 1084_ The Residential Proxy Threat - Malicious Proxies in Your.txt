@@ -1,8 +1,8 @@
 Feed: Security Now
 Episode: SN 1084: The Residential Proxy Threat - Malicious Proxies in Your Living Room
-Method: pdf_show_notes
+Method: cached_pdf_show_notes
 Language: en
-Words: 9825
+Words: 9829
 URL: https://twit.tv/shows/security-now/episodes/1084
 
 --- TRANSCRIPT ---

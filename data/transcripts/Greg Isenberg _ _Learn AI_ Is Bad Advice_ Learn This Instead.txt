@@ -1,0 +1,57 @@
+Feed: Greg Isenberg
+Episode: "Learn AI” Is Bad Advice. Learn This Instead
+Method: description
+Language: en
+Words: 783
+URL: https://www.youtube.com/watch?v=jJIOA4GroBw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I lay out the six skills I believe stay valuable as AI grows more capable. I chose these six because each one is open to anyone, each one starts this weekend, and each one rises in value as AI improves. I walk through agents and local models, distribution, robotics, curation, the builder distributor, and IRL community building, with one concrete first rep for every skill. My goal is to hand you one simple, clear map of where the world is heading and exactly how to begin.
+
+Timestamps
+00:00 – Intro
+00:57 – Skill 1: Running AI Agents and Local Models
+04:51 – Skill 2: Marketers Who Build Distribution
+09:03 – Skill 3: Robotics Engineers Who Build and Source Hardware
+14:29 – Skill 4: Curators Who Yap and Make Short-Form Video
+19:05 – Skill 5: The Builder Distributor
+23:11 – Skill 6: IRL Community Builders
+27:34 – Build Your Skill Stack
+
+Key Points
+
+* I chose these six skills because each one rises in value as AI improves.
+* Skill 1 is the grown-up version of prompt engineering: I design an AI worker with context, tools, memory, permissions, and a goal.
+* Distribution beats posting, so I learn where attention already lives and turn it into trust before I sell.
+* Hardware is the new frontier: cheap arms, open-source robot learning, and supplier sourcing put robotics within my reach.
+* As the builder distributor, I ship the product and win the attention in one loop, which makes the one-person company real.
+* Real rooms grow scarce and valuable, so I build belonging, trust, and context as my edge.
+
+Numbered Section Summaries
+
+The Premise: What Stays Valuable as AI Improves I open by picturing a near future where AI builds and writes almost anything, then ask which skills hold their value. I narrow it to six skills that anyone can start this weekend, each one climbing in value as AI gets better.
+
+Skill 1 — Agents and Local Models I describe the move from typing prompts to designing a small AI employee with context, tools, permissions, memory, a goal, and a way to check its own work. I add local models with tools like Ollama and LM Studio so you learn which jobs want a giant brain and which jobs want a reliable worker, and I suggest building a daily briefing agent with three sources as your first rep.
+
+Skill 2 — Marketers Who Build Distribution I explain that distribution runs far deeper than posting: it means knowing where attention already lives and the exact words people use to describe their problem. The winning marketer becomes part researcher, storyteller, media operator, and community builder, and the first rep is a distribution map plus 20 hooks for a single idea.
+
+Skill 3 — Robotics Engineers Who Build and Source Hardware I share my big insight: the last decade rewarded moving pixels, and the next decade rewards moving atoms too. With cheap cameras, low-cost arms like the SO-100 / SO-101, open-source work like Hugging Face LeRobot, and small VLA models, I suggest assembling a low-cost arm, teaching it one boring task, documenting every failure, and learning supplier sourcing on Alibaba.
+
+Skill 4 — Curators Who Yap and Make Short-Form Video I cover the curator who watches the timeline and says "this matters because…," translating new models, launches, and news for a specific niche. The algorithms reward raw, authentic yapping that carries a real take, and my rep is a seven-day curation sprint paired with a taste file of hooks, analogies, and titles you love.
+
+Skill 5 — The Builder Distributor I make the case that AI compresses the old build-versus-sell split into one person who prototypes the product, writes the launch thread, records the demo, DMs the first users, and iterates. The loop is the whole game, and my rep is a 48-hour loop: build the smallest version of one problem, then create 10 pieces of distribution before you feel ready.
+
+Skill 6 — IRL Community Builders I close with the old-school skill that grows more valuable as work moves to agents and feeds: real rooms full of ambitious people. Scarcity moves toward belonging, trust, and context, so I suggest hosting six to eight people around one sharp question and sending a recap that turns the room into a network
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

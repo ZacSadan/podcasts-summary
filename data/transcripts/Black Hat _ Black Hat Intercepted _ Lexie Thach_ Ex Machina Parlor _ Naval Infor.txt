@@ -1,0 +1,13 @@
+Feed: Black Hat
+Episode: Black Hat Intercepted | Lexie Thach, Ex Machina Parlor + Naval Information Warfare Center Pacific
+Method: description
+Language: en
+Words: 76
+URL: https://www.youtube.com/shorts/zD6ojxKvd2w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Lexi Tatsch, Community Director at Ex Machina Parlor and Lead Cybersecurity Engineer at Naval Information Warfare Center Pacific, shares essential insights on protecting your home network from IoT vulnerabilities. Learn about real-world exploits, practical security measures, and why network segmentation matters for your smart home devices.
+
+Lexi highlights how Black Hat keeps a connection to cutting-edge technology and the latest industry standards, while providing invaluable peer feedback that helps improve work for the broader cybersecurity community.

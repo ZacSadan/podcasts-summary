@@ -1,0 +1,27 @@
+Feed: Seeed Studio
+Episode: Add RGB-D Grasping to reBot B601 with reComputer RK3576 Running YOLOv11
+Method: description
+Language: en
+Words: 142
+URL: https://www.youtube.com/watch?v=f7MpshfwK0c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Just type: “pick up the bottle” — and the robot actually does it.
+This demo brings that idea to life using Seeed reComputer RK3576, reBot Arm B601-DM, and Orbbec Gemini336 depth camera.
+
+🌟 Inside a fully edge-native pipeline:
+☑️ YOLOv11 object detection runs locally after RKNN conversion on the RK3576 NPU
+✅ Real-time RGB-D depth perception
+☑️ Eye-in-hand calibration aligns vision with robot motion
+✅ Depth-based grasp point estimation enables stable picking
+☑️ Natural language commands select targets directly from the scene
+
+No cloud dependency. Just a single edge AI system that sees, understands, and acts.
+From text → perception → decision → motion — all running on-device.
+This is what “embodied AI at the edge” looks like.
+
+🛒 Check reComputer RK3576 here: https://www.seeedstudio.com/reComputer-RK3576-30-p-6815.html
+
+#SeeedStudio #reComputerRK #Rockchip #reComputer #RK3576 #RK3588 #VisionAI #NVR #aibox #EdgeAI #AIoT #ComputerVision #reComputerAILab #YOLO #AILab #AIDeployment #TheEasierPowerfulAIComputer #TheAIHardwarePartner

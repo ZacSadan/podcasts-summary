@@ -1,0 +1,17 @@
+Feed: Black Hat
+Episode: Black Hat Europe | LINE-Break: Cryptanalysis And Reverse Engineering Of Letter Sealing
+Method: description
+Language: en
+Words: 244
+URL: https://www.youtube.com/watch?v=M640UhgUW5E
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We present a security analysis of the messaging service known as LINE, a popular platform used daily by millions of users in East Asia -- most notably Japan, Taiwan, Thailand, and Indonesia. More specifically, we focus on its underlying custom end-to-end-encryption (E2EE) protocol known as Letter Sealing v2, which we evaluate with respect to modern E2EE security guarantees. Our findings show that Letter Sealing allows a TLS Man-in-the-Middle attacker or malicious server to violate integrity, authenticity and confidentiality of communications. The stateless design of the protocol allows message replay, reordering, and blocking attacks, compromising the transcript consistency of communications. The lack of origin authentication facilitates impersonation attacks, in which the authorship of messages in one-to-one or group chats can be forged by malicious users colluding with the adversary. Lastly, stickers, a main selling point of the application, present a notable plaintext leakage, which leads to violation of confidentiality. To verify the correctness of our findings, we mounted a Man-in-the-Middle attack on an iOS device, yielding the device's outgoing traffic and the corresponding server responses. Utilizing this setup, we experimentally verified our attacks against the authentic LINE application. We discuss our findings in comparison to the state-of-the-art E2EE protocol Signal, and conclude that Letter Sealing does not satisfy the requirements expected from a modern E2EE messaging protocol. This is joint work with Adam Blatchley Hansen.
+
+By: 
+Thomas Mogensen  |  MSc. in Computer Science, Aarhus University
+Diego De Freitas Aranha  |  Associate Professor, Aarhus University
+
+https://blackhat.com/eu-25/briefings/schedule/?#line-break-cryptanalysis-and-reverse-engineering-of-letter-sealing-49039

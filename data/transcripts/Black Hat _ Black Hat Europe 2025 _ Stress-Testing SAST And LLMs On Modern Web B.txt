@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Stress-Testing SAST And LLMs On Modern Web Backends
+Method: description
+Language: en
+Words: 238
+URL: https://www.youtube.com/watch?v=0v3pnoR8IyY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Modern backends aren't C or legacy Java. They're FastAPI/Flask/Django and Express/NestJS/Next.js. Yet we still judge detection tools with sink-centric, synthetic benchmarks that ignore framework semantics. We built the Unsafe Code Detection Benchmark, a reproducible way to score both SAST and LLMs on intentionally vulnerable, minimal micro-apps across today's web frameworks.
+
+Our benchmark couples an open corpus with a single harness, unified ground truth and a failure-mode taxonomy mapped to CWE/OWASP. It measures precision/recall and cost/latency, controls for prompt/temperature variance and includes "appears-vulnerable-but-safe" scenarios to stress false-positives.
+
+Initial results may surprise: on source-proximate issues common in modern stacks (parameter merging/polllution, middleware/decorator-order authz bypasses, subtle type coercion), state-of-the-art general purpose LLMs outperform industry leading SASTs in their default configuration – a gap we trace to weak framework awareness and imprecise source modeling. The twist: with simple, framework-aware custom rules SAST surpasses LLMs, showing why deterministic, organization-specific rules remain a force multiplier. LLMs provide strong raw recall but exhibit prompt sensitivity and a tendency to conflate stylistic "best practices" with real vulnerabilities.
+
+Attendees will leave with a practical methodology and tooling to evaluate their own SAST and LLMs on modern stacks, concrete guidance to raise real-world detection rates and a lear path to extend and rerun the benchmark internally. We will release the benchmark specification, the harness for running selected SAST tools and LLMs as well as the open-source corpus.
+
+By: 
+Andrew Konstantinov  |  Security Engineer
+Irina Iarlykanova  |  Student
+
+https://blackhat.com/eu-25/briefings/schedule/?#unsafe-code-detection-benchmark-stress-testing-sast-and-llms-on-modern-web-backends-49293

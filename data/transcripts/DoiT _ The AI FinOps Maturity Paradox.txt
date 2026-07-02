@@ -1,0 +1,42 @@
+Feed: DoiT
+Episode: The AI FinOps Maturity Paradox
+Method: description
+Language: en
+Words: 325
+URL: https://www.youtube.com/watch?v=wp3xaSxIMd8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn more: https://www.doit.com
+
+Applied FinOps is a podcast for practitioners working through the messy, real-world version of FinOps inside complex organizations.
+
+In this episode, Amit Kinha and Frank Contrepois unpack new research on how finance leaders are managing AI spend, budget overruns, governance, and the pressure to prove returns quickly.
+
+They explore the AI FinOps maturity paradox: why organizations that consider themselves more mature in FinOps are often reporting the highest AI overruns. The conversation examines whether those companies are actually less in control, or simply have enough visibility to see the problem clearly while others are still operating with blind spots.
+
+Amit and Frank also discuss AI budgeting, token usage, cost attribution, operational efficiency versus growth, accountability across finance and technology, and why organizations need to connect AI spend to business outcomes rather than treating it as a standalone cost line.
+
+This is a conversation for FinOps, finance, technology, procurement, and operations leaders trying to build meaningful controls around AI without slowing down the experimentation that may create the most value.
+
+00:00 AI Spend Overruns and the Maturity Paradox
+01:01 Why Mature FinOps Teams Report More Overspend
+03:09 Visibility, Cost Attribution, and Token Usage
+05:34 Why AI Costs Are Hard to Predict
+07:05 AI Beyond Engineering: Marketing, Sales, and Operations
+09:17 AI for Operational Efficiency vs. Growth
+12:05 Measuring AI ROI Through Business KPIs
+16:10 The AI Maturity Gap Between Leaders and Practitioners
+18:49 Who Owns AI Cost Governance?
+21:58 Why the COO May Be Best Positioned to Lead AI Adoption
+23:10 Model Selection, Prompt Efficiency, and “Caveman Mode”
+26:13 Growth AI vs. Operational Excellence AI
+27:46 The 12-Month Patience Clock for AI ROI
+32:43 Why Finance Is Moving Faster on Unit Economics
+36:41 Measuring AI Impact Through Engineering Velocity
+38:25 From “Did We Overspend?” to “What Did We Get?”
+40:25 Governance, Risk, and Knowing When to Stop an AI Project
+41:53 Final Thoughts: Patience, Focus, and AI Value
+
+#aws #ai #cloudcomputing #googlecloud #finops

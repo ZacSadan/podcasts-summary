@@ -1,0 +1,30 @@
+Feed: Y Combinator
+Episode: India Can Create The Largest AI Companies
+Method: description
+Language: en
+Words: 151
+URL: https://www.youtube.com/watch?v=Ju8LVdvuxGM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this final panel from Startup School India, the hosts reflect on why India's deep technical talent makes it uniquely positioned to produce some of the world's largest companies in this new AI wave and how young founders can break out of conventional advice from traditional education systems to reach their full potential. 
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+Chapters:
+
+00:00 —Intro
+02:56 — $100M ARR with one engineer
+03:47 — Why AI is different from mobile
+05:25 — No US network? No problem
+07:38 — YC founders are getting younger
+10:38 — How to develop an independent POV
+12:07 — The power of surrounding yourself well
+13:25 — Tinker your way to a startup idea
+15:33 — Second mover advantage is real
+17:54 — Let the tokens rip
+21:18 — Open source and bringing down costs
+23:27 — What YC really looks for
+29:07 — Outro

@@ -1,0 +1,47 @@
+Feed: mreflow
+Episode: AI News: The New Model That's As Good As Fable
+Method: description
+Language: en
+Words: 319
+URL: https://www.youtube.com/watch?v=zMVZvgCOr40
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Stop losing money on separate AI subscriptions. Get ChatGPT, Claude, Gemini, and 200+ models in one place for one price with Nexos. Get 50% off with my code: https://nexos.ai/wolf
+
+Sakana AI just released a model that beats Fable on some benchmarks, ties it on others, and loses on a few, and we put it to the test ourselves this week.
+
+This week's AI news isn't huge in volume, but it's massive in stakes. I break down Sakana's new Fugu model, an orchestrator system that routes your prompts across multiple AI models instead of being just one model itself, and test it head to head against Fable on a couple of real build challenges. I also cover Anthropic's new Claude Tag feature, which lets you tag Claude directly inside Slack like a coworker, and the news that the US government is now getting directly involved in how OpenAI releases new models.
+
+Plus a full rapid fire on Seed Dance 2.5, Krea 2 going open weights, a new searchable database of AI training data from The Atlantic, OpenAI's own inference chip news, and a wave of new Meta Ray-Ban styles.
+
+If you want to stay looped in on AI news every single week, make sure to subscribe. I post a news breakdown every Friday and tool tutorials midweek.
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #SakanaFugu #claudeai 
+
+Time Stamps:
+00:00 Sakana Fugu: A New AI Model Router
+02:00 Testing Fugu vs. Fable (Setup & Cost)
+04:24 Fugu Test Results: Game & Website Clones
+08:21 Sponsor: Nexos
+10:03 Anthropic's Claude Tag
+12:19 OpenAI, GPT 5.6 & Government Oversight
+14:10 Rapid Fire: Seed Dance, Krea 2 & More
+18:34 Final Thoughts & Outro
+
+Thanks to Nexos for sponsoring this video.

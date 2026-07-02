@@ -1,0 +1,23 @@
+Feed: Seeed Studio
+Episode: Launching Soon: reSpeaker Clip — an open, wearable AI recorder
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/watch?v=voSBrtyEzCk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+📟 0.5" Programmable OLED Display
+Battery status, storage usage, recording state, AI agent feedback, custom icons, and more — fully programmable for your application.
+🎯 Action Button for Smarter Interaction
+Start or stop recording with a single press, or use it to mark important moments during conversations, making key information easier to find later.
+👔 Wear It Your Way
+Designed for flexible everyday use:
+• Necklace
+• Clip-on badge
+• Magnetic attachment
+
+Whether you're building AI assistants, voice agents, meeting copilots, or personal knowledge systems, reSpeaker Clip is ready to become your always-available audio companion.
+
+Stay tuned for more details!!!🫣

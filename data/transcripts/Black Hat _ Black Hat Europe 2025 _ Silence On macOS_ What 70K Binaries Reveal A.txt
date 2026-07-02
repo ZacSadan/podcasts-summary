@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Silence On macOS: What 70K Binaries Reveal About The macOS Malware Ecosystem
+Method: description
+Language: en
+Words: 241
+URL: https://www.youtube.com/watch?v=i4TrrDmk_UE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+macOS adoption in enterprise environments has surged in recent years, yet defensive tooling and public research still center heavily on Windows threats, leaving macOS malware underrepresented. To help bridge this gap, we introduce MALET, the largest public dataset of macOS malware to date (48.4k malicious / 22.9k benign Mach-O binaries), and Katalina, a new, open-source, high-performance static analysis tool capable of processing thousands of binaries per minute on commodity hardware.
+
+Our talk distills 18 months of measurement into actionable insights for malware analysts, detection engineers, and incident responders. We show how 96% of macOS malware remains unsigned, and of the signed remainder, 38% use certificates that were later revoked often tied to DPRK APT infrastructure. These binaries evaded Gatekeeper and persisted for up to 721 days before revocation.
+
+We surface 185 previously misclassified binaries that AV engines labeled benign despite sharing structural fingerprints with known malware. Static clustering using UUIDs, TeamIDs, and symbol hashes reveals four dominant macOS malware archetypes. We also show how rare entitlement combinations (e.g., com.apple.private.tcc.allow) appear 25x more often in malware, enabling stealth access to sensitive hardware like the microphone and camera.
+
+We demonstrate how these findings can directly feed into resilient detection pipelines, including Sigma/YARA rule generation, a live triage workflow, and an extensible open-source toolchain. Attendees will leave with data, tooling, and practical heuristics they can apply immediately in their own environments.
+
+By: 
+Obinna Igbe  |  Independent Researcher,  
+Godwin Attigah  |  Security Engineer, Airbnb
+
+https://blackhat.com/eu-25/briefings/schedule/?#silence-on-macos-what-70k-binaries-reveal-about-the-macos-malware-ecosystem-49195

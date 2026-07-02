@@ -1,0 +1,58 @@
+Feed: mreflow
+Episode: 9 Free AI Skills That Feel Like Cheat Codes
+Method: description
+Language: en
+Words: 334
+URL: https://www.youtube.com/watch?v=STH929HARLo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+9 free skills and plug-ins that make Claude Code, Codex, and other AI coding agents dramatically more useful, and yes, all of them are free.
+Skills and plug-ins are reusable instruction files that give your AI agent a repeatable behavior instead of starting from scratch every time. In this video I break down 9 of my favorites, install them live, and put several of them head to head so you can see exactly what changes.
+
+I cover GStack (turns Claude Code into a full virtual engineering team), Stop Slop (strips AI tells out of your writing), Graphify (turns any codebase or knowledge base into a queryable graph your agent can use as memory), Understand Anything (visual onboarding maps for any codebase), Last 30 Days (real time sentiment research across Reddit, X, YouTube, and more), Anthropic's Front End Design skill and the Taste skill (head to head design tests), and ReMotion vs HyperFrames (AI generated animations from a single prompt).
+
+Every skill works across Claude Code, Codex, Cursor, OpenClaw, Hermes, VS Code, and GitHub Copilot. Links to every single one below.
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Skills and plug-ins mentioned:
+GStack: https://github.com/garrytan/gstack
+Stop Slop: https://github.com/hardikpandya/stop-slop
+Graphify: https://github.com/safishamsi/graphify
+Understand Anything: https://github.com/Egonex-AI/Understand-Anything
+Last 30 Days: https://github.com/mvanhorn/last30days-skill
+Front End Design (Anthropic): https://www.skills.sh/anthropics/skills/frontend-design
+Taste Skill: https://github.com/Leonxlnx/taste-skill
+ReMotion: https://github.com/remotion-dev/remotion
+HyperFrames: https://github.com/heygen-com/hyperframes
+
+If you want more breakdowns like this, let me know in the comments and I'll keep them coming.
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+Timestamps: 
+00:00 Why Skills Matter
+01:05 Skills vs Plugins Explained
+02:45 GStack: Your AI Engineering Team
+08:14 Stop Slop: Cleaner AI Writing
+09:25 Graphify: Knowledge Graphs as Memory
+14:14 Understand Anything: Visual Code Maps
+17:55 Newsletter Quick Plug
+18:39 Last 30 Days: Real Time Sentiment Research
+20:55 Front End Design vs. Taste Skill
+24:46 Animation Showdown: ReMotion vs. HyperFrames
+28:07 Final Thoughts and Outro
+
+#ClaudeCode #AIAgents #FreeAITools

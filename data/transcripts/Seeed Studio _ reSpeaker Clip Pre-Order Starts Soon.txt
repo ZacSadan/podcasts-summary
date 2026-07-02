@@ -1,0 +1,23 @@
+Feed: Seeed Studio
+Episode: reSpeaker Clip Pre-Order Starts Soon
+Method: cached_description
+Language: en
+Words: 81
+URL: https://www.youtube.com/shorts/6DeMl7q_VGE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Built for always-on, privacy-first, AI-native recording workflows.
+
+🔐 2GB Local Storage
+ Up to 256 Hours Local Recording, giving you full control over your data.
+
+🔋 Extended Battery Life for All-Day Use
+ Capture conversations, meetings, and ideas continuously.
+ • Endurance Mode: up to 18 hours
+ • Enhanced Mode (Noise Suppression ON): up to 14 hours
+
+📆 Pre-orders open at the end of this month
+
+#SeeedStudio #reSpeakerClip #AINote #reSpeaker #wearable #MicrophoneArray #Nordic #VoiceAI #SoundAI #EdgeAI #VoiceInterface #AIRecorder #VoiceAgent #AIAgent #OpenWearableAIRecorder #TheAIHardwarePartner

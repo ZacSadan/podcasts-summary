@@ -1,0 +1,24 @@
+Feed: Seeed Studio
+Episode: Deploying Sign Language Recognition System on reComputer RK3576 via reComputer AI Lab
+Method: description
+Language: en
+Words: 158
+URL: https://www.youtube.com/watch?v=EamONsEuQ7U
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We’re excited to showcase a real-time English ASL sign language word recognition system built on the reComputer RK3576 and the Seeed Studio reComputer AI Lab.
+
+☑️ Converts continuous motion into temporal feature sequences
+✅ Performs action modeling and prototype matching
+☑️ Outputs the corresponding English word in real time
+
+What makes this demo stand out is its interpretability + edge deployment capability. The web interface visualizes both the original video and skeleton keypoints side by side, making it clear how AI understands body and hand movements step by step.
+
+Even better, the entire pipeline runs locally on edge devices — showing how complex vision-AI workloads can be deployed without relying on the cloud.
+
+🛒 reComputer RK3576: reComputer RK3576-30 | Open Rockchip AI Box tailored for AI Development
+🛠️ reComputer AI Lab: reComputer AI Lab | Edge AI Models & Tools
+
+#SeeedStudio #reComputerRK #Rockchip #reComputer #RK3576 #RK3588 #VisionAI #NVR #aibox #EdgeAI #AIoT #ComputerVision #reComputerAILab #YOLO #AILab #AIDeployment #TheEasierPowerfulAIComputer #TheAIHardwarePartner

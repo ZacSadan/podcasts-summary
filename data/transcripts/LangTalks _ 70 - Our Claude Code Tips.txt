@@ -1,0 +1,11 @@
+Feed: LangTalks
+Episode: 70 - Our Claude Code Tips
+Method: description
+Language: en
+Words: 19
+URL: https://www.youtube.com/watch?v=wMBc5nr-jiw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A behind-the-scenes look at real agentic-coding workflows: visual planning, cloud-first agents, ephemeral PR environments, custom skills, and secrets management.

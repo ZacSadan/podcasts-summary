@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | How We Turned AI's 'Web Browsing' Into A Gateway For Targeting 1B+ Users
+Method: description
+Language: en
+Words: 265
+URL: https://www.youtube.com/watch?v=3D74o6bAuHs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+With the integration of large language models (LLMs) and capabilities such as real-time web search, browser components are now being widely deployed in server-side environments for the first time. While enabling features like online search and image processing, server-side browsers also introduce significant security risks. If a backend browser accesses an attacker-controlled URL, it can potentially trigger remote code execution (RCE) vulnerabilities—ranging from service disruption to large-scale manipulation of LLM outputs, or even full server compromise. These vulnerabilities essentially represent a concentrated shift of attack risks: threats once scattered across individual clients are now aggregated at the server level. Meanwhile, as AI search streamlines intelligent information access for users, it also lowers the barrier for attackers, who can monitor and tamper with user conversations through a single vulnerability.
+
+In this talk, we present a systematic study of this emerging attack surface. We evaluated leading LLM services that integrate backend browser components and successfully achieved RCE in six of them—collectively impacting over one billion users. Our study reveals that the offensive and defensive characteristics of server-side browsers differ fundamentally from those of client-side browsers. From an offensive perspective, exploiting server-side browsers required overcoming challenges absent in client environments, such as bypassing domain whitelists, evading JavaScript execution restrictions, and fingerprinting remote browser versions to craft viable payloads. From a defensive perspective, server-side browsers also face unique disadvantages: lack of automatic update mechanisms, deviation from security best practices, and lower exploitation barriers.
+
+We conclude by proposing best practices for securely deploying browser components in backend systems, offering actionable guidance to help the industry mitigate these risks at scale.

@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Hacking Smart Cities One Building At A Time - A City Of A Thousand Zero Days
+Method: description
+Language: en
+Words: 300
+URL: https://www.youtube.com/watch?v=m-5RSjZUl_4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+April 9, 2009, American Auto-Matrix (AAM) introduced AspectFT open web-enabled area controller for Building Automation. AspectFT (Facilitating Technology) comes in versions for various sized projects from a small building stand-alone solution to an Enterprise version for large scale building applications.Utilizing a Linux operating system, AspectFT uses a Java foundation to accomplish a number of building operation routines and control algorithms. Through utilization of this Facilitating Technology users can communicate to their BAS system through protocols such as BACnet IP and MS/TP, Modbus IP and RTU, and the American Auto-Matrix PUP protocol.
+
+In April 2024, Zero Science Lab identified over 800 vulnerabilities in the 18-year-old codebase dormant through two acquisitions. These controllers encompasses a wide array of locations and entities, spanning various sectors and regions worldwide, ranging from commercial buildings to correctional facilities, and their footprint across more than 30 countries and 220 cities, underscoring the global scope of the systems under investigation.
+
+In this presentation, we will disclose the vulnerabilities discovered that were left and never addressed because the vendor statement is that these devices were not meant for Internet connectivity despite the opposite marketing campaigns. We will reveal how ABB has started with silent fixes four years after aquisition and how it continued to not follow its own best practices and security disclosure policy.
+
+We will also show some sneaky backdoors and hidden "forgotten debugging functionalities" and interesting authentication issues. These vulnerabilities allow unauthenticated remote root exploits.
+
+Finally, the whole vendor planning and miscommunication will be presented with multiple fixed versions and unaddressed vulnerabilities in an attempt to downplay the criticality of this incident. Will also show some of the exposed smart giants that are prone to ICS attacks. The session is backed by a 160-page research paper.
+
+By: Gjoko Krstic  |  Offensive Security Researcher, Zero Science Lab
+
+https://blackhat.com/eu-25/briefings/schedule/index.html#project-brainfog-hacking-smart-cities-one-building-at-a-time---a-city-of-a-thousand-zero-days-48113

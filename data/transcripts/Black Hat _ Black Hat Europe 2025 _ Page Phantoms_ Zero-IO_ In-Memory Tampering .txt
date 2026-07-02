@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Page Phantoms: Zero-IO, In-Memory Tampering Of The Linux Page Cache
+Method: description
+Language: en
+Words: 298
+URL: https://www.youtube.com/watch?v=lyau-ZMGW98
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In modern cyber defense, the combination of high-privilege VMI from a Host VMM and an in-guest EDR monitoring I/O paths forms a defense-in-depth architecture believed to be unbypassable. This presentation introduces "MGLRU Deceit," a novel kernel attack primitive that silently penetrates both layers of this defense.
+
+MGLRU Deceit abuses Linux's newest memory management mechanism—the Multi-Generational LRU (MGLRU), default since kernel 6.1. Rather than exploiting a vulnerability, the attack abuses a design feature: MGLRU's protection of hot data extends the residency time of critical pages in the page cache, creating a stable window for an attacker to locate and capture a target page. By manipulating page metadata, we can isolate a page from the kernel's reclaimer, enabling the hijacking and tampering of any file's in-memory content without modifying filesystem metadata.
+
+The attack operates entirely at the memory management layer, bypassing the VFS and block I/O stacks. The tampered page is never written back to disk; its filesystem association is later severed and it is returned to the buddy system as a clean page. This "zero-I/O footprint" evades EDRs and deceives VMI solutions that monitor struct inode integrity, as the attack only alters the file's data page, not its metadata.
+
+In our live demonstration, we will build a dual-defense target environment: a VMM memory monitor on the L1 host and a simulated EDR kernel module inside the L2 guest. We will first show both systems successfully detecting a conventional modification to the shadow file. We will then launch the MGLRU Deceit attack and witness both monitoring systems remain completely silent as we leverage the modified in-memory content of the shadow file to successfully gain root privileges. The technique presented is a practical, reproducible, and sophisticated method for bypassing defense-in-depth, usable by advanced malware.
+
+By: jia jia  |  Security Researcher
+
+https://blackhat.com/eu-25/briefings/schedule/index.html#page-phantoms-zero-io-in-memory-tampering-of-the-linux-page-cache-48930

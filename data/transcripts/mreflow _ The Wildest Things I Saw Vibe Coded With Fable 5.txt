@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: The Wildest Things I Saw Vibe Coded With Fable 5
+Method: description
+Language: en
+Words: 212
+URL: https://www.youtube.com/shorts/2a3nXQjR1nM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I messed up. 
+
+Everyone has been talking about the drama that went down around Claude Fable and Mythos getting shut down, including myself. But I got distracted from the REAL story here, which is just how crazy good these models were and the amazing things people were able to build with them.  
+
+These are just a few examples, but it's insane that people built full scale projects and business ideas and NONE of them were engineers with massive dev budgets. They were just regular people with a good idea. 
+
+What used to require a full development team and months of work now takes a single afternoon and a good AI model. We are watching in real time a massive shift in WHO gets to build things. 
+
+But of course, the party was cut short because Anthropic was ordered to suspend foreign access to Fable 5 over security concerns, literally describing their own tech as "too powerful." 
+
+And I get why that sounds terrifying. But look at what people actually did with it in the short window they had: they solved problems, built businesses, and created cool things to share with the world. That’s what happens when you put genuinely useful tech into the hands of the people. 
+
+#Claude #Anthropic #AI #Entrepreneurship #vibecoding

@@ -1,0 +1,18 @@
+Feed: Veritasium
+Episode: Comment les particules alpha peuvent perturber les puces informatiques
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/shorts/8ur3_QGEE00
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Découvrez comment une pincée d’uranium a failli perturber l’informatique ! Plongez dans l’histoire incroyable des DRAM d’Intel et de leurs mystérieuses erreurs liées à une contamination radioactive des matériaux. Curieux de savoir comment un simple atome peut retourner un bit ? Regardez la vidéo, abonnez-vous et dites-nous en commentaire ce qui vous a le plus surpris ! #histoire #technologie #science #informatique #curiosité
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Problèmes mystérieux dans la mémoire Intel
+0:19 - Origine des radiations dans les boîtiers
+0:51 - Mécanisme des erreurs dues aux particules alpha
+1:34 - Impact sur l'industrie et mesures prises

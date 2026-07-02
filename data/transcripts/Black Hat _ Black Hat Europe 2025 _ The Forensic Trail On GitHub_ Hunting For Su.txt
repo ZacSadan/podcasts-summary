@@ -1,0 +1,17 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | The Forensic Trail On GitHub: Hunting For Supply Chain Activity
+Method: description
+Language: en
+Words: 190
+URL: https://www.youtube.com/watch?v=JZUV8dY7NG4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Ultralytics. tj-actions. Grafana. GitHub Actions are increasingly targeted by attackers and implicated in industry-impacting incidents. Thankfully, GitHub's public surface offers numerous threat intelligence sources for the discerning defender. This talk covers a comprehensive methodology for investigating and tracking real-world supply chain attacks exploiting GitHub Actions, inspired by our work responding to the aforementioned incidents. It adds a new dimension and set of tools to threat intelligence research. We'll expose the wealth of intelligence available directly from both GitHub and the underlying Git plane. Through concrete demos, we'll show how to effectively pivot on user metadata and behavioral heuristics, uncover attacker forks, and recover deleted gists and commits. We'll also demonstrate how to trace attacker aliases, identify targets of reconnaissance, and unmask attackers and researchers in real-time. Attackers are hiding in the complexity of this ecosystem, but with automation we can peel back the noise, empowering detection and investigation. This approach is practical, repeatable, and relies exclusively on publicly available data, ensuring accessibility for all defenders without the need for private threat intelligence feeds.
+
+By: 
+Rami McCarthy  |  Principal Security Researcher, Wiz
+Amitai Cohen  |  Attack Vector Intelligence Lead, Wiz
+
+https://blackhat.com/eu-25/briefings/schedule/?#the-forensic-trail-on-github-hunting-for-supply-chain-activity-48832

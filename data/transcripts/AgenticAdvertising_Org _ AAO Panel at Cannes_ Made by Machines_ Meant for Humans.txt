@@ -1,0 +1,25 @@
+Feed: AgenticAdvertising.Org
+Episode: AAO Panel at Cannes: Made by Machines. Meant for Humans: Winning Trust in the Cre(ai)tive Economy
+Method: description
+Language: en
+Words: 159
+URL: https://www.youtube.com/watch?v=sCvXTS53Odo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AgenticAdvertising.org (AAO) Panel at Cannes Lions Festival of Creativity 2026
+
+Made by Machines. Meant for Humans: Winning Trust in the Cre(ai)tive Economy
+
+AI agent traffic grew over 7,000% last year. We are rapidly entering the Cre(ai)tive Economy—a marketing ecosystem where autonomous AI agents constantly iterate, test, and scale campaigns at a speed no human team can match. But scale without judgment is a liability no brand can afford, and speed without trust is just noise.
+
+This session brings together a CMO managing brand reputations, a publisher protecting audience relationships, and the infrastructure builders connecting the ecosystem. The conversation will tackle the shifting geography of risk and ROI, exploring how to unlock the true power of an agentic loop while ensuring human creativity and governance remain firmly in the driver’s seat.
+
+Speakers: 
+
+Christina Cubeta, CMO, Scope3
+Sarah Acker, SVP Marketing, HUMAN 
+Priti Ohri, Co-Founder & CEO, Advertible
+Amanda DeVito, CMO, Butler/Till 
+Mike Chevallier, VP, Advanced Audio & Data Revenue, iHeartMedia

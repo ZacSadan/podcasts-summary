@@ -1,0 +1,17 @@
+Feed: Israeli Tech Radar
+Episode: פעם המפתח כתב קוד.
+Method: description
+Language: he
+Words: 60
+URL: https://www.youtube.com/shorts/12B1lKB03YA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+היום, בעבודה עם מערכות אג'נטיות, הוא גם מנהל את התהליך.
+ה AI יכול לבצע הרבה מהעבודה.
+אבל המפתח הוא עדיין שומר הסף.
+הוא מחליט מה נכון, מה איכותי, ומה באמת נכנס ל Main Branch.
+כי גם בעידן ה AI, האחריות על התוצאה הסופית נשארת אצלנו.
+🎥 רוצים לשמוע עוד?
+לחצו על ההרצאה המלאה – Agentic SDLC: From Prompting to Engineering

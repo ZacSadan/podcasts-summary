@@ -1,0 +1,26 @@
+Feed: Seeed Studio
+Episode: Real-Time Indoor Smoking Detection on the reComputer RK3576
+Method: description
+Language: en
+Words: 130
+URL: https://www.youtube.com/watch?v=GEDryfrh7Ds
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this demo, we built a real-time indoor smoking detection system on the reComputer RK3576 RK3576, powered by YOLO models accelerated with RKNN.
+
+✨ Key Features:
+✅ Real-time camera detection
+✅ Image & video analysis
+✅ Person + smoking behavior detection
+✅ Browser-based visualization dashboard
+✅ Adjustable confidence thresholds
+✅ Bounding boxes and instant result display
+
+Unlike traditional smoking detection solutions, this system goes a step further by identifying the specific individual who is smoking among multiple people in the scene.
+With the reComputer RK3576's built-in NPU acceleration, developers can deploy practical AI vision applications directly at the edge with low power consumption and responsive performance.
+
+🛒 Check reComputer RK3576 here: https://www.seeedstudio.com/reComputer-RK3576-30-p-6815.html
+
+#SeeedStudio #reComputerRK #Rockchip #reComputer #RK3576 #RK3588 #VisionAI #NVR #aibox #EdgeAI #AIoT #ComputerVision #reComputerAILab #YOLO #AILab #AIDeployment #TheEasierPowerfulAIComputer #TheAIHardwarePartner
