@@ -1,0 +1,16 @@
+Feed: TrafficGuard
+Episode: Introducing Shield for TrafficGuard
+Method: description
+Language: en
+Words: 70
+URL: https://www.youtube.com/watch?v=xrUaM8oc7Yw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Meet Shield by TrafficGuard. A self-serve click fraud protection plan built for small and medium-sized businesses. Uncover hidden ad spend waste, automate click fraud prevention, and gain the insights you need to maximise campaign performance. Because every wasted click costs more than just your budget. Connect your Google Ads account in minutes and start protecting your campaigns with confidence.
+
+🌐 Website: www.trafficguard.ai 
+📱Instagram: www.instagram.com/trafficguard/
+💻 LinkedIn: www.linkedin.com/company/trafficguard-hq/
+⭐ G2: www.g2.com/products/trafficguard/reviews
