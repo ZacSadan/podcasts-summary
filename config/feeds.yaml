@@ -382,4 +382,8 @@ feeds:
 
 - name: Y Combinator
   url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCcefcZRL2oaA_uBNeo5UOWg"
-  
+
+
+- name: The Diary Of A CEO
+  url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCGq-a57w-aPwyi3pW7XLiHw"
+
