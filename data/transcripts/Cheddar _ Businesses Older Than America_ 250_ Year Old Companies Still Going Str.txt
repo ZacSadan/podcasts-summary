@@ -1,9 +1,9 @@
 Feed: Cheddar
 Episode: Businesses Older Than America: 250+ Year Old Companies Still Going Strong
-Method: description
+Method: cached_description
 Language: en
-Words: 145
-URL: https://www.youtube.com/watch?v=_NKGpy08qKQ
+Words: 147
+URL: https://www.youtube.com/watch?v=Vtg9epRG7HU
 
 --- TRANSCRIPT ---
 
