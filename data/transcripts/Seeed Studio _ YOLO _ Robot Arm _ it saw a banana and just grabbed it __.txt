@@ -1,0 +1,27 @@
+Feed: Seeed Studio
+Episode: YOLO + Robot Arm = it saw a banana and just grabbed it 🍌🦾
+Method: description
+Language: en
+Words: 73
+URL: https://www.youtube.com/watch?v=vusj3AoyDxo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We gave a robot arm YOLO vision… and it got a little too proactive 🦾
+
+reBot Arm B601 sees a banana 🍌 → instantly computes → executes pick-and-place.
+
+No waiting. No hesitation.
+
+Just full closed-loop behavior:
+See → Understand → Act
+
+📷 RGB-D perception
+🔍 YOLO detection
+📐 Grasp planning
+🔄 Hand-eye calibration
+🦾 Autonomous motion
+
+💬 What should it grab next? (try not to make it suffer 😄)
+#PhysicalAI #reBotArm #SeeedStudio #YOLO
