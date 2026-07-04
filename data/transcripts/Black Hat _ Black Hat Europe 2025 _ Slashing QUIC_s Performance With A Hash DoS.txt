@@ -1,0 +1,17 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Slashing QUIC's Performance With A Hash DoS
+Method: description
+Language: en
+Words: 223
+URL: https://www.youtube.com/watch?v=anofgjg_jU4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+QUIC was designed for low-latency and high-performance communication, but what if its very design enables an attack that can bring it to a crawl? In this talk, we present a remote Hash Denial-of-Service (Hash DoS) attack that exploits hash collisions in QUIC's processing of connection IDs (CID). Our survey of over 20 QUIC server implementations revealed that a third of them were vulnerable to this attack, allowing a remote attacker to trigger excessive hash table operations with minimal effort, leading to severe slowdowns or even complete stalls.
+
+In this talk, we'll break down the attack mechanics, discuss the different hash functions used by QUIC implementations, show how to exploit them, and demonstrate the real-world impact of the attack with performance metrics and a proof-of-concept attack demonstration against a vulnerable implementation. Attendees will gain insight into why this attack emerges from QUIC's design rather than through a mere implementation flaw and why it affects 1/3 of all existing implementations of this modern, widely used protocol supported in all major browsers. We'll also present why some existing mitigations fall short and how to defend against this threat effectively. By the end, attendees will walk away with concrete techniques to identify, test for, and mitigate Hash DoS vulnerabilities in QUIC and other performance-critical protocols.
+
+By: Paul Bottinelli  |  Principal Security Engineer, Cryptography, Trail of Bits
+
+https://blackhat.com/eu-25/briefings/schedule/?#cut-to-the-quic-slashing-quics-performance-with-a-hash-dos-48330

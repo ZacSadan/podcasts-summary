@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: מעכשיו כל אחד יכול להיות מעצב?
-Method: description
+Method: cached_description
 Language: he
-Words: 152
-URL: https://www.youtube.com/watch?v=PvBa7cuSUAc
+Words: 154
+URL: https://www.youtube.com/watch?v=mwSxbdMuTpA
 
 --- TRANSCRIPT ---
 
