@@ -237,6 +237,8 @@ IMPORTANT RULES:
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT skip any technological, business, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
+- Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
+- Do NOT add a tags/sources section or a links/resources section at the end (e.g. "תגיות ומקורות", "קישורים ומשאבים נוספים", "לינקים ומשאבים נוספים") — mention links only inline, within the paragraph discussing them
 - Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
@@ -264,6 +266,8 @@ IMPORTANT RULES:
 - Do NOT skip any technological, business, security, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Since this is based on full show notes, be especially thorough and complete
+- Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
+- Do NOT add a tags/sources section or a links/resources section at the end (e.g. "תגיות ומקורות", "קישורים ומשאבים נוספים", "לינקים ומשאבים נוספים") — mention links only inline, within the paragraph discussing them
 - Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject in depth. 1200-1500 words.
@@ -378,12 +382,15 @@ def _summarize_with_github_models(episode, text: str, github_token: str,
     else:
         hebrew_summary = result.strip()
 
-    return hebrew_summary, "", [f"Summary: GitHub Models {used_model} (he)"]
+    return hebrew_summary, "", [(f"Summary: GitHub Models {used_model} (he)", "summary")]
 
 
 def _summarize_with_models(episode, transcript_text: str, lang: str, settings: dict,
                            long_summary: bool = False) -> tuple:
-    """Returns (hebrew_summary, english_summary, pipeline_steps_list).
+    """Returns (hebrew_summary, english_summary, pipeline_steps).
+    pipeline_steps is a list of (text, category) tuples; category is one of
+    "transcript", "summary", "translate", "debug". The telegram output drops
+    "summary" and "debug" steps.
     Uses GitHub Models (free, GITHUB_TOKEN) if available, else BART+Helsinki fallback."""
     import os
     github_token = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN", "")
@@ -401,14 +408,14 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
         if pre_words > _PRE_EXTRACT_HE_WORDS:
             en_input = _extractive_summary(text, max_sentences=40,
                                            max_chars=_PRE_EXTRACT_HE_WORDS * 7)
-            steps.append(f"Pre-extract for translation: {pre_words}→{len(en_input.split())} words")
+            steps.append((f"Pre-extract for translation: {pre_words}→{len(en_input.split())} words", "translate"))
         en_text = _translate_he_to_en(en_input)
-        steps.append("Translate: he→en (Helsinki opus-mt-tc-big-he-en)")
+        steps.append(("Translate: he→en (Helsinki opus-mt-tc-big-he-en)", "translate"))
         n_chunks = max(1, len(en_text.split()) // settings.get("bart_chunk_words", 800))
         english_summary = _bart_summarize(en_text, settings)
-        steps.append(f"English summary: BART facebook/bart-large-cnn ({n_chunks} chunks)")
+        steps.append((f"English summary: BART facebook/bart-large-cnn ({n_chunks} chunks)", "summary"))
         hebrew_summary = _translate_en_to_he(english_summary)
-        steps.append("Hebrew summary: BART → translate en→he (Helsinki opus-mt-en-he)")
+        steps.append(("Hebrew summary: BART → translate en→he (Helsinki opus-mt-en-he)", "summary"))
         return hebrew_summary, english_summary, steps
 
     else:
@@ -416,12 +423,12 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
         if pre_words > _PRE_EXTRACT_EN_WORDS:
             text = _extractive_summary(text, max_sentences=80,
                                        max_chars=_PRE_EXTRACT_EN_WORDS * 6)
-            steps.append(f"Pre-extract: {pre_words}→{len(text.split())} words")
+            steps.append((f"Pre-extract: {pre_words}→{len(text.split())} words", "translate"))
         n_chunks = max(1, len(text.split()) // settings.get("bart_chunk_words", 800))
         english_summary = _bart_summarize(text, settings)
-        steps.append(f"English summary: BART facebook/bart-large-cnn ({n_chunks} chunks)")
+        steps.append((f"English summary: BART facebook/bart-large-cnn ({n_chunks} chunks)", "summary"))
         hebrew_summary = _translate_en_to_he(english_summary)
-        steps.append("Translate: en→he (Helsinki opus-mt-en-he)")
+        steps.append(("Translate: en→he (Helsinki opus-mt-en-he)", "translate"))
         return hebrew_summary, english_summary, steps
 
 
@@ -450,7 +457,11 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
             lines.append(f"• [{title}]({u})" if title else f"• {u}")
         url_block = "\n\n**Links mentioned:**\n" + "\n".join(lines)
 
-    steps_block = "\n".join(f"  • {s}" for s in pipeline_steps)
+    steps_block = "\n".join(f"  • {text}" for text, _category in pipeline_steps)
+    telegram_steps_block = "\n".join(
+        f"  • {text}" for text, category in pipeline_steps
+        if category not in ("summary", "debug")
+    )
     date_str = episode.published.strftime("%d/%m/%Y %H:%M") + " UTC"
     generated_str = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M") + " UTC"
     desc_block = f"\n**Original description:**  \n{desc_clean[:600]}" if desc_clean else ""
@@ -471,9 +482,14 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
         f"**Link:**\n{episode.url}\n\n"
         f"*Pipeline:*\n{steps_block}\n"
     )
+    telegram_footer = (
+        f"---\n\n"
+        f"**Link:**\n{episode.url}\n\n"
+        f"*Pipeline:*\n{telegram_steps_block}\n"
+    )
 
     full_text = header + he_block + en_block + desc_block + "\n" + footer
-    telegram_text = header + he_block + footer
+    telegram_text = header + he_block + telegram_footer
     return full_text, telegram_text
 
 
@@ -498,9 +514,9 @@ def summarize_episode(episode, transcript, settings: dict) -> tuple[str, str]:
         audio_note = "No audio download — summary based on show notes / description only"
 
     transcript_step = f"Transcript: {method} ({transcript.word_count} words, lang={lang}) — {audio_note}"
+    pipeline_steps = [(transcript_step, "transcript")]
     if getattr(transcript, "attempted", []):
-        transcript_step += f"\n  • Tried and failed: {', '.join(transcript.attempted)}"
-    pipeline_steps = [transcript_step]
+        pipeline_steps.append((f"Tried and failed: {', '.join(transcript.attempted)}", "debug"))
 
     is_pdf = method == "pdf_show_notes"
     try:
@@ -517,7 +533,7 @@ def summarize_episode(episode, transcript, settings: dict) -> tuple[str, str]:
         else:
             hebrew_summary = ""
             english_summary = f"[Extractive summary]\n\n{extracted}"
-        pipeline_steps.append(f"Summary: extractive ({max_sent} sentences, BART unavailable: {type(e).__name__})")
-        pipeline_steps.append("תרגום: — (לא בוצע)")
+        pipeline_steps.append((f"Summary: extractive ({max_sent} sentences, BART unavailable: {type(e).__name__})", "summary"))
+        pipeline_steps.append(("תרגום: — (לא בוצע)", "translate"))
 
     return _format_output(episode, hebrew_summary, english_summary, urls, pipeline_steps)

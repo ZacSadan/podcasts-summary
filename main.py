@@ -37,6 +37,21 @@ TRANSCRIPT_RETENTION_DAYS = 30
 MAX_SEEN_ENTRIES = 1000
 
 
+# ── Shabbat guard ─────────────────────────────────────────────────────────────
+
+def IsShbbatKodeah() -> bool:
+    """True from Friday 16:00 IL time through Saturday 21:00 IL time.
+    The pipeline must not run in GitHub Actions during this window."""
+    from zoneinfo import ZoneInfo
+    il_now = datetime.now(ZoneInfo("Asia/Jerusalem"))
+    minutes = il_now.hour * 60 + il_now.minute
+    if il_now.weekday() == 4 and minutes >= 16 * 60:   # Friday from 16:00
+        return True
+    if il_now.weekday() == 5 and minutes < 21 * 60:    # Saturday until 21:00
+        return True
+    return False
+
+
 # ── Config & State ────────────────────────────────────────────────────────────
 
 def load_config() -> tuple[list, dict]:
@@ -303,6 +318,10 @@ def main():
     parser.add_argument("--write-results", action="store_true",
                         help="Append summaries to results.txt.md (disabled by default)")
     args = parser.parse_args()
+
+    if IsShbbatKodeah():
+        logger.info("Shabbat Kodesh (Fri 16:00 - Sat 21:00 IL time) — skipping run entirely.")
+        return
 
     if args.resend_history:
         resend_history()
