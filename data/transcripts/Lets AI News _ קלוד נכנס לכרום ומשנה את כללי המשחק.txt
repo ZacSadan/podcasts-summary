@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: קלוד נכנס לכרום ומשנה את כללי המשחק
+Method: description
+Language: he
+Words: 141
+URL: https://www.youtube.com/watch?v=eP-dFnaYNoA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+קלוד של Anthropic כבר לא מסתפק במענה על שאלות – הוא נכנס ישירות לכרום ומסוגל לבצע משימות אמיתיות בתוך הדפדפן. בסרטון הזה נסביר איך התוסף החדש עובד, אילו פעולות הוא יודע לבצע, במה הוא שונה מהדפדפן Comet של Perplexity, למי הוא זמין, וגם מהם הסיכונים כמו Prompt Injection ואיך Anthropic מנסה להתמודד איתם. האם זו תחילתו של עידן חדש שבו ה-AI באמת עובד במקומנו?
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business
