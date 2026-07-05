@@ -1,9 +1,9 @@
 Feed: CRM.BUZZ - סלע יפה
 Episode: מה למדתי על עצמי מארבעה חודשים במילואים וגם... DMARC מקבל תקן חדש
-Method: whisper
+Method: cached_whisper
 Language: he
 Words: 1021
-URL: https://episodes.captivate.fm/episode/0be7cb80-e655-41ff-8d13-36b70b2a51b5.mp3
+URL: https://listen.hubhopper.com/episode/mh-lmdty-l-zmy-mrbh-hwdsym-bmylwym-wgm-dmarc-mqbl-tqn-hds-1783104084/33021077
 
 --- TRANSCRIPT ---
 

@@ -1,0 +1,31 @@
+Feed: Creative Channel
+Episode: Turn an Old 220V Fan into a Rechargeable Fan + 18W Power Bank | 24V 50W BLDC, 30Ah battery
+Method: description
+Language: en
+Words: 143
+URL: https://www.youtube.com/watch?v=76OuPC7ngJ8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, I transform an old broken 220V electric fan into a DIY rechargeable fan with a built-in power bank.
+
+- 24V 50W BLDC motor, Wireless remote control : https://s.shopee.vn/6L2Qgp3vBV
+- DIY 6S10P battery pack (60× LG MH1 18650 cells) : https://s.shopee.vn/LlDXtOgOu
+- 25.2V 30Ah battery (~756Wh)
+- Smart 6S 40A BMS with cell balancing : https://s.shopee.vn/W4dkAbqiG
+- 25.2V 5A lithium charger
+- LCD battery monitor : https://s.shopee.vn/70I7U4a2WW
+- USB QC 18W output
+- USB Type-C PD/QC 18W output
+
+🔋 Estimated Runtime (25.2V 30Ah Battery ~ 756Wh):
+20W: Up to 33 hours
+30W: Around 23 hours
+50W: Around 15 hours
+
+Besides providing powerful airflow, this fan also works as a portable power bank for charging smartphones, tablets, and other USB devices.
+
+Perfect for camping, outdoor activities, emergency backup, and DIY electronics projects.
+
+#RechargeableFan #PowerBank #DIY #BLDC #18650 #BatteryPack #PortablePower #Camping #Electronics #Upcycling
