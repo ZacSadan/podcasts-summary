@@ -1,0 +1,28 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents
+Method: description
+Language: en
+Words: 278
+URL: https://www.youtube.com/watch?v=WqCArHy0VK8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Large Language Models (LLMs) have revolutionized software development, enabling the creation of AI-powered applications known as LLM-based agents. However, recent studies reveal that LLM-based agents are highly susceptible to taint-style vulnerabilities, which allow malicious prompts to exploit security-sensitive operations. These vulnerabilities pose severe threats to the security of agents, potentially allowing attackers to take over the entire agent remotely.
+
+In this paper, we propose a novel directed greybox fuzzing approach, called AgentFuzz, the first fuzzing framework for detecting taint-style vulnerabilities in LLM-based agents. AgentFuzz consists of three key phases. First, AgentFuzz leverages the LLM to generate functionality-specific seed prompts in the form of natural language. Second, AgentFuzz utilizes a multifaceted feedback design to assess seed quality from both semantic and distance levels, prioritizing seeds with higher quality. Finally, AgentFuzz employs functionality and argument mutators to refine seeds and trigger vulnerabilities effectively. In our evaluation against 20 widely-used open-source agent applications, AgentFuzz identified 34 high-risk 0-day vulnerabilities, achieving 33 times higher precision than the state-of-the-art approach. These vulnerabilities encompass serious threats like code injection, impacting 14 open-source agents, with 7 of them having over 10,000 stars on GitHub. To date, 23 CVE IDs have been assigned.
+
+By: 
+Fengyu Liu  |  Ph.D Student, Fudan University
+Ke Li  |  Security Engineer, ByteDance
+Jiaqi Luo  |  Ph.D Student, Fudan University
+Jiarun Dai  |  Assistant Professor, Fudan University
+Bocheng Xiang  |  PhD students, Fudan University
+Tian Chen  |  Master's Student, Fudan University
+Yilin Wang  |  Master's Student, The University of Manchester
+Youkun Shi  |  Postdoctoral Fellow, Hong Kong Polytechnic University
+Xing Li  |  Senior Security Engineer, Huawei Technologies Co., Ltd.
+Yuan Zhang  |  Professor, Fudan University
+Min Yang  |  Professor, Fudan University
+
+https://blackhat.com/eu-25/briefings/schedule/?#make-agent-defeat-agent-automatic-detection-of-taint-style-vulnerabilities-in-llm-based-agents-48117

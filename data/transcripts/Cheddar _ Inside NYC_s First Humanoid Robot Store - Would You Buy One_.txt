@@ -1,0 +1,30 @@
+Feed: Cheddar
+Episode: Inside NYC’s First Humanoid Robot Store - Would You Buy One?
+Method: description
+Language: en
+Words: 181
+URL: https://www.youtube.com/watch?v=kAFQdDkTsjE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Humanoid robots have arrived to New York City, and they're ready for purchase!
+
+In this episode of NYC Innovates, we visit Koid Shop, NYC's first retail location dedicated to general-purpose humanoid robots. We meet the companies building the future: Catena's avatar control technology, Inspired's socially-aware robots with personality, and AGIBOTs AI-powered dancers. We discuss the price barriers, safety concerns, and the real-world applications transforming everything from airports to your home. The biggest questions remain: how will these robots do in the consumer market? and would you buy one?
+
+00:00 - Intro
+00:48 - Koid Shop pop-up store opens in Soho
+02:17 - The price barrier
+03:17 - Avatar control system
+04:32 - Meet InBot: Socially aware robots with personality
+05:46 - The geopolitical reality: Chinese hardware, US software
+07:09 - Safety first: Design decisions and liability concerns
+08:24 - Future of commerce: Robots shopping and paying for goods
+09:44 - Who actually buys these robots?
+10:37 - How robots learn and explore your home
+
+Connect with Cheddar!
+On Facebook: https://facebook.com/cheddar
+On Instagram: https://instagram.com/cheddar
+On the web: https://cheddar.com
+In your inbox: https://need2know.cheddar.com/subscribe
