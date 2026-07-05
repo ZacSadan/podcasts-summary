@@ -238,7 +238,7 @@ IMPORTANT RULES:
 - Do NOT skip any technological, business, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
-- Do NOT add a tags/sources section or a links/resources section at the end (e.g. "תגיות ומקורות", "קישורים ומשאבים נוספים", "לינקים ומשאבים נוספים") — mention links only inline, within the paragraph discussing them
+- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
@@ -267,7 +267,7 @@ IMPORTANT RULES:
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
-- Do NOT add a tags/sources section or a links/resources section at the end (e.g. "תגיות ומקורות", "קישורים ומשאבים נוספים", "לינקים ומשאבים נוספים") — mention links only inline, within the paragraph discussing them
+- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject in depth. 1200-1500 words.
