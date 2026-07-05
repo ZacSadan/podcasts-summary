@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: מתקפות סייבר שעוברות לעולם הפיזי
-Method: description
+Method: cached_description
 Language: he
-Words: 145
-URL: https://www.youtube.com/watch?v=9K5ydeVtB1g
+Words: 147
+URL: https://www.youtube.com/shorts/Q9AjwrOz6i8
 
 --- TRANSCRIPT ---
 
