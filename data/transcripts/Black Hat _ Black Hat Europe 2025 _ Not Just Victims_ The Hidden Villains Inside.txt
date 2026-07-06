@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Not Just Victims: The Hidden Villains Inside Infostealer Logs
+Method: description
+Language: en
+Words: 224
+URL: https://www.youtube.com/watch?v=C8JXQ8EAaNk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Infostealer malware is malicious code designed to infiltrate users' systems and secretly extract sensitive data such as browser information, system details, account credentials, cryptocurrency wallets, and screenshots. This stolen data is often sold or leaked on dark web platforms. While many victims are innocent, some are involved in criminal activities, which our research focuses on uncovering. Preliminary analysis of stealer logs revealed distinct behavioral patterns like multiple similar accounts and criminal conduct indicators, suggesting links to scams and illegal operations.
+
+To better analyze these vast and complex datasets, we integrated Large Language Models (LLMs) that assist in organizing, classifying, and enriching loosely structured or ambiguous textual data within stealer logs. The LLM helped normalize vague entries and group related data, which was then stored in relational databases for efficient querying and visual interpretation. This method improves investigative efficiency and reveals actionable intelligence.
+
+Importantly, our data collection adhered strictly to ethical standards by only using publicly accessible data without purchasing illicit sources. Although infostealers are inherently malicious, this research demonstrates how their leaked data can serve as valuable leads in tracking underground criminals. Future research aims to fully automate stealer log analysis using LLMs, enhancing the speed and accuracy of cybercrime investigations.
+
+By: 
+HyunPyo Choi  |  Researcher, StealthMole
+DoHyun Hwang  |  Researcher, StealthMole
+Yejin Kang  |  Assistant Researcher, StealthMole
+SangMyung Choi  |  CTO, StealthMole
+
+https://blackhat.com/eu-25/briefings/schedule/?#not-just-victims-the-hidden-villains-inside-infostealer-logs-48668
