@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Breaking AI Inference Systems: Lessons From Pwn2Own Berlin
+Method: description
+Language: en
+Words: 186
+URL: https://www.youtube.com/watch?v=Qy1Uu5Wdkg8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+At Pwn2Own Berlin 2025, AI systems made their debut as official competition targets. This talk documents our successful exploitation of real-world AI infrastructure in that context focusing on vulnerabilities we discovered and demonstrated in Ollama and NVIDIA Triton Inference Server.
+
+We detail our security research methodology, which included threat modeling, file format fuzzing, and plugin analysis. In Ollama, we discovered multiple bugs before and during the competition, including an authentication bypass (CVE issued) and a heap overflow found via fuzzing—although it was patched three weeks before the event. In Triton Server, we uncovered a command injection vulnerability in its model configuration pipeline, leading to reliable remote code execution.
+
+We'll also briefly explore other AI targets such as RedisAI, ChromaDB, and NVIDIA's container runtime, including insight into a potential stack overflow rediscovery via fuzzing.
+
+This session blends concrete technical details with broader insight, sharing actionable takeaways for red teamers and defenders working with inference systems. Attendees will leave with a solid understanding of how to audit, attack, and better defend AI model infrastructure.
+
+By: 
+Patrick Ventuzelo  |  CEO & Founder, Fuzzinglabs
+Nabih Benazzouz  |  COO, Fuzzinglabs
+
+https://blackhat.com/eu-25/briefings/schedule/?#breaking-ai-inference-systems-lessons-from-pwn2own-berlin-48948
