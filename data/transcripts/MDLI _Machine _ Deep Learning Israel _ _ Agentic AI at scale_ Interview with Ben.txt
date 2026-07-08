@@ -1,0 +1,22 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: Agentic AI at scale: Interview with Benjamin Mayr, Vice President, Head of Architecture at NiCE
+Method: description
+Language: en
+Words: 151
+URL: https://www.youtube.com/watch?v=lqshFk9kYWw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode I had the honor to interview Benjamin Mayr, Vice President, Head of Architecture at NiCE Cognigy.
+
+Benjamin took me deep into what it really takes to run enterprise-grade conversational and agentic AI at scale. We talked about the "harness" around the model - the layer that turns a raw LLM into a reliable agent in a live contact center. He also broke down the LLM Gateway, which pools and load-balances across many model endpoints to keep everything fast and always-on.
+
+We also explored why picking the right model for the right job beats raw reasoning power, and looked ahead to a future of personal agents, agent-to-agent interactions, and even humanoid robots as the next interface.
+
+This interview was part of my coverage of the NiCE World conference.
+
+I learned so much about the real path from conversational AI to production-grade agents in this conversation.
+
+Audio is here:
+https://hiddenlayers.podbean.com/

@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: AI Can FINALLY Edit Videos For You
+Method: description
+Language: en
+Words: 124
+URL: https://www.youtube.com/shorts/bxdsBsbtoSg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Imagine typing "edit this for me" and letting AI handle your entire video timeline. 🤯
+
+That's the promise behind Palmier, a new AI video editor powered by Claude. From organizing media and trimming clips to generating missing B-roll on the fly, it’s designed to automate the manual side of editing.
+
+At $29/month for around 3 to 7 minutes of generated video, it's not the cheapest product to use, especially when you factor in potential revisions. BUT it's still probably cheaper than a professional video editor. 
+
+I haven’t run any footage through it yet, but I'm curious to see how it performs and if it's worth it. Let me know in the comments if you'd want to see a hands-on test 👇🏻
+
+#ai #videoediting #contentcreator
