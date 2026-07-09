@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: A Rewarding Experience with No Roadmap
+Method: description
+Language: en
+Words: 74
+URL: https://www.youtube.com/shorts/g546k8AyWNQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DARPA Alum Todd Master shares his perspective on the unparalleled opportunities and rewarding challenges of working at the agency. He describes a dynamic environment where personal autonomy is key and the path is often unwritten, leading to incredible experiences from flying in an F-16 to engaging directly with warfighters on nuclear submarines. Mr. Master highlights the strong sense of community and the lasting professional bonds that are forged in pursuit of a common mission.

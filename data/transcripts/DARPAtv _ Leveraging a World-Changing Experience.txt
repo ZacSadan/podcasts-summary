@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: Leveraging a World-Changing Experience
+Method: description
+Language: en
+Words: 82
+URL: https://www.youtube.com/shorts/vSDJ-T9vVVg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Todd Master, a DARPA alum and space industry executive, discusses how the skills and experience gained at DARPA translate to a successful career in the private sector. He highlights the unique program management and leadership training inherent in the program manager role and explains how the agency’s focus on "high payoff opportunities" provides a framework for driving innovation anywhere. Master illustrates how a tour at DARPA can serve as a launchpad for continuing to make a world-changing impact in industry and beyond.
