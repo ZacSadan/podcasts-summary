@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Intercepted | Olivia Gallucci, Security Engineer at Datadog
+Method: description
+Language: en
+Words: 33
+URL: https://www.youtube.com/shorts/DbHbQIyiZF0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+When cybersecurity moves fast, staying connected matters. 🚀 Olivia Gallucci, Security Engineer at Datadog, shares how Black Hat helps security professionals learn from peers, solve real-world challenges, and stay ahead of evolving threats.
