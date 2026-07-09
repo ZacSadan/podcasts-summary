@@ -1,0 +1,17 @@
+Feed: DARPAtv
+Episode: DARPA Lift Challenge: The Cost of Weight
+Method: description
+Language: en
+Words: 99
+URL: https://www.youtube.com/watch?v=0PTIBsy8Uho
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+History shows that technology truly changes the world, not when it's invented, but when it becomes affordable for everyone. 
+
+Today, we stand at the next great inflection point: economical heavy vertical flight. The DARPA Lift Challenge is pushing innovators to build a drone capable of lifting four times its own weight, shattering the cost barriers that have held back vertical-lift technology.
+
+Success will not only revolutionize military logistics but will also unlock a massive new commercial economy, creating industries we can't even imagine. This isn't just about building a better drone; it's about redefining how our civilization operates.
+
+DARPA.mil/lift
