@@ -1,0 +1,35 @@
+Feed: Creative Channel
+Episode: Part 2: Upgrade My DIY Cargo Bike into an Electric Cargo Bike | 48V 1000W
+Method: description
+Language: en
+Words: 101
+URL: https://www.youtube.com/watch?v=AzcjNTJLqTg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In Part 2, I upgraded my homemade cargo bike into a fully functional Electric Cargo Bike.
+
+This build includes:
+
+- 48V 1000W rear hub motor
+- Custom-built 48V 33Ah lithium battery
+- Motor controller and throttle
+- Headlight, taillight, horn and turn signals
+- Still fully rideable as a normal bicycle
+Can be pedaled manually or ridden as an electric cargo bike.
+
+This DIY electric cargo bike is perfect for carrying gear, camping, commuting, and everyday transportation.
+
+If you enjoyed this project, please Like, Subscribe, and Share for more DIY builds.
+
+#ElectricCargoBike
+#CargoBike
+#DIY
+#EBike
+#ElectricBike
+#HubMotor
+#48V1000W
+#LithiumBattery
+#FatBike
+#BikeBuild
