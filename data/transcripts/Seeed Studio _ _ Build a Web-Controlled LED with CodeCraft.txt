@@ -1,0 +1,21 @@
+Feed: Seeed Studio
+Episode: 💡 Build a Web-Controlled LED with CodeCraft
+Method: description
+Language: en
+Words: 56
+URL: https://www.youtube.com/watch?v=TDO1-UX58yI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+No complex coding required.
+Use CodeCraft to:
+① Describe your idea
+② Generate and flash the firmware
+③ Drag the slider to control LED brightness in real time
+
+Perfect for beginners, STEAM classes, and maker workshops.
+🎁 Register before July 13 to get a free 1-month membership trial.
+Try CodeCraft:
+https://sensecraft.seeed.cc/ai/view-application/11361-web-led-dimmer-tutorial-grove-beginner-kit?tab=public&from=application-store&utm_source=youtube&utm_medium=sensecraft_dumpling&utm_campaign=sensecraft_Web+LED+Dimmer+Tutorial&utm_id=Web+LED+Dimmer+Tutorial
+#CodeCraft #Grove #ESP32 #SmartHardware #SeeedStudio
