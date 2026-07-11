@@ -1,9 +1,9 @@
 Feed: Big Think
 Episode: Why AI adoption fails—and how to fix it | Pam Maynard
-Method: description
+Method: cached_description
 Language: en
-Words: 118
-URL: https://www.youtube.com/watch?v=2MR7ZBnK7Nk
+Words: 120
+URL: https://www.youtube.com/watch?v=2XWJ9Tfwwjg
 
 --- TRANSCRIPT ---
 

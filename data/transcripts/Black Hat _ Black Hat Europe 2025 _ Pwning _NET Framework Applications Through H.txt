@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Pwning .NET Framework Applications Through HTTP Client Proxies And WSDL
+Method: description
+Language: en
+Words: 281
+URL: https://www.youtube.com/watch?v=WbsHlAyGTQA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+.NET Framework is still extremely popular. It powers thousands of various applications, including the ones heavily utilized in huge enterprises. Both the .NET Framework (and applications based on it) have been researched for many years, and at some point, we could think that we have already discovered all the major attack surfaces.
+
+What if I told you that its HTTP client proxies are fundamentally broken? As their name and documentation suggest, their role is to access HTTP-based services. However, they can be abused to access the filesystem and achieve Arbitrary File Write, depending on how the client is being used.
+
+This presentation details how I discovered the Invalid Cast vulnerability in .NET Framework HTTP client proxies. I will start with the initial discovery of the root cause. Then, I will walk the audience through all the technical aspects related to the vulnerability (together with the main exploitation vectors). It is usually abusable through SOAP clients, especially if they are dynamically created from the attacker-controlled WSDL. I will cover multiple ways to weaponize the WSDL files, which may lead to Remote Code Execution through webshell upload. I will also present the vulnerable code patterns.
+
+The presentation will also cover my efforts to encourage Microsoft to fix this vulnerability in .NET Framework. They were not cooperative, even though the vulnerability affects multiple Microsoft codebases, including: PowerShell, SharePoint, SQL Server Integration Services and some developer tools.
+
+I will end this talk with getting shells on popular enterprise-level products. You should expect hundreds of various applications and tools to be vulnerable to this attack vector, which likely will be discovered over the incoming years.
+
+By: Piotr Bazydlo  |  Principal Vulnerability Researcher at watchTowr, watchTowr
+
+https://blackhat.com/eu-25/briefings/schedule/?#soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl-49018
