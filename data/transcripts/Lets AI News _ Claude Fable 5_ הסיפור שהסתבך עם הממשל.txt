@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: Claude Fable 5: הסיפור שהסתבך עם הממשל
+Method: description
+Language: he
+Words: 148
+URL: https://www.youtube.com/watch?v=6-umIn-Xh7I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Claude Fable 5 הוצג כמודל ה-AI המתקדם ביותר של Anthropic, עם יכולת לעבוד באופן עצמאי במשך שעות על משימות מורכבות. אבל שלושה ימים בלבד אחרי ההשקה, ממשלת ארצות הברית הורתה להשעות את הגישה אליו בטענה לחשש ביטחוני. בסרטון הזה נבין מה הופך את Fable 5 לכל כך יוצא דופן, למה הוא נחסם כמעט מיד, ואיך הסיפור הזה מעלה שאלה גדולה יותר: האם ממשלות יתחילו לקבוע אילו מודלי AI יורשו להגיע לציבור?
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business
