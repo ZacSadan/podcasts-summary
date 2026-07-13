@@ -1,0 +1,11 @@
+Feed: Check Point
+Episode: Secure Third-Party Access With Enterprise Browser
+Method: description
+Language: en
+Words: 23
+URL: https://www.youtube.com/watch?v=WyhrnkGBn3c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+See how Check Point Enterprise Browser grants policy-based access to applications and websites while preventing data leaks with built-in data loss prevention controls.

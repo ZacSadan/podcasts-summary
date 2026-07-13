@@ -1,0 +1,11 @@
+Feed: Check Point
+Episode: Creating File Access Policies
+Method: description
+Language: en
+Words: 34
+URL: https://www.youtube.com/watch?v=QzOLdvr5vew
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to set up File Access Policies to block or allow file downloads by type – no matter the file size – giving you fast, rule-based control over what your users can download.
