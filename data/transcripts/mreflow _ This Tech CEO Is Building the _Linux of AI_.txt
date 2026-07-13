@@ -1,0 +1,25 @@
+Feed: mreflow
+Episode: This Tech CEO Is Building the “Linux of AI”
+Method: description
+Language: en
+Words: 142
+URL: https://www.youtube.com/shorts/lIi2FjPgjkg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The next big AI battle isn’t about who has the biggest model. It’s about where the AI actually runs.
+
+@qualcomm CEO Cristiano Amon told me the future of AI is distributed — where AI runs wherever it makes the most sense.
+
+Sometimes that’s in the cloud, on your phone, your car, your PC, your wearable, or the edge device right in front of you.
+
+And Qualcomm is betting big on powering that entire system.
+
+From Dragonfly C1000 for AI data centers, to High Bandwidth Compute for more efficient inference, to the Modular acquisition that Cristiano says could become “the Linux of AI,” Qualcomm is trying to make AI run across basically everything.
+
+So the next era of AI may not be one app you open on one device.
+
+It may be intelligence spread across the entire computing system.
+
+#Ad #AI #futuretech #SponsoredByQualcomm
