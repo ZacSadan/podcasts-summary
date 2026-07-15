@@ -1,0 +1,70 @@
+Feed: Greg Isenberg
+Episode: The $1,000/hour Solo AI business (Full Course)
+Method: description
+Language: en
+Words: 754
+URL: https://www.youtube.com/watch?v=dhbcVxYhWaQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode I sit down with Corey Ganim to unpack what he calls the simplest way to earn money with AI in 2026: a $999 AI Tools Assessment for small business owners. Corey lays out his entire four-phase system, from a probing discovery call through an AI-assisted analysis in Claude, a stupid-simple client report, and a review call that turns roughly half of clients into implementation buyers. We walk through his full upsell menu, seven client-acquisition methods that run on zero capital and zero audience, and his AI Concierge retainer that earns him about $1,000 an hour. Anyone listening leaves with a copy-and-paste playbook they can adapt to their own city or industry.
+
+Checkout Corey’s AI Audit Template: https://startup-ideas-pod.link/ai_audit
+
+Timestamps
+
+00:00 – Intro and the episode promise
+03:48 – The full playbook preview
+06:39 – Phase 1: the discovery call
+08:27 – Phase 2: AI Analysis
+12:11 – Phase 3: The Report
+22:24 – Tool and Model Selection
+23:39 – Phase 4: The Review Call
+26:15 – The Upsell Services
+35:52 – Finding Customers
+49:16 – The AI Concierge retainer
+58:46 – Final Thoughts
+
+Key Points
+
+* The core offer is a $999, 45-minute AI Tools Assessment that prescribes 3–7 off-the-shelf tools, backed by a full-refund guarantee tied to finding at least five reclaimed hours per week.
+* Fulfillment runs in four phases: discovery call, AI analysis in Claude, a templatized report, and a review call that converts about half of clients into implementation work.
+* The report stays deliberately simple, with an executive summary, an effort-versus-impact matrix, quick wins, a four-day quick-start plan, and a clear ROI slide.
+* The upsell menu spans process redesign, automation builds, knowledge systems, custom workflows, and full implementation, with lifetime value reaching $3K–$10K or more.
+* Seven client-acquisition methods run on zero capital and zero audience, from local meetups and door knocking to agency partnerships and office hours.
+* The AI Concierge retainer ($1,200–$2,000/month for two calls) creates recurring revenue at roughly a $1,000 hourly rate.
+
+Numbered Section Summaries
+
+1. The Assessment Offer Corey sells a 45-minute structured interview to small business owners in the $500K–$5M revenue range, then prescribes 3–7 off-the-shelf AI or SaaS tools to reclaim five to ten hours a week. The full-refund guarantee makes the offer feel risk-free, and at $999 it acts as a foot-in-the-door tripwire.
+
+2. The Four-Phase Fulfillment System Phase one records a discovery call with an AI note-taker like Fathom; phase two feeds that transcript to Claude to surface pain points and research fixes; phase three generates the client report; phase four reviews it live. Corey stresses probing on the first call and saving every prescription for later.
+
+3. Building a Stupid-Simple Report Built in Claude Design from a reusable template, the report leads with an executive summary and an effort-versus-impact matrix that spotlights high-impact, low-effort "quick wins." A four-day quick-start plan and a financial-impact slide make the ROI obvious, and Corey iterated on this piece twelve times to keep it clear.
+4. The Upsell Menu Roughly half of assessment clients ask for implementation, which opens five to six upsells: process redesign, automation builds, knowledge systems, custom workflows, and full implementation packages. 
+
+5. Turning One-Time Sales Into Retainers Corey shows how each upsell can become a monthly retainer, such as building a set number of Claude skills or automations per month. He also shares a favorite close: crediting the paid assessment toward the upsell while marking the upsell up, so the client feels a win and the math stays profitable.
+6. Seven Ways to Find Clients The list covers local AI meetups, door knocking, LinkedIn DMs, free audits for your network, agency partnerships, AI office hours at co-working spaces, and posting your wins. 
+
+7. The AI Concierge Retainer His favorite upsell is a done-with-you retainer: two 45-minute calls a month spent building Claude skills and teaching Claude Cowork, plus unlimited Voxer access with a 12-business-hour response window. He closed five of his first six prospects, reached $8K MRR in ten days, and prices new clients from $1,200 to $2,000 a month while capping the roster at six.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND COREY ON SOCIAL
+
+Youtube: https://www.youtube.com/@coreyganim
+
+X/Twitter: https://x.com/coreyganim
