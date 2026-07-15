@@ -1,0 +1,21 @@
+Feed: Israeli Tech Radar
+Episode: Agentic Memory In Practice, Amit Goldstein, Senior Backend Engineer, Tikal (Hebrew)
+Method: description
+Language: he
+Words: 115
+URL: https://www.youtube.com/watch?v=yUR4n4JMwGI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+​LLMs are powerful, but by default they suffer from digital amnesia. Every interaction starts fresh, without the deep and personalized context needed for autonomous behavior over time.
+
+​In this session, Amit will explore the shift from reactive prompting to persistent agentic memory. He will compare current architectural approaches for memory and context management, and then dive into a live coding demo using Mem0.
+
+​The talk will focus on how memory changes the way we design agentic systems, what it enables, and where teams need to be careful when adding persistence, personalization, and context into AI workflows.
+
+Explore more Tikal Events:
+Lu.ma: https://tkl.to/tikal-lu-ma
+Dive into insights on our Tech Blog: 
+https://medium.com/israeli-tech-radar
+Follow us on LinkedIn: https://tkl.to/tikal-linkedin
