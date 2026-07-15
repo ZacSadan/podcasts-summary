@@ -1,0 +1,11 @@
+Feed: CRM.BUZZ - סלע יפה
+Episode: מה זה DMARC? - מורחב ומעודכן לתקן החדש שפורסם במאי 2026
+Method: description
+Language: he
+Words: 65
+URL: https://listen.hubhopper.com/episode/mh-zh-dmarc-mwrhb-wmwdkn-ltqn-hhds-spwrsm-bmy-2026/33022850
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+כדי להפוך את האימייל לבטוח יותר פותחו במשך השנים פרוטוקולי אימות דומיין שולח (SPF, DKIM). קשה לנטר אותם כשלעצמם וזה הפער ש-DMARC משלים. הוא מאפשר לנטר את האימות (authentication) של SPF ו-DKIM לגבי כל מקור שולח והתאמתם (alignment) לדומיין השולח * אם פועלים נכון אפשר לזכות בכמה "נקודות עבירוּת" * במאי 2026 DMARC עודכן לתקן חדש. האם אתם מוכנים? למאמר המלא בעברית למאמר המלא באנגלית
