@@ -1,0 +1,27 @@
+Feed: Google Israel
+Episode: How We Use AI for Your Health | Made by Google Podcast S9E6
+Method: description
+Language: en
+Words: 173
+URL: https://www.youtube.com/watch?v=2jBT5mlomoE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What does building an unmanned helicopter have in common with designing a tiny, screenless fitness tracker? And why did NBA superstar Stephen Curry’s elite athleticism actually break Google’s sleep-tracking algorithm?
+
+On this episode of the Made by Google Podcast, host Rachid Finge sits down with Andy Abramson, Head of Product for Fitbit and Health, to explore the design and engineering behind Google’s newest health tools: the redesigned Google Health app, the screenless Fitbit Air, and the Gemini-powered Google Health Coach.
+
+Andy explains why Google is returning to Fitbit's screenless roots, how the team reacted when Reddit users tried to make their own custom bands, and snapping a few photos can go a long way in keeping your fitness plan on track, thanks to Gemini.
+
+00:38 Complexity in Design: From Helicopters to Fitbit Air
+01:31 Redesigning the Google Health App
+11:03 Introducing the Gemini-powered Google Health Coach
+
+#MadeByGoogle #TechPodcast 
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google
