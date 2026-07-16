@@ -1,0 +1,33 @@
+Feed: Seeed Studio
+Episode: Edge AI for Safer Spaces: Fire/Smoke/Human Detection on reComputer RK3576 with reComputer AI Lab
+Method: description
+Language: en
+Words: 165
+URL: https://www.youtube.com/watch?v=_l1f6bpb-28
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What if an AI system could not only detect a fire, but also tell you whether someone is still in danger?
+Built with reComputer RK3576 and reComputer AI Lab, this edge AI demo delivers a real-time fire, smoke, and human detection system running directly on the edge.
+
+The workflow is simple but powerful:
+🔥 Detect flames & smoke
+👤 Trigger human detection only when a risk is identified
+📊 Visualize detection results, alerts, and system status through a web dashboard
+
+Powered by:
+ ✅ YOLOv5 for fire & smoke detection
+ ✅ YOLO11x COCO model for human detection
+ ✅ OpenCV + FastAPI + Web UI for real-time processing and visualization
+
+By combining intelligent detection with risk-aware decision making, edge AI can bring smarter solutions to:
+ 🏭 Industrial safety
+ 🏢 Smart buildings
+ 🌳 Remote inspection
+ 🚨 Emergency response
+
+With reComputer RK(Rockchip) and reComputer AI Lab, turning AI ideas into deployable edge applications becomes faster and easier!!!
+
+Try reComputer AI Lab for easier deployment now: https://sensecraft.seeed.cc/ai-lab
+reCompuer RK3576: https://www.seeedstudio.com/reComputer-RK3576-20-p-6816.html
