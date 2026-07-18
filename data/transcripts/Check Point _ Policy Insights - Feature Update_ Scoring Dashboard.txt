@@ -1,0 +1,22 @@
+Feed: Check Point
+Episode: Policy Insights - Feature Update: Scoring Dashboard
+Method: description
+Language: en
+Words: 186
+URL: https://www.youtube.com/watch?v=Wf1j890ABEs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Exploring the Policy Insights Dashboard:
+
+Welcome to the final episode of our Policy Insights video series! In this episode, Check Point’s Technical Marketing Engineering Team, will explore the Policy Insights Dashboard - a powerful tool that provides a centralized, data-driven view of policy optimization across your environment.
+
+In this video, you’ll learn how to access the dashboard and use its features to monitor and enhance your security policies. We’ll cover:
+Policy package and Layer selectors, Suggestion types filter, Time filter, the Policy Optimization Score, Visual insights, Insights by category, User actions graph and Score by layer.
+
+We’ll also show you how to sort and view results, analyze data transparency, and leverage the dashboard to make informed decisions that improve your security posture.
+
+For a comprehensive overview of Check Point Policy Insights, visit our YouTube channel Tech Point Central and watch the full video: Check Point Policy Insights: https://youtu.be/73jXUy9F4e4?si=DwUpADeHDffnotyf
+
+Thank you for joining us throughout this series! For more technical deep dives and the latest product updates from Check Point, subscribe to the Tech Point Central channel and explore our additional learning resources. See you next time!

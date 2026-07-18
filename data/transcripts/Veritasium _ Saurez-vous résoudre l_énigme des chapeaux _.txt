@@ -1,0 +1,17 @@
+Feed: Veritasium
+Episode: Saurez-vous résoudre l'énigme des chapeaux ?
+Method: description
+Language: en
+Words: 106
+URL: https://www.youtube.com/shorts/9w4sCnVSRJg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Plongez dans cette énigme de prison où le silence sauve des vies ! Découvrez comment un simple chapeau peut tout changer et comment les hackers s’en inspirent pour voler des mots de passe. Vous adorez les casse-têtes et les secrets bien gardés ? Cette vidéo est faite pour vous. Abonnez-vous pour ne rien rater et dites-nous en commentaire ce que vous avez préféré ! #énigme #cybersécurité #mystère #logique #astuce
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et adaptée dans votre langue par https://www.linguana.com
+
+0:00 - L'énigme des prisonniers et chapeaux
+0:30 - La résolution de l'énigme
+0:55 - Le silence et la sécurité informatique

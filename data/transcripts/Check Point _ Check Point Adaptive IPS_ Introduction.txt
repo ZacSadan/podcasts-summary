@@ -1,0 +1,19 @@
+Feed: Check Point
+Episode: Check Point Adaptive IPS: Introduction
+Method: description
+Language: en
+Words: 135
+URL: https://www.youtube.com/watch?v=baeUvhxOBd8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Strengthen your intrusion prevention and optimize security performance with Adaptive IPS in Check Point R82.10.
+
+As organizations face increasingly sophisticated cyber threats, maintaining strong protection without impacting performance is critical. This video introduces Adaptive IPS, a new enhancement in Check Point R82.1 designed to automatically optimize IPS operations during resource-intensive scenarios while maintaining a high level of security.
+
+In this video, Check Point's Technical Marketing Engineering Team explains IPS fundamentals, the role of real-time threat intelligence, and how Adaptive IPS dynamically adjusts resource utilization to improve gateway stability, operational efficiency, and threat prevention effectiveness without requiring manual intervention.
+
+Learn how Adaptive IPS helps balance security and performance, optimize CPU and memory usage, and enhance protection across modern enterprise environments.
+
+Ready to improve intrusion prevention and maximize security performance with Check Point R82.10? Watch this video!

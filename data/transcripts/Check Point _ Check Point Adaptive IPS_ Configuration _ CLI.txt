@@ -1,0 +1,20 @@
+Feed: Check Point
+Episode: Check Point Adaptive IPS: Configuration & CLI
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/watch?v=0dbqTS9kWSg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Gain deeper control over Adaptive IPS with advanced CLI configuration in Check Point R82.10.
+
+In this video, Check Point's Technical Marketing Engineering Team demonstrate how to configure and manage Adaptive IPS using the Command Line Interface (CLI). Learn how Adaptive IPS organizes protections by confidence, severity, and performance impact, allowing administrators to fine-tune which protections remain active during high-load scenarios.
+
+The video covers key CLI commands, protection exclusion settings, severity-based configuration, IPS protection identification, and manual protection management to help security teams maintain both performance and security effectiveness.
+
+Whether you're a security administrator, network engineer, or Check Point expert, this technical deep dive provides practical guidance for optimizing Adaptive IPS behavior and customizing protection priorities to meet your organization's requirements.
+
+Ready to master Adaptive IPS CLI configuration in Check Point R82.10?                    
+Watch this video!
