@@ -387,3 +387,9 @@ feeds:
 - name: The Diary Of A CEO
   url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCGq-a57w-aPwyi3pW7XLiHw"
 
+- name: Brain Story
+  url: "https://anchor.fm/s/f1c446a8/podcast/rss"
+
+- name: תזונה מושכלת
+  url: "https://anchor.fm/s/d9fd30e8/podcast/rss"
+
