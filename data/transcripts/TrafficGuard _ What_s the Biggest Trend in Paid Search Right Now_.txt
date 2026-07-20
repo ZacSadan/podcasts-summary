@@ -1,0 +1,13 @@
+Feed: TrafficGuard
+Episode: What's the Biggest Trend in Paid Search Right Now?
+Method: description
+Language: en
+Words: 44
+URL: https://www.youtube.com/shorts/71HsuS1FENo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Automation has transformed paid search, but it's only as good as the data behind it.
+
+In this AMA, Stefan explains how Smart Bidding learns from your conversion data, why poor-quality signals can undermine campaign performance, and what marketers should do before trusting the algorithm.

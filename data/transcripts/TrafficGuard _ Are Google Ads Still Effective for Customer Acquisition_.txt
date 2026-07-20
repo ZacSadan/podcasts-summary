@@ -1,0 +1,13 @@
+Feed: TrafficGuard
+Episode: Are Google Ads Still Effective for Customer Acquisition?
+Method: description
+Language: en
+Words: 50
+URL: https://www.youtube.com/shorts/KwBW4D_jCxA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Google Ads remains one of the strongest customer acquisition channels. But how much of your budget is actually reaching potential customers?
+
+In this AMA, Stefan explores why competitors, bots and existing customers can quietly inflate your advertising costs, and why understanding traffic quality is just as important as generating clicks.
