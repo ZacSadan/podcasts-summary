@@ -1,0 +1,35 @@
+Feed: Seeed Studio
+Episode: Fully Open Source Football Analytics on reComputer RK3576 for 2026 WorldCup Final
+Method: description
+Language: en
+Words: 164
+URL: https://www.youtube.com/watch?v=r2v6js6zTRc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+👉 Check the FULL PROJECT: https://sensecraft.seeed.cc/ai-lab/projects/4
+
+⚡ What’s new:
+ ✅ Optimized video preprocessing with #RGA 2D hardware acceleration
+ ✅ Accelerated video decoding & encoding with #VPI
+ ✅ Improved processing performance to around 25 FPS
+ ✅ Built a web interface for easier analysis and visualization
+ ✅ Added player tracking ID display & parameter tuning
+ ✅ Support video upload, analysis review, and system log monitoring
+ ✅ RTSP output support for flexible integration
+
+With this system, you can explore:
+  ⚽ Player detection & tracking
+ 📍 Player trajectory analysis
+ 🏃 Movement and distance analysis
+ 📊 AI-powered football statistics
+ 🎯 Real-time edge AI video analytics
+
+The entire project is deployed on reComputer RK powered by Rockchip RK3576 and integrated with reComputer AI Lab, making it easier for developers to reproduce, modify, and build their own AI vision applications.
+
+🚀 reComputer AI Lab: https://sensecraft.seeed.cc/ai-lab
+🛒 reComputer RK3576/RK3588: https://www.seeedstudio.com/reComputer-RK3576-20-p-6816.html
+
+
+#SeeedStudio #reComputerRK #Rockchip #reComputer #RK3576 #RK3588 #VisionAI #NVR #aibox #EdgeAI #AIoT #ComputerVision #reComputerAILab #YOLO #AILab #AIDeployment #FIFA #WorldCup #WorldCup2026 #FIFA2026 #TheEasierPowerfulAIComputer #TheAIHardwarePartner
