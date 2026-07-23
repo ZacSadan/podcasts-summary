@@ -1,0 +1,19 @@
+Feed: Check Point
+Episode: Check Point Adaptive IPS: Configuration With GAIA API
+Method: description
+Language: en
+Words: 147
+URL: https://www.youtube.com/watch?v=QF_T5h7Ls98
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Automate and manage Adaptive IPS configuration using the Check Point GAIA API.
+
+We'd shown you how it is done in CLI (Command Line Interface), in this video, Check Point's Technical Marketing Engineering Team demonstrates how to configure Adaptive IPS through the GAIA API, providing administrators with a powerful way to automate security operations and manage IPS settings programmatically.
+
+Learn how to authenticate to the GAIA API, work with session IDs, retrieve and modify Adaptive IPS parameters, monitor API tasks, and validate configuration changes. The video covers key API workflows for managing confidence, severity, and performance impact settings that influence Adaptive IPS behavior during high-load conditions.
+
+Whether you're a security administrator, automation engineer, or DevOps professional, this technical walkthrough will help you streamline Adaptive IPS management and integrate security configuration into automated workflows.
+
+Ready to manage Adaptive IPS through API-driven automation in Check Point R82.10?  Watch this video!

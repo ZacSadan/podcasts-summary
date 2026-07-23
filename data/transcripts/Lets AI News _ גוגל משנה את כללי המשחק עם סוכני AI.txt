@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: גוגל משנה את כללי המשחק עם סוכני AI
+Method: description
+Language: he
+Words: 140
+URL: https://www.youtube.com/watch?v=yq5N-mV5O6E
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+האם גוגל מסמנת את סוף עידן הצ'אטבוטים? בסרטון הזה של "בינה אחרת" אנחנו מסכמים את ההכרזות הגדולות של Google I/O ומסבירים למה Gemini הופך מעוזר שמנהל שיחה לסוכן AI שמבצע משימות אמיתיות. נדבר על Gemini Spark, השדרוג העצום למנוע החיפוש, כלי היצירה החדשים, התדריך היומי החכם והאתגר הגדול ביותר של גוגל: לגרום לנו לסמוך על AI שמקבל גישה למיילים, לקבצים ולמידע האישי שלנו.
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Bootstrapping Trust: From Isolated Build Machines to Enclaved CI Pipelines
+Method: description
+Language: en
+Words: 242
+URL: https://www.youtube.com/watch?v=V411Vadty38
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This session presents a production-ready approach to securing CI build pipelines against compromised infrastructure by anchoring trust in a physically isolated build machine and leveraging enclave-based builders. The isolated machine compiles and signs a minimal enclave image, which becomes the only entity allowed to build software artifacts in the cloud. The builder enclave image runs inside AWS Nitro Enclaves and enforces strict policy checks such as requiring signed commit hashes before proceeding. Remote attestation is used to verify the AWS Nitro enclave's (the builder) integrity by an Intel SGX enclave verifier before provisioning the build secret, with the SGX enclave serving as a root of trust by encrypting its database with the processor's sealing key.
+
+We'll detail the threat model, including attackers with SSH or root on CI runners, and walk through a complete enclave build pipeline, showing how trust is rooted in the isolated, air-gapped machine and propagated via the SGX enclave to the Nitro enclave builder. The session includes a demo of a real-world implementation that protects production infrastructure from build tampering and secret exfiltration, even under active adversary conditions.
+
+Attendees will learn how to design CI pipelines with isolation guarantees similar to air gapped machines but with the build and deployment velocity they are used to in modern cloud environments, integrate enclave attestation into automated builds, and establish a root of trust for critical workloads.
+
+By: 
+Ben Liderman  |  System Architect, Fireblocks
+Maayan Keshet  |  System Architect, Fireblocks
+
+https://blackhat.com/eu-25/briefings/schedule/?#bootstrapping-trust-from-isolated-build-machines-to-enclaved-ci-pipelines-49023

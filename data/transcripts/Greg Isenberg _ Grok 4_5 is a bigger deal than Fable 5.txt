@@ -1,0 +1,88 @@
+Feed: Greg Isenberg
+Episode: Grok 4.5 is a bigger deal than Fable 5
+Method: description
+Language: en
+Words: 801
+URL: https://www.youtube.com/watch?v=LvsQR7Vc4fQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode I bring Nick Vasilescu, co-founder of Orgo, back on the show to unpack the buzz around Grok 4.5. Nick makes the case for treating Grok 4.5 as a genuine AI co-founder inside harnesses like Hermes and OpenClaw, and he proves it live: spinning up cloud computers, wiring in tools, and building a full startup from idea to landing page to outreach. We race Grok 4.5 against GPT 5.6 Sol, tour Nick's agent stack, and talk through the cost paradox of a model this fast and cheap. Listeners walk away with a concrete playbook for standing up their own always-on agent today.
+
+Get Nick’s Agent Template Stack: https://startup-ideas-pod.link/nicks-stack
+
+Timestamps
+
+00:00 – Intro
+01:40 – Why Grok 4.5 release matters
+03:39 – Automation versus a co-founder
+05:16 – Setting up Hermes and Grok 4.5 on Orgo
+09:01 – Why Orgo to manage Agents
+11:23 – Grok 4.5 Cost discussion
+14:02 – Grok 4.5 Fast Execution and Unlock
+16:20 – The Agent tool belt
+19:13 – X MCP for trends
+20:37 – vidIQ for outliers and thumbnails
+22:11 – Finding new startup ideas
+26:15 – Grok 4.5 versus GPT 5.6 Sol
+30:56 – Ranking and Reviewing the startup ideas
+34:06 – The AI agency opportunity
+38:46 – Thumbnails over Telegram
+40:10 – Reviewing AI Agency Landing Page
+41:58 – Vertical MCPs and agent startups
+43:36 – Skill graph and the offer
+45:25 – Reviewing the Thumbnail Generated
+46:42 – Email Outreach Campaign
+48:07 – Reviewing Market Insight 1-Pager
+50:45 – From a Camry to a Ferrari
+52:12 – Reviewing Cold Email Outreach Sequence
+53:22 – Closing thoughts
+
+Key Points
+
+* Grok 4.5 delivers Opus 4.8-level intelligence at a fraction of the cost and roughly 10-15x the speed of Fable.
+* I learn to treat the model as a co-founder by handing it email, a phone number, a debit card, memory, and every connector that matters.
+* Nick runs agents on Orgo cloud computers so they stay online, textable, and ready around the clock.
+* Live, Grok 4.5 builds a landing page in about 40 seconds and wins on design and copy for me over GPT 5.6 Sol.
+* The stack ships from idea to website, offer, thumbnail, and cold-email sequence in a single session.
+* Nick's take: costs keep dropping while speed and intelligence keep climbing, so building your agent now compounds overnight.
+
+Numbered Section Summaries
+
+1. The Grok 4.5 Moment Nick frames Grok 4.5 as the release that brings frontier-level intelligence to everyday builders. He ties it back to the Opus 4.5 wave that sparked the ClaudeBot and OpenClaw era, and positions Grok as the speed-and-price unlock that makes the whole experience feel brand new.
+
+2. Automation Versus a Co-Founder Nick reframes the goal. Instead of hands-off automation, he treats his Hermes agent, Dewey, as a co-founder with its own computer, email, phone, debit card, and Obsidian vault. The lesson I take: hand the agent more tools and the magic compounds.
+
+3. Standing Up the Stack on Orgo Nick walks through Orgo cloud computers, one-click templates, and SSH access, then spins up a fresh Hermes box powered by Grok 4.5 on command. He shares his own Nix stack template so listeners can launch the same setup in one click.
+
+4. The Agent Tool Belt We tour the connectors that make an agent useful: Agent Mail, Agent Phone, Agent Card, Composio, Latitude for observability, Linear, the X MCP for trends, Idea Browser for taste, and vidIQ for outlier videos and thumbnails. Context, Nick says, is king.
+
+5. Grok 4.5 Versus GPT 5.6 Sol We race both models on a one-page landing site. Grok 4.5 finishes in roughly 40 seconds, and I favor its design and copy, while Sol delivers a solid result moments later. The takeaway: both models shine, and Grok holds the edge on speed and token efficiency.
+
+7. Idea to Business in One Session Dewey generates ten startup ideas, consolidates on a managed AI employee agency, and then builds the landing page, thumbnails over Telegram, market research, and a cold-email sequence in a Google Doc. Idea Browser's skill graph guides the offer toward a weekly client-reporting deliverable.
+
+8. Ride the Wave Nick closes on momentum: prices keep falling as speed and intelligence keep rising, so setting up your agent today earns instant upgrades with every new model. My send-off: get your hands dirty and build.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+FIND NICK ON SOCIAL
+
+Youtube: https://www.youtube.com/@nickvasiles
+
+Instagram: https://www.instagram.com/nickvasilescu/
+
+Personal Website: https://www.nickvasilescu.com/

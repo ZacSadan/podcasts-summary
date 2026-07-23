@@ -1,0 +1,17 @@
+Feed: Seeed Studio
+Episode: 🤖 Train a Dual-Arm Robot with Human Demonstrations | SO-ARM + LeRobot
+Method: description
+Language: en
+Words: 42
+URL: https://www.youtube.com/watch?v=Y_P0BmlM7VI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to build a dual-arm robot learning workflow with SO-ARM + LeRobot — including hardware setup, teleoperation, demonstration data collection, ACT imitation learning, and real-world deployment.
+
+From human skills to dual-arm robot intelligence.
+
+🔗 Tutorial: https://wiki.seeedstudio.com/lerobot_double_arm_so_arm_training/
+
+#PhysicalAI #RobotLearning #LeRobot #Robotics #EmbodiedAI

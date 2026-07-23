@@ -1,0 +1,17 @@
+Feed: Y Combinator
+Episode: Multiplayer AI
+Method: description
+Language: en
+Words: 89
+URL: https://www.youtube.com/shorts/CzQbI8_bBEs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The best work tools became more powerful when they became multiplayer. But AI is still mostly trapped in private chats, with agents working in sessions that teammates can’t join or influence.
+
+The next generation of AI tools will let teams work with agents together in real time: watching, redirecting, and handing off work across engineering, sales, support, legal, finance, and more. AI’s multiplayer moment is coming.
+
+So if you’re building AI that’s multiplayer by default, we’d love to hear from you.
+
+Apply for the Fall 2026 batch at ycombinator.com/apply.

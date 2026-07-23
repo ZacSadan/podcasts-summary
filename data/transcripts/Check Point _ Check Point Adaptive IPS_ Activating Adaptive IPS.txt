@@ -1,0 +1,19 @@
+Feed: Check Point
+Episode: Check Point Adaptive IPS: Activating Adaptive IPS
+Method: description
+Language: en
+Words: 133
+URL: https://www.youtube.com/watch?v=aMzMyZnnmUY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to configure and manage Adaptive IPS in Check Point R82.10.
+
+In this video, Check Point's Technical Marketing Engineering Team walks through the configuration of Adaptive IPS, a powerful enhancement that helps maintain IPS effectiveness during periods of high CPU and memory utilization.
+
+Discover how to enable IPS, configure IPS profiles, activate Adaptive IPS, define resource thresholds, and choose between adaptive protection optimization and full IPS bypass modes. You'll also learn how Adaptive IPS automatically disables and restores resource-intensive protections to maintain gateway stability while preserving security coverage.
+
+Whether you're a security administrator, network engineer, or Check Point professional, this video provides practical guidance for deploying Adaptive IPS and optimizing intrusion prevention performance in your environment.
+
+Ready to configure Adaptive IPS and improve operational resilience with Check Point R82.10? Watch this video!

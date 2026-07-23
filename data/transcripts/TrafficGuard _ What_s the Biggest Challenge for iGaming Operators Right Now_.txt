@@ -1,0 +1,13 @@
+Feed: TrafficGuard
+Episode: What's the Biggest Challenge for iGaming Operators Right Now?
+Method: description
+Language: en
+Words: 39
+URL: https://www.youtube.com/shorts/xGOkiHFR4xg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+More registrations don't always mean more players.
+
+In this AMA, VP of Sales Kalen explains why traffic quality has become one of the biggest challenges in iGaming, and why bonus abuse, incentivised traffic and fraud can distort acquisition performance.

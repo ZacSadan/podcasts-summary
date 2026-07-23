@@ -1,0 +1,78 @@
+Feed: Greg Isenberg
+Episode: OpenAI GPT 5.6 Sol: I tested it for 30 days
+Method: description
+Language: en
+Words: 769
+URL: https://www.youtube.com/watch?v=7pVTQSA4s5I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode I sit down with Dan Shipper to see how he runs his work and personal life on OpenAI's Codex Desktop with the 5.6 model. He walks through his card-based email setup, daily feeds for his company and Slack, and the in-app browser that lets his agent collaborate with him inside tools like Proof. We build a small SaaS app live, called Turnaround, and use it to explore why maintenance is the real product in the AI era and where Codex-native software heads next. Along the way Dan shares his pirates-versus-architects framing, his approach to fine-tuning a copy-editing model, and the patterns — pulses, Mailroom, and router threads — that hold his system together. The throughline: pick one simple win, let context do the heavy lifting, and manage the system instead of running every task by hand.
+
+Learn how to get customers with AI Agents: https://startup-ideas-pod.link/GTM-agents-IB
+
+Timestamps
+
+00:00 – Intro
+01:16 – Codex and GPT-5.6 Overview
+03:40 – Training your own model: the step after skills
+04:49 – Automating Email, Slack, Meeting Notes with GPT-5.6
+08:53 – Why GPT-5.6 sharpens the results
+10:26 – The light bulb moment with Codex
+15:05 – Building Turnaround live: a maintenance badge
+18:00 – GPT-5.6 vs. Fable: A tier and S-plus tier
+19:34 – LFG and goal: looping toward a finished build
+24:28 – Huge Opportunity: Codex-native apps
+29:33 – The design checkpoint and the "warm paper" quirk
+31:32 – Local models
+34:04 – From 70% to 100%: pirates and architects
+37:22 – Mailroom: giving Codex its own email address
+40:58 – Getting started: download, grant access, explore
+43:07 – Record and Replay: turning tasks into skills
+44:37 – Closing Thoughts: Start small and build over time
+
+Key Points
+
+* Codex Desktop plus the 5.6 model runs as a full operating system for knowledge work — email, research, and building software from one surface.
+* Context is the multiplier: an agent wired into your computer and the web turns every inbox and feed into cards with a clear next action.
+* Maintenance is the real product in the AI era, now that anyone can one-shot a first version.
+* Codex-native SaaS — software you and your agent share inside the in-app browser — opens a fresh category with healthier margins.
+* A live build of Turnaround, a maintenance-status badge, reaches about 70% in one pass; an architect carries it the rest of the way.
+* Start with one simple win, grow the system over time, and let curiosity lead the way in.
+
+Numbered Section Summaries
+
+1. Codex as an Operating System — I open by asking what listeners will take away, and Dan frames Codex Desktop plus 5.6 as his operating system for work. He favors the Desktop app over the CLI for its cleaner, more powerful feel, and credits OpenAI with refining the agent-on-your-computer paradigm.
+
+2. The Card-Based Inbox — Dan shares his screen and shows Tend, an app that sweeps his inbox each day, summarizes every unread email, and drafts replies as cards with a next best action. I compare it to the way a 1960s executive once handled correspondence, now within reach for everyone.
+
+3. Feeds, Context, and the In-App Browser — Dan pins threads for each part of his life, turning Slack messages and meeting notes into feeds that compound his preferences into revised prompts. The in-app browser carries full context into tools like Proof, which he calls the real unlock.
+
+4. Building Turnaround Live — Together we build a small SaaS called Turnaround, a status badge that signals an app stays actively maintained. Using the compound-engineering plugin's LFG and Codex's goal command, the build reaches about 70% in one pass, complete with product forks and a design checkpoint. For the final visual polish, Dan would carry the design over to Claude and Opus before porting it back.
+
+5. Getting Started and the Right Mindset — Dan's path in: download Codex, grant access to your computer, and ask it to propose tasks. He points to Chronicle and the Record and Replay plugin, and we close on the core mindset — manage the system, start with one simple win, and let curiosity lead over FOMO.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+FIND DAN ON SOCIAL
+
+X/Twitter: https://x.com/danshipper
+
+Youtube: https://www.youtube.com/@EveryInc/videos
+
+Every: https://every.to/

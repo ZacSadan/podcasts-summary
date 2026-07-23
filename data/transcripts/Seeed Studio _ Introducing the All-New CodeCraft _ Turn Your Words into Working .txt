@@ -1,9 +1,9 @@
 Feed: Seeed Studio
 Episode: Introducing the All-New CodeCraft | Turn Your Words into Working Hardware
-Method: description
+Method: cached_description
 Language: en
-Words: 59
-URL: https://www.youtube.com/watch?v=aHfSjicf4Cg
+Words: 61
+URL: https://www.youtube.com/watch?v=XcMhfwdRPGA
 
 --- TRANSCRIPT ---
 

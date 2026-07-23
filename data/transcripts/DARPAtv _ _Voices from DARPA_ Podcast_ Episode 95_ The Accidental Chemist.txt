@@ -1,0 +1,26 @@
+Feed: DARPAtv
+Episode: "Voices from DARPA" Podcast, Episode 95: The Accidental Chemist
+Method: description
+Language: en
+Words: 278
+URL: https://www.youtube.com/watch?v=KaNNaemCxAs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What new capabilities can we unlock by understanding how to rearrange the building blocks of matter?
+
+At some time in our lives, most of us have learned that matter is made of molecules, molecules are made of atoms, and atoms are made of protons, electrons, and neutrons. But what’s less commonly learned is what’s going on inside those atoms and molecules, such as when a bond breaks or internal components are rearranged through a chemical reaction.
+
+In this episode, we sit down with Keith Whitener, Ph.D., a program manager in DARPA’s Defense Sciences Office (DSO), who discusses the inner workings of reaction mechanisms and how atoms and molecules behave at the smallest possible levels.
+
+In this episode we discuss how key mentors influenced Keith’s career as a physical chemist, how his stent as a Jeopardy champion connects to his DARPA work, and how his DARPA program portfolio tackles some of the military’s largest operational and logistics problems:
+
+SeREne: Aims to make explosives safer to handle and tunable on the fly
+HNO3: Aims to eliminate a supply chain risk by enabling high-efficiency production of nitric acid directly from air and water
+ExCURSion: Aims to bypass fuel supply line challenges by generating energy at point of need
+ExPEDitions: Aims to create a new chemistry for electrically rechargeable batteries to have both the power and energy density of carbon-based fuel
+
+As promised, you can match wits against Keith by reading through a fan-created archive of Jeopardy appearances, including all the questions and answers for the episodes in which he competed.
+
+Music in this podcast episode includes an excerpt of “Tuesday (Groove)” composed by Keith Whitener, available on his legacy personal website.

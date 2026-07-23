@@ -1,0 +1,22 @@
+Feed: Check Point
+Episode: Policy Insights - Feature Update: Introduction
+Method: description
+Language: en
+Words: 238
+URL: https://www.youtube.com/watch?v=M_f1QWyKhpE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Join Check Point's Technical Marketing Engineering Team and unveil the latest updates to Check Point Policy Insights, including the powerful scoring feature and the new Policy Insights Dashboard.
+
+Policy Insights leverages cloud-based intelligence to continuously analyze your rule base and traffic, providing actionable recommendations to optimize your security policies. Recommendations are prioritized based on security impact and confidence, helping you focus on what matters most. This is a feature designed designed to enhance your security posture, reduce complexity, and simplify policy management.
+
+In this video we will introduce Policy Insights Scoring: A new feature that evaluates the effectiveness and optimization of your security policies. By analyzing telemetry data, policy configurations, and real traffic patterns, it identifies risks, inefficiencies, and opportunities for improvement. 
+
+In addition, the Policy Insights Dashboard: A centralized view of your policy health, optimization recommendations, scores, and remediation progress. This dashboard provides immediate clarity, enabling security teams to track and improve policy health, reduce the attack surface, and maintain a cleaner, more efficient rule base.
+
+With these updates, Policy Insights empowers you to transition from reactive policy management to a proactive, optimized security strategy.
+For a comprehensive overview of Check Point Policy Insights, visit our YouTube channel Tech Point Central and watch the full video: Check Point Policy Insights: https://youtu.be/73jXUy9F4e4?si=DwUpADeHDffnotyf
+
+Stay tuned for the next episode, where we’ll dive deeper into the Policy Insights main window and demonstrate the scoring feature in action. Don’t miss it!

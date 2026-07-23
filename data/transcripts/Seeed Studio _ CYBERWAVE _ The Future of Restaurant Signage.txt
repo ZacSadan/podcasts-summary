@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: CYBERWAVE — The Future of Restaurant Signage
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/watch?v=qMFP--SghsE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+CYBERWAVE is a futuristic, cyberpunk-inspired interactive restaurant signage system built on a Raspberry Pi 5. It combines AI presence detection, voice ordering, touchscreen interaction, and a real-time staff dashboard into one 3D printed device. When a customer approaches, the XIAO Vision AI Camera detects their face and activates the ordering interface automatically. Customers can order by touch or entirely by voice using the reSpeaker XVF3800 4-microphone array. Orders appear instantly on the staff dashboard via WebSockets. The enclosure is printed in matte black PLA with cyan glow-in-the-dark PETG accents charged by UV light.
+
+More about the interactive signage contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

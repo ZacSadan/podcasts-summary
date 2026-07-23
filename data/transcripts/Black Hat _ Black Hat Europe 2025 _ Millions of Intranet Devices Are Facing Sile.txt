@@ -1,0 +1,20 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Millions of Intranet Devices Are Facing Silent Takeover (On-Demand Only)
+Method: description
+Language: en
+Words: 256
+URL: https://www.youtube.com/watch?v=MVliifh92tQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The shift to cloud-managed IoT has introduced a dangerous blind spot in the security posture of millions of enterprise and residential devices. While vendors focus on web-facing threats, a far more insidious risk has emerged: cloud-device communication channels are becoming the new attack surface. In this presentation, we reveal critical vulnerabilities affecting products from major network equipment manufacturers that enable remote, unauthenticated takeover of intranet devices. Moreover, we demonstrate that security improvements made by vendors—such as enforcing one-to-one cloud–device communication channels—are still insufficient, and can continue to be exploited under real-world conditions.
+We present new attack technique that allows attackers anywhere in the world to impersonate target intranet devices, hijack cloud communication channels, spoof the cloud and bypass companion app authentication, and ultimately achieve Remote Code Execution (RCE) with root privileges. Our research exposes flaws in existing cloud-device authentication mechanism, and a widespread absence of proper channel verification mechanisms.
+These vulnerabilities silently impact millions of deployed devices worldwide and highlight systemic weaknesses in IoT cloud ecosystem security. Even more concerning, authentication mechanisms are typically finalized during product release and reused across product lines without change. When design flaws exist, they can affect a broad range of devices.
+This presentation will describe our reverse engineering, vulnerability exploitation, and ethical disclosure processes. We will provide practical guidance for vendors, enterprise defenders, and cloud architects on how to redesign trust boundaries and secure remote management channels within cloud–device–app ecosystem.
+
+By: 
+Jincheng Wang  |  First-year Master Candidate, Nanjing University of Posts and Telecommunications
+Nan He  |  Independent Security Researcher
+
+https://blackhat.com/eu-25/briefings/schedule/?#plug-and-controlled-millions-of-intranet-devices-are-facing-silent-takeover-on-demand-only-49156

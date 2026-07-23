@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Ghost In The Stack: Evolving Call Stack Spoofing In A Post-CET Era
+Method: description
+Language: en
+Words: 309
+URL: https://www.youtube.com/watch?v=tOVcScKuJvU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Stack spoofing is a sophisticated technique that manipulates a thread's call stack so that code execution appears to originate from a different, benign location. In 2023, with StackMoonwalk, we presented a novel approach to this that slipped through common stack-based detection logic. Since then, we've watched defenders build on that research to expand telemetry and design more robust detectors. At the same time, we've seen increased adoption of hardware-backed mitigations (HSP|CET), which could offer another source of truth to spot this technique. Two years later, we asked ourselves whether it was finally time for stack spoofing to die. Well... it wasn't.
+
+The talk begins in today's non-HSP environments, exploring modern detection frameworks built on call stack analysis and showing how fragile assumptions make them easy to bypass in practice. As proof, we introduce a new technique based on Moonwalk and a new primitive, proxy frames, to exploit these gaps. However, as clever as these methods are, their ROP-based primitives are welcomed by a crash the moment HSP/CET comes into play.
+
+This pushed our research back to square one: could stack spoofing be rebuilt to survive CET enforcement? The result is the first known CET-compliant stack spoofing framework (BYOUD), delivered in three functional variants across distinct execution architectures. We first demonstrate how the framework can alter call stack resolution without triggering CP exceptions and then introduce the State-Driven Indirect Execution Architecture (SDIE), which takes the concept further to achieve a full HSP bypass.
+
+We will conclude our talk by outlining the key lessons learned throughout this research: why overreliance on any single, emerging mitigation is dangerous, and how fragile design assumptions in detection logic can turn into blind spots. We will also provide concrete strategies and countermeasures so defenders can build stronger, more resilient detection capable of catching the presented techniques.
+
+By: Alessandro Magnosi  |  Senior Security Consultant, SpecterOps
+
+https://blackhat.com/eu-25/briefings/schedule/?#ghost-in-the-stack-evolving-call-stack-spoofing-in-a-post-cet-era-48965

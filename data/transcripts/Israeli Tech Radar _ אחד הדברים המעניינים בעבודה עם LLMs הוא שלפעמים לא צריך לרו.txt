@@ -1,0 +1,18 @@
+Feed: Israeli Tech Radar
+Episode: אחד הדברים המעניינים בעבודה עם LLMs הוא שלפעמים לא צריך לרוץ לחפש מודל חדש.
+Method: description
+Language: he
+Words: 132
+URL: https://www.youtube.com/shorts/iuLw9bMRuX8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+סדרת Agentic Architecture ממשיכה עם הפרק השני, בהובלת ירחמיאל פלצמן, AI & Data Tech Lead ב־Tikal.
+בפרק השני  Adaptive Agent Architectures & RAG, ירחמיאל מארח את גיא איטח, Director of AI ב־Elios Health, ואת חיים טורקל ,AI Architect, Data & Backend Group Lead ב־Tikal, לשיחה על דפוסי התכנון שמאפשרים לבנות מערכות אייג׳נטים יציבות ואמינות.
+הם מדברים על Adaptive Agents, מנגנוני Self Review ו־Peer Review, מתי נכון לשלב Human in the Loop, מה ההבדל בין RAG ל־Memory, ואיך בוחרים את אסטרטגיית שליפת המידע הנכונה. 
+לאורך הפרק הם משתפים מהניסיון שלהם בבניית מערכות AI, ומדברים על ההחלטות הארכיטקטוניות שעוזרות להפוך אייג׳נט שעובד בדמו למערכת שאפשר להריץ בפרודקשן.
+הפרק כבר באוויר 🎧
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא – Adaptive Agent Architectures & RAG

@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: The Future of American Defense
+Method: description
+Language: en
+Words: 82
+URL: https://www.youtube.com/shorts/iOeW40N-1VI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Warfare is at an inflection point, and the old ways of Army acquisition simply don't keep pace with modern threats. The Army is replacing the old playbook with commercially developed, modular technology that can be deployed and improved quickly.
+
+We're looking for founders building low-cost interceptors, next-generation sensors, drones, resilient logistics, advanced manufacturing, and hardware that can survive the world’s harshest environments. There has never been a better time to build for the Army.
+
+Apply for the Fall 2026 batch at ycombinator.com/apply.

@@ -1,0 +1,18 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | ORMageddon: Leaking More Than You Joined For
+Method: description
+Language: en
+Words: 203
+URL: https://www.youtube.com/watch?v=tJR4FirA9Nk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Object Relational Mappers (ORMs) have become ubiquitous across software development, due to the ease of storing code objects on backend databases and builtin security mechanisms to protect against SQL injection. Previous security research has focused on the discovery of SQL injection vulnerabilities in the query builder layer of an ORM, but there has been an oversight into investigating insecure uses of an ORM.
+
+This talk is about the ORM Leak vulnerability class, where an insecure use of an ORM or exposed interface for database querying that does not validate user inputs beforehand could result in leaking out sensitive data, without the exploitation of a SQL injection vulnerability. We will cover the conditions necessary for an ORM Leak vulnerability, real world examples of ORM leaks and exploitation techniques such as relational filtering and time-based attacks.
+This talk will be an extension on our previous published research about ORM leaks and showcase a new susceptible ORM, how quirks of that ORM could be abused to bypass validations and how ORM leaks does not necessarily require the use of a susceptible ORM and is more often introduced by the exposure of a dangerous interface to users.
+
+By: Alex Brown  |  Senior Security Consultant I, elttam
+
+https://blackhat.com/eu-25/briefings/schedule/?#ormageddon-leaking-more-than-you-joined-for-49161

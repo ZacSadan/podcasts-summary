@@ -1,0 +1,18 @@
+Feed: Aleph
+Episode: How Beewise Uses AI to Save Bees in Real Time — Saar Safra
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/shorts/CdpRPGTvHKM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The biggest threat to bees might be the hive itself, says Beewise founder Saar Safra.
+
+A traditional hive is a sealed box that gives a beekeeper no way to act in real time — someone has to travel to the field, open every box, diagnose what's wrong, and apply a treatment by hand. Across millions of bees, that's physically impossible to do in time. Beewise replaced it with thousands of solar-powered devices running 24/7 from California to Florida, where AI identifies the problem and programs a robot to treat it on the spot.
+
+"Even if you put a thousand people around a million bees, we would not be able to tell every single colony what's going on. The model does it in milliseconds."
+
+Watch the full episode → https://bit.ly/4402fdj 
+#Shorts #Beewise #AI #Bees #AgTech

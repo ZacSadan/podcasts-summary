@@ -1,0 +1,26 @@
+Feed: Seeed Studio
+Episode: Deploy Edge AI Projects in Minutes with reComputer AI Lab!
+Method: description
+Language: en
+Words: 190
+URL: https://www.youtube.com/watch?v=0608kOtfSDw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Building an AI project often means searching for models, configuring environments, handling dependencies, and spending hours on deployment… but what if it could be much easier?
+
+In this detailed video, we’ll walk you through how to use Seeed Studio reComputer AI Lab to quickly deploy AI applications with just 3 simple steps:
+☑️ Enter reComputer AI Lab
+Explore ready-to-use AI models across CV, LLM, VLM, and SOUND categories.
+✅ Get the Deployment Command
+Choose your model, select your target device, and get the Docker, deployment command automatically generated.
+☑️ Run the AI Case
+Copy the command, launch the container, and view your AI application running on your device.
+
+✨ With ready-to-deploy AI models, Docker-based deployment, and support for Raspberry Pi, Rochkchip, and Jetson, reComputer AI Lab helps developers move from idea to working AI demo faster than ever.
+
+🎥 Start deploying your Edge AI projects here: reComputer AI Lab | Edge AI Models & Tools
+🛒 Also check out reComputer RK: reComputer RK3576-20 | Open Rockchip AI Box tailored for AI Development
+
+#SeeedStudio #reComputerRK #Rockchip #reComputer #RK3576 #RK3588 #VisionAI #NVR #aibox #EdgeAI #AIoT #ComputerVision #reComputerAILab #YOLO #AILab #AIDeployment #TheEasierPowerfulAIComputer #TheAIHardwarePartner

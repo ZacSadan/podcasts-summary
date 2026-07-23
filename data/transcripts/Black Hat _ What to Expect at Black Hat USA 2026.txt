@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: What to Expect at Black Hat USA 2026
+Method: description
+Language: en
+Words: 262
+URL: https://www.youtube.com/watch?v=HopnPmgHUis
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Over 20,000 practitioners. 100+ hands-on training courses. Peer-reviewed research that doesn't exist anywhere else yet. Black Hat USA runs August 1-6, 2026 in Las Vegas, and this year's agenda is shaping up to be the most exciting one yet.
+ 
+Black Hat USA 2026 brings together the cybersecurity community for six days of training, research, and hands-on evaluation. Here's what you're walking into:
+
+• Training (August 1-4): 100+ expert-led courses taught by practitioners who've deployed these techniques in live environments. This year's expanded AI security track covers securing LLMs, defending against autonomous agents, and building detection pipelines that work at machine speed.
+• Briefings (August 5-6): Peer-reviewed research selected by an independent review board. AI agent exploitation. Post-quantum cryptography. Supply chain attacks. Detection engineering. The findings you'll hear don't exist in published form yet; you're getting them first.
+• Business Hall (August 4-6): 400+ sponsors and exhibitors. The practitioners walking that floor are coming straight out of Briefings and Trainings, so they know exactly what questions to ask. This is where real evaluation happens.
+• Summits (August 4): Six full-day, domain-specific programs including the CISO Summit, AI Summit, Financial Services Security Summit, Healthcare Summit, and more. You're not in a general conference audience; you're with peers who understand the specific challenges you're facing.
+• New this year: The Interface (hands-on demos and scenario-based learning), Arsenal Labs (20 dedicated tool demonstration sessions), Cyber War Forum (senior leader discussions under Chatham House rules), Drone Zone, Cyber District, and Black Hat(HER).
+
+Regular registration pricing is active through July 17th, 2026.
+Register at blackhat.com
+One Step Ahead.

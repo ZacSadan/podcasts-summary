@@ -1,0 +1,11 @@
+Feed: Check Point
+Episode: AWS Integration
+Method: description
+Language: en
+Words: 38
+URL: https://www.youtube.com/watch?v=e6U4rzGld3I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to set up a secure IPSec tunnel between your Harmony SASE network and AWS environment. Follow the steps to meet prerequisites, configure the tunnel, and use AWS configuration files to simplify the process and avoid errors.

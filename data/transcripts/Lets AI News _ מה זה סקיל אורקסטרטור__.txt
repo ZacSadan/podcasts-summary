@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: מה זה סקיל אורקסטרטור?!
+Method: description
+Language: he
+Words: 136
+URL: https://www.youtube.com/watch?v=kL3FOM17q6U
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+מהו Skill Orchestrator ואיך הוא מאפשר למערכות AI לבצע משימות מורכבות בצורה חכמה? בסרטון הזה נסביר מהו אורקסטרטור, כיצד הוא מנהל ומתאם בין יכולות (Skills) שונות, איך הוא מחליט אילו כלים להפעיל ובאיזה סדר, ולמה הוא מהווה רכיב מרכזי בבניית סוכני AI מתקדמים. אם אתם עובדים עם בינה מלאכותית, אוטומציות או Agents – הסרטון הזה יעשה לכם סדר בנושא.
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

@@ -1,0 +1,21 @@
+Feed: Check Point
+Episode: Policy Insights - Feature Update: Soring Main Window
+Method: description
+Language: en
+Words: 177
+URL: https://www.youtube.com/watch?v=G_TNyQm7140
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Exploring the Policy Insights Scoring System:
+
+Join Check Point’s Technical Marketing Engineering Team to dive into the first major enhancement of the Policy Insights feature: The Scoring System.
+
+In this video, you’ll learn how to access Policy Insights and explore the Policy Optimization Score, which provides a comprehensive evaluation of your policy’s efficiency and quality. We’ll explain how this score is calculated based on your rule base and real-time traffic analysis, and how it reflects the overall optimization of your security policy.
+
+We’ll also cover the Suggestions section, which offers actionable recommendations to simplify your rule base, address inefficiencies, and enhance your security posture. You’ll discover how to prioritize changes, and how to filter recommendations based on their security value and confidence level.
+
+For a comprehensive overview of Check Point Policy Insights, visit our YouTube channel Tech Point Central and watch the full video: Check Point Policy Insights: https://youtu.be/73jXUy9F4e4?si=DwUpADeHDffnotyf
+
+Stay tuned until the end, as we’ll give you a sneak peek of what’s coming next: an in-depth look at the Policy Insights Dashboard in the next episode.

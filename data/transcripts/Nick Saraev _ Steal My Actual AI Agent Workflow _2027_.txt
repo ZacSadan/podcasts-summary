@@ -1,0 +1,69 @@
+Feed: Nick Saraev
+Episode: Steal My Actual AI Agent Workflow (2027)
+Method: description
+Language: en
+Words: 660
+URL: https://www.youtube.com/watch?v=8rVQuZlRaqo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get the AI agent workflow here (free): https://www.skool.com/maker-zero
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth consultancy. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+--
+
+Other platforms I'm on ⤵️
+📸 Instagram: https://www.instagram.com/nick_saraev
+🕊️ Twitter/X: https://twitter.com/nicksaraev
+✍🏻 Blog: https://nicksaraev.com
+
+My free multi-hour courses ⤵️
+→ Claude Code (4hr full course): https://www.youtube.com/watch?v=QoQBzR1NIqI
+→ Agentic Workflows (6hr full course): https://www.youtube.com/watch?v=MxyRjL7NG18
+→ N8N (6hr full course, 1M+ views): https://www.youtube.com/watch?v=2GZ2SNXWK-c
+
+--
+
+Summary ⤵️
+How to *actually* use AI agents in modern companies. A simple workflow that I've been developing and using inside of my $5m/yr company for the better part of the last ~3mo, and I'm giving it all to you!
+
+--
+
+Chapters ⤵️
+0:00 - How the Most Productive People Work Now
+0:48 - Part 1: A Shared AI + Human Workspace
+2:04 - Tagging Tasks as AI-Ready (Live Demo)
+3:01 - An Agent Picks Up the Task
+4:10 - Under the Hood: Webhook → Fable 5 → Knowledge Base
+5:43 - Verifying Outputs With Human Taste
+6:34 - What a Typical Day Looks Like
+8:37 - Part 2: Capture (Getting Things Done)
+9:22 - Desktop Capture: Hotkeys + Send to Agent
+10:46 - Phone Capture: The Action Button Trick
+11:36 - Push Notifications When Agents Need You
+12:25 - Part 3: Evals — AI That Checks Its Own Work
+13:37 - Eval Example: Is This Render Usable?
+14:26 - Eval Example: Was This Done the Way Nick Thinks?
+15:33 - Part 4: Q&A — You're the Manager Now
+16:33 - How to Recreate This With One Prompt
+18:27 - Free Resources + Maker School

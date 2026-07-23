@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: המרוץ החדש: AI כבר מגן על סייבר
+Method: description
+Language: he
+Words: 145
+URL: https://www.youtube.com/watch?v=Rl2uAjIO010
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+המרוץ החדש בין OpenAI ל-Anthropic כבר לא מתמקד בשאלה איך מונעים מ-AI לסייע לתוקפים, אלא איך רותמים אותו כדי להגן על ארגונים בצורה בטוחה ואחראית. בפרק הזה אנחנו מסבירים איך מערכות חדשות מסוגלות לאתר חולשות, להציע תיקונים ולאמת אותם בתוך דקות, למה בני אדם עדיין נשארים חלק בלתי נפרד מהתהליך, ואיך השאלה החשובה ביותר כבר אינה עד כמה המודל חכם – אלא מי רשאי להשתמש בו ובאילו גבולות.
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

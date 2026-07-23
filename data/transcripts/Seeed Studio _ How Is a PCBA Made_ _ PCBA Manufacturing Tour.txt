@@ -1,0 +1,21 @@
+Feed: Seeed Studio
+Episode: How Is a PCBA Made? | PCBA Manufacturing Tour
+Method: description
+Language: en
+Words: 101
+URL: https://www.youtube.com/watch?v=YgDhEKwj5B8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🚀Step inside the Seeed Studio Agile Manufacturing Center and follow the complete PCBA manufacturing journey—from incoming material inspection and component sourcing to solder paste printing, high-speed SMT placement, reflow soldering, inspection, testing, and final assembly.
+
+💡Every component matters. Every solder joint is carefully inspected. Every board goes through multiple manufacturing and quality-control steps before it is ready to power real-world hardware.
+
+Watch the full tour to see how your PCBA design comes to life!
+
+Ready to bring your PCBA design to life?
+👉Get a $50 New User Coupon at: https://www.seeedstudio.com/fusion_pcb.html?from=youtube
+👉Explore Fusion's one-stop services: https://www.seeedstudio.com/fusion-one-stop.html?from=youtube
+
+#seeedstudio #seeedfusion #pcba #pcbmanufacturing #factorytour #electronicmanufacturing

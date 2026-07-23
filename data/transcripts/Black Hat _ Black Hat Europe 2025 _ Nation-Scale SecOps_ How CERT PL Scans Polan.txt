@@ -1,0 +1,19 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2025 | Nation-Scale SecOps: How CERT PL Scans Poland
+Method: description
+Language: en
+Words: 192
+URL: https://www.youtube.com/watch?v=7c15gEyJF1I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+At CERT PL, a national CSIRT for Poland, we learned that the security of public entities is an area with numerous easily exploitable vulnerabilities and a significant need for free tools to improve the situation.
+
+In this presentation, I will describe the approach we follow to enhance the security of public and private entities in Poland. I will introduce moje.cert.pl (meaning 'my CERT PL' in English), a system where administrators can join, scan their domains and networks for vulnerabilities, and receive notifications about user password breaches within their domains — all in one place and for free. I will also explain how we automatically scan tens of thousands of public entities in Poland (even ones that don't know about the CSIRT) and present Artemis, an open-source tool we developed to achieve this (and also to provide scanning in moje.cert.pl). Additionally, I will outline the philosophy behind building these tools.
+
+I hope this talk will inspire you to run similar initiatives, whether you are part of a CSIRT, a hosting provider, or even a team of software engineers who want to make a positive impact.
+
+By: Krzysztof Zając  |  Warszawa, CERT PL
+
+https://blackhat.com/eu-25/briefings/schedule/?#nation-scale-secops-how-cert-pl-scans-poland-48918
