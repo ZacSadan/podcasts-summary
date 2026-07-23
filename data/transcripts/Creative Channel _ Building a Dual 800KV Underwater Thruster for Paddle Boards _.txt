@@ -1,0 +1,29 @@
+Feed: Creative Channel
+Episode: Building a Dual 800KV Underwater Thruster for Paddle Boards & Boats
+Method: description
+Language: en
+Words: 119
+URL: https://www.youtube.com/watch?v=Xv1-ygQw59w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, I designed and built a fully custom underwater thruster for my stand-up paddle board (SUP) and small boats.
+
+3D file : https://makerworld.com/en/models/2998410-diy-6s-underwater-thruster-dual-800kv-motors#profileId-3366127
+Specifications:
+• Fully custom CAD design
+• Completely 3D printed housing
+• Dual 800KV brushless motors
+• Counter-rotating propellers for improved stability
+• 6S LiPo battery
+• 150A ESC
+• Waterproof 2.4GHz RC transmitter & receiver
+• Mounts directly to a standard SUP fin box
+• Compatible with SUPs, kayaks, and DIY boats
+
+This is my first prototype, and I'll continue improving the thrust, efficiency, and overall performance in future versions.
+
+If you enjoy DIY engineering and maker projects, don't forget to Like and Subscribe!
+
+#DIY #UnderwaterThruster #ElectricSUP #3DPrinting #BrushlessMotor #BoatMotor #Maker #Engineering #CreativeChannel
