@@ -231,12 +231,12 @@ You are summarizing a podcast episode. Write a detailed Hebrew summary.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
-- Preserve ALL URLs and links mentioned anywhere in the transcript or description
 - Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed
 - Use bold section headers (**כותרת**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT skip any technological, business, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
+- Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Write ONLY Hebrew text (except for English tech terms that must stay in English)
@@ -259,12 +259,12 @@ You are summarizing a podcast episode that has full, detailed show notes. Write 
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
-- Preserve ALL URLs and links mentioned anywhere in the transcript or description
 - Summary must be COMPREHENSIVE (1200-1500 words) — cover every topic, detail, and nuance
 - Use bold section headers (**כותרת**) and bullet points
 - Include all numbers, statistics, names, CVEs, vulnerabilities, tools, and specific claims made
 - Do NOT skip any technological, business, security, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
+- Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
@@ -357,6 +357,12 @@ def _summarize_with_github_models(episode, text: str, github_token: str,
                 if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed_he) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed_he):
                     logger.warning(
                         f"  GitHub Models {model} returned a placeholder — retrying with fewer words"
+                    )
+                    continue
+                if len(parsed_he) < 50:
+                    logger.warning(
+                        f"  GitHub Models {model} returned an empty/too-short summary "
+                        f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
                     )
                     continue
                 logger.info(f"  GitHub Models: used {model} ({len(truncated.split())} words)")
