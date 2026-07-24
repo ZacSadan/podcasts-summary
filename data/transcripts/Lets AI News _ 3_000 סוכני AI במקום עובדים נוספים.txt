@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: 3,000 סוכני AI במקום עובדים נוספים
-Method: description
+Method: cached_description
 Language: he
-Words: 153
-URL: https://www.youtube.com/watch?v=dLBWiyq1eIE
+Words: 155
+URL: https://www.youtube.com/shorts/GHRPcg4Fqdg
 
 --- TRANSCRIPT ---
 
