@@ -1,0 +1,17 @@
+Feed: Y Combinator
+Episode: New Operating Systems for the Physical World
+Method: description
+Language: en
+Words: 82
+URL: https://www.youtube.com/shorts/V_gDce8hBrg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Most of the global workforce does not sit at a desk, but the software used to manage physical work has barely changed in decades.
+
+The next operating systems will coordinate humans, robots, and AI agents together. The companies that build them could manage far more than software workflows. They could manage the labor itself.
+
+So if you're building this new kind of operating system for the physical world, we'd love to hear from you.
+
+Apply for the Fall 2026 batch at ycombinator.com/apply.

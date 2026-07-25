@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: Literally everyone hated this feature
+Method: description
+Language: en
+Words: 144
+URL: https://www.youtube.com/shorts/n0JhhZyGP_w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Did Meta actually think we wouldn’t notice this? 🫣
+
+Recently, Meta rolled out a new image-generation feature called Muse Image. On paper, it was pitched as a creative new AI tool. In reality, it turned into a massive privacy and safety concern overnight.
+
+By default, the feature automatically opted in public accounts, allowing anyone to simply @ a handle and use Meta AI to generate entirely new images using that person's likeness with NO permission required.
+
+Unsurprisingly, after immense backlash from users, privacy advocates, and talent agencies, Meta pulled the feature just three days after launch.
+
+But this whole ordeal leaves us with a pretty big question… did Meta genuinely not anticipate this backlash, or was this a calculated move to get eyes on their new AI model?
+
+Let me know which one you think it is in the comments. 👇
+
+#AI #Ainews #genAI
