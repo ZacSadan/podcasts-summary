@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: קלוד נכנס לכרום ומשנה את כללי המשחק
-Method: description
+Method: cached_description
 Language: he
-Words: 141
-URL: https://www.youtube.com/watch?v=eP-dFnaYNoA
+Words: 143
+URL: https://www.youtube.com/shorts/lpg4mdIATHI
 
 --- TRANSCRIPT ---
 
