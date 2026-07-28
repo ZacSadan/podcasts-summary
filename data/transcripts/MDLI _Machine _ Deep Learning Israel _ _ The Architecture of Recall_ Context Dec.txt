@@ -1,0 +1,19 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: The Architecture of Recall: Context Decay and Engineering Agent Memory. Maya Halevy, WIX.
+Method: description
+Language: en
+Words: 149
+URL: https://www.youtube.com/watch?v=ITYAM6k1FkI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מהאירוע המשותף של קהילת MDLI וחברת אורקל,  AgentStsck
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/agentstack
+
+
+As agentic workflows demand longer execution paths, an agent’s "memory" becomes its defining constraint. In order to understand this better we must consider the underlying architecture. How we manage and maintain this long-term cognitive state determines whether an agent successfully executes a multi-step workflow or gets trapped in an expensive, hallucinated loop.
+The Attention Tax: How the core math of transformers creates "danger zones" in episodic memory, leading to the "Lost in the Middle" phenomenon in agent history.
+Optimizations: Strategies for structuring short-term vs. long-term memory to improve accuracy and reliability.
+Memory Consolidation: Using offline LLM cycles to prune data, resolve contradictions, and compress logs into usable memory.
+The goal of this talk is to move towards designing architecture-aware memory systems based on how LLMs process and retain information.

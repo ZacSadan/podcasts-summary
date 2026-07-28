@@ -1,0 +1,15 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: Modern Memory Architectures for Agentic AI Systems. Assaf Rabinowicz, Ph.D., Oracle
+Method: description
+Language: en
+Words: 69
+URL: https://www.youtube.com/watch?v=Uep0z0buPzc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מהאירוע המשותף של קהילת MDLI וחברת אורקל,  AgentStsck
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/agentstack
+
+
+The talk will cover the core concepts and modern architectural components of AI Agent Memory, including long-term memory, working memory, derived knowledge, memory retrieval, and memory orchestration. It will also explore practical application patterns and discuss key challenges related to consistency, scalability, and memory management in agentic AI systems.
