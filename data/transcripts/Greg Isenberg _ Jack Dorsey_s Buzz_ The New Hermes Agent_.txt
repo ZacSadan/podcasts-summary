@@ -1,0 +1,89 @@
+Feed: Greg Isenberg
+Episode: Jack Dorsey's Buzz: The New Hermes Agent?
+Method: description
+Language: en
+Words: 781
+URL: https://www.youtube.com/watch?v=_jGSgzBkzrY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Vinny for a live tour of Buzz, an open source, agent-native chat app from Block built on an open protocol. Vinny makes the case that openness is the real story here: agents arrive as first-class teammates, the harness underneath each agent swaps freely between Claude Code, Codex, Goose, and open code, and your entire chat context travels with you through every swap. He demos real output, including a CRM app built with the Wasp full stack framework and deployed to Railway, plus a tweet leaderboard that pipes daily stats back into a channel through a public API. I press him for the honest state of the software and for the setup advice he actually uses day to day. By the end I share where I land on Buzz versus Slack, and why I think anyone building right now gains from putting their hands on tools like this.
+
+Try Buzz for yourself: https://startup-ideas-pod.link/buzz
+
+Timestamps
+
+00:00 – Intro
+02:57 – Agents as First-Class Team Members
+03:49 – Swappable Harnesses Under Any Agent
+06:55 – Audio Huddles With Agents
+08:34 – Git, Feature Branches, and Parallel Worktrees
+11:20 – Building a CRM App with Buzz and Agents
+13:43 – Why This Matters
+18:13 – Best way to engage with your Agents
+23:53 – Shared Compute and Local Models
+25:42 – Model Choice, Data Ownership, and Lock-In
+27:36 – Context as the Foundation
+29:39 – Setting Up Agents
+31:21 – Skills and Speed
+33:03 – Who Should Try Buzz Today
+34:36 – My Take: Live in the Future
+38:10– Closing Thoughts
+
+Key Points
+
+• Buzz treats agents as members of your team, so one shared chat becomes the context layer for humans and agents together.
+
+• The harness under any agent swaps freely, and every chat, project, and decision comes along for the ride.
+
+• Globally installed agent skills stay available inside Buzz, so an existing Claude Code setup carries straight over.
+
+• Agents branch, work in parallel worktrees, push to Git hosting on your own relay, and ship live apps end to end.
+
+• Shared compute lets a small team run one local model on one machine and use it from many computers.
+
+• Buzz sits in early preview today, which makes it a strong fit for solopreneurs and small teams iterating fast.
+
+Numbered Section Summaries
+
+1. Openness as the Real Selling Point
+
+Vinny opens with the line people keep repeating, that Buzz reads as a Slack killer, then redirects to what actually sold him: openness. Buzz ships as an open source app on an open protocol, and that single choice drives nearly every feature we cover.
+    
+2. Agents as First-Class Teammates
+
+Slack invites agents in through integrations; Buzz treats them as members of the team from the start. Vinny shows the default agent roster, then the layer underneath where you edit agents, add new ones, and give each one instructions that work like a system prompt.
+    
+3. Swappable Harnesses and Portable Context
+
+Each agent sits on a swappable harness, so Claude Code, Codex, Goose, or open code slot in underneath on demand. Vinny frames this as the cure for model fatigue: swap the engine, keep every chat and every project you have built with that agent.
+    
+4. Huddles and Live Collaboration With Agents
+
+Buzz includes audio huddles where agents join the call carrying full chat context. The live attempt stays quiet while we record, so we describe how it works and I share why live, spoken interaction unlocks my own creative process better than typed back-and-forth.
+
+5. Git, Worktrees, and Projects Built In
+
+Agents create feature branches and work in parallel worktrees, keeping your local files intact while several versions get built at once. Buzz also runs its own Git hosting on your relay, which is the server holding your chats and data, so the ambition here reaches past Slack and toward GitHub
+
+6. From Chat to Shipped App
+
+Vinny asks Buzz for a simple CRM using the Wasp full stack framework deployed to Railway, and gets links, screenshots, and a live app back before he even checks the work. He then shows a tweet leaderboard he built, wired to a public API that posts daily stats into a channel where his agent Fizz analyzes the top performers.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND VINNY ON SOCIAL:
+
+X/Twitter: https://x.com/hot_town
+Youtube: https://www.youtube.com/channel/UCHP5Hdx0X-sM0uv2bl_OOqg
