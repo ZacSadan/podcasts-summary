@@ -1,0 +1,49 @@
+Feed: Veritasium
+Episode: Comment une supernova a permis de mesurer l’univers
+Method: description
+Language: en
+Words: 375
+URL: https://www.youtube.com/watch?v=5jlF7XY6Zek
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+En 2015, des astronomes ont réussi à prédire l’apparition d’une supernova avec seulement quelques semaines d’avance. Comment ont-ils fait ? Tentez de gagner votre Ultimate Tech Bundle en participant au Techie Test de Fasthosts ici : https://fasthosts.com/veritasium (Concours désormais clôturé) Cette vidéo a été sponsorisée par Fasthosts.
+
+Remerciements particuliers à Geraint Lewis pour ses conseils sur la lentille gravitationnelle. Découvrez sa chaîne YouTube : https://ve42.co/gfl et ses livres : https://ve42.co/GFLbooks
+
+L’image de supernova dans la miniature provient de mon documentaire, Uranium: Twisting The Dragon's Tail. À découvrir ici : https://genepoolproductions.com/uranium-project
+
+Références :
+DEJA VU ALL OVER AGAIN: THE REAPPEARANCE OF SUPERNOVA REFSDAL
+P. L. Kelly et al. https://arxiv.org/abs/1512.04654
+
+Predicted properties of multiple images of the strongly lensed supernova SN Refsdal 
+Masamune Oguri. Monthly Notices of the Royal Astronomical Society: Letters, Volume 449, Issue 1, 01 May 2015, Pages L86–L89, https://arxiv.org/abs/1411.6443
+
+Multiple Images of a Highly Magnified Supernova Formed by an Early-Type Cluster Galaxy Lens
+Patrick L. Kelly et al. https://arxiv.org/abs/1411.6009
+
+"Refsdal" meets Popper: comparing predictions of the re-appearance of the multiply imaged supernova behind MACSJ1149.5+2223. T. Treu et al. https://arxiv.org/abs/1510.05750
+
+Irwin I. Shapiro (1964). "Fourth Test of General Relativity". Physical Review Letters. 13 (26): 789–791. doi:10.1103/PhysRevLett.13.789
+
+Irwin I. Shapiro; Gordon H. Pettengill; Michael E. Ash; Melvin L. Stone; et al. (1968). "Fourth Test of General Relativity: Preliminary Results". Physical Review Letters. 20 (22): 1265–1269. doi:10.1103/PhysRevLett.20.1265
+
+Recherche & rédaction par Stephanie Hamilton, Ralph Crewe, Petr Lebedev, Derek Muller et Jonny Hyman
+Animations & VFX par Jonny Hyman & Ivy Tello
+Merci à Jaime Portsmouth pour son simulateur de lentille gravitationnelle et son aide pour permettre le rendu des simulations.
+Simulations de supernova fournies par Adam Burrows
+Nombreuses images du télescope Hubble par Hubble Legacy Archive, NASA/ESA/STScI
+Nombreuses images par ESO / NASA
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Introduction aux supernovas et leur imprévisibilité
+1:03 - Mécanismes de vie et explosion des étoiles
+1:50 - La prédiction historique de la supernova
+2:36 - Première observation et lentille gravitationnelle
+3:39 - Fonctionnement des lentilles gravitationnelles
+5:38 - Délai gravitationnel et expériences de Shapiro
+6:49 - Confirmation expérimentale et implications de la découverte
+8:55 - Lien avec la constante de Hubble et la nature de l'espace
