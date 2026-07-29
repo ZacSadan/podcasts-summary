@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Keynote: From Prompt Tricks to Autonomous Hackers
+Method: description
+Language: en
+Words: 116
+URL: https://www.youtube.com/watch?v=5IrJf2qGZcM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Offensive security has historically been constrained by human effort. In 2026, we see the rapid emergence of systems that can perform meaningful offensive work without human intervention. This talk examines the evolution of these capabilities over the past three years and the key advances that enabled them. We evaluate performance across offensive tasks, identify where automation is already effective, and highlight areas where human expertise remains necessary. We will also discuss the implications for defenders. As offensive capabilities become scalable, parallelized, and continuous, traditional point-in-time testing models are no longer sufficient. Security must adapt to a world where attack simulation can run continuously and at machine scale.
+
+By: Ari Herbert-Voss  |  CEO and Co-Founder, RunSybil
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#keynote-from-prompt-tricks-to-autonomous-hackers-the-rise-of-agentic-offensive-security-54362
