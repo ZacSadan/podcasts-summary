@@ -1,0 +1,31 @@
+Feed: Y Combinator
+Episode: Alexandr Wang: From Los Alamos to Superintelligence
+Method: description
+Language: en
+Words: 168
+URL: https://www.youtube.com/watch?v=sJ4VJWycX9M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Alexandr Wang's advice to his 18-year-old self: develop your own internal compass for how the future will unfold, and hold conviction in it against the noise. 
+
+At Startup School 2026, the Scale AI (YC S16) founder — now leading Meta's superintelligence lab — talks with Garry Tan about rebuilding a frontier lab from scratch, why talent density compounds, and how to spot the exponential worth betting your twenties on.
+
+Transcript: https://www.ycrootaccess.com/p/alexandr-wang-building-a-frontier
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+Chapters:
+00:07 — How Alexandr Wang Started Scale AI
+03:25 — Pivoting to the Right Idea
+06:23 — Conviction Before Consensus
+09:06 — Why This Is the Best Time to Start a Company
+11:27 — What Personal Superintelligence Looks Like
+13:10 — Building a Frontier AI Lab
+16:36 — Why AI Models Need to Be Cheap
+20:01 — Vision Will Matter More Than Intelligence
+24:06 — Systems Thinking in the AI Era
+26:51 — The Biggest Opportunity in AI Today
+29:25 — Advice to My 18-Year-Old Self
