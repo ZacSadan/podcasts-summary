@@ -1,0 +1,50 @@
+Feed: Creative Channel
+Episode: I Built a Tiny AI Robot with ESP32-S3 | Xiaozhi AI Robot DIY
+Method: description
+Language: en
+Words: 152
+URL: https://www.youtube.com/watch?v=i0nN3e4tpvE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, I'll show you how to build a tiny AI-powered robot using the ESP32-S3 N16R8 and Xiaozhi AI.
+
+Components Used
+• ESP32-S3 N16R8 Development Board
+• 2x DC Gear Motor (5V, 60RPM)
+• 2x ICR14250 Li-ion Battery (3.7V, 1200mAh)
+• 2mm Brass Rod
+• 0.96" I2C OLED Display
+• TTP223 Capacitive Touch Module
+• 2x 64-Tooth Metal Gear
+• Mini Omni Wheel Ball Caster
+• MAX98357A I2S Audio Amplifier (QFN)
+• INMP441 I2S MEMS Microphone
+• Mini L298N Dual H-Bridge Motor Driver
+• 3W 4Ω Mini Speaker
+• 2x 3V White LED
+• USB Type-C 4.2V Li-ion Charging Module
+
+Features:
+
+AI voice conversation
+Speech recognition
+Natural text-to-speech
+OLED animated face
+Touch control
+Wi-Fi setup
+Xiaozhi AI activation
+
+This tutorial covers:
+
+Hardware assembly
+Wiring
+Firmware flashing
+Wi-Fi configuration
+Robot activation
+AI testing
+
+If you enjoyed this project, don't forget to Like, Subscribe, and Share!
+
+#ESP32 #ESP32S3 #DIYRobot #AIRobot #XiaozhiAI #OpenSource #Robotics

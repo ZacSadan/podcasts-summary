@@ -1,9 +1,9 @@
 Feed: Check Point
 Episode: Introducing the Industry's First AI Network Firewall
-Method: description
+Method: cached_description
 Language: en
-Words: 87
-URL: https://www.youtube.com/watch?v=rbOjvwDYnRc
+Words: 89
+URL: https://www.youtube.com/watch?v=hbyIAidm1m0
 
 --- TRANSCRIPT ---
 
