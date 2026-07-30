@@ -393,3 +393,6 @@ feeds:
 - name: תזונה מושכלת
   url: "https://anchor.fm/s/d9fd30e8/podcast/rss"
 
+- name: Siraj Raval
+  url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCWN3xxRkmTPmbKwht9FuE5A"
+
