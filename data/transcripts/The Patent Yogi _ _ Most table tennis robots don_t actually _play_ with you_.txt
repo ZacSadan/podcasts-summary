@@ -1,0 +1,23 @@
+Feed: The Patent Yogi
+Episode: 🏓 Most table tennis robots don't actually *play* with you.
+Method: description
+Language: en
+Words: 90
+URL: https://www.youtube.com/shorts/uL6MIpxjYXk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🏓 Most table tennis robots don't actually *play* with you.
+
+They simply launch balls.
+
+A robot that can track your shots, predict the ball's path, and rally back in real time is a completely different challenge. 🤖⚡
+
+But does that difference make it patentable? 👀
+
+We searched the prior art, compared the technology, and uncovered what separates a simple ball launcher from a true rally-playing robot.
+
+🎥 Watch the video to see where the innovation lies—and whether it could deserve patent protection.
+
+#Robotics #PingPong #TableTennis #Automation #Innovation #Engineering #Mechatronics #Computer

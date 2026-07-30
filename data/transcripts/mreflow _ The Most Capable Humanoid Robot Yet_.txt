@@ -1,0 +1,24 @@
+Feed: mreflow
+Episode: The Most Capable Humanoid Robot Yet!
+Method: description
+Language: en
+Words: 161
+URL: https://www.youtube.com/shorts/Q60VNdtyiAA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Google just released Gemini Robotics 2 today, and it's a much bigger leap than you may think.
+
+Unlike previous models, it coordinates everything from feet to fingertips, allowing the robot to balance and walk while handling delicate objects.
+
+With 22 degrees of movement in its hands, it can seal Ziploc bags, unscrew lightbulbs, and even tie trash bag knots.
+
+Plus, an on-device version runs locally without an internet connection and can adapt to new robot bodies in just a few hours.
+
+To be clear: this new release "Google Robotics 2" is the AI software behind the robot, not a physical robot you buy directly from Google. It powers hardware from partners like Apptronik on their Apollo 2 robot. 
+
+For Developers: You can access the reasoning model "Gemini Robotics ER 2" today on Google AI Studio.
+For Hardware Integrators: The full Vision-Language-Action (VLA) and On-Device models are currently available to partners through Google DeepMind's early access program.
+
+#Google #deepmind #robotics #futuretech #ainews
