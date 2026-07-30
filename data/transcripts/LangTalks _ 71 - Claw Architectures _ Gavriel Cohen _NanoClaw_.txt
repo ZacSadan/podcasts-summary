@@ -1,0 +1,11 @@
+Feed: LangTalks
+Episode: 71 - Claw Architectures | Gavriel Cohen (NanoClaw)
+Method: description
+Language: en
+Words: 20
+URL: https://www.youtube.com/watch?v=xt00sOdrAG8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A deep dive into the architecture and security model behind autonomous agent harnesses - isolation, credential gateways, and skill-based extensibility.

@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: MOA: כשכמה בינות מלאכותיות חושבות יחד
-Method: description
+Method: cached_description
 Language: he
-Words: 139
-URL: https://www.youtube.com/watch?v=4BekDPGR3XY
+Words: 141
+URL: https://www.youtube.com/shorts/B4wC7gO90kQ
 
 --- TRANSCRIPT ---
 

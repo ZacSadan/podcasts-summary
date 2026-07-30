@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Gaurav Keerthi, CEO and Founder of StrongKeep
+Method: description
+Language: en
+Words: 79
+URL: https://www.youtube.com/watch?v=5LpzTFJU6AI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this episode, Gaurav Keerthi, CEO and Founder of StrongKeep Cybersecurity, shares why Black Hat continues to be a must-attend event for the cybersecurity community. 
+
+With every Black Hat experience offering something different, Black Hat brings together passionate individuals, innovative companies, and deep technical expertise in one place. '
+
+From thought-provoking discussions on stage to valuable conversations throughout the event, Black Hat creates unique opportunities to learn, connect, and exchange ideas with the people shaping the future of cybersecurity.

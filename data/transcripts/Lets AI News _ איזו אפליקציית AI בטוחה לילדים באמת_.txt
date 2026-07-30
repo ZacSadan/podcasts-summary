@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: איזו אפליקציית AI בטוחה לילדים באמת?
-Method: description
+Method: cached_description
 Language: he
-Words: 131
-URL: https://www.youtube.com/watch?v=DDJn4Xrslbg
+Words: 133
+URL: https://www.youtube.com/shorts/nc2LIPwkJKM
 
 --- TRANSCRIPT ---
 

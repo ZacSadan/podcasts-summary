@@ -1,0 +1,71 @@
+Feed: Greg Isenberg
+Episode: Most Valuable Skill of 2026: Managing AI Agents
+Method: description
+Language: en
+Words: 818
+URL: https://www.youtube.com/watch?v=vJEy3nP2_C8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I welcome Ryan Carson back to the show to turn anyone into a world-class agent operator. Ryan spent 25 years founding companies, scaled Treehouse to around 110 employees and a million learners, and now runs Untangle, an AI divorce agent for family law firms, as a team of one while his revenue tracks toward 4x this month. He walks me through his full stack: running cloud agents in parallel, building automations that watch production and improve themselves, and shipping 22 to 40 PRs a day, often from his phone. We also get into keeping token costs sane through model routing and building a durable reputation by sharing your work on X. By the end, listeners hold a clear playbook to run agents, automate the busywork, and ship faster.
+
+Timestamps
+
+00:00 – Intro
+01:43 – The New Agent Paradigm
+04:24 – Inside Ryan’s eight-screen desk setup
+07:23 – Why Devin and cloud agents
+10:00 – Everyone Is Now a Manager of Agents
+13:15 – Local vs Virtual Development
+14:50 – Agent Management System
+24:22 – 3 Automations to build
+32:54 – Self-improvement loop with Grace
+34:38 – Token costs and model routing
+40:33 – Building reputation on X
+44:03 – Closing thoughts
+
+Key Points
+
+* Ryan frames every knowledge worker as a manager of agents, and mastering that role is the new edge.
+* Cloud VMs let Ryan run five to ten agents at once and ship 22 to 40 PRs a day.
+* Roughly half of Ryan's work happens on his phone, which keeps his agents moving in real time.
+* Automations like a production watchdog and a daily self-improvement loop hand Ryan a running summary of what matters.
+* Model routing keeps costs in check: budget around $5k a month per employee and lean on cheaper fine-tuned models.
+* Sharing your work publicly on X compounds into relationships and opportunities over time.
+
+Numbered Section Summaries
+
+* Meet Ryan and Untangle Ryan Carson returns to walk me through his stack. He spent 25 years founding companies, scaled Treehouse to about 110 employees and a million learners, and now runs Untangle, an AI divorce agent for family law firms, solo, with revenue on track to 4x this month.
+
+* The World-Class Agent Manager Ryan's core premise: everyone is now a manager of agents, and becoming the best in the world at it is the goal. He argues that managing agents makes you more technical over time, much like a skilled engineering manager.
+
+* The Desk Setup and Key Security Ryan lays out eight screens, a 52-inch monitor, a UG Monk paper to-do system, a vertical mouse, and Whisperflow for voice. He stores all prod write keys in 1Password and hands them to agents only when a task truly calls for it, keeping production safe.
+
+* Cloud Agents Over Local Machines Ryan explains cloud VMs: click a button, spin up a fresh environment, and run many agents in parallel while the code stays cleanly separated. He credits this shift for his 50x jump in output and urges builders to move work into the cloud as fast as they can.
+
+* Staying Sane at 50x With 22 to 40 PRs a day, Ryan treats his job as making 10 to 20 high stakes decisions before lunch. He pins his most important threads, checks them on a roughly 25-minute cadence, and works from his phone so his agents keep moving.
+
+* Automations That Run the Business Ryan shares three automations: an end-to-end signup test that browser-tests three times a week for about $60 in tokens, a 9am production watchdog that summarizes customer activity and links to real UI, and a daily self-improvement loop where an agent named Grace grades chats on a rubric and ships roughly three fixes a day.
+
+* Token Costs and Model Routing After a $20k token month, Ryan settled on roughly $5k per employee plus heavy model routing, using cheaper fine-tuned models like SWE 1.7 for loop work. He favors independent agent labs such as Devin, AMP, Factory, and Cursor for affordable long-term engineering, while enjoying the subsidized Codex Mac app for everyday tasks.
+
+* Reputation and the Long Game Ryan closes on building a software factory where agents write, review, and ship 100% of your code, plus building credibility by sharing your learning on X. He points to Sahel Bloom's rise from private equity to a million-plus followers and a New York Times bestseller as proof that publishing what you learn opens doors.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND RYAN ON SOCIAL
+
+Ryan’s Website: https://www.ryancarson.com
+X/Twitter: https://x.com/ryancarson
+Untangle: https://untangle.us

@@ -1,0 +1,17 @@
+Feed: Y Combinator
+Episode: AI-Powered Consumer Products for 1 Billion People
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/shorts/eY20SPBpQEg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Every major platform shift creates new consumer giants. But three years into the AI era, ChatGPT is still the only new icon on most people’s home screens.
+
+As intelligence gets better and dramatically cheaper, nearly every consumer category opens up again: education, health, finance, entertainment, transportation, and how we connect with each other. Consumer is going to be so back.
+
+If you’re building for a billion people, we’d love to hear from you.
+
+Apply for the Fall 2026 batch at ycombinator.com/apply.

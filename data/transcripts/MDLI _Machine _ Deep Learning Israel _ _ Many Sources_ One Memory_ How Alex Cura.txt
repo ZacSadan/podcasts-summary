@@ -1,0 +1,18 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: Many Sources, One Memory: How Alex Curates Fragmented Enterprise Knowledge. Daniel Shalev, Twine
+Method: description
+Language: en
+Words: 126
+URL: https://www.youtube.com/watch?v=341Cc65tIes
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מהאירוע המשותף של קהילת MDLI וחברת אורקל,  AgentStsck
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/agentstack
+
+
+
+Organizational knowledge is fragmented. Some lives in formal knowledge bases, much is buried in closed tickets, and a large share remains tacit, surviving only as experience that was never written down. So how does Alex, our digital worker, consolidate all of this into a single, self-updating knowledge layer it can reliably reason over?
+
+The answer lies in actively ingesting from varied enterprise sources and continuously curating the data to prevent context rot and contradiction. In this session, we will show how this agentic pipeline comes together to keep every answer reliably grounded in its source, allowing Alex to truly become a trusted extension of your team.

@@ -1,0 +1,11 @@
+Feed: Check Point
+Episode: How to Connect a New Gateway to Check Point Spark Management
+Method: description
+Language: en
+Words: 53
+URL: https://www.youtube.com/watch?v=yweIcXCNYBM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to onboard a new Check Point Quantum Spark gateway to Spark Management in just a few steps. This quick walkthrough covers creating a Gateway object, assigning it to an account and Plan, and activating it from the appliance's Web UI — so it shows up live in your Spark Management dashboard.

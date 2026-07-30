@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: The Easiest AI Business Idea 💡💰
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/shorts/kURp6YM6O5Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This might be one of the easiest AI business ideas I’ve seen.
+
+YouTuber Corey Ganim built a @Hyperagentapp skill that finds local businesses with outdated websites, creates improved versions for them, and even generates the outreach emails you can use to pitch them.
+
+He published the entire workflow to the new Hyperagent Marketplace, so anyone can use the same team of AI agents without building it new from scratch.
+
+I also added my own B-Roll Video Generator to the Marketplace, which turns a video script into organized B-roll ideas and assets.
+
+You can use either of our skills or describe your own idea and have Hyperagent build a specialized team of agents to handle the workflow.
+
+Try it today and get $1,000 in free credits for Hyperagent here: https://www.hyperagent.com/matt
+
+#HyperagentPartner #AIagents #businessidea #startup #AI

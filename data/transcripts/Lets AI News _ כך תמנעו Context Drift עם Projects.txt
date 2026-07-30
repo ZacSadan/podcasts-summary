@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: כך תמנעו Context Drift עם Projects
-Method: description
+Method: cached_description
 Language: he
-Words: 141
-URL: https://www.youtube.com/watch?v=fYMWupUspdU
+Words: 143
+URL: https://www.youtube.com/shorts/xt86C7CCr0A
 
 --- TRANSCRIPT ---
 

@@ -1,9 +1,9 @@
 Feed: Lets AI News
 Episode: מה יהיה עתיד ההשכלה הגבוהה בעידן הבינה המלאכותית?
-Method: description
+Method: cached_description
 Language: he
-Words: 133
-URL: https://www.youtube.com/watch?v=8cniU7ZLsng
+Words: 135
+URL: https://www.youtube.com/shorts/d60mm1ZudDw
 
 --- TRANSCRIPT ---
 
