@@ -1,0 +1,48 @@
+Feed: DoiT
+Episode: Flooid powers the future of retail with Google Cloud and DoiT
+Method: description
+Language: en
+Words: 289
+URL: https://www.youtube.com/watch?v=zwVkKju5FlU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DoiT helps Flooid maximize the value of Google Cloud through cloud intelligence, continuous optimization, and hands-on FinOps expertise.
+
+Read the full Flooid customer story: [ARTICLE URL]
+
+Flooid’s Unified Commerce platform supports complex, always-on retail experiences for global customers. As the company expanded its use of Google Cloud, it needed greater visibility into cloud expenditure, stronger governance, and a more efficient way to align infrastructure with customer demand.
+
+Through DoiT Cloud Intelligence and an ongoing partnership with DoiT’s cloud architects, FinOps specialists, and customer success team, Flooid has embedded cloud analytics, reporting, and optimization into its operating processes.
+
+DoiT helps Flooid:
+
+• Improve visibility into Google Cloud costs and utilisation
+• Identify infrastructure and compute optimization opportunities
+• Manage committed use discounts more effectively
+• Simplify complex cloud decisions
+• Build more mature FinOps and cloud governance practices
+• Stay ahead of new Google Cloud capabilities
+• Connect cloud investment more closely with customer consumption
+
+Google Cloud provides the secure, scalable infrastructure behind Flooid’s Unified Commerce platform. DoiT helps ensure that infrastructure remains efficient, cost-conscious, and aligned with Flooid’s business priorities.
+
+What began as a commercial relationship in 2021 has developed into a strategic partnership focused on helping Flooid continuously improve performance, control cloud expenditure, and innovate at scale.
+
+CHAPTERS
+
+00:00 Meet Flooid
+00:11 Building a Unified Commerce platform
+00:27 Moving from data centers to Google Cloud
+00:37 How DoiT unlocks greater Google Cloud value
+00:53 Supporting secure and scalable retail technology
+01:13 Embedding DoiT Cloud Intelligence and FinOps
+01:30 From commercial support to strategic partnership
+01:43 Preparing retailers for future disruption
+02:07 Optimizing Flooid’s Google Cloud environment
+02:19 AI and the future of retail
+02:29 Supporting always-on commerce
+02:41 Scaling confidently with Google Cloud and DoiT
+
+#DoiT #GoogleCloud #FinOps
