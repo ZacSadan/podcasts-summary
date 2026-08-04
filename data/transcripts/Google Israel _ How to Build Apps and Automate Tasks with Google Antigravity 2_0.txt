@@ -1,0 +1,34 @@
+Feed: Google Israel
+Episode: How to Build Apps and Automate Tasks with Google Antigravity 2.0
+Method: description
+Language: en
+Words: 106
+URL: https://www.youtube.com/watch?v=bSp-foRDH5M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Google Antigravity 2.0 is your standalone desktop command center, designed to run autonomous AI agents in parallel. Watch this video to see AI agents plan, build, test, and execute complex workflows simultaneously. 
+
+Antigravity also comes as CLI, an IDE, and SDK.
+
+This site is a great resource to guide you as you ramp up on all things Antigravity: https://antigravity.google/
+
+Watch more videos from Google and start building with AI:
+https://youtu.be/tYhgWRJeYzs?si=QOs_Gqfzo601H2Ts
+https://youtu.be/xCkIxdJZ8fU?si=vAXEw-x8NZPzm6Fm
+https://youtu.be/b1Pvt072wKQ?si=9DbKnYvYn5AlRHT2
+https://youtu.be/NBOYISh5jC4?si=AQjg31-VHW4zXeNY
+https://youtu.be/QAKtNOWsaHI?si=vJudwNULApvhSbDd
+https://youtu.be/mx0xFpVjxHE?si=mpMQZRc5QfNf2-Wf
+https://youtu.be/uW4B6ziQqvY?si=yRqKiqWlrFwnuPVE
+https://youtu.be/guv2-EoGUXw?si=UcTNfgPQfTrLWb3u
+https://youtu.be/TglEnUdBb3o?si=dWkPJcSdTK6DAF_l
+
+#GoogleGemini #GoogleAI #Antigravity
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google
