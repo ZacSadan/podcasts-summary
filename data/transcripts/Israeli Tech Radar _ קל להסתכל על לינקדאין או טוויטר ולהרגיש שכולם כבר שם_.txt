@@ -1,9 +1,9 @@
 Feed: Israeli Tech Radar
 Episode: קל להסתכל על לינקדאין או טוויטר ולהרגיש שכולם כבר שם.
-Method: description
+Method: cached_description
 Language: he
-Words: 97
-URL: https://www.youtube.com/shorts/uIExCnTK9v4
+Words: 99
+URL: https://www.youtube.com/shorts/0TggM-WTYwQ
 
 --- TRANSCRIPT ---
 
