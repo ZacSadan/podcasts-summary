@@ -319,7 +319,7 @@ def main():
                         help="Append summaries to results.txt.md (disabled by default)")
     args = parser.parse_args()
 
-    if IsShbbatKodeah():
+    if not args.test and IsShbbatKodeah():
         logger.info("Shabbat Kodesh (Fri 16:00 - Sat 21:00 IL time) — skipping run entirely.")
         return
 
