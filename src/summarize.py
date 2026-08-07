@@ -226,7 +226,7 @@ def _translate_en_to_he(text: str) -> str:
 _PRE_EXTRACT_HE_WORDS = 1500   # max words to translate (he→en)
 _PRE_EXTRACT_EN_WORDS = 4000   # max words to feed into BART
 
-_GITHUB_MODELS_PROMPT = """\
+_SUMMARY_PROMPT = """\
 You are summarizing a podcast episode. Write a detailed Hebrew summary.
 
 IMPORTANT RULES:
@@ -254,7 +254,7 @@ Transcript:
 {transcript}"""
 
 
-_GITHUB_MODELS_PROMPT_LONG = """\
+_SUMMARY_PROMPT_LONG = """\
 You are summarizing a podcast episode that has full, detailed show notes. Write a comprehensive Hebrew summary.
 
 IMPORTANT RULES:
@@ -283,10 +283,7 @@ Show Notes:
 {transcript}"""
 
 
-_MODEL_WORD_LIMITS = {
-    "gpt-4o": 2000,       # ~3k tokens input, stays under 8k TPM with 4k output
-    "gpt-4o-mini": 4000,  # ~6k tokens input, conservative to avoid context refusals
-}
+_LOCAL_LLM_WORD_LIMIT = 3000  # ~4k tokens input, leaves room for a 1200-word output in a 8k context
 
 _REFUSAL_PHRASES = (
     "i'm sorry",
@@ -309,86 +306,79 @@ def _is_refusal(text: str) -> bool:
     )
 
 
-def _summarize_with_github_models(episode, text: str, github_token: str,
-                                   long_summary: bool = False) -> tuple:
-    """Returns (hebrew_summary, english_summary, steps) using GitHub Models free API."""
-    from openai import OpenAI
+_LOCAL_LLM_MODEL = "Qwen2.5-1.5B-Instruct"
+_LOCAL_LLM_REPO = "Qwen/Qwen2.5-1.5B-Instruct-GGUF"
+_LOCAL_LLM_FILE = "qwen2.5-1.5b-instruct-q4_k_m.gguf"
 
-    client = OpenAI(
-        base_url="https://models.inference.ai.azure.com",
-        api_key=github_token,
-    )
+_llm_instance = None
 
+
+def _get_local_llm():
+    """Load (and cache in-process) the local GGUF model via llama-cpp-python."""
+    global _llm_instance
+    if _llm_instance is None:
+        from llama_cpp import Llama
+        _llm_instance = Llama.from_pretrained(
+            repo_id=_LOCAL_LLM_REPO,
+            filename=_LOCAL_LLM_FILE,
+            n_ctx=8192,
+            n_threads=2,
+            verbose=False,
+        )
+    return _llm_instance
+
+
+def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
+    """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
+    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key."""
+    llm = _get_local_llm()
+
+    prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
+    words = text.split()
     result = ""
-    used_model = "gpt-4o-mini"
-    last_exc = None
 
-    # Try gpt-4o first, fall back to gpt-4o-mini; each model gets its own word limit.
-    # For refusals (text too long), retry with progressively smaller chunks.
-    # For API exceptions, skip to the next model.
-    for model in ("gpt-4o", "gpt-4o-mini"):
-        word_limit = _MODEL_WORD_LIMITS[model]
-        words = text.split()
-        got_result = False
-
-        prompt_tpl = _GITHUB_MODELS_PROMPT_LONG if long_summary else _GITHUB_MODELS_PROMPT
-        for attempt, limit in enumerate([word_limit, word_limit // 2, word_limit // 4]):
-            truncated = " ".join(words[:limit]) if len(words) > limit else text
-            prompt = prompt_tpl.format(
-                title=episode.title,
-                feed_name=episode.feed_name,
-                transcript=truncated,
+    for attempt, limit in enumerate([_LOCAL_LLM_WORD_LIMIT, _LOCAL_LLM_WORD_LIMIT // 2, _LOCAL_LLM_WORD_LIMIT // 4]):
+        truncated = " ".join(words[:limit]) if len(words) > limit else text
+        prompt = prompt_tpl.format(
+            title=episode.title,
+            feed_name=episode.feed_name,
+            transcript=truncated,
+        )
+        response = llm.create_chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2048,
+            temperature=0.3,
+        )
+        candidate = response["choices"][0]["message"]["content"] or ""
+        if _is_refusal(candidate):
+            logger.warning(
+                f"  Local LLM refused (attempt {attempt + 1}, "
+                f"{len(truncated.split())} words) — retrying with fewer words"
             )
-            try:
-                response = client.chat.completions.create(
-                    model=model,
-                    messages=[{"role": "user", "content": prompt}],
-                    max_tokens=4096,
-                )
-                candidate = response.choices[0].message.content or ""
-                if _is_refusal(candidate):
-                    logger.warning(
-                        f"  GitHub Models {model} refused (attempt {attempt + 1}, "
-                        f"{len(truncated.split())} words) — retrying with fewer words"
-                    )
-                    continue  # try smaller chunk for same model
-                # Detect placeholder response (model echoed the format template literally)
-                parsed_he = candidate.split("HEBREW_SUMMARY:", 1)[1].strip() if "HEBREW_SUMMARY:" in candidate else ""
-                if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed_he) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed_he):
-                    logger.warning(
-                        f"  GitHub Models {model} returned a placeholder — retrying with fewer words"
-                    )
-                    continue
-                if len(parsed_he) < 50:
-                    logger.warning(
-                        f"  GitHub Models {model} returned an empty/too-short summary "
-                        f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
-                    )
-                    continue
-                logger.info(f"  GitHub Models: used {model} ({len(truncated.split())} words)")
-                result = candidate
-                used_model = model
-                got_result = True
-                break
-            except Exception as e:
-                logger.warning(f"  GitHub Models {model} failed: {type(e).__name__}: {e}")
-                last_exc = e
-                break  # API error — skip remaining chunk sizes, try next model
-
-        if got_result:
-            break  # done
+            continue
+        parsed_he = candidate.split("HEBREW_SUMMARY:", 1)[1].strip() if "HEBREW_SUMMARY:" in candidate else ""
+        if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed_he) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed_he):
+            logger.warning(f"  Local LLM returned a placeholder — retrying with fewer words")
+            continue
+        if len(parsed_he) < 50:
+            logger.warning(
+                f"  Local LLM returned an empty/too-short summary "
+                f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
+            )
+            continue
+        logger.info(f"  Local LLM: used {_LOCAL_LLM_MODEL} ({len(truncated.split())} words)")
+        result = candidate
+        break
 
     if not result:
-        if last_exc:
-            raise last_exc
-        raise RuntimeError("All GitHub Models attempts failed")
+        raise RuntimeError("All local LLM attempts failed")
 
     if "HEBREW_SUMMARY:" in result:
         hebrew_summary = result.split("HEBREW_SUMMARY:", 1)[1].strip()
     else:
         hebrew_summary = result.strip()
 
-    return hebrew_summary, "", [(f"Summary: GitHub Models {used_model} (he)", "summary")]
+    return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he)", "summary")]
 
 
 def _summarize_with_models(episode, transcript_text: str, lang: str, settings: dict,
@@ -397,14 +387,14 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
     pipeline_steps is a list of (text, category) tuples; category is one of
     "transcript", "summary", "translate", "debug". The telegram output drops
     "summary" and "debug" steps.
-    Uses GitHub Models (free, GITHUB_TOKEN) if available, else BART+Helsinki fallback."""
-    import os
-    github_token = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN", "")
-    if github_token:
+    Tries the local GGUF LLM first; falls back to BART+Helsinki if that fails."""
+    try:
         text = _clean_text(transcript_text, strip_urls=False)
-        return _summarize_with_github_models(episode, text, github_token, long_summary)
+        return _summarize_with_local_llm(episode, text, long_summary)
+    except Exception as e:
+        logger.warning(f"  Local LLM unavailable ({type(e).__name__}: {e}), falling back to BART+Helsinki")
 
-    # ── Fallback: BART + Helsinki (no API key available) ──────────────────────
+    # ── Fallback: BART + Helsinki (local LLM failed to load/run) ───────────────
     steps = []
     text = _clean_text(transcript_text, strip_urls=True)
 
