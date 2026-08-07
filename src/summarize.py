@@ -459,7 +459,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
     return result
 
 
-def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
+def _summarize_with_local_llm(episode, text: str, settings: dict, long_summary: bool = False) -> tuple:
     """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
     (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key.
     Transcripts longer than _LOCAL_LLM_WORD_LIMIT are split into chunks, each
@@ -486,25 +486,23 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         notes.append(f"[חלק {i}/{len(chunks)}]\n{note}")
 
     combined_notes = "\n\n".join(notes)
-    hebrew_summary = _run_local_llm(llm, _COMBINE_SUMMARY_PROMPT, "HEBREW_SUMMARY:", combined_notes, fmt_kwargs)
-    logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final summary")
-    return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he, {len(chunks)} chunks)", "summary")]
-
-
-def _summarize_with_models(episode, transcript_text: str, lang: str, settings: dict,
-                           long_summary: bool = False) -> tuple:
-    """Returns (hebrew_summary, english_summary, pipeline_steps).
-    pipeline_steps is a list of (text, category) tuples; category is one of
-    "transcript", "summary", "translate", "debug". The telegram output drops
-    "summary" and "debug" steps.
-    Tries the local GGUF LLM first; falls back to BART+Helsinki if that fails."""
     try:
-        text = _clean_text(transcript_text, strip_urls=False)
-        return _summarize_with_local_llm(episode, text, long_summary)
+        hebrew_summary = _run_local_llm(llm, _COMBINE_SUMMARY_PROMPT, "HEBREW_SUMMARY:", combined_notes, fmt_kwargs)
+        logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final summary")
+        return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he, {len(chunks)} chunks)", "summary")]
     except Exception as e:
-        logger.warning(f"  Local LLM unavailable ({type(e).__name__}: {e}), falling back to BART+Helsinki")
+        logger.warning(
+            f"  Local LLM failed to combine {len(chunks)} chunk notes "
+            f"({type(e).__name__}: {e}), combining via BART+Helsinki instead"
+        )
+        hebrew_summary, english_summary, steps = _bart_helsinki_fallback(combined_notes, "he", settings)
+        steps.insert(0, (f"Summary: {_LOCAL_LLM_MODEL} ({len(chunks)} chunk notes)", "summary"))
+        return hebrew_summary, english_summary, steps
 
-    # ── Fallback: BART + Helsinki (local LLM failed to load/run) ───────────────
+
+def _bart_helsinki_fallback(transcript_text: str, lang: str, settings: dict) -> tuple:
+    """Returns (hebrew_summary, english_summary, steps) using BART + Helsinki-NLP
+    translation models — used when the local LLM is unavailable or fails."""
     steps = []
     text = _clean_text(transcript_text, strip_urls=True)
 
@@ -536,6 +534,21 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
         hebrew_summary = _translate_en_to_he(english_summary)
         steps.append(("Translate: en→he (Helsinki opus-mt-en-he)", "translate"))
         return hebrew_summary, english_summary, steps
+
+
+def _summarize_with_models(episode, transcript_text: str, lang: str, settings: dict,
+                           long_summary: bool = False) -> tuple:
+    """Returns (hebrew_summary, english_summary, pipeline_steps).
+    pipeline_steps is a list of (text, category) tuples; category is one of
+    "transcript", "summary", "translate", "debug". The telegram output drops
+    "summary" and "debug" steps.
+    Tries the local GGUF LLM first; falls back to BART+Helsinki if that fails."""
+    try:
+        text = _clean_text(transcript_text, strip_urls=False)
+        return _summarize_with_local_llm(episode, text, settings, long_summary)
+    except Exception as e:
+        logger.warning(f"  Local LLM unavailable ({type(e).__name__}: {e}), falling back to BART+Helsinki")
+        return _bart_helsinki_fallback(transcript_text, lang, settings)
 
 
 # ── Formatting ────────────────────────────────────────────────────────────────
