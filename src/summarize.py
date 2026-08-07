@@ -289,6 +289,59 @@ Show Notes:
 {transcript}"""
 
 
+_CHUNK_SUMMARY_PROMPT = """\
+You are summarizing PART {part} OF {total} of a longer podcast transcript. Write detailed notes in Hebrew covering everything discussed in this part only.
+
+LANGUAGE RULE (highest priority, never break this):
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+
+IMPORTANT RULES:
+- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms)
+- Include all numbers, statistics, names, and specific claims made in this part
+- Do NOT summarize or refer to other parts — only what appears in THIS transcript segment
+- Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info
+- This is a working note, not a final summary — plain prose is fine, no need for headers
+
+Respond EXACTLY in this format (no extra text before or after):
+NOTES:
+[your Hebrew notes here, in Hebrew script only]
+
+Episode: {title}
+Podcast: {feed_name}
+
+Transcript (part {part} of {total}):
+{transcript}"""
+
+
+_COMBINE_SUMMARY_PROMPT = """\
+You are given Hebrew notes covering different parts of the same podcast episode, in order. Combine them into one detailed, coherent Hebrew summary of the whole episode.
+
+LANGUAGE RULE (highest priority, never break this):
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+
+IMPORTANT RULES:
+- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
+- Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed across all parts, in order
+- Use bold section headers (**כותרת**) and bullet points
+- Include all numbers, statistics, names, and specific claims made
+- Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.)
+- Do NOT include the podcast host/owner's own biography or company description — only content actually discussed
+- Do NOT use hashtags (words starting with #) anywhere
+- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned" — weave each link into the sentence of the paragraph where that topic was discussed
+
+Respond EXACTLY in this format (no extra text before or after):
+HEBREW_SUMMARY:
+[your Hebrew summary here, in Hebrew script only]
+
+Episode: {title}
+Podcast: {feed_name}
+
+Notes from all parts, in order:
+{transcript}"""
+
+
 _LOCAL_LLM_WORD_LIMIT = 3000  # ~4k tokens input, leaves room for a 1200-word output in a 8k context
 
 _REFUSAL_PHRASES = (
@@ -352,22 +405,17 @@ def _get_local_llm():
     return _llm_instance
 
 
-def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
-    """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
-    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key."""
-    llm = _get_local_llm()
-
-    prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
+def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dict) -> str:
+    """Run one prompt against the local LLM, retrying with progressively shorter
+    transcript slices if the output is a refusal, placeholder, too short,
+    repetitive, or in the wrong script. Returns the parsed text after `marker`,
+    or raises RuntimeError if every attempt failed."""
     words = text.split()
     result = ""
 
     for attempt, limit in enumerate([_LOCAL_LLM_WORD_LIMIT, _LOCAL_LLM_WORD_LIMIT // 2, _LOCAL_LLM_WORD_LIMIT // 4]):
         truncated = " ".join(words[:limit]) if len(words) > limit else text
-        prompt = prompt_tpl.format(
-            title=episode.title,
-            feed_name=episode.feed_name,
-            transcript=truncated,
-        )
+        prompt = prompt_tpl.format(transcript=truncated, **fmt_kwargs)
         response = llm.create_chat_completion(
             messages=[{"role": "user", "content": prompt}],
             max_tokens=2048,
@@ -381,41 +429,66 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
                 f"{len(truncated.split())} words) — retrying with fewer words"
             )
             continue
-        parsed_he = candidate.split("HEBREW_SUMMARY:", 1)[1].strip() if "HEBREW_SUMMARY:" in candidate else ""
-        if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed_he) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed_he):
-            logger.warning(f"  Local LLM returned a placeholder — retrying with fewer words")
+        parsed = candidate.split(marker, 1)[1].strip() if marker in candidate else ""
+        if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed):
+            logger.warning("  Local LLM returned a placeholder — retrying with fewer words")
             continue
-        if len(parsed_he) < 50:
+        if len(parsed) < 50:
             logger.warning(
-                f"  Local LLM returned an empty/too-short summary "
+                f"  Local LLM returned an empty/too-short result "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
-        if _is_degenerate_repetition(parsed_he):
+        if _is_degenerate_repetition(parsed):
             logger.warning(
                 f"  Local LLM output degenerated into repetition "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
-        if _has_wrong_script(parsed_he):
+        if _has_wrong_script(parsed):
             logger.warning(
                 f"  Local LLM code-switched into a non-Hebrew script "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
-        logger.info(f"  Local LLM: used {_LOCAL_LLM_MODEL} ({len(truncated.split())} words)")
-        result = candidate
+        result = parsed
         break
 
     if not result:
         raise RuntimeError("All local LLM attempts failed")
+    return result
 
-    if "HEBREW_SUMMARY:" in result:
-        hebrew_summary = result.split("HEBREW_SUMMARY:", 1)[1].strip()
-    else:
-        hebrew_summary = result.strip()
 
-    return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he)", "summary")]
+def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
+    """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
+    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key.
+    Transcripts longer than _LOCAL_LLM_WORD_LIMIT are split into chunks, each
+    summarized independently, then combined into one final summary (map-reduce)
+    so long episodes aren't silently truncated."""
+    llm = _get_local_llm()
+    fmt_kwargs = {"title": episode.title, "feed_name": episode.feed_name}
+    words = text.split()
+
+    if len(words) <= _LOCAL_LLM_WORD_LIMIT:
+        prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
+        hebrew_summary = _run_local_llm(llm, prompt_tpl, "HEBREW_SUMMARY:", text, fmt_kwargs)
+        logger.info(f"  Local LLM: used {_LOCAL_LLM_MODEL} ({len(words)} words)")
+        return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he)", "summary")]
+
+    chunks = [" ".join(words[i:i + _LOCAL_LLM_WORD_LIMIT])
+              for i in range(0, len(words), _LOCAL_LLM_WORD_LIMIT)]
+    logger.info(f"  Local LLM: transcript split into {len(chunks)} chunks for map-reduce")
+    notes = []
+    for i, chunk in enumerate(chunks, 1):
+        chunk_kwargs = {**fmt_kwargs, "part": i, "total": len(chunks)}
+        note = _run_local_llm(llm, _CHUNK_SUMMARY_PROMPT, "NOTES:", chunk, chunk_kwargs)
+        logger.info(f"  Local LLM: chunk {i}/{len(chunks)} notes ({len(note.split())} words)")
+        notes.append(f"[חלק {i}/{len(chunks)}]\n{note}")
+
+    combined_notes = "\n\n".join(notes)
+    hebrew_summary = _run_local_llm(llm, _COMBINE_SUMMARY_PROMPT, "HEBREW_SUMMARY:", combined_notes, fmt_kwargs)
+    logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final summary")
+    return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he, {len(chunks)} chunks)", "summary")]
 
 
 def _summarize_with_models(episode, transcript_text: str, lang: str, settings: dict,
