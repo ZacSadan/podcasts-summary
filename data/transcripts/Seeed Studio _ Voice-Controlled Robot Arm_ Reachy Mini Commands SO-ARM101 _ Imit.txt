@@ -1,0 +1,19 @@
+Feed: Seeed Studio
+Episode: Voice-Controlled Robot Arm: Reachy Mini Commands SO-ARM101 | Imitation Learning Demo
+Method: description
+Language: en
+Words: 85
+URL: https://www.youtube.com/watch?v=HgReXV3z20A
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What happens when you give a robot a voice?
+In this demo, Reachy Mini receives a spoken command and tells the SO-ARM101 robotic arm to execute the action—bringing voice AI and real-world robot control together.
+Built with Reachy Mini, SO-ARM101, and LeRobot, this open-source robotics setup explores voice-controlled robotic arms, AI automation, and embodied AI.
+Explore SO-ARM101
+📘 Download SenseCraft: https://sensecraft.seeed.cc/en/robotics
+🛒 Get SO-ARM101: https://www.seeedstudio.com/SO-ARM-101-Assembled-Kit-Pro-p-6691.html
+What would you ask the robot to do next?
+Hashtags
+#ReachyMini #SOARM101 #RobotArm #VoiceControl #LeRobot #OpenSourceRobotics #EmbodiedAI #AIrobotics #RoboticArm #HuggingFace

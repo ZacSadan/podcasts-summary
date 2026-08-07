@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: Jack Dorsey Launches Free Slack But For AI Agents
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/shorts/FjalStmjUpw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Jack Dorsey’s company, Block, recently launched Buzz. It's basically a Slack workspace but for AI agents, and it's currently free, decentralized and open-source.
+
+Here's how it works:
+👋 It starts you off with a core team: Fizz (the builder), Honey (the writer), and Bumble (the researcher).
+💻 You can give them parallel tasks and watch them build it in real time using any model you choose.
+✍️ You can even tag them in a thread to peer-review each other's code and offer constructive feedback.
+🔒 Because it's built on the open-source Nostr protocol, it's model-agnostic, decentralized, and entirely under your control.
+
+This kind of alternative is great for developers, startups, and anyone looking to run a self-sovereign AI workforce under their own control.
+
+Would this replace Slack for you?
+
+#AI #AIAgents #TechNews #OpenSource #futuretech
