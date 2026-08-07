@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team -  DEF CON Groups Highlight DC256
+Method: description
+Language: en
+Words: 38
+URL: https://www.youtube.com/watch?v=u-SsrNy-cK0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+If you're not in a DEF CON Group, you're missing out on the opportunity to keep the DEF CON vibes going all year long, Ryan from the Video Team gets some fresh info from DC256 in Huntsville, Alabama
