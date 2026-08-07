@@ -306,9 +306,18 @@ def _is_refusal(text: str) -> bool:
     )
 
 
-_LOCAL_LLM_MODEL = "Qwen2.5-1.5B-Instruct"
-_LOCAL_LLM_REPO = "Qwen/Qwen2.5-1.5B-Instruct-GGUF"
-_LOCAL_LLM_FILE = "qwen2.5-1.5b-instruct-q4_k_m.gguf"
+def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
+    """Return True if the text is dominated by a small model looping the same
+    sentence(s) — a common failure mode under long-context summarization."""
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if len(s.strip()) > 15]
+    if len(sentences) < min_sentences:
+        return False
+    return len(set(sentences)) / len(sentences) < 0.6
+
+
+_LOCAL_LLM_MODEL = "Qwen2.5-3B-Instruct"
+_LOCAL_LLM_REPO = "Qwen/Qwen2.5-3B-Instruct-GGUF"
+_LOCAL_LLM_FILE = "qwen2.5-3b-instruct-q4_k_m.gguf"
 
 _llm_instance = None
 
@@ -330,7 +339,7 @@ def _get_local_llm():
 
 def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
     """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
-    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key."""
+    (Qwen2.5-3B-Instruct via llama-cpp-python) — no network calls, no API key."""
     llm = _get_local_llm()
 
     prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
@@ -348,6 +357,9 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
             messages=[{"role": "user", "content": prompt}],
             max_tokens=2048,
             temperature=0.3,
+            repeat_penalty=1.3,
+            frequency_penalty=0.4,
+            presence_penalty=0.2,
         )
         candidate = response["choices"][0]["message"]["content"] or ""
         if _is_refusal(candidate):
@@ -363,6 +375,12 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         if len(parsed_he) < 50:
             logger.warning(
                 f"  Local LLM returned an empty/too-short summary "
+                f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
+            )
+            continue
+        if _is_degenerate_repetition(parsed_he):
+            logger.warning(
+                f"  Local LLM output degenerated into repetition "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
