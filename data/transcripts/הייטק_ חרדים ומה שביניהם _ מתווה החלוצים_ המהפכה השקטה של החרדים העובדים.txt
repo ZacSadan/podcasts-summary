@@ -1,6 +1,6 @@
 Feed: הייטק, חרדים ומה שביניהם
 Episode: מתווה החלוצים: המהפכה השקטה של החרדים העובדים
-Method: whisper
+Method: cached_whisper
 Language: he
 Words: 7643
 URL: https://ddoshightechcharedim.podbean.com/e/%d7%9e%d7%aa%d7%95%d7%95%d7%94%d7%94%d7%97%d7%9c%d7%95%d7%a6%d7%99%d7%9d%d7%94%d7%9e%d7%94%d7%a4%d7%9b%d7%94-%d7%94%d7%a9%d7%a7/
