@@ -229,6 +229,10 @@ _PRE_EXTRACT_EN_WORDS = 4000   # max words to feed into BART
 _SUMMARY_PROMPT = """\
 You are summarizing a podcast episode. Write a detailed Hebrew summary.
 
+LANGUAGE RULE (highest priority, never break this):
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
+
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
 - Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed
@@ -239,13 +243,12 @@ IMPORTANT RULES:
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
-- Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
 
 Respond EXACTLY in this format (no extra text before or after):
 HEBREW_SUMMARY:
-[your Hebrew summary here]
+[your Hebrew summary here, in Hebrew script only]
 
 Episode: {title}
 Podcast: {feed_name}
@@ -256,6 +259,10 @@ Transcript:
 
 _SUMMARY_PROMPT_LONG = """\
 You are summarizing a podcast episode that has full, detailed show notes. Write a comprehensive Hebrew summary.
+
+LANGUAGE RULE (highest priority, never break this):
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -268,13 +275,12 @@ IMPORTANT RULES:
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
-- Write ONLY Hebrew text (except for English tech terms that must stay in English)
 
 Cover EVERY subject in depth. 1200-1500 words.
 
 Respond EXACTLY in this format (no extra text before or after):
 HEBREW_SUMMARY:
-[your Hebrew summary here]
+[your Hebrew summary here, in Hebrew script only]
 
 Episode: {title}
 Podcast: {feed_name}
@@ -306,6 +312,15 @@ def _is_refusal(text: str) -> bool:
     )
 
 
+_NON_HEBREW_SCRIPT_RE = re.compile(r"[一-鿿぀-ヿ가-힣Ѐ-ӿ]")
+
+
+def _has_wrong_script(text: str, max_chars: int = 3) -> bool:
+    """Return True if the text contains Chinese/Japanese/Korean/Cyrillic characters —
+    a sign the model code-switched out of Hebrew under long-context load."""
+    return len(_NON_HEBREW_SCRIPT_RE.findall(text)) > max_chars
+
+
 def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
     """Return True if the text is dominated by a small model looping the same
     sentence(s) — a common failure mode under long-context summarization."""
@@ -315,9 +330,9 @@ def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
     return len(set(sentences)) / len(sentences) < 0.6
 
 
-_LOCAL_LLM_MODEL = "DictaLM2.0-Instruct"
-_LOCAL_LLM_REPO = "dicta-il/dictalm2.0-instruct-GGUF"
-_LOCAL_LLM_FILE = "dictalm2.0-instruct.Q4_K_M.gguf"
+_LOCAL_LLM_MODEL = "Qwen2.5-1.5B-Instruct"
+_LOCAL_LLM_REPO = "Qwen/Qwen2.5-1.5B-Instruct-GGUF"
+_LOCAL_LLM_FILE = "qwen2.5-1.5b-instruct-q4_k_m.gguf"
 
 _llm_instance = None
 
@@ -339,7 +354,7 @@ def _get_local_llm():
 
 def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
     """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
-    (DictaLM2.0-Instruct via llama-cpp-python) — no network calls, no API key."""
+    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key."""
     llm = _get_local_llm()
 
     prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
@@ -379,6 +394,12 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         if _is_degenerate_repetition(parsed_he):
             logger.warning(
                 f"  Local LLM output degenerated into repetition "
+                f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
+            )
+            continue
+        if _has_wrong_script(parsed_he):
+            logger.warning(
+                f"  Local LLM code-switched into a non-Hebrew script "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
