@@ -1,0 +1,24 @@
+Feed: Black Hat
+Episode: Cyber War Forum: The Critical Questions No One Has Real Answers To
+Method: description
+Language: en
+Words: 178
+URL: https://www.youtube.com/watch?v=jtalBI9mWqM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Cyber conflict is no longer something that happens in the shadows. It's central to how nations compete, how critical infrastructure is targeted, and how organizations prepare for real-world disruption.
+
+Laura Stebbing, VP of Content at Black Hat, sits down with Dr. Bilyana Lilly, Chair of the Cyber War Forum, to discuss why the cybersecurity community needs a dedicated space to confront the operational realities of cyber warfare—and why most organizations aren't prepared for what's already happening.
+
+What you'll hear:
+• Why we're already operating in a time of cyber war
+• The critical coordination gaps between government and private sector
+• What the three Cyber War Forum roundtables will address: Preparation, • Active Conflict, and Recovery
+• Why cross-industry collaboration is rare, and why it matters
+• How the Forum will produce practical playbooks, not white papers
+
+The Cyber War Forum takes place at Black Hat USA on August 5, 2026, in Las Vegas, and at Black Hat Europe on December 8, 2026, in London. Invitation-only. Chatham House rules. For more information: summits@blackhat.com
+
+Black Hat. One Step Ahead.

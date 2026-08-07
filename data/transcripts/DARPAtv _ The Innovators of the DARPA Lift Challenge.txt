@@ -1,0 +1,21 @@
+Feed: DARPAtv
+Episode: The Innovators of the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 127
+URL: https://www.youtube.com/watch?v=29107WlZsLY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Meet the people behind the drones flying at the DARPA Lift Challenge at https://darpaliftchallenge.com/the-field.
+
+And thank you to the competitors for your passion, ingenuity, and dedication to the science of aviation.
+
+The DARPA Lift Challenge aims to shatter the heavy-lift bottleneck by seeking novel drone designs capable of carrying payloads more than four times their weight. This would revolutionize how we use drones across all sectors.
+
+As military missions become more complicated, warfighters need more capable drones to use across diverse scenarios. The same applies to infrastructure inspection, package delivery, disaster response, and other civilian applications.
+
+Current multirotor drones, also known as unmanned aircraft systems (UAS), are simple, affordable, and easy to operate. But their payload-to-weight ratio is low, typically 1:1 or less.
+
+Follow along at www.darpaliftchallenge.com

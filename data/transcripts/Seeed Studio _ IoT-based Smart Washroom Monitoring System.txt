@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: IoT-based Smart Washroom Monitoring System
+Method: description
+Language: en
+Words: 154
+URL: https://www.youtube.com/watch?v=ZIZxes-uzW4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This project is an IoT-based Smart Washroom Monitoring System that enhances hygiene, occupancy monitoring, and maintenance efficiency in public washrooms. The system is built around the Seeed Studio XIAO ESP32S3, which interfaces with multiple sensors and display modules to provide real-time monitoring.
+
+A VL53L0X Time-of-Flight (ToF) distance sensor is used to detect toilet occupancy by measuring the distance between the sensor and the user. Based on the measured distance, the system determines whether the washroom is occupied or vacant. A 0.96-inch SSD1306 OLED display shows real-time information such as occupancy status, measured distance, total washroom usage count, and soap usage count, making the system easy to monitor locally. https://www.hackster.io/nova/smart-restroom-occupancy-monitor-ffd8c1
+
+Are you ready to revolutionize the dining industry with your own smart solutions? Whether you want to optimize restaurant workflows, build interactive displays, or enhance customer interactions, click the links below to join the Interactive Signage Contest, grab your components, and submit your prototype! https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

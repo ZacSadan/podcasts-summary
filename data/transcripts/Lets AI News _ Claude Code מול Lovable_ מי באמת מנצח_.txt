@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: Claude Code מול Lovable: מי באמת מנצח?
+Method: description
+Language: he
+Words: 148
+URL: https://www.youtube.com/watch?v=JEUuakNJa5k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Claude Code, Lovable ו-Base44 מבטיחים לשנות את הדרך שבה בונים תוכנה – אבל מה באמת ההבדל ביניהם? בסרטון אנחנו עושים סדר בין הכלים שמובילים את מהפכת ה-Vibe Coding, בוחנים למי כל אחד מהם מתאים, מהם היתרונות והחסרונות של Claude Code, והאם הוא באמת הכלי המועדף על מפתחים מקצועיים. באולפן מתארח אביתר, שמסביר למה דווקא Claude Code הפך לאחד מכלי ה-AI המדוברים ביותר בעולם הפיתוח, ומה צריך לדעת לפני שמתחילים לעבוד איתו.
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

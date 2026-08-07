@@ -1,0 +1,21 @@
+Feed: Check Point
+Episode: Introducing the Industry's First AI Network Firewall
+Method: cached_description
+Language: en
+Words: 89
+URL: https://www.youtube.com/watch?v=hbyIAidm1m0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI is transforming the network. Check Point is transforming the firewall to secure it.
+
+Introducing the industry's first AI Network Firewall — now part of the AI Defense Plane. AI protection built into your existing firewall. Inspect prompts. Protect AI apps. Govern agents. Enforce policy.
+
+From on-premises to multi-cloud, the same AI protection follows your firewall wherever it runs. No new infrastructure. No new console.
+
+Your trusted firewall. Now securing the next era — AI.
+Check Point. Secure your AI transformation.
+
+Explore the AI Network Firewall
+checkpoint.com/solutions/ai-network-firewall/

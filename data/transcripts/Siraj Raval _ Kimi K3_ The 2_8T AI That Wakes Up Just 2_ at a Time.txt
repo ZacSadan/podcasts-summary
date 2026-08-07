@@ -1,0 +1,42 @@
+Feed: Siraj Raval
+Episode: Kimi K3: The 2.8T AI That Wakes Up Just 2% at a Time
+Method: description
+Language: en
+Words: 154
+URL: https://www.youtube.com/watch?v=lhgJue86h5c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Start with the free AI Creator Academy: https://fanvueaicreatoracademy.com/?utm_source=youtube&utm_medium=video&utm_campaign=SirajRaval
+Build your AI creator on Fanvue: https://www.fanvue.com
+
+This video is sponsored by Fanvue.
+
+Kimi K3 just went open-weights. In this video I break down what's actually inside it, run it myself, and show what a frontier model being free to download changes for builders.
+
+0:00 Kimi K3’s 2.8 Trillion Parameter Paradox
+0:47 What Is Kimi K3?
+1:47 How Kimi K3 Uses Only 2% at a Time
+4:20 How It Remembers 1 Million Tokens
+6:39 Build an AI Creator Without Showing Your Face
+7:50 How Moonshot Trained It Without Crashing
+10:20 How Kimi Teaches Itself
+11:39 Kimi K3’s Biggest Problems
+13:28 The 4 Breakthroughs Explained
+14:10 Why Open-Source AI Changes Everything
+
+📄 Resources
+Kimi K3 technical report: https://arxiv.org/pdf/2607.24653 
+Kimi K3 weights + site: https://huggingface.co/moonshotai/Kimi-K3 
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval
+
+#KimiK3 #AI #OpenSource
