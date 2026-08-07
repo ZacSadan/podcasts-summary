@@ -1,8 +1,8 @@
 Feed: רברס עם פלטפורמה
 Episode: 517 - Bumpers 92
-Method: description
+Method: cached_description
 Language: he
-Words: 413
+Words: 415
 URL: https://www.reversim.com/2026/07/2026-07-517-bumpers92.html
 
 --- TRANSCRIPT ---
