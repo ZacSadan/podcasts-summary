@@ -696,7 +696,7 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
     """Returns (hebrew_summary, english_summary, pipeline_steps).
     pipeline_steps is a list of (text, category) tuples; category is one of
     "transcript", "summary", "translate", "debug". The telegram output drops
-    "summary" and "debug" steps.
+    only "debug" steps.
     Tries the local GGUF LLM first; falls back to BART+Helsinki if that fails."""
     try:
         text = _clean_text(transcript_text, strip_urls=False)
@@ -734,7 +734,7 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
     steps_block = "\n".join(f"  • {text}" for text, _category in pipeline_steps)
     telegram_steps_block = "\n".join(
         f"  • {text}" for text, category in pipeline_steps
-        if category not in ("summary", "debug")
+        if category != "debug"
     )
     date_str = episode.published.strftime("%d/%m/%Y %H:%M") + " UTC"
     generated_str = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M") + " UTC"
