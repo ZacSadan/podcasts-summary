@@ -227,28 +227,26 @@ _PRE_EXTRACT_HE_WORDS = 1500   # max words to translate (he→en)
 _PRE_EXTRACT_EN_WORDS = 4000   # max words to feed into BART
 
 _SUMMARY_PROMPT = """\
-You are summarizing a podcast episode. Write a detailed Hebrew summary.
-
-LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
-- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
+You are summarizing a podcast episode. Write a detailed summary IN ENGLISH, regardless of what language the transcript is in.
 
 IMPORTANT RULES:
-- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
+- Write the summary in English only, even if the transcript below is in Hebrew or another language
+- Keep all product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) as they appear
 - Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed
-- Use bold section headers (**כותרת**) and bullet points
+- Use bold section headers (**Heading**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT skip any technological, business, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
-- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
+- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
 Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
 
 Respond EXACTLY in this format (no extra text before or after):
-HEBREW_SUMMARY:
-[your Hebrew summary here, in Hebrew script only]
+ENGLISH_SUMMARY:
+[your English summary here]
 
 Episode: {title}
 Podcast: {feed_name}
@@ -258,29 +256,27 @@ Transcript:
 
 
 _SUMMARY_PROMPT_LONG = """\
-You are summarizing a podcast episode that has full, detailed show notes. Write a comprehensive Hebrew summary.
-
-LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
-- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
+You are summarizing a podcast episode that has full, detailed show notes. Write a comprehensive summary IN ENGLISH, regardless of what language the show notes are in.
 
 IMPORTANT RULES:
-- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
+- Write the summary in English only, even if the show notes below are in Hebrew or another language
+- Keep all product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) as they appear
 - Summary must be COMPREHENSIVE (1200-1500 words) — cover every topic, detail, and nuance
-- Use bold section headers (**כותרת**) and bullet points
+- Use bold section headers (**Heading**) and bullet points
 - Include all numbers, statistics, names, CVEs, vulnerabilities, tools, and specific claims made
 - Do NOT skip any technological, business, security, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
-- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
+- Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
 Cover EVERY subject in depth. 1200-1500 words.
 
 Respond EXACTLY in this format (no extra text before or after):
-HEBREW_SUMMARY:
-[your Hebrew summary here, in Hebrew script only]
+ENGLISH_SUMMARY:
+[your English summary here]
 
 Episode: {title}
 Podcast: {feed_name}
@@ -290,22 +286,20 @@ Show Notes:
 
 
 _CHUNK_SUMMARY_PROMPT = """\
-You are summarizing PART {part} OF {total} of a longer podcast transcript. Write detailed notes in Hebrew covering everything discussed in this part only.
-
-LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
-- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+You are summarizing PART {part} OF {total} of a longer podcast transcript. Write detailed notes IN ENGLISH covering everything discussed in this part only, regardless of what language the transcript is in.
 
 IMPORTANT RULES:
-- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms)
+- Write the notes in English only, even if the transcript below is in Hebrew or another language
+- Keep all product names, company names, tools, frameworks, and acronyms as they appear
 - Include all numbers, statistics, names, and specific claims made in this part
 - Do NOT summarize or refer to other parts — only what appears in THIS transcript segment
 - Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info
 - This is a working note, not a final summary — plain prose is fine, no need for headers
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
 Respond EXACTLY in this format (no extra text before or after):
 NOTES:
-[your Hebrew notes here, in Hebrew script only]
+[your English notes here]
 
 Episode: {title}
 Podcast: {feed_name}
@@ -315,30 +309,46 @@ Transcript (part {part} of {total}):
 
 
 _COMBINE_SUMMARY_PROMPT = """\
-You are given Hebrew notes covering different parts of the same podcast episode, in order. Combine them into one detailed, coherent Hebrew summary of the whole episode.
-
-LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
-- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+You are given English notes covering different parts of the same podcast episode, in order. Combine them into one detailed, coherent English summary of the whole episode.
 
 IMPORTANT RULES:
-- Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
+- Write in English only
+- Keep all product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) as they appear
 - Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed across all parts, in order
-- Use bold section headers (**כותרת**) and bullet points
+- Use bold section headers (**Heading**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.)
 - Do NOT include the podcast host/owner's own biography or company description — only content actually discussed
 - Do NOT use hashtags (words starting with #) anywhere
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned" — weave each link into the sentence of the paragraph where that topic was discussed
+- Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
 Respond EXACTLY in this format (no extra text before or after):
-HEBREW_SUMMARY:
-[your Hebrew summary here, in Hebrew script only]
+ENGLISH_SUMMARY:
+[your English summary here]
 
 Episode: {title}
 Podcast: {feed_name}
 
 Notes from all parts, in order:
+{transcript}"""
+
+
+_TRANSLATE_TO_HEBREW_PROMPT = """\
+Translate the following English podcast summary into Hebrew. This is a translation task only — do not summarize further, do not add or remove information, translate the full text faithfully.
+
+RULES:
+- Translate into natural, fluent Hebrew
+- Keep product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) in English, exactly as they appear
+- Keep the same structure: headings, bullet points, paragraph breaks
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character
+- Do NOT repeat any sentence more than once
+
+Respond EXACTLY in this format (no extra text before or after):
+HEBREW_SUMMARY:
+[the Hebrew translation here]
+
+English summary to translate:
 {transcript}"""
 
 
@@ -383,9 +393,9 @@ def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
     return len(set(sentences)) / len(sentences) < 0.6
 
 
-_LOCAL_LLM_MODEL = "DictaLM2.0-Instruct"
-_LOCAL_LLM_REPO = "dicta-il/dictalm2.0-instruct-GGUF"
-_LOCAL_LLM_FILE = "dictalm2.0-instruct.Q4_K_M.gguf"
+_LOCAL_LLM_MODEL = "Gemma3-4B-Instruct"
+_LOCAL_LLM_REPO = "bartowski/google_gemma-3-4b-it-GGUF"
+_LOCAL_LLM_FILE = "google_gemma-3-4b-it-Q4_K_M.gguf"
 
 _llm_instance = None
 
@@ -405,11 +415,13 @@ def _get_local_llm():
     return _llm_instance
 
 
-def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dict) -> str:
+def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dict,
+                   check_hebrew_script: bool = False) -> str:
     """Run one prompt against the local LLM, retrying with progressively shorter
     transcript slices if the output is a refusal, placeholder, too short,
-    repetitive, or in the wrong script. Returns the parsed text after `marker`,
-    or raises RuntimeError if every attempt failed."""
+    repetitive, or (when check_hebrew_script is set) in the wrong script.
+    Returns the parsed text after `marker`, or raises RuntimeError if every
+    attempt failed."""
     words = text.split()
     result = ""
 
@@ -445,7 +457,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
-        if _has_wrong_script(parsed):
+        if check_hebrew_script and _has_wrong_script(parsed):
             logger.warning(
                 f"  Local LLM code-switched into a non-Hebrew script "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
@@ -459,45 +471,43 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
     return result
 
 
-def _summarize_with_local_llm(episode, text: str, settings: dict, long_summary: bool = False) -> tuple:
+def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
     """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
-    (Qwen2.5-1.5B-Instruct via llama-cpp-python) — no network calls, no API key.
-    Transcripts longer than _LOCAL_LLM_WORD_LIMIT are split into chunks, each
-    summarized independently, then combined into one final summary (map-reduce)
-    so long episodes aren't silently truncated."""
+    (Gemma3-4B-Instruct via llama-cpp-python) — no network calls, no API key.
+    Summarizes in English first (the model's strongest language, regardless of
+    transcript language) then translates to Hebrew as a separate, narrower step —
+    avoids the repetition/script-drift failures seen when asking small models to
+    reason and generate long-form Hebrew directly. Transcripts longer than
+    _LOCAL_LLM_WORD_LIMIT are split into chunks, summarized independently, then
+    combined (map-reduce) so long episodes aren't silently truncated."""
     llm = _get_local_llm()
     fmt_kwargs = {"title": episode.title, "feed_name": episode.feed_name}
     words = text.split()
 
     if len(words) <= _LOCAL_LLM_WORD_LIMIT:
         prompt_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
-        hebrew_summary = _run_local_llm(llm, prompt_tpl, "HEBREW_SUMMARY:", text, fmt_kwargs)
-        logger.info(f"  Local LLM: used {_LOCAL_LLM_MODEL} ({len(words)} words)")
-        return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he)", "summary")]
+        english_summary = _run_local_llm(llm, prompt_tpl, "ENGLISH_SUMMARY:", text, fmt_kwargs)
+        logger.info(f"  Local LLM: English summary via {_LOCAL_LLM_MODEL} ({len(words)} words)")
+    else:
+        chunks = [" ".join(words[i:i + _LOCAL_LLM_WORD_LIMIT])
+                  for i in range(0, len(words), _LOCAL_LLM_WORD_LIMIT)]
+        logger.info(f"  Local LLM: transcript split into {len(chunks)} chunks for map-reduce")
+        notes = []
+        for i, chunk in enumerate(chunks, 1):
+            chunk_kwargs = {**fmt_kwargs, "part": i, "total": len(chunks)}
+            note = _run_local_llm(llm, _CHUNK_SUMMARY_PROMPT, "NOTES:", chunk, chunk_kwargs)
+            logger.info(f"  Local LLM: chunk {i}/{len(chunks)} notes ({len(note.split())} words)")
+            notes.append(f"[Part {i}/{len(chunks)}]\n{note}")
+        combined_notes = "\n\n".join(notes)
+        english_summary = _run_local_llm(llm, _COMBINE_SUMMARY_PROMPT, "ENGLISH_SUMMARY:", combined_notes, fmt_kwargs)
+        logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final English summary")
 
-    chunks = [" ".join(words[i:i + _LOCAL_LLM_WORD_LIMIT])
-              for i in range(0, len(words), _LOCAL_LLM_WORD_LIMIT)]
-    logger.info(f"  Local LLM: transcript split into {len(chunks)} chunks for map-reduce")
-    notes = []
-    for i, chunk in enumerate(chunks, 1):
-        chunk_kwargs = {**fmt_kwargs, "part": i, "total": len(chunks)}
-        note = _run_local_llm(llm, _CHUNK_SUMMARY_PROMPT, "NOTES:", chunk, chunk_kwargs)
-        logger.info(f"  Local LLM: chunk {i}/{len(chunks)} notes ({len(note.split())} words)")
-        notes.append(f"[חלק {i}/{len(chunks)}]\n{note}")
-
-    combined_notes = "\n\n".join(notes)
-    try:
-        hebrew_summary = _run_local_llm(llm, _COMBINE_SUMMARY_PROMPT, "HEBREW_SUMMARY:", combined_notes, fmt_kwargs)
-        logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final summary")
-        return hebrew_summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he, {len(chunks)} chunks)", "summary")]
-    except Exception as e:
-        logger.warning(
-            f"  Local LLM failed to combine {len(chunks)} chunk notes "
-            f"({type(e).__name__}: {e}), combining via BART+Helsinki instead"
-        )
-        hebrew_summary, english_summary, steps = _bart_helsinki_fallback(combined_notes, "he", settings)
-        steps.insert(0, (f"Summary: {_LOCAL_LLM_MODEL} ({len(chunks)} chunk notes)", "summary"))
-        return hebrew_summary, english_summary, steps
+    hebrew_summary = _run_local_llm(
+        llm, _TRANSLATE_TO_HEBREW_PROMPT, "HEBREW_SUMMARY:", english_summary, {},
+        check_hebrew_script=True,
+    )
+    logger.info(f"  Local LLM: translated to Hebrew ({len(hebrew_summary.split())} words)")
+    return hebrew_summary, english_summary, [(f"Summary: {_LOCAL_LLM_MODEL} (en→he)", "summary")]
 
 
 def _bart_helsinki_fallback(transcript_text: str, lang: str, settings: dict) -> tuple:
@@ -545,7 +555,7 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
     Tries the local GGUF LLM first; falls back to BART+Helsinki if that fails."""
     try:
         text = _clean_text(transcript_text, strip_urls=False)
-        return _summarize_with_local_llm(episode, text, settings, long_summary)
+        return _summarize_with_local_llm(episode, text, long_summary)
     except Exception as e:
         logger.warning(f"  Local LLM unavailable ({type(e).__name__}: {e}), falling back to BART+Helsinki")
         return _bart_helsinki_fallback(transcript_text, lang, settings)
