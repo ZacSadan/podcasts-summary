@@ -473,6 +473,13 @@ Notes from all parts, in order:
 
 _LOCAL_LLM_WORD_LIMIT = 3000  # ~4k tokens input, leaves room for a 1200-word output in a 8k context
 
+# Per-call-type output caps — right-sized to the actual target length of each
+# step instead of one generous ceiling, since generation time on this 2-core
+# runner scales with max_tokens even when the model would stop earlier on its own.
+_MAX_TOKENS_CHUNK_NOTES = 900     # working notes, ~400-650 words observed in practice
+_MAX_TOKENS_SUMMARY = 2048        # final summary/combine, up to 1500-word target (~2000-2200 tokens)
+_MAX_TOKENS_TRANSLATE_MARGIN = 1.4  # Hebrew translation output budget = input tokens * this margin
+
 _REFUSAL_PHRASES = (
     "i'm sorry",
     "i am sorry",
@@ -535,7 +542,7 @@ def _get_local_llm():
 
 
 def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dict,
-                   check_hebrew_script: bool = False) -> str:
+                   check_hebrew_script: bool = False, max_tokens: int = 2048) -> str:
     """Run one prompt against the local LLM, retrying with progressively shorter
     transcript slices if the output is a refusal, placeholder, too short,
     repetitive, or (when check_hebrew_script is set) in the wrong script.
@@ -549,7 +556,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
         prompt = prompt_tpl.format(transcript=truncated, **fmt_kwargs)
         response = llm.create_chat_completion(
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=2048,
+            max_tokens=max_tokens,
             temperature=0.3,
             repeat_penalty=1.15,
         )
@@ -617,7 +624,8 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         chunk_tpl, combine_tpl, marker = _CHUNK_SUMMARY_PROMPT, _COMBINE_SUMMARY_PROMPT, "ENGLISH_SUMMARY:"
 
     if len(words) <= _LOCAL_LLM_WORD_LIMIT:
-        summary = _run_local_llm(llm, summary_tpl, marker, text, fmt_kwargs, check_hebrew_script=source_is_hebrew)
+        summary = _run_local_llm(llm, summary_tpl, marker, text, fmt_kwargs,
+                                 check_hebrew_script=source_is_hebrew, max_tokens=_MAX_TOKENS_SUMMARY)
         logger.info(f"  Local LLM: summary via {_LOCAL_LLM_MODEL} ({len(words)} words, source_he={source_is_hebrew})")
     else:
         chunks = [" ".join(words[i:i + _LOCAL_LLM_WORD_LIMIT])
@@ -626,19 +634,22 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         notes = []
         for i, chunk in enumerate(chunks, 1):
             chunk_kwargs = {**fmt_kwargs, "part": i, "total": len(chunks)}
-            note = _run_local_llm(llm, chunk_tpl, "NOTES:", chunk, chunk_kwargs, check_hebrew_script=source_is_hebrew)
+            note = _run_local_llm(llm, chunk_tpl, "NOTES:", chunk, chunk_kwargs,
+                                  check_hebrew_script=source_is_hebrew, max_tokens=_MAX_TOKENS_CHUNK_NOTES)
             logger.info(f"  Local LLM: chunk {i}/{len(chunks)} notes ({len(note.split())} words)")
             notes.append(f"[Part {i}/{len(chunks)}]\n{note}")
         combined_notes = "\n\n".join(notes)
-        summary = _run_local_llm(llm, combine_tpl, marker, combined_notes, fmt_kwargs, check_hebrew_script=source_is_hebrew)
+        summary = _run_local_llm(llm, combine_tpl, marker, combined_notes, fmt_kwargs,
+                                 check_hebrew_script=source_is_hebrew, max_tokens=_MAX_TOKENS_SUMMARY)
         logger.info(f"  Local LLM: combined {len(chunks)} chunk(s) into final summary")
 
     if source_is_hebrew:
         return summary, "", [(f"Summary: {_LOCAL_LLM_MODEL} (he)", "summary")]
 
+    translate_tokens = min(_MAX_TOKENS_SUMMARY, max(256, int(len(summary.split()) * 1.5 * _MAX_TOKENS_TRANSLATE_MARGIN)))
     hebrew_summary = _run_local_llm(
         llm, _TRANSLATE_TO_HEBREW_PROMPT, "HEBREW_SUMMARY:", summary, {},
-        check_hebrew_script=True,
+        check_hebrew_script=True, max_tokens=translate_tokens,
     )
     logger.info(f"  Local LLM: translated to Hebrew ({len(hebrew_summary.split())} words)")
     return hebrew_summary, summary, [(f"Summary: {_LOCAL_LLM_MODEL} (en→he)", "summary")]

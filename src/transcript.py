@@ -88,24 +88,30 @@ _PDF_URL_RE = re.compile(r'https?://[^\s\'"<>)]+\.pdf(?:\?[^\s\'"<>)]*)?', re.IG
 _PDF_MAX_BYTES = 20 * 1024 * 1024  # 20 MB
 
 
-def try_pdf_show_notes(episode, min_length: int = 500) -> Optional[TranscriptResult]:
+def try_pdf_show_notes(episode, min_length: int = 500, page_text: Optional[str] = None) -> Optional[TranscriptResult]:
     """Find PDF show-note links in description or episode page and extract text.
 
     Runs before all other methods so that rich PDF show notes (e.g. Security Now)
     are preferred over captions or Whisper.
+
+    `page_text`, if provided, is reused instead of re-fetching the episode page —
+    lets the orchestrator share one page fetch with try_page_content.
     """
     pdf_urls: list[str] = []
     pdf_urls.extend(_PDF_URL_RE.findall(episode.description or ""))
 
-    url = episode.url or ""
-    if url and not re.search(r'\.(mp3|m4a|ogg|opus|aac|wav|flac)(\?.*)?$', url, re.IGNORECASE) \
-            and "youtube.com/watch" not in url and "youtu.be/" not in url:
-        try:
-            page = _safe_get_text(url, timeout=20,
-                                  headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastSummarizer/1.0)"})
-            pdf_urls.extend(_PDF_URL_RE.findall(page))
-        except Exception as e:
-            logger.debug(f"PDF page scan failed for {episode.title}: {e}")
+    if page_text is not None:
+        pdf_urls.extend(_PDF_URL_RE.findall(page_text))
+    else:
+        url = episode.url or ""
+        if url and not re.search(r'\.(mp3|m4a|ogg|opus|aac|wav|flac)(\?.*)?$', url, re.IGNORECASE) \
+                and "youtube.com/watch" not in url and "youtu.be/" not in url:
+            try:
+                page = _safe_get_text(url, timeout=20,
+                                      headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastSummarizer/1.0)"})
+                pdf_urls.extend(_PDF_URL_RE.findall(page))
+            except Exception as e:
+                logger.debug(f"PDF page scan failed for {episode.title}: {e}")
 
     seen: set[str] = set()
     for pdf_url in pdf_urls:
@@ -228,12 +234,15 @@ _AUDIO_EXT_RE = re.compile(r'\.(mp3|m4a|ogg|opus|aac|wav|flac)(\?.*)?$', re.IGNO
 _SKIP_TAGS = {"script", "style", "nav", "header", "footer", "aside", "form"}
 
 
-def try_page_content(episode, min_length: int) -> Optional[TranscriptResult]:
+def try_page_content(episode, min_length: int, page_text: Optional[str] = None) -> Optional[TranscriptResult]:
     """Fetch the episode's web page and extract body text.
 
     Useful when the RSS description is short but the episode page has full
     show notes (e.g. Reversim, where the page has 3× more content than RSS).
     Skips audio URLs and YouTube watch pages (handled by other methods).
+
+    `page_text`, if provided, is reused instead of re-fetching the episode page —
+    lets the orchestrator share one page fetch with try_pdf_show_notes.
     """
     url = episode.url or ""
     if not url:
@@ -244,10 +253,11 @@ def try_page_content(episode, min_length: int) -> Optional[TranscriptResult]:
         return None
 
     try:
-        page_text = _safe_get_text(
-            url, timeout=20,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastSummarizer/1.0)"},
-        )
+        if page_text is None:
+            page_text = _safe_get_text(
+                url, timeout=20,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastSummarizer/1.0)"},
+            )
         soup = BeautifulSoup(page_text, "lxml")
         for tag in soup.find_all(_SKIP_TAGS):
             tag.decompose()
@@ -410,12 +420,37 @@ def try_cached_transcript(episode, transcripts_dir) -> Optional[TranscriptResult
 
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
+def _fetch_episode_page_once(episode) -> Optional[str]:
+    """Fetch the episode's web page a single time, for reuse across
+    try_pdf_show_notes and try_page_content. Returns None for audio URLs,
+    YouTube watch pages, or missing URLs (neither method would fetch those
+    either), or if the request fails."""
+    url = episode.url or ""
+    if not url or _AUDIO_EXT_RE.search(url) or "youtube.com/watch" in url or "youtu.be/" in url:
+        return None
+    try:
+        return _safe_get_text(url, timeout=20,
+                              headers={"User-Agent": "Mozilla/5.0 (compatible; PodcastSummarizer/1.0)"})
+    except Exception as e:
+        logger.debug(f"Page fetch failed for {episode.title}: {e}")
+        return None
+
+
 def get_transcript(episode, settings: dict, whisper_count: int = 0,
                    skip_whisper: bool = False,
                    enforce_whisper: bool = False,
                    no_pdf: bool = False,
                    transcripts_dir=None) -> Optional[TranscriptResult]:
     attempted: List[str] = []
+    page_text: Optional[str] = None
+    page_fetched = False
+
+    def _get_page_text() -> Optional[str]:
+        nonlocal page_text, page_fetched
+        if not page_fetched:
+            page_text = _fetch_episode_page_once(episode)
+            page_fetched = True
+        return page_text
 
     def _return(result: TranscriptResult) -> TranscriptResult:
         result.attempted = attempted[:]
@@ -442,7 +477,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
 
     if not enforce_whisper:
         if not no_pdf:
-            result = try_pdf_show_notes(episode)
+            result = try_pdf_show_notes(episode, page_text=_get_page_text())
             if result:
                 logger.info(f"  Transcript via pdf_show_notes ({result.word_count} words)")
                 return _return(result)
@@ -461,7 +496,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
                 return _return(result)
             attempted.append("youtube_captions")
 
-        result = try_page_content(episode, settings.get("description_min_length", 1500))
+        result = try_page_content(episode, settings.get("description_min_length", 1500), page_text=_get_page_text())
         if result:
             logger.info(f"  Transcript via page_content ({result.word_count} words)")
             return _return(result)
@@ -505,7 +540,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
             return _return(result)
         attempted.append("youtube_captions")
 
-    result = try_page_content(episode, settings.get("description_min_length", 1500))
+    result = try_page_content(episode, settings.get("description_min_length", 1500), page_text=_get_page_text())
     if result:
         logger.info(f"  Transcript via page_content fallback ({result.word_count} words)")
         return _return(result)
