@@ -89,16 +89,20 @@ def is_seen(seen: dict, episode_id: str) -> bool:
 # ── Transcript cleanup ────────────────────────────────────────────────────────
 
 def _git_first_commit_date(path: Path) -> datetime | None:
-    """Return the UTC datetime when the file was first committed to git, or None."""
+    """Return the UTC datetime when the file was first committed to git, or None.
+
+    `git log` lists matching commits newest-first, and a file that was deleted
+    and later re-added (e.g. a regenerated transcript) has more than one
+    --diff-filter=A match — the true first-added date is the LAST line."""
     import subprocess
     try:
         result = subprocess.run(
             ["git", "log", "--follow", "--diff-filter=A", "--format=%cI", "--", str(path)],
             capture_output=True, text=True, timeout=10,
         )
-        date_str = result.stdout.strip()
-        if date_str:
-            return datetime.fromisoformat(date_str)
+        lines = [l for l in result.stdout.splitlines() if l.strip()]
+        if lines:
+            return datetime.fromisoformat(lines[-1].strip())
     except Exception:
         pass
     return None
