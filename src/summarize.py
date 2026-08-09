@@ -361,6 +361,7 @@ You are summarizing a podcast episode. Write a detailed Hebrew summary.
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
+- Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -392,6 +393,7 @@ You are summarizing a podcast episode that has full, detailed show notes. Write 
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
+- Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -424,6 +426,7 @@ You are summarizing PART {part} OF {total} of a longer podcast transcript. Write
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+- Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms)
@@ -449,6 +452,7 @@ You are given Hebrew notes covering different parts of the same podcast episode,
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+- Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
