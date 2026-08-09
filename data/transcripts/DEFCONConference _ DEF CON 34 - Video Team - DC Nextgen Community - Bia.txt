@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - DC Nextgen Community - Bia
+Method: description
+Language: en
+Words: 12
+URL: https://www.youtube.com/shorts/YEkvj70zFx8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Bia from the new generation of hackers in the DC Nextgen Community.

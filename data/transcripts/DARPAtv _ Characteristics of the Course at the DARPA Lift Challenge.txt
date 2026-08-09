@@ -1,0 +1,19 @@
+Feed: DARPAtv
+Episode: Characteristics of the Course at the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 120
+URL: https://www.youtube.com/watch?v=2ZgCFSur4uk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The latest in our long history of audacious challenges, the DARPA Lift Challenge aims to revolutionize heavy vertical lift aviation.
+
+Competitors must create an aircraft that is both lightweight and powerful – lifting at least 4x its weight while flying a 5-nautical-mile circuit course.
+
+In a head-to-head, live performance trial, competing teams will fly their novel drone designs. Those with the highest payload-to-weight ratios and novel designs will win $6.5 million in prizes.
+
+But it’s not just a prize competition – it's a catalyst for long-term growth and innovation across the American drone industry. Participants will play a critical role in advancing vertical lift technologies that will have far-reaching benefits for military missions and civilian needs.
+
+Follow along at www.darpaliftchallenge.com

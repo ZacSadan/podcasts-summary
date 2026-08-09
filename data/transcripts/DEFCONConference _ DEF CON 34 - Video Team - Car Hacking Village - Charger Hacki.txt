@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Car Hacking Village - Charger Hacking
+Method: description
+Language: en
+Words: 11
+URL: https://www.youtube.com/watch?v=uF8c7Ty-5zA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We get  an EV charger hacking breakdown from the legend MajorMalfunction.

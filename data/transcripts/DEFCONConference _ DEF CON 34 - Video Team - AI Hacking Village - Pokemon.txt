@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - AI Hacking Village - Pokemon
+Method: description
+Language: en
+Words: 20
+URL: https://www.youtube.com/watch?v=Egzf_aWSxZc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+From the AI Hacking Village - an AI that plays Pokemon for you, without costing you 20 grand in tokens.
