@@ -36,6 +36,8 @@ TRANSCRIPT_RETENTION_DAYS = 30
 
 MAX_SEEN_ENTRIES = 1000
 
+MAX_RUN_HOURS = 3  # stop starting new episodes past this wall-clock budget; remaining ones defer to the next cron run
+
 
 # ── Shabbat guard ─────────────────────────────────────────────────────────────
 
@@ -369,6 +371,7 @@ def main():
     max_whisper = settings.get("max_whisper_per_run", 1)
     whisper_count = 0
     feed_config_by_name = {f["name"]: f for f in feed_configs}
+    run_start = datetime.now(timezone.utc)
 
     for episode in episodes:
         logger.info(f"\n{'─' * 60}")
@@ -444,6 +447,20 @@ def main():
                     f"{len(needs_whisper)} episodes deferred to next cron run."
                 )
                 break
+
+        # Stop starting new episodes once the wall-clock budget is spent, so a
+        # large backlog can't turn into a multi-hour run that risks GitHub
+        # Actions' 6-hour job limit or collides with the next scheduled run.
+        if not args.test:
+            elapsed_hours = (datetime.now(timezone.utc) - run_start).total_seconds() / 3600
+            if elapsed_hours >= MAX_RUN_HOURS:
+                remaining = episodes[episodes.index(episode) + 1:]
+                if remaining:
+                    logger.info(
+                        f"Time budget reached ({elapsed_hours:.1f}h >= {MAX_RUN_HOURS}h). "
+                        f"{len(remaining)} episode(s) deferred to next cron run."
+                    )
+                    break
 
     logger.info("\nPipeline complete.")
 
