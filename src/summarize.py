@@ -843,8 +843,14 @@ def summarize_episode(episode, transcript, settings: dict) -> tuple[str, str]:
         audio_note = "No audio download — transcript from RSS feed"
     elif method == "pdf_show_notes":
         audio_note = "No audio download — summary based on PDF show notes"
+    elif method == "page_content":
+        audio_note = "No audio download — summary based on episode page content"
+    elif method == "description":
+        audio_note = "No audio download — summary based on RSS description only"
+    elif method == "cached" or method.startswith("cached_"):
+        audio_note = "No audio download — reused a previously fetched transcript"
     else:
-        audio_note = "No audio download — summary based on show notes / description only"
+        audio_note = f"No audio download — summary based on {method}"
 
     transcript_step = f"Transcript: {method} ({transcript.word_count} words, lang={lang}) — {audio_note}"
     pipeline_steps = [(transcript_step, "transcript")]

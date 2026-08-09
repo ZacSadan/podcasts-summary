@@ -88,6 +88,46 @@ def is_seen(seen: dict, episode_id: str) -> bool:
     return episode_id in seen["entries"]
 
 
+def commit_and_push_seen(episode_id: str):
+    """Commit and push data/seen.json right after marking an episode seen, so a later
+    crash or a next-run collision can never cause that episode to be resent."""
+    import subprocess
+
+    def run(*cmd, check=True):
+        return subprocess.run(cmd, capture_output=True, text=True, check=check)
+
+    try:
+        run("git", "add", str(SEEN_PATH))
+        diff = run("git", "diff", "--cached", "--quiet", check=False)
+        if diff.returncode == 0:
+            return  # nothing changed (e.g. entry already present)
+        run("git", "commit", "-m", f"chore: mark seen {episode_id} [skip ci]")
+
+        pull = run("git", "pull", "--rebase", "origin", "master", check=False)
+        if pull.returncode != 0:
+            status = run("git", "diff", "--name-only", "--diff-filter=U", check=False)
+            conflicts = status.stdout.split()
+            if conflicts == ["data/seen.json"]:
+                from src.merge_seen import merge_conflicted_seen
+                merge_conflicted_seen()
+                run("git", "add", str(SEEN_PATH))
+                cont = run("git", "rebase", "--continue", check=False)
+                if cont.returncode != 0:
+                    logger.warning(f"  git rebase --continue failed: {cont.stderr[:300]}")
+                    run("git", "rebase", "--abort", check=False)
+                    return
+            else:
+                logger.warning(f"  seen.json push conflict on unexpected files {conflicts} — aborting rebase")
+                run("git", "rebase", "--abort", check=False)
+                return
+
+        push = run("git", "push", "origin", "master", check=False)
+        if push.returncode != 0:
+            logger.warning(f"  git push failed: {push.stderr[:300]}")
+    except Exception as e:
+        logger.warning(f"  commit_and_push_seen error: {e}")
+
+
 # ── Transcript cleanup ────────────────────────────────────────────────────────
 
 def _git_first_commit_date(path: Path) -> datetime | None:
@@ -393,6 +433,8 @@ def main():
             logger.warning("  No transcript found — skipping episode")
             mark_seen(seen, episode.id)
             save_seen(seen)
+            if not args.test:
+                commit_and_push_seen(episode.id)
             continue
 
         if transcript.method == "whisper":
@@ -425,12 +467,16 @@ def main():
             logger.error(f"  Summarization failed: {e}")
             mark_seen(seen, episode.id)
             save_seen(seen)
+            if not args.test:
+                commit_and_push_seen(episode.id)
             continue
 
         if args.write_results:
             append_result(summary)
         mark_seen(seen, episode.id)
         save_seen(seen)
+        if not args.test:
+            commit_and_push_seen(episode.id)
         send_telegram(tg_summary)
         logger.info("  Done.")
 

@@ -16,7 +16,8 @@ def _load_side(stage):
     return json.loads(raw)
 
 
-def main():
+def merge_conflicted_seen():
+    """Resolve an in-progress git conflict on data/seen.json by unioning both sides' entries."""
     ours = _load_side(2)
     theirs = _load_side(3)
     merged = dict(ours)
@@ -27,4 +28,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(merge_conflicted_seen())
