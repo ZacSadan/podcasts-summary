@@ -1,6 +1,6 @@
 # Podcast & YouTube Summarizer
 
-An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates a detailed Hebrew summary for each (an English summary is only produced when the local fallback models are used, see [Summarization Pipeline](#summarization-pipeline)). Runs entirely on GitHub Actions — no local setup, no external paid APIs.
+An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates a detailed Hebrew summary for each. Summarization runs on a local GGUF model (Gemma3-4B-Instruct) via `llama-cpp-python`, entirely on the GitHub Actions runner — no external paid APIs, no local setup required.
 Results are delivered automatically to a configured Telegram channel.
 ---
 
@@ -26,15 +26,19 @@ Results are delivered automatically to a configured Telegram channel.
 Every hour (GitHub Actions cron)
         │
         ▼
-  Fetch all RSS / YouTube feeds
+  Fetch all RSS / YouTube feeds (sequentially)
         │
         ▼
   Filter: skip already-seen episodes
         │
         ▼
-  For each new episode:
+  For each new episode (stops after 3h wall-clock; rest deferred):
     ├─ Try to get transcript (8 methods, cheapest first)
-    ├─ Summarize with GitHub Models (gpt-4o / gpt-4o-mini) — Hebrew only
+    ├─ Summarize locally with Gemma3-4B-Instruct (GGUF, CPU)
+    │    ├─ Hebrew source  → summarize directly in Hebrew
+    │    └─ non-Hebrew source → summarize in English, then translate to Hebrew
+    │    (long transcripts are map-reduce chunked by actual token count)
+    ├─ Falls back to BART + Helsinki-NLP if the local LLM fails
     ├─ Format output (Hebrew summary + original description + links)
     ├─ Validate and resolve all links
     └─ Send to Telegram
@@ -43,23 +47,28 @@ Every hour (GitHub Actions cron)
   git commit & push state back to repo
 ```
 
-The pipeline runs on a free GitHub-hosted Ubuntu runner. All state is stored in the repository itself — no database, no external services.
+The pipeline runs on a free GitHub-hosted Ubuntu runner (2 CPU cores). All state is stored in the repository itself — no database, no external services.
 
 ---
 
 ## Features
 
 - **Fully automated** — GitHub Actions cron fires every hour, processes new episodes, and commits results back
-- **Long Hebrew summary** — 800–1200 words (1200–1500 for long show notes), bold section headers, bullet points. An English summary is only generated as part of the local BART+Helsinki fallback (used when `MODELS_TOKEN` is unavailable) and is written to `results.txt.md` only — it is never sent to Telegram
+- **Local LLM summarization** — Gemma3-4B-Instruct (GGUF, `llama-cpp-python`) runs entirely on the Actions runner's CPU, no API key and no external service required
+- **Language-aware pipeline** — Hebrew-source transcripts are summarized directly in Hebrew; non-Hebrew transcripts are summarized in English first (the model's strongest language), then translated to Hebrew as a separate step — this avoids repetition loops and script-drift that a small model can hit when asked to reason and generate long-form Hebrew directly from non-Hebrew source text
+- **Map-reduce for long transcripts** — Transcripts too long for a single call (measured by actual tokenizer count, not word count, since Hebrew tokenizes far less densely than English) are split into chunks, summarized independently, then combined into one final summary
+- **Graceful degradation** — If the local LLM fails to load or produces bad output (refusal, repetition, wrong script) after retries, falls back to BART (`facebook/bart-large-cnn`) + Helsinki-NLP translation models, then to a simple extractive summary as a last resort
+- **Long Hebrew summary** — 800–1200 words (1200–1500 for long show notes), bold section headers, bullet points
+- **Time-budgeted runs** — Each run stops starting new episodes after 3 hours wall-clock (checked between episodes, never mid-episode); remaining episodes defer to the next cron run rather than risking GitHub Actions' 6-hour job limit
 - **8 transcript methods** — Tries every available source (including PDF show notes) before falling back to Whisper audio transcription
 - **Transcript caching** — Whisper results are saved to `data/transcripts/` and re-used on subsequent runs, avoiding costly re-transcription. Files older than 30 days are deleted automatically on each run.
 - **Whisper budget** — Only 1 audio transcription per run to stay within GitHub Actions runner time limits; remaining episodes are deferred to the next cron run
 - **Smart link handling** — Dead links are dropped, `example.com` removed, and URL shorteners (`bit.ly`, `t.co`, etc.) resolved to their final destination
 - **Feed filtering** — Run on a specific feed by name via `workflow_dispatch` input
 - **Test mode** — Process one small episode per feed type to verify the pipeline without long Whisper jobs
-- **Telegram delivery** — Each new summary is sent automatically to a Telegram channel; supports chunked messages for long summaries and respects rate limits
+- **Telegram delivery** — Each new summary is sent automatically to a Telegram channel, including which model produced it; supports chunked messages for long summaries and respects rate limits
 - **Resend history** — Re-send all existing `results.txt.md` entries to Telegram via a single `workflow_dispatch` toggle (requires `--write-results` to have been used previously)
-- **No external paid APIs** — Uses GitHub's free Models API (`MODELS_TOKEN`) and falls back to local BART + Helsinki models if unavailable
+- **No external paid APIs** — The entire summarization pipeline (primary model and fallback) runs locally on the Actions runner
 - **SSRF protection** — All outbound HTTP requests validate the target URL against a blocklist of private/loopback/link-local IPs and cloud metadata endpoints before fetching
 - **Download size cap** — RSS transcript and episode-page fetches are capped at 500 MB; link-liveness checks are capped at 1 MB
 
@@ -94,15 +103,15 @@ By default, summaries are sent to Telegram only. To also write them to `results.
 ---
 *Pipeline:*
   • Transcript: <method> (<N> words, lang=<lang>) — <audio analysis note>
-  • Summary: GitHub Models gpt-4o-mini (he)
+  • Summary: Gemma3-4B-Instruct (he)
 ```
 
 The **Pipeline** section shows:
 - Which transcript method was used and word count
 - Whether the **full audio file was transcribed** (Whisper) or show notes / captions were used instead
-- Which summarization model ran
+- Which summarization model actually produced the summary — e.g. `Gemma3-4B-Instruct (he)` for a Hebrew-source transcript summarized directly, `Gemma3-4B-Instruct (en→he)` for a non-Hebrew source that went through the English-then-translate path, or the BART+Helsinki fallback's step names if the local LLM failed. This line is shown in both `results.txt.md` and the Telegram message.
 
-An **English Summary** block is only added when the local BART+Helsinki fallback ran (no `MODELS_TOKEN`/`GITHUB_TOKEN` available) — in that case it appears in `results.txt.md` between the Hebrew summary and the original description, but it is **never** included in the Telegram message, which always contains only the Hebrew summary and the pipeline footer.
+An **English Summary** block appears in `results.txt.md` whenever an English summary was produced along the way — either the English-first intermediate summary (non-Hebrew source, before translation) or the BART fallback's English summary. It is written between the Hebrew summary and the original description, but it is **never** included in the Telegram message, which always contains only the Hebrew summary and the pipeline footer.
 
 ---
 
@@ -127,18 +136,26 @@ Language priority: Hebrew episodes prefer `he/iw` captions first, then `en`. Eng
 
 ## Summarization Pipeline
 
-### Primary: GitHub Models (free API)
+### Primary: Gemma3-4B-Instruct (local GGUF model)
 
-Requires a GitHub Personal Access Token with Models API access stored as `MODELS_TOKEN` secret.
+Downloaded automatically from Hugging Face (`bartowski/google_gemma-3-4b-it-GGUF`, Q4_K_M quantization) and cached across runs via `actions/cache`. Loaded once per run via `llama-cpp-python` (`n_ctx=8192`, `n_threads=2`, tuned for the runner's 2 CPU cores) — no API key, no network calls at inference time.
 
-- Tries **gpt-4o** first (2,000 word input limit to stay under free-tier TPM)
-- Falls back to **gpt-4o-mini** (4,000 word input limit)
-- Prompts the model to produce a structured Hebrew summary with bold headers and bullet points, preserving all English tech terms, product names, and URLs
-- Returns a Hebrew summary only (800–1200 words, or 1200–1500 words when based on full PDF/long show notes) — no English summary is requested from this path
+**Why this model and this shape of pipeline:** several smaller/faster models (Qwen2.5 1.5B and 3B, DictaLM 2.0) were tried first and each failed in production on real Hebrew content — repetition loops, code-switching into Chinese script under long-context load, or outright failing to complete. Gemma3-4B was the first to reliably produce accurate, non-repetitive, non-hallucinated summaries across both short and long transcripts, in both Hebrew and English source content.
+
+**Language-dependent routing** (`_is_mostly_hebrew()` check on the transcript text):
+
+- **Hebrew-source transcript** → summarized directly in Hebrew (one model call, or several + a combine call if map-reduce chunking is needed)
+- **Non-Hebrew-source transcript** → summarized in English first (the model's most reliable language), then translated to Hebrew in a separate, narrower call. Asking a 4B-class model to reason over and generate long-form Hebrew directly from non-Hebrew source text was a reliable way to trigger repetition/script-drift failures; splitting "understand and summarize" from "translate" avoids this.
+
+**Map-reduce for long transcripts:** the decision to chunk, and the resulting chunk count, is based on the transcript's *actual tokenized length* (`llm.tokenize()`), not a word-count estimate — Hebrew tokenizes far less densely than English in this model, so a word-count-based limit that's safe for English content can silently overflow the 8192-token context window for Hebrew. Each chunk is summarized into working notes, then all notes are combined into one final summary. Every individual LLM call additionally re-truncates its own input against the real token budget as a second line of defense.
+
+**Retry-with-quality-guards:** each call is retried (progressively shorter input) if the output is a refusal, an empty/placeholder response, degenerate sentence repetition, or — for Hebrew-generation steps — contains non-Hebrew script characters (Chinese/Japanese/Korean/Cyrillic), which is a reliable signal the model drifted under load.
+
+**Output length budgets** are tiered per call type instead of one fixed ceiling, since generation time on a 2-core runner scales with the requested token budget: chunk notes get a smaller cap, the final summary/combine call gets a larger one, and the translation call's cap scales with the input length.
 
 ### Fallback: BART + Helsinki (local models)
 
-Used when no API token is available. Runs entirely on CPU inside the GitHub Actions runner.
+Used only when the primary Gemma3-4B path raises an exception (model failed to load, or every retry attempt was rejected by the quality guards). Runs entirely on CPU inside the GitHub Actions runner using `transformers` + `torch`.
 
 **Hebrew episode pipeline:**
 1. Extractive pre-summary (if >1,500 words) to reduce translation cost
@@ -151,9 +168,11 @@ Used when no API token is available. Runs entirely on CPU inside the GitHub Acti
 2. Summarize with BART in 800-word chunks
 3. Translate English summary → Hebrew
 
+This path is known to be lower quality than the primary model — Helsinki's translation can mistranslate Hebrew idioms/slang, and errors compound across the two translation hops. It exists as a safety net so a failure never produces a crash, only a degraded (but clearly labeled, see [Output Format](#output-format)) summary.
+
 ### Extractive fallback
 
-If both API and local models fail, a simple sentence-extraction summary is used as a last resort.
+If both the local LLM and the BART+Helsinki fallback fail, a simple sentence-extraction summary is used as a last resort.
 
 ---
 
@@ -175,6 +194,16 @@ settings:
 ```
 
 Note: `extractive_max_sentences` (default 15) controls the extractive-summary fallback in code but is not currently set in `feeds.yaml` — it always uses its hardcoded default.
+
+### Hardcoded constants (`main.py`)
+
+A few limits are not exposed in `feeds.yaml` and require a code change to adjust:
+
+| Constant | Default | Purpose |
+|---|---|---|
+| `MAX_RUN_HOURS` | 3 | Stop starting new episodes once this many hours have elapsed in the current run; remaining episodes defer to the next cron run (guards against GitHub Actions' 6-hour hard job limit) |
+| `TRANSCRIPT_RETENTION_DAYS` | 30 | Cached transcripts older than this (by first git-commit date) are deleted at the start of each run |
+| `MAX_SEEN_ENTRIES` | 1000 | Cap on `data/seen.json` entries; oldest are pruned first |
 
 ### Adding a Feed
 
@@ -214,15 +243,18 @@ Language is auto-detected from feed metadata and Hebrew character ratio. Overrid
 
 ### Required Secrets
 
+No API token is required for summarization — Gemma3-4B and its BART+Helsinki fallback both run locally on the Actions runner.
+
 | Secret | Description |
 |--------|-------------|
-| `MODELS_TOKEN` | GitHub Personal Access Token with Models API access. Create at: GitHub → Settings → Developer settings → Personal access tokens → Fine-grained → Add `models:read` permission. **Do not use the default `GITHUB_TOKEN`** — it doesn't have Models API access. |
 | `TELEGRAM_BOT_TOKEN` | Token for your Telegram bot (from [@BotFather](https://t.me/BotFather)). Optional — if not set, Telegram delivery is silently skipped. |
 | `TELEGRAM_CHAT_ID` | Target channel or chat ID (e.g. `@MyChannel` or a numeric ID). The bot must be added as an **admin** of the channel. |
 
 ### Workflow Triggers
 
 **Automatic (cron):** Fires every hour at `:00 UTC`. Processes all unseen episodes from the last 7 days.
+
+**Shabbat guard:** `main.py` has an `IsShbbatKodeah()` check that normally skips scheduled runs from Friday 16:00 to Saturday 21:00 Israel time. **This check is currently disabled** (commented out in code, not deleted) — scheduled runs currently proceed through Shabbat. Re-enable by uncommenting the call site in `main()`.
 
 **Manual (`workflow_dispatch`):** Go to the repo → Actions → Podcast Summary → Run workflow.
 
@@ -298,7 +330,7 @@ URL: <episode URL>
 
 | Package | Version | Purpose |
 |---------|---------|---------|
-| `openai` | ≥1.30.0,<2.0.0 | GitHub Models API client |
+| `llama-cpp-python` | 0.3.16 | Runs the local Gemma3-4B-Instruct GGUF model on CPU |
 | `feedparser` | 6.0.11 | RSS/Atom feed parsing |
 | `beautifulsoup4` | 4.12.3 | HTML parsing for page content extraction |
 | `lxml` | 5.3.0 | Fast HTML/XML parser backend |
@@ -353,3 +385,9 @@ The pipeline uses two files for state — no database required:
 Both files are committed back to `master` by the workflow after every run, so state survives across cron invocations.
 
 To reprocess an episode, delete its entry from `seen.json` and its file from `data/transcripts/`.
+
+### A note on long runs and commit conflicts
+
+If a run takes long enough that another run's commit lands on `master` first, the workflow's `git pull --rebase` can hit a merge conflict on `data/seen.json` and fail to push — in which case **that entire run's processed episodes are lost from state** (already sent to Telegram, but not recorded as seen), and they'll be reprocessed — and re-sent to Telegram — on a future run. This actually happened once in production: a run backlogged to 34 episodes over 4.5 hours, failed to commit, and triggered several subsequent oversized runs (one of which hit GitHub Actions' 6-hour hard job limit) before being manually resolved.
+
+`MAX_RUN_HOURS` (3 hours, see [Configuration](#hardcoded-constants-mainpy)) exists specifically to keep any single run short enough that this is unlikely, but if you ever see a run take unusually long, check whether the eventual `chore: update summaries [skip ci]` commit actually landed before assuming affected episodes were recorded as seen.
