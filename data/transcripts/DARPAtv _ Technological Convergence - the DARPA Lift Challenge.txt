@@ -1,0 +1,19 @@
+Feed: DARPAtv
+Episode: Technological Convergence - the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 117
+URL: https://www.youtube.com/watch?v=VsPwBuigA6U
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The DARPA Lift Challenge aims to shatter the heavy-lift bottleneck by seeking novel drone designs capable of carrying payloads more than four times their weight. This would revolutionize how we use drones across all sectors.
+
+As military missions become more complicated, warfighters need more capable drones to use across diverse scenarios. The same applies to infrastructure inspection, package delivery, disaster response, and other civilian applications.
+
+Current multirotor drones, also known as unmanned aircraft systems (UAS), are simple, affordable, and easy to operate. But their payload-to-weight ratio is low, typically 1:1 or less.
+
+DARPA Challenges accelerate technological breakthroughs by focusing the ingenuity of teams of innovators and giving wild ideas a place to thrive.
+
+Follow along at www.darpaliftchallenge.com

@@ -1,0 +1,14 @@
+Feed: DEFCONConference
+Episode: DEFCON 34: Policy Talks
+Method: description
+Language: en
+Words: 26
+URL: https://www.youtube.com/watch?v=TQ4cd7BHBi0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Watch Policy Village talks live from DEFCON 34 in Las Vegas, Nevada. Visit @DEFCONConference for live streams of other tracks.
+
+Schedule: https://info.defcon.org
+Channel Line Up: https://dctv.defcon.org

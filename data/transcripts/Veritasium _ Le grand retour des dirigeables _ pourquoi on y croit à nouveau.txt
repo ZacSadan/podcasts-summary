@@ -1,0 +1,103 @@
+Feed: Veritasium
+Episode: Le grand retour des dirigeables : pourquoi on y croit à nouveau
+Method: description
+Language: en
+Words: 630
+URL: https://www.youtube.com/watch?v=iNqrNE00kps
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Les dirigeables et les aérostats sont peut-être des vestiges du passé, mais pourraient-ils contribuer à sauver l’avenir ? Rendez-vous sur https://www.odoo.com/r/veritasium pour commencer à créer gratuitement votre propre site web.
+
+Si vous cherchez une boîte de modélisation moléculaire, essayez Snatoms – un kit que j’ai inventé où les atomes s’assemblent magnétiquement – https://ve42.co/SnatomsV 
+
+▀▀▀
+Merci à Eli Dourado de nous avoir permis d’explorer l’argument qu’il décrit dans son article : https://ve42.co/Dourado 
+
+Un immense merci à Dan Grossman et Nick Allman pour leur temps, leur aide et leur expertise.
+
+Un grand merci également à celles et ceux qui nous ont aidés à comprendre le monde des dirigeables modernes et ont apporté de précieux retours – Prof. Barry Prentice, Gennadiy Verba, Prof. Christoph Pflaum, Heather Roszczyk, Dr. Casey Handmer, Richard Van Trueren, & Thibault Proux.
+
+Nous sommes également reconnaissants pour la collaboration des entreprises qui travaillent dur pour faire renaître cette technologie – Atlas LTA, Buoyant Aircraft Systems International, Hybrid Air Vehicles, LTA Research, & Flying Whales.
+
+
+▀▀▀
+Références :
+
+How Airships Could Overcome a Century of Failure, Bloomberg Originals via YouTube -  https://ve42.co/AirshipsCoF 
+
+Why the Airship May Be the Future of Air Travel, Undecided with Matt Ferrell via YouTube - https://ve42.co/FutureAirships 
+
+Airship, Wikipédia - https://ve42.co/AirshipWiki 
+
+Handmer, C. (2020). A quick note on airships. Casey Handmer’s Blog - https://ve42.co/Handmer2020  
+
+UNCTAD (2020). Review of Maritime Transport 2020 - https://ve42.co/RMT2020 
+
+National Transportation Research Center (2023). Freight Analysis Framework Version 5 (FAF5)  - https://ve42.co/FAF5 
+
+Hybrid Air Vehicles (2023). HAV  - https://ve42.co/HAV 
+
+LTA Research (2023). Lighter Than Air (LTA) Research - https://ve42.co/LTAResearch 
+
+OceanSkyCruises (2023). North Pole Expedition - OceanSkyCruises - https://ve42.co/NPExpedition  
+
+Flying Whales (2023). Flying Whales - https://ve42.co/FlyingWhales  
+
+Buoyant Aircraft Systems International (2023). BASI - https://ve42.co/BASI 
+
+Atlas LTA (2023). Atlas Electric Airships | Atlas LTA Airships - https://ve42.co/AtlasLTA  
+
+Prentice, B. (2021). Hydrogen gas-fuelled airships could spur development in remote communities. The Conversation - https://ve42.co/HydrogenAirships  
+
+Grossman, D. (2009). The Hindenburg Disaster. Airships - https://ve42.co/Hindenburg1  
+
+Hindenburg Disaster, Wikipédia - https://ve42.co/HindenburgWiki 
+
+What happened to the Hindenburg?, Jared Owen via Youtube - https://ve42.co/Owen2019 
+
+National Museum of the U.S. Navy. USS Akron (ZRS-4) -  https://ve42.co/USSAkron 
+
+USS Akron, Wikipédia - https://ve42.co/USSAkronWiki  
+
+
+▀▀▀
+Remerciements particuliers à nos soutiens sur Patreon :
+Adam Foreman, Amadeo Bee, Anton Ragin, Balkrishna Heroor, Benedikt Heinen, Bernard McGee, Bill Linder, Burt Humburg, Dave Kircher, Diffbot, Evgeny Skvortsov, Gnare, Jesse Brandsoy, John H. Austin, Jr., john kiehl, Josh Hibschman, Juan Benet, KeyWestr, Lee Redden, Marinus Kuivenhoven, Mario Bottion, MaxPal, Meekay, meg noah, Michael Krugman, Orlando Bassotto, Paul Peijzel, Richard Sundvall, Sam Lutfi, Stephen Wilcox, Tj Steyn, TTST, Ubiquity Ventures
+
+▀▀▀
+Écrit par Casper Mebius & Derek Muller
+Réalisé par Casper Mebius
+Montage par Jack Saxon
+Tourné par Derek Muller, Jamie MacLeod, Han Evans, & Raquel Nuno
+Animation par Mike Radjabov & Fabio Albertelli
+Vidéos/photos additionnelles fournies par Getty Images, Pond5, & Envato Elements
+Musique d’Epidemic Sound & Pond5
+Produit par Casper Mebius, Derek Muller, & Han Evans
+
+
+Plus de séquences & photos provenant de :
+Vidéo de soudage de rails par thermite par dulevoz via YouTube - https://www.youtube.com/watch?v=rNjosF789X4 
+
+O’Rourke, T. (2016). Chronicle Covers: When the Hindenburg burst into flames. San Francisco Chronicle - https://ve42.co/Hindenburg2 
+
+Vidéo de transport de pales d’éoliennes par DOLL Fahrzeugbau via YouTube - https://www.youtube.com/watch?v=5aPXuap0LZw 
+
+Vidéo de transport de pales d’éoliennes à travers les montagnes par CGTN via Youtube - https://www.youtube.com/watch?v=9dtUrY8_1CM 
+
+Ancien hangar à dirigeables par Stefan Kühn -  https://ve42.co/Aerium
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+
+Music from Epidemic Sound & Pond5
+
+0:01 - Pourquoi relancer les dirigeables ?
+0:57 - Le marché du transport de marchandises
+3:07 - Dirigeables comme solution intermédiaire
+5:13 - Types de dirigeables et innovations
+7:07 - Applications concrètes et nouveaux marchés
+10:15 - Défis techniques : stabilité et portance
+15:44 - Problèmes de construction et certification
+18:14 - L'avenir des dirigeables

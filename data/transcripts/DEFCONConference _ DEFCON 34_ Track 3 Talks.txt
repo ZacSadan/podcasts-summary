@@ -1,0 +1,14 @@
+Feed: DEFCONConference
+Episode: DEFCON 34: Track 3 Talks
+Method: description
+Language: en
+Words: 25
+URL: https://www.youtube.com/watch?v=c6FzwwRxRxo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Watch track 3 talks live from DEFCON 34 in Las Vegas, Nevada. Visit @DEFCONConference live streams of other tracks.
+
+Schedule: https://info.defcon.org
+Channel Line Up: https://dctv.defcon.org

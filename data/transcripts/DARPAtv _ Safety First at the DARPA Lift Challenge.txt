@@ -1,0 +1,13 @@
+Feed: DARPAtv
+Episode: Safety First at the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/watch?v=h5ab7yoCDHc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The DARPA Lift Challenge taps into the core of American innovation: the ‘garage inventor’ spirit. Competitors must create a novel drone design that is both lightweight and powerful. The challenge prioritizes safety and regulatory compliance, requiring all participating individuals and teams to strictly adhere to Federal Aviation Administration (FAA) regulations.
+
+Follow along at www.darpaliftchallenge.com
