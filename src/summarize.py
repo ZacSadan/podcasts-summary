@@ -471,7 +471,8 @@ Notes from all parts, in order:
 {transcript}"""
 
 
-_LOCAL_LLM_WORD_LIMIT = 3000  # ~4k tokens input, leaves room for a 1200-word output in a 8k context
+_LOCAL_LLM_N_CTX = 8192
+_LOCAL_LLM_WORD_LIMIT = 3000  # fallback word-based slice size, only used if tokenizing fails
 
 # Per-call-type output caps — right-sized to the actual target length of each
 # step instead of one generous ceiling, since generation time on this 2-core
@@ -479,6 +480,39 @@ _LOCAL_LLM_WORD_LIMIT = 3000  # ~4k tokens input, leaves room for a 1200-word ou
 _MAX_TOKENS_CHUNK_NOTES = 900     # working notes, ~400-650 words observed in practice
 _MAX_TOKENS_SUMMARY = 2048        # final summary/combine, up to 1500-word target (~2000-2200 tokens)
 _MAX_TOKENS_TRANSLATE_MARGIN = 1.4  # Hebrew translation output budget = input tokens * this margin
+
+# Safety margin subtracted from n_ctx before computing how many prompt tokens
+# fit, covering the chat template's own tokens (role markers, BOS/EOS, etc.)
+# added on top of the raw text by the tokenizer/template.
+_PROMPT_TOKEN_MARGIN = 200
+
+
+def _truncate_to_token_budget(llm, text: str, max_prompt_tokens: int) -> str:
+    """Truncate `text` (word-boundary-safe) so it tokenizes to at most
+    max_prompt_tokens under the model's actual tokenizer. Word count is a
+    poor proxy for token count — Hebrew text tokenizes far less efficiently
+    than English in Gemma3, so a fixed word limit that's safe for English
+    can silently overflow the context window for Hebrew. Falls back to
+    _LOCAL_LLM_WORD_LIMIT-based truncation if tokenization itself fails."""
+    try:
+        token_count = len(llm.tokenize(text.encode("utf-8")))
+        if token_count <= max_prompt_tokens:
+            return text
+        words = text.split()
+        # Binary search for the longest word-prefix that fits the budget.
+        lo, hi = 0, len(words)
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+            candidate = " ".join(words[:mid])
+            if len(llm.tokenize(candidate.encode("utf-8"))) <= max_prompt_tokens:
+                lo = mid
+            else:
+                hi = mid - 1
+        return " ".join(words[:lo])
+    except Exception as e:
+        logger.debug(f"Tokenization failed ({type(e).__name__}: {e}), falling back to word-count truncation")
+        words = text.split()
+        return " ".join(words[:_LOCAL_LLM_WORD_LIMIT]) if len(words) > _LOCAL_LLM_WORD_LIMIT else text
 
 _REFUSAL_PHRASES = (
     "i'm sorry",
@@ -547,12 +581,22 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
     transcript slices if the output is a refusal, placeholder, too short,
     repetitive, or (when check_hebrew_script is set) in the wrong script.
     Returns the parsed text after `marker`, or raises RuntimeError if every
-    attempt failed."""
-    words = text.split()
-    result = ""
+    attempt failed.
 
-    for attempt, limit in enumerate([_LOCAL_LLM_WORD_LIMIT, _LOCAL_LLM_WORD_LIMIT // 2, _LOCAL_LLM_WORD_LIMIT // 4]):
-        truncated = " ".join(words[:limit]) if len(words) > limit else text
+    The transcript slice is truncated by actual tokenized length (not word
+    count) so the prompt always fits the context window regardless of how
+    densely the source language tokenizes — a fixed word count that's safe
+    for English can silently overflow the context for Hebrew."""
+    budget = _LOCAL_LLM_N_CTX - max_tokens - _PROMPT_TOKEN_MARGIN
+    # Reserve room for the prompt template's own text (headers, instructions)
+    # by measuring it once with an empty transcript slot.
+    template_tokens = len(llm.tokenize(prompt_tpl.format(transcript="", **fmt_kwargs).encode("utf-8")))
+    text_budget = max(200, budget - template_tokens)
+    base_text = _truncate_to_token_budget(llm, text, text_budget)
+
+    result = ""
+    for attempt, shrink in enumerate([1, 2, 4]):
+        truncated = base_text if shrink == 1 else _truncate_to_token_budget(llm, base_text, text_budget // shrink)
         prompt = prompt_tpl.format(transcript=truncated, **fmt_kwargs)
         response = llm.create_chat_completion(
             messages=[{"role": "user", "content": prompt}],
@@ -608,9 +652,9 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
     failures seen when asking small models to reason and generate long-form
     Hebrew directly from non-Hebrew source text.
 
-    Transcripts longer than _LOCAL_LLM_WORD_LIMIT are split into chunks,
-    summarized independently, then combined (map-reduce) so long episodes
-    aren't silently truncated."""
+    Transcripts too long to fit a single call (measured in actual tokens, not
+    words) are split into chunks, summarized independently, then combined
+    (map-reduce) so long episodes aren't silently truncated."""
     llm = _get_local_llm()
     fmt_kwargs = {"title": episode.title, "feed_name": episode.feed_name}
     words = text.split()
@@ -623,14 +667,25 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
         summary_tpl = _SUMMARY_PROMPT_LONG if long_summary else _SUMMARY_PROMPT
         chunk_tpl, combine_tpl, marker = _CHUNK_SUMMARY_PROMPT, _COMBINE_SUMMARY_PROMPT, "ENGLISH_SUMMARY:"
 
-    if len(words) <= _LOCAL_LLM_WORD_LIMIT:
+    # Decide single-call vs. map-reduce by actual tokenized length, not word
+    # count — word count is a poor proxy across languages (Hebrew tokenizes
+    # far less densely than English in this model).
+    single_call_budget = _LOCAL_LLM_N_CTX - _MAX_TOKENS_SUMMARY - _PROMPT_TOKEN_MARGIN
+    total_tokens = len(llm.tokenize(text.encode("utf-8")))
+    fits_single_call = total_tokens <= single_call_budget
+
+    if fits_single_call:
         summary = _run_local_llm(llm, summary_tpl, marker, text, fmt_kwargs,
                                  check_hebrew_script=source_is_hebrew, max_tokens=_MAX_TOKENS_SUMMARY)
         logger.info(f"  Local LLM: summary via {_LOCAL_LLM_MODEL} ({len(words)} words, source_he={source_is_hebrew})")
     else:
-        chunks = [" ".join(words[i:i + _LOCAL_LLM_WORD_LIMIT])
-                  for i in range(0, len(words), _LOCAL_LLM_WORD_LIMIT)]
-        logger.info(f"  Local LLM: transcript split into {len(chunks)} chunks for map-reduce")
+        chunk_token_budget = _LOCAL_LLM_N_CTX - _MAX_TOKENS_CHUNK_NOTES - _PROMPT_TOKEN_MARGIN - 300
+        n_chunks = max(1, -(-total_tokens // chunk_token_budget))  # ceil division
+        chunk_word_size = max(1, -(-len(words) // n_chunks))
+        chunks = [" ".join(words[i:i + chunk_word_size])
+                  for i in range(0, len(words), chunk_word_size)]
+        logger.info(f"  Local LLM: transcript split into {len(chunks)} chunks for map-reduce "
+                    f"({total_tokens} total tokens, source_he={source_is_hebrew})")
         notes = []
         for i, chunk in enumerate(chunks, 1):
             chunk_kwargs = {**fmt_kwargs, "part": i, "total": len(chunks)}
