@@ -1,0 +1,15 @@
+Feed: Anthropic
+Episode: Dispatches from Iceland
+Method: description
+Language: en
+Words: 41
+URL: https://www.youtube.com/watch?v=iF5IWjOWcA4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In late 2025, Iceland’s government launched one of the world’s first national AI education pilots, giving teachers who volunteered access to AI tools.
+
+We visited Iceland to find out how people are thinking about AI. 
+
+More information about the pilot: https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots
