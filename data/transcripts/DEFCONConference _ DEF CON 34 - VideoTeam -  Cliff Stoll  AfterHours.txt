@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - VideoTeam -  Cliff Stoll  AfterHours
+Method: description
+Language: en
+Words: 12
+URL: https://www.youtube.com/watch?v=AJCWsoozg0Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+An interview with the delightful Cliff Stolll. So very worth your time

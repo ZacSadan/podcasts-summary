@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Voting Machine Hacking Village
+Method: description
+Language: en
+Words: 14
+URL: https://www.youtube.com/watch?v=toi0keDnOsc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Voting Village returns to DEF CON 34 to consider the state of election security.
