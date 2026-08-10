@@ -1,0 +1,58 @@
+Feed: Greg Isenberg
+Episode: Cloudflare will make 1000+ AI millionaires
+Method: description
+Language: en
+Words: 820
+URL: https://www.youtube.com/watch?v=MNNfat_QP0E
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode I break down Cloudflare's AI agent announcement in plain English and explain why I see it as the new business model for the internet. I walk through AI crawl control, pay per crawl, the monetization gateway, and the x402 payment rail, and I show how a single request turns into a transaction. From there I give three startup ideas built directly on top of this shift: a niche data refinery, agent readiness for businesses, and expert archives turned into agent tools. For each idea I lay out the wedge, the first customer, the first version, and how I would sell it. My core claim: the internet is moving from pages humans visit to resources agents use, and the builders who move now own the doors.
+
+Timestamps
+
+00:00 – Intro
+01:01 – The Old Paradigm of the Internet
+02:57 – The New Paradigm of the Internet
+03:41 – What Cloudflare is actually doing
+06:33 – An AI Index for all our customers
+07:34 – The Agent Internet Stack
+09:09 – Why Now Is the Best Time to Build
+10:29 – Startup Idea 1: The Niche Data Refinery
+17:10 – Startup Idea 2: Agent Readiness for Businesses
+23:43 – Startup Idea 3: Expert Archives as Agent Tools
+30:36 – The Filter for Finding Ideas
+32:33 – Closing Thoughts
+
+Key Points
+
+• The human web monetized attention; the agent web monetizes useful resources, priced per request.
+• Cloudflare's pay per crawl, monetization gateway, and x402 turn the HTTP 402 status code into a live checkout at the edge.
+• Idea 1: refine one niche's messy data into clean fuel for agents, starting with 100 businesses in one city.
+• Idea 2: sell agent readiness by showing a founder exactly what AI says about their company today.
+• Idea 3: package an expert's archive into one job-specific agent tool the audience already wants.
+• Every one of these works as a manual services business today and productizes as agent payments mature.
+
+Numbered Section Summaries
+
+1. The Old Bargain of the Internet: I describe the trade that funded the web: crawlers took the content, sites got the visitor, and owners monetized that attention through ads, email capture, subscriptions, and affiliate links. Agents change the flow, because the answer reaches the user while the visit stays home. That shift explains why publishers are vocal right now, and I treat it as the first inning of a much larger story.
+    
+2. Cloudflare in Plain English: I cover AI crawl control, which gives site owners visibility into crawler activity plus the power to allow or block; pay per crawl, which lets a site owner charge AI crawlers for access; and the monetization gateway, which extends payment rules to any resource behind Cloudflare, including pages, data sets, APIs, MCP tool calls, files, and search indexes. The rail is x402, built on the HTTP 402 payment required response: the agent requests, the server prices it, the agent pays and retries with proof, and Cloudflare verifies at the edge.
+    
+3. The Request Becomes the Transaction: Paid access starts to feel native to the internet itself: one request, a fraction of a penny, and the resource opens. A human closes the laptop over a third of a cent; a machine happily pays it to finish the job. Tiny resources become real businesses, charging per lookup, per successful call, per answer, or per comparison.
+    
+4. The Agent Internet Stack: I map the layers forming underneath all of this: a messy internet of PDFs, pricing pages, old posts, and support docs; someone cleans it into structured data; someone makes it agent readable through an API, MCP tool, search index, feed, or llms.txt; someone adds payment rules where free drives distribution and paid protects value; and someone adds trust and analytics on freshness, source reliability, and which requests earn money. The guiding question: what resource does an agent need badly, often, and reliably enough to pay for?
+    
+5. The Through Line and the Close: All three ideas share one engine: agents need clean, trusted, useful resources to do great work, whether that shows up as data, structure, access, expert knowledge, a tool, or a payment rule. I encourage building the manual version now — sell the human version, gather the data, package it — so the agent-native version is ready as payments spread. My closing questions for finding your own idea: what decision is expensive, what information is messy, what changes often, who already pays for help, and what would an agent need to do the job better?
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

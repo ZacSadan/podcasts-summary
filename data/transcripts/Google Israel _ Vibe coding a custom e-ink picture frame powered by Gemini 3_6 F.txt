@@ -1,0 +1,13 @@
+Feed: Google Israel
+Episode: Vibe coding a custom e-ink picture frame powered by Gemini 3.6 Flash and Nano Banana
+Method: description
+Language: en
+Words: 32
+URL: https://www.youtube.com/shorts/PyTJmPkfmpc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Looking for a morning routine upgrade? Creative Technologist Raphael vibe coded a custom e-ink picture frame powered by Gemini 3.6 Flash and Nano Banana to help his family start their day. 
+
+#GoogleGemini
