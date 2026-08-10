@@ -1,0 +1,19 @@
+Feed: Israeli Tech Radar
+Episode: אחד הדברים המעניינים ב Eval הוא שלא תמיד צריך לשאול אם התשובה טובה.
+Method: description
+Language: he
+Words: 101
+URL: https://www.youtube.com/shorts/JzqjNXOQpBo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+סדרת Agentic Architecture מגיעה לפרק הרביעי והאחרון, בהובלת ירחמיאל פלצמן, AI & Data Tech Lead ב־Tikal.
+בפרק Production Ready Agents: Governance, Security & Cost Control, 
+ירחמיאל מארח את גלעד עברי, Co Founder ב־Rogue Security, ואת גל נוי, DevOps Tech Lead ב־Tikal, 
+לשיחה על האתגרים שמתחילים דווקא אחרי שמערכת AI עולה לפרודקשן.
+הם מדברים על Evaluation, ניטור, אבטחה, שליטה בעלויות, ואיך בונים מנגנונים שעוזרים למערכות מבוססות אייג’נטים להישאר יציבות, בטוחות ואמינות לאורך זמן.
+הפרק כבר באוויר 🎧
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Production Ready Agents: Governance, Security & Cost Control

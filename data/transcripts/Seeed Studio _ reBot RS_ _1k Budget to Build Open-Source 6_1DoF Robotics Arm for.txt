@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: reBot RS: $1k Budget to Build Open-Source 6+1DoF Robotics Arm for Physical AI
+Method: cached_description
+Language: en
+Words: 51
+URL: https://www.youtube.com/watch?v=RSlhC9RT1jA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Powered by RobStride Dynamics' quasi-direct drive motors, the RS version delivers:
+✅ ±0.1 mm repeatability (upgraded from ±0.2 mm)
+✅ 754 mm reach & 2.5 kg payload (5 kg max)
+✅ Full open-source hardware, software, and docs – no licensing fees
+✅ ROS1/2, MoveIt, Isaac Sim, LeRobot, Pinocchio support
