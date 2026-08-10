@@ -1,0 +1,36 @@
+Feed: Seeed Studio
+Episode: Indoor-Outdoor Positioning with LoRaWAN — People, Assets & SOS
+Method: description
+Language: en
+Words: 221
+URL: https://www.youtube.com/watch?v=8H4bE7LiYEg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Most facilities track people and assets with three separate systems — BLE for indoor, GPS for outdoor, cellular for fleet. Three gateways, three dashboards, three cellular bills. Integration cost often exceeds the hardware. This video shows how one LoRaWAN network replaces all three.
+
+Full deployment topology, BOM configurator, and reference designs:
+https://www.seeed.cc/solutions/indoor-outdoor-positioning
+
+The configurator auto-matches hardware based on tracking target (personnel vs vehicle), coverage area (indoor vs outdoor), and frequency band per country.
+
+Hardware:
+$39.90 badge (T1000) — GNSS + BLE + WiFi + one-tap SOS with identity and zone reference
+$12 BLE beacons (BC03) — room-level indoor positioning
+$49.90 solar tracker (T2000-C) — vehicles and outdoor assets, no battery swaps
+$99 LoRaWAN gateway (SenseCAP M2) — one gateway, all devices
+
+The line item that kills TCO on positioning? Per-device cellular subscriptions. This architecture has none. Open LoRaWAN standard — no proprietary lock-in. Frequency bands configurable per deployment country (EU868, US915, AS923). ATEX-certified for oil, gas, and mining.
+
+Chapters:
+0:00 Three tracking systems, one network
+0:06 Unified indoor-outdoor positioning
+0:13 One-tap SOS over LoRaWAN
+0:21 Hospital applications
+0:25 Vehicle & asset tracking
+0:31 Store-and-forward resilience
+0:36 Fewer gateways, easier maintenance
+
+Keywords: 
+indoor outdoor positioning, LoRaWAN asset tracking, personnel tracking, SOS badge, BLE beacon positioning, vehicle tracking, fleet management, campus safety, hospital staff tracking, ATEX certified, IP67, solar asset tracker, LoRaWAN gateway
