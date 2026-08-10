@@ -1,0 +1,69 @@
+Feed: Andrew Huberman
+Episode: Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li
+Method: description
+Language: en
+Words: 564
+URL: https://www.youtube.com/watch?v=N5AQFYtqx8Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr. Fei-Fei Li, PhD, is a professor of computer science at Stanford University and a pioneer and expert in artificial intelligence (AI). We discuss how AI can be used safely and effectively to extend human capabilities – not just to search for information but specifically to increase human intelligence and creativity. We also discuss how humans collaborating with AI and robots stand to positively transform human health and one’s experience of life. And we cover what makes AI fundamentally different from human cognition, and why your intuition and unique experiences are not replicable by AI or machines. Both AI enthusiasts and skeptics are sure to benefit from the information and tools Dr. Fei-Fei Li shares in this episode.
+
+Show notes: https://go.hubermanlab.com/u6fc4x4
+
+Pre-order Protocols: https://protocolsbook.com
+
+Huberman Lab live events: https://hubermanlab.com/events
+
+Thank you to our sponsors
+AG1: ⁠https://drinkag1.com/huberman
+David: ⁠https://davidprotein.com/huberman
+Lingo: ⁠https://hellolingo.com/huberman
+LMNT: ⁠https://drinklmnt.com/huberman
+Wealthfront*: ⁠https://wealthfront.com/huberman
+
+Huberman Lab
+Website: https://www.hubermanlab.com 
+Instagram: https://www.instagram.com/hubermanlab 
+Threads: https://www.threads.net/@hubermanlab
+X: https://x.com/hubermanlab 
+Facebook: https://www.facebook.com/hubermanlab 
+TikTok: https://www.tiktok.com/@hubermanlab 
+LinkedIn: https://www.linkedin.com/in/andrew-huberman
+
+Dr. Fei-Fei Li
+Academic profile: https://profiles.stanford.edu/fei-fei-li 
+The Worlds I See (book): https://geni.us/Blpfn
+Lab: https://svl.stanford.edu 
+Stanford HAI: https://hai.stanford.edu
+World Labs: https://www.worldlabs.ai 
+X: https://x.com/drfeifei 
+LinkedIn: https://www.linkedin.com/in/fei-fei-li-4541247 
+
+Timestamps
+00:00:00 Fei-Fei Li
+00:03:46 Vision & Intelligence; Human Vision & Contribution to AI
+00:12:11 Computer Vision & the AI Revolution
+00:18:34 Sponsors: Lingo & Wealthfront
+00:21:19 Speech, Sound & AI Development
+00:23:36 AI & Contextual Learning, Human Intelligence
+00:33:43 Current AI Gaps, Emotion & Creativity
+00:45:48 Computers Enhancing Humanity; Tool: Personal Agency & Learning about AI
+00:53:04 Sponsors: AG1 & LMNT
+00:55:37 Public Discourse about AI
+00:57:34 AI to Enhance Scientific Discovery & Healthcare; Human Collaboration
+01:07:38 Intuition, Motivation & Human States Beyond AI
+01:19:18 Sponsor: David
+01:20:37 Social & Ethical Considerations for AI
+01:27:38 Kids, Development & AI Tools; Tool: Prompt AI Effectively
+01:35:04 Next Frontier for Robotics & AI; Human Agency
+01:43:52 Human-Centered AI Future
+01:50:10 World Labs, Spatial Intelligence
+01:54:12 Concerns about AI & Creativity; Movies, Art, Storytelling
+01:59:51 Younger Generation & AI, Teachers
+02:05:38 Zero-Cost Support, YouTube, Spotify & Apple Follow, Reviews & Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter
+
+_*This experience may not be representative of other Wealthfront clients, and there is no guarantee of future performance or success. Experiences will vary. Andrew Huberman receives cash compensation from Wealthfront Brokerage for paid testimonials in his podcast, creating a conflict of interest. The Cash Account, which is not a deposit account, is offered by Wealthfront Brokerage LLC, member FINRA/SIPC.  Wealthfront Brokerage is not a bank. The base APY is 3.30% on cash deposits as of January 30, 2026, is representative, subject to change, and requires no minimum. If eligible for the overall boosted rate of 4.05% offered in connection with this promo, your boosted rate is also subject to change if the base rate decreases during the 3 month promo period. Additional terms and conditions apply, which can be found on Wealthfront.com/Huberman.  Funds in the Cash Account are swept to program banks, where it earns the variable APY. Same-day withdrawal or instant payment transfers may be limited by destination institutions, daily transaction caps, and by participating entities such as Wells Fargo, the RTP® Network, and FedNow® Service. New Cash Account deposits are subject to a 2-4 day holding period before becoming available for transfer. Investment advisory services are provided by Wealthfront Advisers LLC, an SEC-registered investment adviser. Securities investments: not bank deposits, bank-guaranteed or FDIC-insured, and may lose value._
+
+Disclaimer & Disclosures: https://www.hubermanlab.com/disclaimer
