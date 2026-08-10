@@ -1,0 +1,16 @@
+Feed: Aleph
+Episode: Chips That Aren't Memory-Bound Are The Future
+Method: description
+Language: en
+Words: 126
+URL: https://www.youtube.com/shorts/_JpVzpsxO9w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Everyone building AI chips today is optimizing for transformers. But what happens when the algorithm changes?
+Elad Raz makes the case that designing a chip locked to today's architecture is "the dumbest idea ever" — because by the time it ships, the world has moved. The real bet at NextSilicon: build the fastest, most compute-efficient chip on the planet, then let the algorithms catch up to it.
+Michael Eisenberg's summary is sharp: compress the memory bottleneck, push it through NextSilicon, and suddenly you're not memory-bound anymore. The compute was always there. Now you can use it.
+🔔 Subscribe for more conversations at the frontier of AI infrastructure and chip design.
+Watch the full episode → https://bit.ly/3R4FAck 
+#AIChips #MemoryBound #ChipDesign #NextSilicon #FutureOfAI #TransformerArchitecture #ComputeStrategy #EladRaz #Invested #Semiconductors
