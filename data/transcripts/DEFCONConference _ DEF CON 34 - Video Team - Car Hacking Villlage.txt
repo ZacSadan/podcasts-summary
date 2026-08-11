@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Car Hacking Villlage
+Method: description
+Language: en
+Words: 17
+URL: https://www.youtube.com/watch?v=ciQdzBhR1xI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Out intrepid reporter finds out what's going on this year in the DEF CON Car Hacking Village.

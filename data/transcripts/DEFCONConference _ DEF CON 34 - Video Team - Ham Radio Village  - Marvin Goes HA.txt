@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Ham Radio Village  - Marvin Goes HAM
+Method: description
+Language: en
+Words: 15
+URL: https://www.youtube.com/watch?v=f02wH61gk8M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In which young Marvin goes to the HAM Radio Village and makes us all smile.

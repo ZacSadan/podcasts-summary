@@ -1,0 +1,19 @@
+Feed: DARPAtv
+Episode: Lift Happens: Best of DARPA Lift Challenge Crashes
+Method: description
+Language: en
+Words: 64
+URL: https://www.youtube.com/watch?v=2x2W3mwERiU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Aviation has a wonderful way of keeping us humble. Not every DLC flight attempt ended exactly as planned. 
+
+Some demonstrated that gravity remains undefeated. 
+
+And a few made spectacular contributions to what engineers affectionately call "learning opportunities." 
+
+According to DARPA Lift Challenge Program Manager, Phillip "Donna" Smith, "failure isn't the opposite of progress; it is often the fastest path toward it." 
+
+Learn more: DARPA.mil/Lift

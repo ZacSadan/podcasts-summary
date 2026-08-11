@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Hackers dot Town - The Gibson
+Method: description
+Language: en
+Words: 8
+URL: https://www.youtube.com/shorts/-uDOV46yzcI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What's going down in Hackers.town? The Gibson knows.

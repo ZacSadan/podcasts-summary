@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: DARPA Director on the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 31
+URL: https://www.youtube.com/watch?v=Z6f8JYockQk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DARPA Director Stephen Winchell discusses the value of the Lift Challenge, the decision behind opening it up to a competition, and his favorite moments from the event. Learn more at DARPA.mil/lift.
