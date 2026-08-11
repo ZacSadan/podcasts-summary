@@ -1,0 +1,30 @@
+Feed: Y Combinator
+Episode: Circleback CEO Ali Haghani: Recording Company Meetings Will Become The Norm
+Method: description
+Language: en
+Words: 117
+URL: https://www.youtube.com/watch?v=4YWO4sSRrTE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode of Full Stack, Circleback CEO Ali Haghani shows his work setup and explains why recording meetings with AI notetakers is quickly becoming a necessary practice for teams and companies. 
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+https://circleback.ai/
+
+Chapters:
+
+00:00 - Intro
+00:44 - Ali's hardware setup + gadgets
+02:51 - Unexpected ways of using Circleback
+05:21 - OpenClaw/Telegram vs coding tools
+05:48 - Different agents made in Telegram
+07:42 - Time spent in terminal vs everything else
+09:36 - Testing and writing prompts
+10:48 - Tokenmaxxing?
+12:24 - Things Ali will not let agents do
+12:59 - Why should companies start recording more meetings?
+14:04 - Where is software engineering headed?
