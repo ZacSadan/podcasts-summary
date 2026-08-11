@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - PhreakMe
+Method: description
+Language: en
+Words: 10
+URL: https://www.youtube.com/watch?v=uAZi-dCehuI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Soldier of FORTRAN brings back old-school phreaking in contest form.

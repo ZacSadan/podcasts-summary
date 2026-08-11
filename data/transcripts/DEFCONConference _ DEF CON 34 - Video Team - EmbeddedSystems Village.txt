@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - EmbeddedSystems Village
+Method: description
+Language: en
+Words: 12
+URL: https://www.youtube.com/watch?v=fqs--Ha7gfw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The full lowdown on the Embedded Systems Village at DEF CON 34

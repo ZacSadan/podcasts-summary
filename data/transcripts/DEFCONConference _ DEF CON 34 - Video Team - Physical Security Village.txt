@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Video Team - Physical Security Village
+Method: description
+Language: en
+Words: 10
+URL: https://www.youtube.com/watch?v=M0-cxePSifs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+There's a lot to learn in the Physical Security Village.
