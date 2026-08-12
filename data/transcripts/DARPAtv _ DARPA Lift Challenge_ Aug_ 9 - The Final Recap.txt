@@ -1,0 +1,17 @@
+Feed: DARPAtv
+Episode: DARPA Lift Challenge: Aug. 9 - The Final Recap
+Method: description
+Language: en
+Words: 75
+URL: https://www.youtube.com/watch?v=g5TjVhlvDh8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+For the DARPA Lift Challenge, the question we asked was simple: What’s your ratio? The process to answer it: DARPA HARD.
+
+This is just the beginning of the transformation in heavy vertical-lift aviation. That's why we released a Small Business Innovation Research (SBIR) topic so these teams can continue maturing their drone concepts.
+
+Congratulations to every team that took flight, and pushed the limits of lift.
+
+Access a recap of the competition's results at darpa.mil/lift.

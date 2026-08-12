@@ -1,0 +1,67 @@
+Feed: Veritasium
+Episode: L’homme qui bossait chez Subway... puis a résolu un problème « impossible »
+Method: description
+Language: en
+Words: 484
+URL: https://www.youtube.com/watch?v=uArPN7Pa10w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Les nombres premiers jumeaux sont-ils infinis ? Sponsorisé par Brilliant - Rendez-vous sur https://brilliant.org/veritasium pour essayer gratuitement le tutoriel de Brilliant, et bénéficiez de 20 % de réduction sur un abonnement Premium annuel.
+
+Si vous cherchez une maquette moléculaire, essayez Snatoms, un kit que j'ai inventé où les atomes s'assemblent magnétiquement - https://ve42.co/SnatomsV  
+
+Inscrivez-vous à la newsletter de Veritasium pour recevoir chaque semaine des actualités scientifiques - https://ve42.co/Newsletter 
+
+Pour un accès anticipé aux vidéos en cours de réalisation, rejoignez notre patreon https://ve42.co/VePatreon
+
+▀▀▀
+
+Un immense merci à Alex Kontorovich, Andrew Granville, James Maynard, Roger Heath-Brown, Dimitris Koukoulopoulos, Debmalya Basak & George Shakan pour leur expertise inestimable et leurs contributions à cette vidéo !
+
+▀▀▀
+0:00 Que sont les nombres premiers jumeaux ?
+3:08 Comment trouver des nombres premiers
+6:11 Le crible d’Ératosthène
+11:26 La preuve la plus proche des nombres premiers jumeaux
+15:54 À la recherche d’un écart borné
+18:47 Comment un employé de chez Subway a changé la donne
+29:20 Trouver une borne supérieure
+32:04 Maynard et Polymath
+36:42 Résoudra-t-on la conjecture des nombres premiers jumeaux ?
+
+▀▀▀
+Les références sont disponibles ici : https://ve42.co/TwinPrimesRefs 
+
+▀▀▀
+Remerciements particuliers à nos soutiens Patreon :
+Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, Anton Ragin, armedtoe, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Charles Ian Norman Venn, Daniel Martins, Data Don, Dave Kircher, David Johnston, David Tseng, EJ Alexandra, Evgeny Skvortsov, Garrett Mueller, Gnare, Hayden Christensen, Hong Thai Le, Ibby Hadeed, Jeromy Johnson, Jesse Brandsoy, Jon Jamison, Juan Benet, Kelcey Steele, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Mark Heising, Martin Paull, Meekay, meg noah, Michael Krugman, Moebiusol - Cristian, Orlando Bassotto, Parsee Health, Paul Peijzel, Richard Sundvall, Robson, Sam Lutfi, Shalva Bukia, Sinan Taifour, Tj Steyn, Ubiquity Ventures, Vahe Andonians, wolfee
+
+▀▀▀
+Auteurs : Vibhor Pandey, Casper Mebius et Alex Kontorovich
+Producteur & Réalisateur : Vibhor Pandey
+Présentateurs : Derek Muller & Casper Mebius
+Monteurs : George Reynolds & Trenton Oliver
+Cadreurs : Casper Mebius & Derek Muller
+Animateurs : Emma Wright, Andrew Neet, Alex Drakoulis, Domonkos Józsa & Fabio Albertelli
+Illustrateur : Jakub Misiek
+Monteur additionnel : James Stuart
+Chercheurs : Darius Garewal, Gabe Strong, Sophia Rose
+Créateurs de la miniature : Abdallah Rabah, Ben Powell, Daniel Ellacott & Patryk Ziolkowski
+Équipe de production : Jess Bishop-Laggett, Matthew Cavanagh, Anna Milkovich & Josh Pitt
+Producteurs exécutifs : Derek Muller, Casper Mebius & Emily Zhang 
+
+Vidéos/photos supplémentaires fournies par Getty Images & Storyblocks
+Musique provenant d’Epidemic Sound
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - L'arrivée inattendue d'une démonstration
+1:06 - Conjecture des nombres premiers jumeaux
+3:14 - Méthodes anciennes et début du crible
+6:29 - Crible d'Ératosthène et inclusion-exclusion
+9:01 - Brun, Chen et le problème des termes d’erreur
+17:19 - GPY, Zhang et l’approche des écarts bornés
+21:36 - La percée de Zhang et impacts communautaires
+28:36 - Optimisations, Maynard et perspectives futures
