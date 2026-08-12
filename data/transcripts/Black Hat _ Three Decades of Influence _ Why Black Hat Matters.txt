@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Three Decades of Influence | Why Black Hat Matters
+Method: description
+Language: en
+Words: 34
+URL: https://www.youtube.com/shorts/tq6lYc3jZDo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As Black Hat approaches its 30th anniversary, Daniel Cuthbert reflects on why this conference remains essential to the cybersecurity community. See how Black Hat has influenced the industry through groundbreaking research, innovation, and collaboration.
