@@ -1,0 +1,76 @@
+Feed: Aleph
+Episode: Almost Everything We Believed About AI a Year Ago Was Wrong | Invested Special Episode
+Method: description
+Language: en
+Words: 737
+URL: https://www.youtube.com/watch?v=XIVpVh6X3gg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this special episode of Invested, Michael Eisenberg pulls together the sharpest AI arguments from the last year of the show and puts them in conversation with one another. You'll hear from Gavin Baker, Sarah Tavel, Micha Kaufman, Elad Raz, Eran Shir, Zach Greenberger and David Magerman - seven investors and founders who disagree about almost everything except the stakes.
+This is not a group of people arguing over the same set of facts. Because the field is moving so quickly, each of them is describing a different epoch of AI. Compute was supposed to depreciate quickly - instead, demand is growing. Inference wasn't supposed to be profitable - today it is wildly profitable. AI was supposed to be a game for frontier labs only - open source models are now competing with them. And AI was supposed to trigger mass unemployment - the latest numbers suggest the companies going all in on AI are hiring more people, not fewer.
+From David Magerman calling the financial bubble 10 to 50 times the size of the internet bubble, to Gavin Baker walking through the ROI math on trillions of dollars of GPU spend, to Micha Kaufman arguing that AI gives everyone the same superpowers and therefore gives no one an advantage, to Elad Raz on why the age of compute has replaced the age of energy - this is a fast, honest map of where the debate actually stands.
+They discuss:
+- Whether AI is a financial bubble - and whether that even matters
+- The $200 billion, $600 billion and now trillion-dollar ROI question on GPU spending
+- What actually improved (and what didn't) between Hopper, Blackwell and Rubin
+- Why inference is gross-margin profitable while model training amortization isn't pretty
+- The employment debate: replacement, augmentation or temporary dislocation
+- What AI does to junior work, mentorship and the pipeline of senior engineers
+- Scaling agent capital instead of human capital - and paying developers to spend tokens
+- Why building a "bridge" the labs will bulldoze is a treacherous strategy
+- Why data and information theory still beat throwing everything into an LLM
+- The unknowable economic returns to superintelligence
+- Why the world moved from fighting over food, to energy, to compute
+
+If you want a clear-eyed view of the bull case, the bubble case, the labor case and the compute case - all in one sitting - this compilation is essential listening. Michael's hope is that you finish it with more questions than answers, and that you go deeper on the full episodes.
+
+Please rate this episode 5 stars wherever you stream your podcasts!
+
+KEY TOPICS
+00:00 - "AI Is a Machine Gun We're Giving Children"
+00:43 - Same Topic, Different Epochs
+02:10 - How Wrong We All Were a Year Ago
+03:12 - A Bubble 10 to 50x the Internet Bubble
+03:46 - "OpenAI Isn't a Functioning Business"
+03:58 - Hopper to Blackwell: Linear Scaling
+04:31 - The Trillion-Dollar ROI Question
+05:23 - "I've Never Seen Anything Like This"
+06:13 - The Great Employment Debate
+07:08 - It's Still the First Inning
+07:33 - The Illusion of AI Superpowers
+08:51 - Replacing Labor or Augmenting It?
+09:13 - What AI Does to Junior Work
+09:30 - Scaling Agent Capital, Not Headcount
+10:28 - $300 a Day in Tokens Per Developer
+12:01 - "We're Going to Bulldoze You"
+13:15 - Data Beats Throwing It All Into an LLM
+14:12 - Food, Then Energy, Now Compute
+14:36 - The Unknowable Returns to Superintelligence
+15:22 - More Questions Than Answers
+
+RESOURCES
+Watch the full episode with Gavin Baker - https://www.aleph.vc/content/gavin-baker
+Watch the full episode with Sarah Tavel - https://www.aleph.vc/content/sarah-tavel
+Watch the full episode with Micha Kaufman - https://www.aleph.vc/content/micha-kaufman
+Watch the full episode with Elad Raz - https://www.aleph.vc/content/elad-raz
+Watch the full episode with Eran Shir & Zach Greenberger - https://www.aleph.vc/content/eran-shir-and-zach-greenberger
+Watch the full episode with David Magerman - https://www.aleph.vc/content/david-magerman
+Subscribe to Invested here - https://content.aleph.vc/invested
+Learn more about Aleph - https://www.aleph.vc/
+Sign up for Aleph's monthly email newsletter - https://newsletter.aleph.vc/
+Subscribe to our YouTube channel - https://www.youtube.com/@aleph-vc/
+Follow Michael on Twitter - https://twitter.com/mikeeisenberg
+Follow Michael on LinkedIn - https://www.linkedin.com/in/mieisenberg/
+Follow Aleph on Twitter - https://x.com/aleph?s=20
+Follow Aleph on LinkedIn - https://www.linkedin.com/company/aleph-vc/
+Follow Aleph on Instagram - https://www.instagram.com/aleph.vc/
+
+CREDITS
+Executive Producer: Erica Marom 
+Producer: Sofi Levak, Dalit Merenfeld
+Video and Editing: Nadav Elovic 
+Music and Creative Direction: Uri Ar 
+Content and Editorial: Jackie Goldberg
+Design: Nimrod Sapir
