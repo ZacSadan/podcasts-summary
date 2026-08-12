@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Gaurav Keerthi, CEO and founder of StrongKeep
+Method: description
+Language: en
+Words: 16
+URL: https://www.youtube.com/shorts/OrI1Nzz9FE0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Passion. Knowledge. Connection. That's what keeps security professionals coming back to Black Hat year after year.
