@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Stories | More Than a Conference
+Method: description
+Language: en
+Words: 19
+URL: https://www.youtube.com/shorts/5Qq_L_qp7R8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Three years, three different Black Hat experiences. Gaurav Keerthi, CEO and founder of StrongKeep, shares what makes it special.
