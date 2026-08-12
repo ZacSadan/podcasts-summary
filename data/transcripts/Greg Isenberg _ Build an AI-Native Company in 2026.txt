@@ -1,0 +1,71 @@
+Feed: Greg Isenberg
+Episode: Build an AI-Native Company in 2026
+Method: description
+Language: en
+Words: 794
+URL: https://www.youtube.com/watch?v=EzQAgnjTq2k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Allie K. Miller to talk about the shift from managing AI agents to enabling them. Allie runs a workforce of 34 AI agents led by an AI chief of staff named Simon, plus six directors named after Friends characters. She shares her three-word prompt, her daily AI diary, her AI watchdogs, and her rule to build the factory before the product. We then debate the future of software: why enterprises still want a vendor to call, and why consumer software now rewards taste and distribution. Listeners leave with one mindset shift and a first step they can finish in under three hours.
+
+Get Your Complete Financial OS at https://startup-ideas-pod.link/brex_SIP
+
+Timestamps
+
+00:00 – Intro
+02:29 – Become a Great Agent Manager
+04:49 – The Three-Word Prompt
+08:12 – The Pyramid of Proactivity
+12:23 – Making the Company Queryable
+19:14 – How to Design an AI Workforce
+22:25 – AI as a Watchdog
+24:56 – Startup Opportunities
+26:29 – Build the Factory, Then the Product
+30:09 – The SaaS Question
+34:53 – Consumer Software as Art
+37:12 – High-Value Bottlenecks
+44:56 – Closing Thoughts
+
+Key Points
+
+• Allie sits three rungs above her 34 agents. She sets the infrastructure and waits for escalations.
+• Her strongest prompt runs three words on top of full business context: do smart things.
+• She holds the risk tier steady and expands only the breadth and scope of agent work.
+• A dictated daily diary captures the context that lives outside meetings, email, and Slack.
+• AI watchdogs remain wide open: duplicate work, calendar conflicts, and meeting disagreements.
+• The bigger play is a software factory. Build the primitives once, then ship each product faster.
+• I see opportunity on both sides of software: enterprises want a vendor to call, and consumers reward taste.
+
+Numbered Section Summaries
+
+1. Beyond Agent Management Allie argues that the phrase "managing agents" describes an outdated relationship. She compares her role to an SVP three rungs up: she builds the infrastructure, and the agents choose how to execute inside it. I add that most people come to AI to escape management work, so the framing matters.
+
+2. Empowerment and the Three-Word Prompt Allie ran an org of about 100 people at AWS. She keeps the part she loved, which is helping people break through their ceiling, and she drops the admin part. Her AI workforce reads every context doc she owns, including goals, meetings, email, calendar, Notion, Stripe, Supabase, and GitHub. Several times a day she prompts it with three words: do smart things.
+
+3. The Pyramid of Proactivity I describe three types of employees, and the best one invents and completes new work. Allie maps this to Alex Lieberman's five levels of proactivity, where level five solves the problem and plans for failure. She runs a quarterly goals review with her agents so that new work stays goal-oriented.
+
+4. Context and the Daily AI Diary Allie wants her whole company to be queryable. Meetings and email cover part of it, so a daily prompt asks her to dictate the rest, which is four times faster than typing. She has banked more than 80 entries into a personal wiki that her agents read.
+5. An Org Chart Built for 2026 Simon acts as AI chief of staff over six directors. Allie warns that 2015 job titles produce a 2015 org, so she hires roles that human budgets rule out. Phoebe works as chief dreaming officer and asks how to 10x the output, and Toby watches the workforce and logs friction and access gaps.
+
+6. How to Start, and How to Find Friction Allie suggests one agent first, then a proactive agent, then two agents working together, then a workforce. One prompt gets you started: describe the business and the goals, then ask the model to interview you. Sub-agents run on Haiku and Sonnet, and she reserves Opus for the heavy work. Her human team talks to her AI workforce in a Slack channel called Loop Alley.
+
+7. Build the Factory, Then the Product For the AI First Index, Allie chose the abstraction layer over the single build. Her team assembled a beginner software factory with primitives for login, payments, social sharing, and newsletters. The first product already earns revenue, and each next product now ships faster and stronger.
+
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND ALLIE ON SOCIAL
+X/Twitter: https://x.com/alliekmiller
+Instagram: https://www.instagram.com/alliekmiller/
+LinkedIn: https://www.linkedin.com/in/alliekmiller/
