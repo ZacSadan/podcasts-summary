@@ -102,7 +102,7 @@ jobs:
                 echo "Resolving data/seen.json conflict by merging both sides"
                 python src/merge_seen.py
                 git add data/seen.json
-                git rebase --continue
+                GIT_EDITOR=true git rebase --continue
               else
                 echo "Conflict in files other than data/seen.json; aborting"
                 git rebase --abort
