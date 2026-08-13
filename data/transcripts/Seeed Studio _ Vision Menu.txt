@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: Vision Menu
+Method: description
+Language: en
+Words: 109
+URL: https://www.youtube.com/watch?v=6NGwSU5LkIY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Vision Menu helps a shop notice when someone is actually lingering at the menu, not just walking by and turn that moment into a guest discount: a code and QR on the panel, and the same promo on the counter ePaper for about a minute.
+
+This project used on-device person detection so we didn’t have to train a model or stand up a heavy vision stack. Ready detections come off the camera, and most of the work went into the product logic, how long someone stays, when to offer, and what shows at the counter. https://github.com/samwalker505/vision-menu-270730
+
+Join Interactive Signage Contest to showcase your project and win $2000 prizes: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026
