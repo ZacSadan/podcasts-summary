@@ -97,17 +97,19 @@ jobs:
           else
             git commit -m "chore: update summaries [skip ci]"
             if ! git pull --rebase origin master; then
-              conflicts="$(git diff --name-only --diff-filter=U)"
-              if [ "$conflicts" = "data/seen.json" ]; then
-                echo "Resolving data/seen.json conflict by merging both sides"
-                python src/merge_seen.py
-                git add data/seen.json
-                GIT_EDITOR=true git rebase --continue
-              else
-                echo "Conflict in files other than data/seen.json; aborting"
-                git rebase --abort
-                exit 1
-              fi
+              while git rebase --show-current-patch >/dev/null 2>&1; do
+                conflicts="$(git diff --name-only --diff-filter=U)"
+                if [ "$conflicts" = "data/seen.json" ]; then
+                  echo "Resolving data/seen.json conflict by merging both sides"
+                  python src/merge_seen.py
+                  git add data/seen.json
+                  GIT_EDITOR=true git rebase --continue
+                else
+                  echo "Conflict in files other than data/seen.json; aborting"
+                  git rebase --abort
+                  exit 1
+                fi
+              done
             fi
             git push origin master
           fi
