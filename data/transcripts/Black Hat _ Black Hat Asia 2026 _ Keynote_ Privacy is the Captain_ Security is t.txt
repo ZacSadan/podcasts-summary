@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Keynote: Privacy is the Captain. Security is the Practice.
+Method: description
+Language: en
+Words: 107
+URL: https://www.youtube.com/watch?v=6jD8GfTk_Po
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The best privacy outcomes are the best security outcomes; ultimately sustainable, practical, secure data privacy assets lead to the best economic outcomes. So what do the best privacy outcomes – for citizens, policy makers, and organizations – look like as the quest for global privacy and cybersecurity consensus fractures, and data privacy feels like an antiquated notion? Here and abroad, researchers, scholars, Indigenous communities, and activists increasingly see data privacy and security as grounded in principles of agency and data sovereignty. We'll explore how privacy and security becomes policy with a foundation of sustainability – while navigating shifting external public-policy priorities.
+
+Violet Blue  |  Investigative Journalist
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#keynote-privacy-is-the-captain-security-is-the-practice-54361

@@ -1,0 +1,17 @@
+Feed: Flipper Zero
+Episode: Easy PC Setup with BadUSB ⚡ #flipperzero
+Method: description
+Language: en
+Words: 55
+URL: https://www.youtube.com/shorts/BseXFjz-QW8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Automating routine tasks with BadUSB ⚡
+
+A BadUSB script is a text file containing a sequence of commands written in DuckyScript.
+
+When you run it, Flipper Zero acts as a keyboard and enters those commands automatically.
+
+You can write the script yourself or ask an AI agent to help, making routine tasks faster and repeatable.

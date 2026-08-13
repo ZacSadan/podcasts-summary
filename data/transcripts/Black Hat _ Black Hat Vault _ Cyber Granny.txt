@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Vault | Cyber Granny
+Method: description
+Language: en
+Words: 22
+URL: https://www.youtube.com/shorts/vgyZ7AaAZCM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Meet Cyber Granny! 🔐 Hear her thoughts on the Black Hat community, advice for newcomers, and the importance of staying cyber aware.
