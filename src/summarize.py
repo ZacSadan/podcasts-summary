@@ -232,7 +232,7 @@ You are summarizing a podcast episode. Write a detailed summary IN ENGLISH, rega
 IMPORTANT RULES:
 - Write the summary in English only, even if the transcript below is in Hebrew or another language
 - Keep all product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) as they appear
-- Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed
+- Summary must be {length_instr} — cover every topic discussed
 - Use bold section headers (**Heading**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT skip any technological, business, or product topics
@@ -242,7 +242,7 @@ IMPORTANT RULES:
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
-Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
+Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. {length_instr}.
 
 Respond EXACTLY in this format (no extra text before or after):
 ENGLISH_SUMMARY:
@@ -365,7 +365,7 @@ LANGUAGE RULE (highest priority, never break this):
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
-- Summary must be LONG and DETAILED (800-1200 words) — cover every topic discussed
+- Summary must be {length_instr} — cover every topic discussed
 - Use bold section headers (**כותרת**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT skip any technological, business, or product topics
@@ -374,7 +374,7 @@ IMPORTANT RULES:
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 
-Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. 800-1200 words.
+Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. {length_instr}.
 
 Respond EXACTLY in this format (no extra text before or after):
 HEBREW_SUMMARY:
@@ -660,9 +660,21 @@ def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) ->
     words) are split into chunks, summarized independently, then combined
     (map-reduce) so long episodes aren't silently truncated."""
     llm = _get_local_llm()
-    fmt_kwargs = {"title": episode.title, "feed_name": episode.feed_name}
     words = text.split()
     source_is_hebrew = _is_mostly_hebrew(text)
+
+    # Scale the requested summary length to the source length: asking a 4B
+    # model for an 800-1200 word summary of a ~150-word RSS description (no
+    # real transcript) reliably produces a short "not enough content" style
+    # reply that the quality gate then rejects as too-short, burning all
+    # retries for nothing since shrinking an already-tiny input doesn't help.
+    if len(words) < 300:
+        length_instr = "SHORT and CONCISE (100-200 words) — the source material is brief, so do not pad or repeat"
+    elif len(words) < 600:
+        length_instr = "MODERATE in length (300-500 words) — cover every topic discussed"
+    else:
+        length_instr = "LONG and DETAILED (800-1200 words)"
+    fmt_kwargs = {"title": episode.title, "feed_name": episode.feed_name, "length_instr": length_instr}
 
     if source_is_hebrew:
         summary_tpl = _HEBREW_SUMMARY_PROMPT_LONG if long_summary else _HEBREW_SUMMARY_PROMPT
