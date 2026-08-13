@@ -1,0 +1,39 @@
+Feed: mreflow
+Episode: Making An Actually Fun 3D Game with AI
+Method: description
+Language: en
+Words: 201
+URL: https://www.youtube.com/watch?v=qK4nV_LnXxQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I vibe coded a full game sequel using Claude Code and Codex, and it proved something important about AI and game development.
+
+A year ago I built The Librarian, a playable vibe coded game you can still find on GitHub. This time I wanted to see how far AI coding tools have come, and whether one person could build something that actually feels like a real game.
+
+I used Claude Code with Opus 5 for the initial build, then switched to Codex and GPT-5.6 Sol for all the fine-tuning. The result is The Librarian 2, a 3D procedurally generated roguelite with boss enemies, natural disasters, meta progression, and a chaos system. 10,400 lines of code across 33 modules. Zero asset files.
+
+The verdict: game development is far from cooked. But it's also a lot harder than the one-level demos on X make it look.
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+
+Librarian 2: https://the-librarian-2.mreflow.chatgpt.site/
+Librarian 2 github repo: https://github.com/mreflow/the-librarian-2
+Librarian : https://the-librarian-game.vercel.app/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#VibeCoding #ClaudeCode #AIGameDev
