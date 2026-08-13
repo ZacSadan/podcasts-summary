@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Daniel Cuthbert
+Method: description
+Language: en
+Words: 31
+URL: https://www.youtube.com/shorts/GiWY0pNKH_4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+From world-class research to the collaborative spirit that brings the global security community together, Daniel shares how Black Hat has helped shape some of the most important moments in cybersecurity history.

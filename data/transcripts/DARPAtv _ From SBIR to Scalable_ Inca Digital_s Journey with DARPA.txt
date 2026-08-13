@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: From SBIR to Scalable: Inca Digital's Journey with DARPA
+Method: description
+Language: en
+Words: 102
+URL: https://www.youtube.com/watch?v=o8MwJKSIp9c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Inca Digital’s work with DARPA began with a Phase II Small Business Innovation Research (SBIR) award focused on new ways to map and analyze the rapidly evolving digital asset ecosystem and its connections to traditional financial infrastructure.
+
+In this video, Jules Hirschkorn, senior vice president of operations at Inca Digital, discusses how DARPA’s Embedded Entrepreneur Initiative (EEI) helped the company build on that technical foundation by sharpening its approach to commercialization, customer engagement, and growth.
+
+Hear how DARPA’s willingness to take risks on emerging companies helped Inca Digital expand its capabilities and pursue opportunities across traditional finance and the national security community.
