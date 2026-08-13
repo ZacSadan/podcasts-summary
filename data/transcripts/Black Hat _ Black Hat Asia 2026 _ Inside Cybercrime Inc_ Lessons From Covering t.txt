@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Inside Cybercrime Inc: Lessons From Covering the Global Fraud Boom
+Method: description
+Language: en
+Words: 105
+URL: https://www.youtube.com/watch?v=ChQ-wvvgGNU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Drawing on three years of on the ground reporting across South East Asia, this talk examines the rise of an industrial scale cybercrime economy, an ecosystem now generating an estimated $500bn a year, rivaling the global drug trade. I'll unpack how these syndicates operate as fully fledged multinational enterprises, and explore the human, political and economic forces that allow them to thrive. By tracing how online fraud has evolved, industrialised and globalised, I'll outline what this transformation reveals about the future of organised crime and why defenders, policymakers and investigators need to rethink the threat landscape ahead.
+
+Sue-Lin Wong  |  Asia Correspondent, The Economist
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#inside-cybercrime-inc-lessons-from-covering-the-global-fraud-boom-54591
