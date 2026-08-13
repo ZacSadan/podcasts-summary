@@ -1,0 +1,30 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Priti Ohri Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 217
+URL: https://www.youtube.com/watch?v=0qinmDM_UMA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Priti Ohri, CEO & Co-founder of Advertible. They discuss what agentic AI actually looks like inside a growing advertising business.
+
+Rather than replacing people, Priti shares how her team is using AI agents to eliminate busy work, amplify creative at scale, and free humans to focus on higher-value strategic thinking. She also explains why trust and governance remain non-negotiable, how multiple agents verify each other's work, and why native advertising may be one of the best proving grounds for agentic workflows.
+
+In this episode, we cover:
+
+• How Advertible uses AI agents across marketing, engineering, and production
+• Why every AI output should be verified—not blindly trusted
+• Scaling creative without sacrificing brand governance
+• Why native advertising is uniquely positioned for agentic AI
+• The advertising jobs AI will eliminate—and the ones it will elevate
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+New episodes dropping across the AAO channels and Agents of Change feed over the next few weeks.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI
