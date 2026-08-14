@@ -1,0 +1,16 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Network Operations Center (NOC) Report
+Method: description
+Language: en
+Words: 113
+URL: https://www.youtube.com/watch?v=05w_6iUGFvE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Back with another year of soul-crushing statistics, the Black Hat NOC team will be sharing all of the data that keeps us equally puzzled, and entertained, year after year. We'll let you know all the tools and techniques we're using to set up, stabilize, and secure the network, and what changes we've made over the past year to try and keep doing things better. Of course, we'll be sharing some of the more humorous network activity and what it helps us learn about the way security professionals conduct themselves on an open WiFi network.
+
+Bart Stump  |  Managing Principal, Coalfire
+Neil R. (a.k.a. Grifter) Wyler  |  Vice President of Defensive Services, Coalfire
+
+https://blackhat.com/asia-26/briefings/schedule/?#the-black-hat-asia-network-operations-center-noc-report-51923
