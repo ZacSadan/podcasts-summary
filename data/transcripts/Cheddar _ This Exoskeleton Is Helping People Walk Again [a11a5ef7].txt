@@ -1,0 +1,23 @@
+Feed: Cheddar
+Episode: This Exoskeleton Is Helping People Walk Again
+Method: description
+Language: en
+Words: 221
+URL: https://www.youtube.com/watch?v=Gc7nutbkRn0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+When you lose the ability to walk, much of everyday life becomes inaccessible. But inside a New York robotics lab, one group of engineers and clinicians asked a different question: what if paralysis didn't have to be permanent?
+
+In this episode of NYC Innovates, we dive into the future of human movement with Wandercraft, a French robotics company that's reimagining what's possible for people with spinal cord injuries, stroke, and mobility challenges.
+
+We meet the team behind the exoskeletons, the wearable robotic suits powered by advanced AI that help patients not just stand, but walk, squat, and move freely again. We'll witness the emotional moment when one patient took her first step in a decade. We'll explore the cutting-edge balance algorithms that make hands-free walking possible. And we'll discover how the same technology helping stroke survivors in Manhattan hospitals is now powering humanoid robots in European factories.
+
+From a bootstrapped startup with 16 employees to a company deploying devices in over 100 hospitals worldwide, we'll hear directly from the founders about why they chose New York as their first American hub, how they're navigating FDA clearance and insurance coverage, and what comes next as they scale manufacturing to produce thousands of units per year.
+
+Connect with Cheddar!
+On Facebook: https://facebook.com/cheddar
+On Instagram: https://instagram.com/cheddar
+On the web: https://cheddar.com
+In your inbox: https://need2know.cheddar.com/subscribe
