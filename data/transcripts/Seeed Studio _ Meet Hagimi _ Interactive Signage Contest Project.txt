@@ -1,0 +1,20 @@
+Feed: Seeed Studio
+Episode: Meet Hagimi | Interactive Signage Contest Project
+Method: description
+Language: en
+Words: 150
+URL: https://www.youtube.com/watch?v=Pxj2u6e5DZI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What if a restaurant sign could see you, talk to you, move, and even let you smell today's special? Hagimi is an AI-powered interactive greeting device designed for restaurant entrances, turning traditional static signage into an intelligent character that actively engages with passersby.
+
+As guests approach, Hagimi detects their presence, turns toward them, moves its servo-powered body, and says hello. It can even release the aroma of the day's featured dish, creating an experience that you can see, hear, move with, and smell.
+
+Suddenly, a simple restaurant sign becomes a little character with a personality—and an ordinary walk-by becomes a memorable interaction.
+And this is exactly what the Interactive Signage Contest is all about.
+
+We’re calling on makers, designers, engineers, artists, and creative minds everywhere to rethink what a sign could be.
+
+Bring your imagination to life and join the Interactive Signage Contest for a chance to win $2,000! https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026
