@@ -88,9 +88,18 @@ def is_seen(seen: dict, episode_id: str) -> bool:
     return episode_id in seen["entries"]
 
 
-def commit_and_push_seen(episode_id: str):
+def _rebase_in_progress(run) -> bool:
+    return run("git", "rebase", "--show-current-patch", check=False).returncode == 0
+
+
+def commit_and_push_seen(episode_id: str) -> bool:
     """Commit and push data/seen.json right after marking an episode seen, so a later
-    crash or a next-run collision can never cause that episode to be resent."""
+    crash or a next-run collision can never cause that episode to be resent.
+
+    Returns True if the seen-mark is confirmed pushed (or there was nothing new to
+    push), False if it could not be persisted — the caller must then stop processing
+    further episodes, since sending more to Telegram while seen-marks are stuck
+    unpushed would risk them being resent on the next run."""
     import subprocess
 
     def run(*cmd, check=True):
@@ -100,32 +109,51 @@ def commit_and_push_seen(episode_id: str):
         run("git", "add", str(SEEN_PATH))
         diff = run("git", "diff", "--cached", "--quiet", check=False)
         if diff.returncode == 0:
-            return  # nothing changed (e.g. entry already present)
+            return True  # nothing changed (e.g. entry already present)
         run("git", "commit", "-m", f"chore: mark seen {episode_id} [skip ci]")
 
-        pull = run("git", "pull", "--rebase", "origin", "master", check=False)
-        if pull.returncode != 0:
-            status = run("git", "diff", "--name-only", "--diff-filter=U", check=False)
-            conflicts = status.stdout.split()
-            if conflicts == ["data/seen.json"]:
+        for attempt in range(5):
+            pull = run("git", "pull", "--rebase", "origin", "master", check=False)
+            if pull.returncode == 0:
+                break
+
+            # A rebase can replay several stacked commits; keep resolving
+            # seen.json-only conflicts and continuing until the whole rebase
+            # finishes (or a conflict on something else, or --continue itself
+            # fails, forces an abort).
+            resolved = True
+            while _rebase_in_progress(run):
+                conflicts = run("git", "diff", "--name-only", "--diff-filter=U", check=False).stdout.split()
+                if conflicts != ["data/seen.json"]:
+                    logger.warning(f"  seen.json push conflict on unexpected files {conflicts} — aborting rebase")
+                    resolved = False
+                    break
                 from src.merge_seen import merge_conflicted_seen
                 merge_conflicted_seen()
                 run("git", "add", str(SEEN_PATH))
                 cont = run("git", "rebase", "--continue", check=False)
                 if cont.returncode != 0:
                     logger.warning(f"  git rebase --continue failed: {cont.stderr[:300]}")
-                    run("git", "rebase", "--abort", check=False)
-                    return
-            else:
-                logger.warning(f"  seen.json push conflict on unexpected files {conflicts} — aborting rebase")
+                    resolved = False
+                    break
+
+            if not resolved:
                 run("git", "rebase", "--abort", check=False)
-                return
+                logger.warning(f"  seen-mark push attempt {attempt + 1}/5 failed to rebase — retrying")
+                continue
+            break
+        else:
+            logger.error(f"  Could not rebase seen-mark for {episode_id} after 5 attempts — giving up")
+            return False
 
         push = run("git", "push", "origin", "master", check=False)
         if push.returncode != 0:
-            logger.warning(f"  git push failed: {push.stderr[:300]}")
+            logger.error(f"  git push failed for seen-mark {episode_id}: {push.stderr[:300]}")
+            return False
+        return True
     except Exception as e:
-        logger.warning(f"  commit_and_push_seen error: {e}")
+        logger.error(f"  commit_and_push_seen error for {episode_id}: {e}")
+        return False
 
 
 # ── Transcript cleanup ────────────────────────────────────────────────────────
@@ -269,8 +297,9 @@ def _md_to_tg_html(text: str) -> str:
 
 
 def _tg_split(text: str, limit: int = _TG_MAX) -> list[str]:
-    """Split text into chunks that each fit within Telegram's limit,
-    breaking on blank lines where possible."""
+    """Split HTML text into chunks that each fit within Telegram's limit,
+    breaking on blank lines where possible and never inside an HTML tag
+    (splitting there would send unclosed/broken markup to Telegram)."""
     chunks = []
     while len(text) > limit:
         split_at = text.rfind('\n\n', 0, limit)
@@ -278,6 +307,11 @@ def _tg_split(text: str, limit: int = _TG_MAX) -> list[str]:
             split_at = text.rfind('\n', 0, limit)
         if split_at == -1:
             split_at = limit
+        # Don't cut inside a tag like <a href="...">: back up to before its '<'.
+        lt = text.rfind('<', 0, split_at)
+        gt = text.rfind('>', 0, split_at)
+        if lt > gt and lt > 0:
+            split_at = lt
         chunks.append(text[:split_at].strip())
         text = text[split_at:].strip()
     if text:
@@ -296,14 +330,13 @@ def send_telegram(formatted_summary: str):
         logger.info("  Telegram: TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set — skipping")
         return
 
-    md_chunks = _tg_split(formatted_summary)
+    html_chunks = _tg_split(_md_to_tg_html(formatted_summary))
     api_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     sent = 0
     try:
-        for i, md_chunk in enumerate(md_chunks):
+        for i, html in enumerate(html_chunks):
             if i > 0:
                 _time.sleep(3)  # stay under Telegram's 20 msg/min channel limit
-            html = _md_to_tg_html(md_chunk)
             resp = _req.post(api_url, json={
                 "chat_id": chat_id,
                 "text": html,
@@ -328,7 +361,7 @@ def send_telegram(formatted_summary: str):
             else:
                 logger.warning(f"  Telegram: send failed {resp.status_code} — {resp.text[:200]}")
                 break
-        logger.info(f"  Telegram: {sent}/{len(md_chunks)} message(s) sent")
+        logger.info(f"  Telegram: {sent}/{len(html_chunks)} message(s) sent")
     except Exception as e:
         logger.warning(f"  Telegram: send error — {e}")
 
@@ -433,8 +466,9 @@ def main():
             logger.warning("  No transcript found — skipping episode")
             mark_seen(seen, episode.id)
             save_seen(seen)
-            if not args.test:
-                commit_and_push_seen(episode.id)
+            if not args.test and not commit_and_push_seen(episode.id):
+                logger.error("  Could not persist seen-mark — stopping run to avoid re-processing episodes next time")
+                break
             continue
 
         if transcript.method == "whisper":
@@ -467,16 +501,21 @@ def main():
             logger.error(f"  Summarization failed: {e}")
             mark_seen(seen, episode.id)
             save_seen(seen)
-            if not args.test:
-                commit_and_push_seen(episode.id)
+            if not args.test and not commit_and_push_seen(episode.id):
+                logger.error("  Could not persist seen-mark — stopping run to avoid re-processing episodes next time")
+                break
             continue
 
         if args.write_results:
             append_result(summary)
         mark_seen(seen, episode.id)
         save_seen(seen)
-        if not args.test:
-            commit_and_push_seen(episode.id)
+        # Persist the seen-mark BEFORE sending to Telegram: if the push can't be
+        # confirmed, stop here rather than send — a message that goes out but
+        # whose seen-mark never lands would just get resent on the next run.
+        if not args.test and not commit_and_push_seen(episode.id):
+            logger.error("  Could not persist seen-mark — stopping run to avoid duplicate Telegram sends next time")
+            break
         send_telegram(tg_summary)
         logger.info("  Done.")
 

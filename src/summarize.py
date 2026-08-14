@@ -341,7 +341,7 @@ RULES:
 - Translate into natural, fluent Hebrew
 - Keep product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) in English, exactly as they appear
 - Keep the same structure: headings, bullet points, paragraph breaks
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character
 - Do NOT repeat any sentence more than once
 
 Respond EXACTLY in this format (no extra text before or after):
@@ -359,7 +359,7 @@ _HEBREW_SUMMARY_PROMPT = """\
 You are summarizing a podcast episode. Write a detailed Hebrew summary.
 
 LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
@@ -391,7 +391,7 @@ _HEBREW_SUMMARY_PROMPT_LONG = """\
 You are summarizing a podcast episode that has full, detailed show notes. Write a comprehensive Hebrew summary.
 
 LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
@@ -424,7 +424,7 @@ _HEBREW_CHUNK_SUMMARY_PROMPT = """\
 You are summarizing PART {part} OF {total} of a longer podcast transcript. Write detailed notes in Hebrew covering everything discussed in this part only.
 
 LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once.
 
@@ -450,7 +450,7 @@ _HEBREW_COMBINE_SUMMARY_PROMPT = """\
 You are given Hebrew notes covering different parts of the same podcast episode, in order. Combine them into one detailed, coherent Hebrew summary of the whole episode.
 
 LANGUAGE RULE (highest priority, never break this):
-- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, or any other script — not even one character.
+- Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
 
@@ -539,12 +539,12 @@ def _is_refusal(text: str) -> bool:
     )
 
 
-_NON_HEBREW_SCRIPT_RE = re.compile(r"[一-鿿぀-ヿ가-힣Ѐ-ӿ]")
+_NON_HEBREW_SCRIPT_RE = re.compile(r"[一-鿿぀-ヿ가-힣Ѐ-ӿ؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]")
 
 
 def _has_wrong_script(text: str, max_chars: int = 3) -> bool:
-    """Return True if the text contains Chinese/Japanese/Korean/Cyrillic characters —
-    a sign the model code-switched out of Hebrew under long-context load."""
+    """Return True if the text contains Chinese/Japanese/Korean/Cyrillic/Arabic
+    characters — a sign the model code-switched out of Hebrew under long-context load."""
     return len(_NON_HEBREW_SCRIPT_RE.findall(text)) > max_chars
 
 
