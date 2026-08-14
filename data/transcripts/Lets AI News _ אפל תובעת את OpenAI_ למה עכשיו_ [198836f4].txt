@@ -1,0 +1,27 @@
+Feed: Lets AI News
+Episode: אפל תובעת את OpenAI: למה עכשיו?
+Method: description
+Language: he
+Words: 140
+URL: https://www.youtube.com/watch?v=YU7hi87blxY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+אפל תובעת את OpenAI בטענה לגניבת סודות מסחריים וקניין רוחני באמצעות גיוס עובדים בכירים, דווקא אחרי שהשתיים שיתפו פעולה בשילוב ChatGPT במוצרי אפל. בפרק הזה נצלול למלחמת הגיוסים והכישרונות שמתחוללת בין ענקיות הטכנולוגיה, למעבר של בכירים ומהנדסים בין החברות, ולחשש הגדול יותר: מי יבנה את מכשיר ה-AI הבא — ועל איזה ידע וטכנולוגיה הוא יתבסס? וגם, האם התביעה הזו באמת מאיימת על OpenAI?
+
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business
