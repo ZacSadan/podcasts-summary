@@ -1,0 +1,25 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Post-Quantum Cryptography: A Realistic Guide to Manage the Transition
+Method: description
+Language: en
+Words: 212
+URL: https://www.youtube.com/watch?v=_M0of-6aLpk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The quantum computing risk has become a boardroom issue, driven by the emergence of standards, government-issued guidelines, and companies attempting to build quantum computers. Despite lackluster progress, the risk must not be ignored, hence organizations must assess their exposure and ensure appropriate defenses, which mostly consist of post-quantum cryptography.
+
+This presentation offers a technical and strategic roadmap for PQC integration:
+
+We'll first characterize the risk, mostly via its impact for various systems such as VPNs, encryption-at-rest, and distributed ledgers. We'll discuss the various "harvest now, decrypt later" scenarios and why quantum computers won't steal your Bitcoin (but might affect blockchain systems in surprising ways.) Although the expected timeline is an elusive topic, I'll share my perspective.
+
+We'll then describe the technical options, reviewing the standards and recommendations in various regions—in the U.S. (NIST), as well as China (GM/T), Japan (CRYPTREC), and Korea (KISA).
+
+Drawing from my work as co-author of FIPS 205 (SLH-DSA), I'll describe the different algorithm types and their respective properties in terms of security assurance and performance, also discussing hybrid deployment modes.
+
+Finally, we'll share our experience in managing the risk as a CSO: creating an internal migration plan, performing risk assessments, adapting cryptographic software, and addressing clients' and regulators' concerns.
+
+Jean-Philippe Aumasson  |  Cofounder and CSO, Taurus
+
+https://blackhat.com/asia-26/briefings/schedule/?#post-quantum-cryptography-a-realistic-guide-to-manage-the-transition-51713
