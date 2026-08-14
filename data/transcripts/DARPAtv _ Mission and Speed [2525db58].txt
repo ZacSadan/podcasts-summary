@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: Mission and Speed
+Method: description
+Language: en
+Words: 95
+URL: https://www.youtube.com/shorts/xaOsxtCFz9w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Stacie Williams, Ph.D., Chief Science Officer for the United States Space Force and DARPA alumna, discusses how the agency’s unique culture and high-caliber talent foster an unparalleled environment for professional growth and innovation. Dr. Williams highlights DARPA's non-hierarchical, "flat" organizational structure, which promotes direct collaboration and the freedom to exchange ideas—elements she identifies as critical to creating "technical surprise." Reflecting on her time as a program manager, she credits the experience of working alongside "heavy hitters" for her own development and for building an enduring network of experts that remains valuable in her current role.
