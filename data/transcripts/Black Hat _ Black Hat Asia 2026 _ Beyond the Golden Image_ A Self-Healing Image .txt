@@ -1,0 +1,25 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Beyond the Golden Image: A Self-Healing Image Supply Chain
+Method: description
+Language: en
+Words: 307
+URL: https://www.youtube.com/watch?v=ueG0ynK0I7A
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Cloud images are frequently stale on arrival. Traditional hardening depends on manual patch cycles and periodic rebuilds—an approach that breaks down in large enterprises running thousands of rapidly changing workloads. Reactive remediation creates persistent security debt, long exposure windows, and an image supply chain that cannot keep pace with modern Agile delivery.
+
+This Briefing presents a security-first framework for a self-healing image supply chain that continuously delivers deterministic, verifiable, and zero-CVE operating system images at enterprise scale. The approach replaces legacy package-manager–driven workflows with hermetic, declarative builds that remove non-determinism and guarantee 100% reproducibility. Every image is cryptographically signed, attested with SLSA-aligned provenance, and verified prior to promotion, preventing compromised or untrusted components from reaching production.
+Our platform implements this framework, with layered hardening and minimal-footprint custom builds that eliminate unnecessary utilities, reducing attack surface while preserving developer flexibility. Strict policy gates ensure that only images meeting integrity, compliance, and vulnerability criteria are deployable.
+
+To sustain security posture at scale, the system continuously tracks vulnerability intelligence feeds and upstream base-layer updates. When a patch or new CVE is released, images are automatically regenerated, validated, and published—guaranteeing updated images in less than 24 hours without manual intervention.
+
+In production use, the framework is actively consumed by 500+ SREs impacting 1000s of developers across 70+ engineering teams, has reduced organization-wide CVE backlog by approximately 40%, and scales to support thousands of workloads. Today it supports hardened Linux and Windows OS images across AWS and Azure, with a design extensible to data-center images and container pipelines.
+
+We will share the architecture framework, threat model and implementation techniques as a vendor-neutral blueprint so security and platform teams can transform image security from a reactive process into an autonomous, continuously verified supply chain.
+
+Neelu Tripathy  |  Senior Security Architect, Adobe Inc.
+Lovlesh Malik  |  Engineering Manager, Adobe Systems India Pvt. Ltd
+
+https://blackhat.com/asia-26/briefings/schedule/?#beyond-the-golden-image-a-self-healing-image-supply-chain-52380
