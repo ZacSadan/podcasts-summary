@@ -1,0 +1,79 @@
+Feed: mreflow
+Episode: AI News: A Flood of New Models (Here's What Matters)
+Method: description
+Language: en
+Words: 248
+URL: https://www.youtube.com/watch?v=NC4h5kWH_-A
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you likely missed this week. Try Seedance 2.5 on Artlist here 👉 https://artlist.io/?artlist_aid=Mattwolfe_4110&utm_source=affiliate_p&utm_medium=Mattwolfe_4110&utm_campaign=Mattwolfe_4110
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+WorldClaw 3D Generation: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
+Introducing Grok Bot: https://x.ai/news/introducing-grok-bot
+Claude AI Content Labels: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content
+Suno Music Responsibility: https://suno.com/blog/building-the-future-of-music-responsibly
+Spotify AI Artist Labels: https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/
+Introducing Grok 4.6: https://x.ai/news/grok-4-6
+Grok 4.7 Coming Soon: https://x.com/elonmusk/status/2087604711767896527
+Gemini 3.7 Flash: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/
+Meta Muse Glimmer: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
+NVIDIA Nemotron 3.5 Lightning: https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/
+DeepSeek-V4-Pro Release: https://api-docs.deepseek.com/news/news260813/
+MAI-Code-1.1-Flash Launch: https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/
+GPT-5.6 Ultrafast Mode: https://openai.com/index/previewing-ultrafast/
+ChatGPT Linux Desktop App: https://x.com/OpenAI/status/2087231350134980830
+Claude Code Auto Mode: https://claude.com/blog/auto-mode-default-in-claude-code
+Cowork Chrome Side Panel: https://claude.com/blog/cowork-chrome-side-panel
+Claude Code Session Messaging: https://x.com/ClaudeDevs/status/2085817074816070014
+LTX-2.5 Fast Video: https://venturebeat.com/technology/ltx-2-5-can-generate-a-10-second-ai-video-from-an-image-in-just-6-8-seconds-on-nvidia-superchips-and-its-open-weights
+Alibaba Unveils Wan3.0: https://www.alibabacloud.com/blog/alibaba-unveils-wan3-0-with-twice-as-long-video-outputs-from-a-richer-variety-of-inputs_603439
+MAI-Image-2.6 Ranks Second: https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/
+Twitch AI Opt-Out: https://appleinsider.com/articles/26/08/12/twitch-will-train-amazons-ai-on-your-streams-unless-you-opt-out
+Sign Language AI: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:13 WorldClaw
+3:29 Grok Bot
+8:33 Seedance 2.5 in Artlist
+9:25 Anthropic Watermark
+11:48 Suno Watermark and Limits
+14:57 Spotify AI Labels
+16:20 A Flood of New Models
+17:44 Grok 4.6
+20:14 Gemini 3.7 Flash
+22:13 Muse Glimmer
+23:48 Nemotron 3.5 Lightning
+24:26 Deepseek-v4-Pro
+25:12 MAI-Code-1.1-Flash
+25:29 GPT-5.6 Sol Ultrafast
+26:50 ChatGPT on Linux
+27:06 Claude Code Auto Mode
+27:42 Claude Chrome Update
+28:15 Claude Sessions Message Each Other
+28:36 LTX-2.5
+28:59 Wan3.0
+29:14 MAI-Image-2.6
+29:50 Twitch AI Training
+30:14 Deepmind SL2T
+30:44 Final Thoughts
+33:49 WTF?
