@@ -477,10 +477,17 @@ def main():
 
         logger.info(f"  Transcript: {transcript.method} ({transcript.word_count} words, lang={transcript.language})")
 
-        # Save transcript to debug file
+        # Save transcript to debug file. The filename is derived from feed name +
+        # title (truncated), which is NOT guaranteed unique — two distinct episodes
+        # can have titles differing only in case (e.g. a short teaser vs. the full
+        # video), which silently collide/overwrite on case-insensitive filesystems.
+        # Append a short hash of the stable episode id so every episode gets its
+        # own file regardless of title similarity.
         DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+        import hashlib
+        id_hash = hashlib.sha1(episode.id.encode("utf-8")).hexdigest()[:8]
         safe_name = re.sub(r'[^\w\- ]', '_', f"{episode.feed_name} — {episode.title}")[:80]
-        debug_path = DEBUG_DIR / f"{safe_name}.txt"
+        debug_path = DEBUG_DIR / f"{safe_name} [{id_hash}].txt"
         if not str(debug_path.resolve()).startswith(str(DEBUG_DIR.resolve())):
             logger.warning(f"  Path traversal blocked for transcript save: {safe_name!r}")
         else:
