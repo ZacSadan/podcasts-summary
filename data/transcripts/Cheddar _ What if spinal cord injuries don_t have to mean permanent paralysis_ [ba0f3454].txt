@@ -1,0 +1,15 @@
+Feed: Cheddar
+Episode: What if spinal cord injuries don’t have to mean permanent paralysis?
+Method: description
+Language: en
+Words: 96
+URL: https://www.youtube.com/shorts/3KANwbGj8hM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In a New York robotics lab, Wandercraft, a French company, is developing AI-powered exoskeletons that restore mobility to patients with movement challenges. These wearable robotic suits enable users to walk, squat, and move independently through advanced balance technology. The impact is profound: patients who haven’t walked in years are taking steps again. Beyond hospitals, the same exoskeleton technology is now being adapted to power humanoid robots in factories across Europe.
+
+The company's newest exoskeleton model, EVE is the world's first self-balancing personal exoskeleton cleared for home use.
+
+Check out the full coverage on our YouTube channel!
