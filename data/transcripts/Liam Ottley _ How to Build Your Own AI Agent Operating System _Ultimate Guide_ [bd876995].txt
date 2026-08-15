@@ -1,0 +1,49 @@
+Feed: Liam Ottley
+Episode: How to Build Your Own AI Agent Operating System (Ultimate Guide)
+Method: description
+Language: en
+Words: 214
+URL: https://www.youtube.com/watch?v=8Hu2s7sMWZg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get $100 in free Hyperagent credits when you sign up for a paid plan: https://www.hyperagent.com/liam
+
+Full guide + my copy my skills & agents: https://aimakeover.io/guides/aios-in-an-afternoon/
+
+Watch the full VLOG with Arlin’s business: https://www.youtube.com/watch?v=BMSvmzJuMiM&t=157s
+
+Want an AI Makeover for YOUR Business?
+👉🏻 https://bit.ly/ai-makeover-apply
+
+Follow me on Instagram to see behind the scenes:
+🤳🏼 https://instagram.com/liamottley
+
+🛠 MY TECH STACK
+
+Hostinger (agent & web hosting): https://hostinger.com/liamvps
+Hyperagent (AIOS workspace): https://www.hyperagent.com/liam
+Ospry (AI lead gen): https://www.ospry.ai?fpr=liam41
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+Firecrawl (web scraping): https://firecrawl.link/liam-ottley
+Supadata (video scraping): https://supadata.ai/?ref=liam
+Apify (all other scraping): https://apify.com?fpr=8txghh
+ElevenLabs (voice agents & cloning): https://try.elevenlabs.io/liam
+Claude Code (coding): https://claude.com/claude-code
+Supabase (database): https://supabase.com
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
+
+Learn how to build a all in one AI agents operating system in 2026 with this ultimate guide — no coding experience required. In this step-by-step tutorial, you'll master ai agents and automation, and build a real AI operating system with real-world AI agents. 
+
+0:00 AI operating system case study
+1:05 the foundation of your AIOS 
+1:58 everyone skips this (huge mistake)
+4:37 your AIOS workspace
+5:56 how to integrate ANY app
+6:51 loading in your context
+9:28 automating tasks into skills
+13:21 build ai agents
+17:16 building custom apps 
+18:51 free download to build your AIOS
