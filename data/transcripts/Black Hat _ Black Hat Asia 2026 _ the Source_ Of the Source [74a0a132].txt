@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | the Source, Of the Source
+Method: description
+Language: en
+Words: 167
+URL: https://www.youtube.com/watch?v=TPpHyYv6SqU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Sure, you can double‑check package names, stick to trusted maintainers, and install only from reputable sources. But even if you play everything perfectly, what happens when the infrastructure itself is what gets pwned?
+
+This research goes past the packages themselves and straight into the machinery underneath: exploiting the registry services, CDNs and proxie that every build quietly depends on. Once we treated those systems as the real attack surface, things got interesting fast.
+
+This talk walks through how we uncovered critical vulnerabilities across package distribution infrastructure of JavaScript, Julia, Go, .NET, Lua, and more — bugs that enabled account takeover, package hijacks, server-side RCE, and other ecosystem‑level compromises quietly embedded in the infrastructure. Even when developers do everything right, the systems delivering their code can still be the weak link.
+
+The problem isn't always just your dependencies; it's sometimes the systems that ship them. This is our journey into breaking (and ultimately helping secure) the foundations of modern software distribution.
+
+Tsi-Lin Ng  |  Security Researcher, DEVCORE
+
+https://blackhat.com/asia-26/briefings/schedule/?#hack-the-source-of-the-source-51400

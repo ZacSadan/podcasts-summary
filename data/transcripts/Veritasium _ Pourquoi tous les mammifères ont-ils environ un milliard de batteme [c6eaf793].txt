@@ -1,0 +1,86 @@
+Feed: Veritasium
+Episode: Pourquoi tous les mammifères ont-ils environ un milliard de battements de cœur dans leur vie ?
+Method: description
+Language: en
+Words: 723
+URL: https://www.youtube.com/watch?v=IyPAg8KF6wc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Les mathématiques cachées qui régissent la vie. Sponsorisé par Brilliant - Essayez Brilliant gratuitement, et bénéficiez de 20 % de réduction sur un abonnement Premium annuel à l'adresse https://brilliant.org/veritasium
+
+L'année dernière, nous avons lancé le jeu Elements of Truth sur Kickstarter et avons été ravis de la réponse. Nous en sommes maintenant aux dernières étapes de la production, avec les récompenses Kickstarter qui seront bientôt expédiées. Précommandez l’édition commerciale ici : https://elementsoftruth.game/
+
+Si vous cherchez une boîte de modélisation moléculaire, essayez Snatoms, un kit que j'ai inventé où les atomes s'assemblent magnétiquement - https://ve42.co/SnatomsV
+
+Pour recevoir chaque semaine des actualités scientifiques, ainsi qu’une session de questions/réponses exclusive où le scénariste/réalisateur Daniel Leonard évoque la création de cette vidéo, inscrivez-vous à la newsletter Veritasium - https://ve42.co/Newsletter
+
+Pour accéder en avant-première à nos vidéos en cours de réalisation, rejoignez notre Patreon - https://ve42.co/VePatreon
+
+▀▀▀
+0:00 Quelle quantité de LSD faut-il donner à un éléphant ?
+3:09 Taux métabolique chez les animaux
+5:27 La loi de la surface
+8:04 Qu’est-ce que la loi de Kleiber ?
+10:49 Pourquoi le ¼ est-il omniprésent en biologie ?
+13:33 La théorie WBE
+19:53 Chaque animal a 1 000 000 000 battements de cœur
+23:11 Pourquoi les humains vivent plus longtemps
+24:31 Vaut-il mieux vivre en ville ou dans une petite commune ?
+30:12 Existe-t-il vraiment un exposant d’échelle universel pour la vie ?
+
+▀▀▀
+Une grande partie de cette vidéo s’inspire du livre de Geoffrey West : Scale. Découvrez-le ici - https://ve42.co/ScaleBook
+
+▀▀▀
+Remerciements particuliers aux experts qui ont rendu cette vidéo possible :
+Brian Enquist, dont les travaux ont inspiré cette vidéo, pour avoir partagé l’histoire derrière la théorie WBE et nous avoir aidés à rendre ses hypothèses clés et sa démonstration plus précises.
+
+Van Savage, pour ses retours généreux et détaillés qui ont affiné notre explication de la théorie WBE, de l’auto-similarité et de l’état actuel du domaine.
+
+Steven Strogatz, pour ses conversations éclairantes, sa contribution à l’écran et ses relectures attentives qui nous ont permis de garder les mathématiques claires et l’histoire scientifiquement honnête.
+
+Peter Sheridan Dodds, pour nous avoir aidés à comprendre les objections à la théorie WBE et le débat autour de la loi des trois quarts.
+
+Et tous les autres experts qui ont discuté de ce sujet avec nous lors de l’élaboration du script, pour leurs contributions inestimables : Luis Bettencourt, Jayanth Banavar, Aaron Clauset, Juan Rubalcaba et Douglas Glazier.
+
+▀▀▀
+Références : https://ve42.co/ScaleRefs
+
+▀▀▀
+Remerciements particuliers à nos soutiens sur Patreon :
+
+Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, André Powell, Anton Ragin, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Bryan Ackermann, Chris Brewer, Data Don, Dave Kircher, David Johnston, David Tseng, EJ Alexandra, Evgeny Skvortsov, Garrett Mueller, Gnare, gpoly, Hayden Christensen, Hong Thai Le, Ibby Hadeed, Jeromy Johnson, Jesse Brandsoy, Juan Benet, Kelcey Steele, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Mark Heising, Martin Paull, Meekay, meg noah, Michael Krugman, Moebiusol - Cristian, Orlando Bassotto, Parsee Health, Paul Peijzel, Robson, Sam Lutfi, Shalva Bukia, Sinan Taifour, Sweet_Nemo, Tj Steyn, Ubiquity Ventures, Vahe Andonians, wolfee
+
+▀▀▀
+Auteurs - Daniel Leonard, Casper Mebius & Derek Muller
+Producteur & Réalisateur - Daniel Leonard
+Présentateurs & Voix off - Derek Muller & Henry van Dyck
+Monteurs - Trenton Oliver, Axel Oliver & Jonny Lennard
+Assistant monteur - James Stuart
+Animateurs - Alex Drakoulis, Andrew Neet, Domonkos Józsa, Emma Wright & Fabio Albertelli
+Illustrateurs - Jakub Misiek & Raphael Aubry
+Simulations - Callum Cuttle & Aakash Singh Bagga
+Chercheurs - Aakash Singh Bagga, Callum Cuttle & Gabe Strong
+Créateurs de la miniature - Abdallah Rabah & Daniel Ellacott
+Direction artistique de la miniature - Ben Powell
+Équipe de production - Jess Bishop-Laggett, Glen Griffiths, Matthew Cavanagh, Luke Lewis, Anna Milkovic & Justin St-Laurent
+Producteurs exécutifs - Casper Mebius & Derek Muller
+
+Vidéos/photos additionnelles fournies par Getty Images, Pond5 et Storyblocks
+Musique d’Epidemic Sound
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+
+Music from Epidemic Sound
+
+0:00 - Introduction et expérience avec l’éléphant Tusko
+1:20 - Problème des doses et loi de puissance
+2:29 - Défis du métabolisme et notion d’échelle
+5:28 - Loi de surface, exposants et exemples biologiques
+11:10 - Origine mathématique des lois d’échelle
+13:34 - Théorie WBE, vérifications et prédictions
+19:49 - Villes, nombre de battements et société
+24:22 - Débats scientifiques et perspectives d’avenir
