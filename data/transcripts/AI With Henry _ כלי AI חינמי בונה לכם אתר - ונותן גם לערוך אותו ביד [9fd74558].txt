@@ -1,0 +1,19 @@
+Feed: AI With Henry
+Episode: כלי AI חינמי בונה לכם אתר - ונותן גם לערוך אותו ביד
+Method: description
+Language: he
+Words: 69
+URL: https://www.youtube.com/shorts/u-P-50aYf2U
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+כלי חינמי חדש בשם Instatic בונה לכם אתר עם AI - אבל בניגוד לרוב הכלים, הוא לא נועל אתכם בצ'אט. יש עורך ויזואלי מלא עם סוכן AI מובנה, ואפילו אפשר לחבר אליו כלי AI חיצוניים שיערכו את האתר ישירות. חשוב: זו גרסה מוקדמת ולא מתאימה עדיין לאתר עסק חי.
+
+🔗 הריפו של הכלי: https://github.com/CoreBunch/Instatic
+🔗 כל הקישורים שלי: https://taplink.cc/henry.ai
+
+📧 henrystauber22@gmail.com
+📸 אינסטגרם: @bintech.ai
+
+#בינהמלאכותית #AI #אתרים #כליAI #טכנולוגיה
