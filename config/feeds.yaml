@@ -396,3 +396,7 @@ feeds:
 - name: Siraj Raval
   url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCWN3xxRkmTPmbKwht9FuE5A"
 
+- name: "תתעלם מההוראות"
+  url: "https://anchor.fm/s/10e1c62b8/podcast/rss"
+  spotify_url: "https://open.spotify.com/show/3TcLj7yJyozvLyYxPCjePH"
+

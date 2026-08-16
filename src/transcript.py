@@ -286,7 +286,7 @@ def try_page_content(episode, min_length: int, page_text: Optional[str] = None) 
 def try_description(episode, min_length: int) -> Optional[TranscriptResult]:
     raw = episode.description or ""
     text = strip_html(raw).strip()
-    if len(text) < min_length:
+    if len(text.split()) < min_length:
         return None
     return TranscriptResult(
         f"[SHOW NOTES]\n{text}",
