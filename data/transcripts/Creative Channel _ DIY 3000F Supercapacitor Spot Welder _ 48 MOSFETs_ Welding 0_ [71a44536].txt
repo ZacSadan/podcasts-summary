@@ -1,0 +1,35 @@
+Feed: Creative Channel
+Episode: DIY 3000F Supercapacitor Spot Welder | 48 MOSFETs, Welding 0.3mm Nickel
+Method: description
+Language: en
+Words: 160
+URL: https://www.youtube.com/watch?v=Lors-FYt6Eg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, I show my newly completed **DIY supercapacitor battery spot welder**, designed for EV battery packs, power tool batteries, and other high-current battery projects.
+
+3D file : https://makerworld.com/en/models/3177538-diy-supercapacitor-battery-spot-welder#profileId-3593434
+
+- Specifications
+
+* 4 × **2.7V 3000F supercapacitors
+* Supercapacitor configuration: 2S2P
+* Capacitor bank: **5.4V – 3000F**
+* Heavy-duty aluminum 48-MOSFET power board
+* Independent dual-pulse welding control
+* Powered by a common Makita battery or an external DC adapter
+* Compact and portable design
+
+- Welding Performance:
+
+* Stable welding of 0.25–0.30 mm nickel strips for EV battery packs
+* 0.18–0.20 mm nickel strips for power tool battery packs
+* Supports 0.15 mm copper under nickel for high-current battery connections
+* Thousands of amps of instantaneous welding current
+* Adjustable Pulse 1, Pulse 2 and pulse interval
+
+In this video, I'll show the internal construction, 2S2P supercapacitor bank, 48-MOSFET power stage, controller settings, and real-world welding tests.
+
+#SupercapacitorSpotWelder #DIYSpotWelder #BatterySpotWelder #3000F #48MOSFET #BatteryPack #EVBattery #PowerToolBattery #NickelStrip #CopperNickel #DIYElectronics
