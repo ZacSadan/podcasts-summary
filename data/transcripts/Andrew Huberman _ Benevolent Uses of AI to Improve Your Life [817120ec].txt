@@ -1,0 +1,19 @@
+Feed: Andrew Huberman
+Episode: Benevolent Uses of AI to Improve Your Life
+Method: description
+Language: en
+Words: 117
+URL: https://www.youtube.com/shorts/XmUVbu5BgiI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr. Fei-Fei Li, PhD, is a professor of computer science at Stanford University and a pioneer and expert in artificial intelligence (AI).
+
+We discuss how AI can be used safely and effectively to extend human capabilities – not just to search for information but specifically to increase human intelligence and creativity.
+
+We also discuss how humans collaborating with AI and robots can transform human health and our experience of life for the better.
+
+And we cover what makes AI fundamentally different from human cognition, and why your intuition and unique experiences are not replicable by AI or machines.
+
+Both AI enthusiasts and skeptics will benefit from the information and tools Dr. Fei-Fei Li shares in this episode.
