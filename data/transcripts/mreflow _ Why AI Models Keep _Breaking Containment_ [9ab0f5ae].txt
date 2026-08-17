@@ -1,0 +1,25 @@
+Feed: mreflow
+Episode: Why AI Models Keep "Breaking Containment"
+Method: description
+Language: en
+Words: 142
+URL: https://www.youtube.com/shorts/9ZKeu_7k9ik
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Apparently the newest benchmark for AI models is… can it commit cyber crimes? 😭
+
+First OpenAI’s model broke out during testing and hacked Hugging Face.
+
+Then Anthropic basically showed up like, “our models commit crimes too.”
+
+And now Meta has joined the club after one of its AI models accidentally got access to the public internet during cybersecurity testing and started hacking another company.
+
+Obviously, there are some very real and slightly terrifying implications here about what happens when increasingly capable AI systems get access to tools they weren’t supposed to have.
+
+But I also can’t get over how these stories are starting to feel like a very weird flex from the AI companies like: "Our model is so smart it broke containment too!”
+
+Follow to stay up-to-date with what's happening in the tech and AI world!
+
+#ainews #ai #meta #openai #anthropic
