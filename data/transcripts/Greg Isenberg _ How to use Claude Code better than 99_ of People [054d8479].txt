@@ -1,0 +1,55 @@
+Feed: Greg Isenberg
+Episode: How to use Claude Code better than 99% of People
+Method: description
+Language: en
+Words: 414
+URL: https://www.youtube.com/watch?v=SkY-tR9kf-k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get Claude Code: https://startup-ideas-pod.link/claude-greg
+
+In this solo episode I lay out the exact system I use to turn Claude Code into what I call an AI employee. My premise is simple: give Claude the same things you would give a person joining your company (a workspace, memory, a brief, a clear ticket, eyes, review, a schedule, and permissions). I build the whole setup live around a real idea I found on ideabrowser.com, a missed-lead responder for med spas, and I share the specific prompts I use at each step. By the end, the product, the customer feedback, the docs, the demos, the reviews, and the recurring work all live inside one operating loop. I close with a seven-day plan you can run at your own pace. 
+
+And a special thank you to Claude and Anthropic for supporting the podcast. 
+
+Setup Claude Code to be your 24/7 employee: https://startup-ideas-pod.link/Claude-code
+
+Timestamps
+
+00:00 – Intro: The AI Employee Map
+05:47 – Step 1: Creating The Workspace In Claude Desktop
+14:53 – Step 2: The Brief And Plan Mode
+18:08 – Step 3: The Ticket And Defining Done
+22:15 – Step 4: The Eyes And Desktop Preview
+26:13 – Step 5: Review In Layers And The Diff View
+29:34 – Step 6: The Schedule And Routines
+34:32 – Step 7: Parallel Agents And Worktree Isolation
+39:14 – Step 8: Permissions: Safe, Ask First, Human-Owned
+41:15 – Step 9: Skills, Connectors, And Hooks
+44:28 – The Seven-Day Plan
+47:42 – Closing Thoughts
+
+Key Points
+
+• I treat Claude Code like a new hire: workspace, memory, brief, ticket, eyes, review, schedule, permissions.
+• The repo brain teaches Claude how I work and what good looks like.
+• Plan mode comes first: Claude reads the context, proposes an approach, and waits for my approval.
+• One ticket at a time means one task, one finish line, and one reviewable change.
+• The eyes matter: Claude opens the app in desktop preview, clicks the flow, checks the console, and reports what a buyer experiences.
+• Routines and permissions turn a chat tool into a 24/7 operator with clear boundaries.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
