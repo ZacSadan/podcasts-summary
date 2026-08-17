@@ -1,0 +1,24 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Advanced Glitching Leveraging Hidden CPU–eMMC Behavior
+Method: description
+Language: en
+Words: 322
+URL: https://www.youtube.com/watch?v=VBF5ID-3Ve4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Secure Boot is a core security mechanism in embedded and automotive-grade SoCs, ensuring the integrity of the boot chain by verifying firmware signatures. However, in practical attacks, although fault injection techniques (such as EMFI and voltage glitching) are highly destructive, their success rate is fundamentally limited by the inability to precisely locate the moment when signature verification is performed. As a result, attackers are forced to blindly inject faults over hundreds of milliseconds of the boot process, leading to high noise, low success rates, and a significant risk of irreversible CPU damage.
+
+This presentation proposes a new high-precision fault attack localization method. In environments where the CPU provides no serial output, we jointly analyze the micro-level electromagnetic emission characteristics of the CPU core and the low-level timing behavior of the eMMC and DDR buses. By constructing a cross-domain hardware signal correlation model, we accurately calibrate the actual time point at which Secure Boot executes its verification logic. Through multi-level sampling and signal correlation, we compress the fault attack window from the second scale down to the millisecond or even nanosecond scale, transforming traditional "blind glitching" into a repeatable and precisely targeted attack.
+We demonstrate the complete process of successfully bypassing Secure Boot on real embedded devices using this method and reveal the physical leakage paths that exist between the CPU and peripheral storage during runtime. This research has significant implications for hardware security evaluation and fault injection attack studies.
+
+Jie Fu  |  Head of SkyHunter, China Telecom Cyber Security Technology Co., Ltd.
+Qiang Qin  |  Security Researcher, China Telecom Cyber Security Technology Co., Ltd.
+Shaohua Zhang  |  Security Researcher, China Telecom Cyber Security Technology Co., Ltd.
+Chunmei Zhang  |  Researcher, China Telecom
+Yang Chen  |  Senior Binary Researcher, China Telecom Cyber Security Technology Co., Ltd.
+YuJie Lu  |  Security Researcher, China Telecom Cyber Security Technology Co., Ltd.
+WeiChao Zhou  |  Director of Waterdrop Laboratory, China Telecom Cyber Security Technology Co., Ltd.
+
+https://blackhat.com/asia-26/briefings/schedule/?#when-flash-reveals-its-secrets-advanced-glitching-leveraging-hidden-cpuemmc-behavior-51466
