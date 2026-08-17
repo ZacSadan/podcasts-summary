@@ -1,0 +1,22 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Tropic Trooper Reloaded: Unraveling the Invisible Supply Chain Mystery
+Method: description
+Language: en
+Words: 297
+URL: https://www.youtube.com/watch?v=8kXXc1Lsry0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Tropic Trooper (a.k.a. Pirate Panda, KeyBoy) has long been known for its rapid adoption of emerging techniques and its willingness to deploy them aggressively in real-world intrusions. The group has repeatedly demonstrated a readiness to test unconventional intrusion vectors, such as deploying fake Wi-Fi access points in targeted physical areas. In past campaigns, we have also observed the adoption of post-exploitation techniques, such as abusing VS Code Remote Tunnels, as well as loader families engineered to resist analysis, including heavily obfuscated Xiangoop loader variants. The Xiangoop loader is a distinctive malware family associated with this threat actor.
+
+Based on our 2025 investigation, several new malware families, toolsets, and notable artifacts, including decoys were identified, providing fresh insight into the group's expanding geographic footprint and targeted industries. Recent activity has revealed a marked shift toward OSS-based tools within the infection chain. These findings highlight a rapid change in the actor's tooling strategy, demonstrating its ability to pivot quickly and overhaul their methods within a short period of time.
+
+Earlier activity in 2024 included a supply-chain compromise in which malware was delivered through what appeared to be the legitimate update process of a widely used dictionary application. Although the exact infection path was unclear at the time, a follow-up investigation in 2025 indicated that unauthorized changes had been made to the target's home router, resulting in malware infections.
+
+This session will provide a detailed overview of Tropic Trooper's operations in 2025, including the evolution of its loader and RAT ecosystem, abuse of home routers, and intrusion workflows. These findings reinforce the need for flexible, assumption-free investigative approaches, as this actor continues to shift techniques at high velocity.
+
+Suguru Ishimaru  |  Executive Cybersecurity Researcher, ITOCHU Cyber & Intelligence Inc.
+Satoshi Kamekawa  |  Cybersecurity Researcher, ITOCHU Cyber & Intelligence Inc.
+
+https://blackhat.com/asia-26/briefings/schedule/?#tropic-trooper-reloaded-unraveling-the-invisible-supply-chain-mystery-51385
