@@ -1,0 +1,30 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Gabriel DeWitt, Yahoo Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 175
+URL: https://www.youtube.com/watch?v=1-0r_AtKjCo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Gabriel DeWitt, Head of Monetization at Yahoo. They discuss how agentic direct is transforming the publisher-to-buyer workflow through the Advertising Context Protocol (AdCP).
+
+We discuss:
+
+- What happened when Yahoo ran a 100% model-driven campaign
+- Where humans still review pricing, creative and campaign pacing
+- Why proprietary business data—not the underlying model—is the real competitive moat
+- How agents transact without exposing sensitive audience data
+- How rate cards, pricing floors and governance protect premium inventory
+- Why dashboard-building may disappear by 2036
+- The emergence of a new job class: agent orchestrators
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+New episodes dropping across the AAO channels and Agents of Change feed over the next few weeks.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI
