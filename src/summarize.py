@@ -542,9 +542,11 @@ def _is_refusal(text: str) -> bool:
 _NON_HEBREW_SCRIPT_RE = re.compile(r"[一-鿿぀-ヿ가-힣Ѐ-ӿ؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]")
 
 
-def _has_wrong_script(text: str, max_chars: int = 3) -> bool:
+def _has_wrong_script(text: str, max_chars: int = 0) -> bool:
     """Return True if the text contains Chinese/Japanese/Korean/Cyrillic/Arabic
-    characters — a sign the model code-switched out of Hebrew under long-context load."""
+    characters — a sign the model code-switched out of Hebrew under long-context load.
+    Even a single stray character (e.g. an Arabic letter dropped into a name like
+    "ד"ר רالف") is a real failure, not noise — so this has zero tolerance by default."""
     return len(_NON_HEBREW_SCRIPT_RE.findall(text)) > max_chars
 
 
@@ -609,6 +611,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
             repeat_penalty=1.15,
         )
         candidate = response["choices"][0]["message"]["content"] or ""
+        finish_reason = response["choices"][0].get("finish_reason")
         if _is_refusal(candidate):
             logger.warning(
                 f"  Local LLM refused (attempt {attempt + 1}, "
@@ -616,6 +619,17 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
             )
             continue
         parsed = candidate.split(marker, 1)[1].strip() if marker in candidate else ""
+        if finish_reason == "length":
+            # Generation hit max_tokens mid-sentence — drop the dangling
+            # incomplete sentence rather than shipping text that cuts off
+            # abruptly (e.g. "...אבחון מחלה קש").
+            sentences = re.split(r"(?<=[.!?])\s+", parsed)
+            if len(sentences) > 1 and not re.search(r'[.!?]\s*$', parsed):
+                parsed = " ".join(sentences[:-1]).strip()
+                logger.warning(
+                    f"  Local LLM output hit max_tokens (attempt {attempt + 1}) — "
+                    f"dropped truncated trailing sentence"
+                )
         if re.match(r'^\s*\[[^\]]{0,200}\]\s*$', parsed) or re.match(r'^\s*<[^>]{0,200}>\s*$', parsed):
             logger.warning("  Local LLM returned a placeholder — retrying with fewer words")
             continue
