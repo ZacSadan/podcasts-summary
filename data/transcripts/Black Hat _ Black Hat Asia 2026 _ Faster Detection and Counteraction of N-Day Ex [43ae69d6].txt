@@ -1,0 +1,24 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Faster Detection and Counteraction of N-Day Exploits in Chromium-based Apps
+Method: description
+Language: en
+Words: 239
+URL: https://www.youtube.com/watch?v=-xaIpNlecJM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+N-day exploitation speed is accelerating. For certain high-impact Chromium vulnerabilities, we observed exploitation attempts appearing shortly after public disclosure as fast as 24 hours, creating intense pressure on defenders. Yet many enterprise client applications built on Chromium face an asymmetric challenge: their release cadence and user-upgrade reality often lag behind attackers. Deep customization of the Chromium engine, fragmented client versions, and user groups that cannot readily update mean that official patches may take significant time to reach all endpoints. During this window, even well-managed products remain exposed.
+
+This talk presents a complementary, in-app defense architecture designed to operate alongside traditional patching, especially for applications where upgrading the underlying Chromium engine is slow or operationally difficult. Which integrates:
+• Accelerated patch analysis and down-version migration, enabling rapid internal adaptation of Chromium fixes across heterogeneous client baselines.
+• How to build an AI-based behavior-driven, in-app runtime detection capable of identifying exploitation attempts for newly disclosed CVEs across multiple client versions.
+• Realtime, on-client counteraction mechanisms that can disrupt or neutralize exploitation attempts, providing protection before a patched release can reach to the entire user base.
+This approach shortens the exposure window by adding a runtime, version-agnostic defense layer that can immediately respond to emerging threats.
+
+We will demonstrate how enterprises can enhance Chromium-based products with a layered, resilient protection model to reduce the operational risks posed by fast-moving N-day exploitation.
+
+Wenxiang Qian  |  Security Engineer
+Zhixin Tu  |  Security Engineer
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#no-time-to-patch-faster-detection-and-counteraction-of-n-day-exploits-in-chromium-based-apps-51384
