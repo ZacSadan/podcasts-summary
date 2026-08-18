@@ -1,0 +1,34 @@
+Feed: Y Combinator
+Episode: Michael Kratsios: Inside the White House's AI Strategy
+Method: description
+Language: en
+Words: 220
+URL: https://www.youtube.com/watch?v=zLUZclThLhU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Michael Kratsios has seen the AI boom from both sides: as COO of Scale AI and inside the White House. Today, as the director of the White House Office of Science and Technology Policy, he helps shape America’s national strategy on AI, science, and emerging technology.
+
+At Startup School 2026, he sat down with YC's head of public policy, Luther Lowe, to talk about how Washington makes technology policy, why the White House supports open-source AI, and why little tech needs a seat at the table.
+
+Transcript: 
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+Chapters:
+00:00 — Michael Kratsios on AI Policy and Public Service
+02:38 — From Tech to the White House
+04:39 — How Technology Policy Actually Gets Made
+05:51 — The White House on Open Source AI
+08:28 — How Washington Sees AI Differently
+09:53 — Regulating a Technology That Changes Every Six Months
+11:37 — Which AI Risks Are Overblown?
+13:03 — Giving Little Tech a Seat at the Table
+17:31 — Regulation Without Creating Incumbent Moats
+18:01 — Born Free vs. Born in Captivity Technologies
+20:46 — What Working in the White House Is Actually Like
+25:56 — A New Golden Age of American Science
+31:32 — Quantum, Congress, IP, and What Comes Next
+37:54 — Why Technologists Should Consider Public Service
