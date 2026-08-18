@@ -1,0 +1,24 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | IntentGuard: Securing LLM-Generated Cloud Configurations
+Method: description
+Language: en
+Words: 239
+URL: https://www.youtube.com/watch?v=Kd2eqp8ZUpA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+GenAI assistants increasingly generate and modify configuration files—Kubernetes manifests, Terraform configurations, AWS CloudFormation templates, Helm charts, and others. These artifacts are security-critical, yet modern scanners and linters evaluate only correctness against predefined rules, not the operational intent the configuration is supposed to enforce.
+
+This creates a new attack surface: adversaries can poison configuration templates (via model jailbreaking or prompt injection), so that natural-language cues silently steer LLMs toward producing insecure configurations that still appear functionally correct. These "semantic misalignments" evade IaC scanning and pass human review because the generated configuration looks plausible but no longer matches the intended project purpose and security posture.
+
+This talk introduces IntentGuard, a novel Intent-Aligned Semantic Validation defensive framework that infers the intended behavior of a project, including configuration templates and marks configurations that contradict that intent.
+
+By reconstructing the service's intended role in the project—capturing its business, operational and performace roles, permitted communication graphs, dataflow and dependencies, privilege boundaries, —the framework identifies when configurations violate those structural and semantic intentions, enabling detection of latent misconfigurations such as conditional privilege escalation, unauthorized resource access, RBAC drift, information leakage, and infrastructure-level backdoors.
+
+Rather than relying on brittle prompt hardening or traditional scanners, intent-aligned validation detects when an LLM's output ceases to represent what the configuration was meant to enforce—even if the configuration is syntactically valid and operationally sound.
+
+Anna Bacher  |  CTO-Co-Founder, Jaroona GmbH
+Chris Wysopal  |  Co-Founder & Chief Security Evangelist, Veracode, Inc.
+
+https://blackhat.com/asia-26/briefings/schedule/?#intentguard-securing-llm-generated-cloud-configurations-through-intent-aligned-semantic-validation-51375
