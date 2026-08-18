@@ -1,0 +1,18 @@
+Feed: TrafficGuard
+Episode: TrafficGuard for Affiliate: Sports Betting
+Method: description
+Language: en
+Words: 66
+URL: https://www.youtube.com/watch?v=7WQWbh5jFBc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Meet TrafficGuard for Affiliate, built to help sports betting operators detect and prevent affiliate fraud across the full customer journey. 
+Uncover click hijacking, fake sign-ups, and misattributed conversions, validate partner performance, and stop payouts on invalid activity. Gain the insights you need to protect affiliate spend and maximise partner performance with confidence.
+
+Find out more about TrafficGuard:
+
+🌐 Website: https://www.trafficguard.ai/
+💻 LinkedIn: https://www.linkedin.com/company/trafficguard-hq/
+⭐ G2: https://www.g2.com/products/trafficguard/reviews

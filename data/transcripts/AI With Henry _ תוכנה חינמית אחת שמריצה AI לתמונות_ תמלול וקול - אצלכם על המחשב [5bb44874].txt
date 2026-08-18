@@ -1,0 +1,19 @@
+Feed: AI With Henry
+Episode: תוכנה חינמית אחת שמריצה AI לתמונות, תמלול וקול - אצלכם על המחשב
+Method: description
+Language: he
+Words: 72
+URL: https://www.youtube.com/shorts/ijaX4zZR-aI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+תוכנה חינמית בקוד פתוח בשם Lemonade מריצה בינה מלאכותית מקומית על המחשב שלכם - תמונות, תמלול קול וקריאה בקול, הכל מתוכנה אחת, בלי מידע שיוצא מהמחשב. אפילו כלי פיתוח כמו Claude Code יכולים להתחבר אליה ישירות בלי מנוי בענן. שימו לב: הקריינות שלה עוד לא תומכת בעברית, והתמיכה בחלק מכרטיסי המסך חדשה יחסית.
+
+🔗 האתר הרשמי: https://lemonade-server.ai
+🔗 כל הקישורים שלי: https://taplink.cc/henry.ai
+
+📧 henrystauber22@gmail.com
+📸 אינסטגרם: @bintech.ai
+
+#בינהמלאכותית #AI #קודפתוח #כליAI #טכנולוגיה
