@@ -1,0 +1,27 @@
+Feed: Lets AI News
+Episode: איך לצמצם סיכונים עם סוכני קוד?
+Method: description
+Language: he
+Words: 144
+URL: https://www.youtube.com/watch?v=2hCyUVf3yks
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+סוכני קוד יכולים להאיץ משמעותית את תהליך הפיתוח, אבל בלי מנגנוני הגנה הם גם עלולים לבצע שינויים לא רצויים. בסרטון הזה נסקור את השיטות המרכזיות לצמצום סיכונים: רתמות בטיחות (Safety Harness), כללי עבודה (Rules), הוקים (Hooks), הפרדת הרשאות (Separation of Duties) ועבודה עם ארטיפקטים במקום שינויים ישירים בקוד. תראו איך משלבים את כל השכבות האלה כדי ליהנות מהיתרונות של סוכני קוד, בלי לאבד שליטה על תהליך הפיתוח.
+
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business
