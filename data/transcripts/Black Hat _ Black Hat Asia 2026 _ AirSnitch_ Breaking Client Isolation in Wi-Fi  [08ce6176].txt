@@ -1,0 +1,25 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | AirSnitch: Breaking Client Isolation in Wi-Fi Networks
+Method: description
+Language: en
+Words: 265
+URL: https://www.youtube.com/watch?v=1nevVb8ynsA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We will present AirSnitch, a set of attacks that bypass Wi-Fi client isolation in home and enterprise Wi-Fi networks, enabling untrusted clients to attack others despite the usage of client isolation. Our attacks bypass Wi-Fi encryption and are effective even against modern WPA2/3 networks.
+
+Sometimes also called AP isolation, client isolation is not a standardized feature of Wi-Fi. Instead, vendors added it as an ad-hoc defense to prevent clients from attacking each other. For instance, client isolation prevents traditional ARP-based MitM attacks. However, we find that it is often implemented in inconsistent and insecure ways.
+
+We will present three main attack techniques to bypass client isolation. First, an adversary can abuse shared group keys to inject arbitrary traffic to a victim. Second, client isolation is often only implemented at the Ethernet layer, enabling bypasses at the IP layer. Third, an adversary can manipulate the forwarding tables of internal switches and bridges to intercept traffic despite the usage of client isolation. All combined, this enables us to restore MitM capabilities even in the face of client isolation. We find that most home routers are vulnerable, confirm vulnerabilities in real-world enterprise networks, and find that major operating systems such as Android, macOS, iOS, Windows, and Linux are affected.
+
+Mathy Vanhoef  |  Professor, KU Leuven University
+Zhiyun Qian  |  Professor, University of California, Riverside
+Xin'an Zhou  |  PhD Student, University of California, Riverside
+Juefei Pu  |  PhD Student, University of California, Riverside
+Zhutian Liu  |  PhD Student, University of California, Riverside
+Zhaowei Tan  |  Professor, University of California, Riverside
+Srikanth Krishnamurthy  |  Professor, University of California, Riverside
+
+https://blackhat.com/asia-26/briefings/schedule/?#airsnitch-breaking-client-isolation-in-wi-fi-networks-51283
