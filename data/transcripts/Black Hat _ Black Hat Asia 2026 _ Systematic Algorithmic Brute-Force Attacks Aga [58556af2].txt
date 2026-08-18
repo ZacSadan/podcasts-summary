@@ -1,0 +1,19 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Systematic Algorithmic Brute-Force Attacks Against UDS Security Access
+Method: description
+Language: en
+Words: 174
+URL: https://www.youtube.com/watch?v=1RFx_5p3DYY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Unified Diagnostic Services (UDS) protocol—often referred to as the "HTTP of automotive ECUs"—relies on Service 0x27, "Security Access," to safeguard safety-critical operations, such as firmware reflashing, VIN rewriting, or ADAS calibration. Prior research has predominantly focused on firmware reverse-engineering, fault injection, or brute-forcing the key. However, with the widespread adoption of encrypted JTAG, hardened hardware, and secure supply-chain governance, these avenues are increasingly obstructed, rendering successful attacks rare and prohibitively expensive. We therefore introduce an algorithmic brute-force paradigm that reconstructs the algorithmic structure embedded within the ECU. Through three real-world case studies, AlgoBuster's battlefield performance is demonstrated. The framework has been tested on 12 ECUs launched after 2018 (covering nine Tier-1 suppliers), two of which were successfully broken.
+
+Jianwen Ren  |  ETAS Cybersecurity Consultant | Security MM Team Member, ETAS
+Jianchi Jiang  |  Automotive Security Engineer |Security MM Team Member, SGS Brightsight
+Su Shengfeng  |  Vehicle Security Engineer | Security MM Team Member, Ford Motor Company
+Lin Zengda  |  Security Researcher,  
+Chen Guannan  |  OSR Security Researcher | Security MM Team Member, 
+
+https://blackhat.com/asia-26/briefings/schedule/?#algobuster-systematic-algorithmic-brute-force-attacks-against-uds-security-access-in-automotive-ecus-51346
