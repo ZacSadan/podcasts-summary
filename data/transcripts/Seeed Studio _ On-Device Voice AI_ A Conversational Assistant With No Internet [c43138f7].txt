@@ -1,0 +1,24 @@
+Feed: Seeed Studio
+Episode: On-Device Voice AI: A Conversational Assistant With No Internet
+Method: description
+Language: en
+Words: 150
+URL: https://www.youtube.com/watch?v=7j70oaDUil0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On-device voice AI runs speech recognition, text-to-speech, and dialogue entirely on edge hardware — no cloud, no internet, no per-call fees. This demo shows a conversational voice assistant that responds in 0.3–0.5 seconds, works fully offline, and keeps all voice data on-premises.
+
+What is on-device voice AI? It is voice processing that happens on the device itself instead of sending audio to a cloud server. The result: half-second response times, privacy by design, and deployments that work even when the network cannot be trusted — in care facilities, at service kiosks, on factory floors, and in smart homes.
+
+⏱ Chapters
+0:00 — What is on-device voice AI?
+0:04 — Healthcare: conversational reminders, fully offline
+0:17 — Front desk: service kiosk without internet
+0:23 — Smart home: offline voice control
+0:28 — How the architecture works
+
+Full architecture breakdown and where it deploys: https://www.seeed.cc/solutions/conversational-voice-ai?utm_source=youtube&utm_medium=social&utm_content=post_youtube
+
+#VoiceAI #EdgeAI #ConversationalAI #OnDeviceAI #OfflineAI #EdgeComputing #SpeechRecognition
