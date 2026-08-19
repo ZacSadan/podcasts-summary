@@ -58,10 +58,11 @@ jobs:
           key: huggingface-${{ runner.os }}-v2
 
       - name: Install dependencies
-        if: steps.venv-cache.outputs.cache-hit != 'true'
         run: |
-          python -m venv ~/.venv
-          ~/.venv/bin/pip install -r requirements.txt
+          if [ ! -x ~/.venv/bin/python ] || ! ~/.venv/bin/python -c "import yaml" 2>/dev/null; then
+            python -m venv ~/.venv
+            ~/.venv/bin/pip install -r requirements.txt
+          fi
 
       - name: Add venv to PATH
         run: echo "$HOME/.venv/bin" >> $GITHUB_PATH
