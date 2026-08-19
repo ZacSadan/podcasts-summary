@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | When Office Attacks: XLL Chains and Enterprise EDR Nightmares
+Method: description
+Language: en
+Words: 320
+URL: https://www.youtube.com/watch?v=RVAya4SoVBU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Threat actors using malicious macros and XLLs as an attack vector is a tale as old as time. EDR and AV products developed to mitigate this are now well-equipped to stop malicious Microsoft Office macros, right? Turns out, not necessarily! Three years and countless malware infections later, we'll demonstrate how attackers continue to innovate, finding new ways to weaponize Office macros and XLL files to establish footholds in protected environments.
+
+As a red teamer, I spend an abundance of time doing security R&D to identify unique ways to break in, hide or break out of systems. The outcome of one such research cycle this year was a Frankenstein's monster of payloads, created using well-documented techniques and tactics to gain a foothold in a Windows system and bypass enterprise-level EDR detections. By combining Excel XLLs and Word macros, I created an attack chain that exploits the implicit trust organizations placed in legitimate business workflows.
+
+In this talk, I will dissect my custom initial access payload that chains macros and XLLs in unexpected ways with several sophisticated evasion techniques. We will explore the inner workings of Excel add-ins, COM automation, and process relationships that enable this technique to evade current popular EDR solutions. More importantly, we will examine why enterprise EDR deployments struggle with detection when operating at scale.
+
+Both offensive and defensive practitioners will gain valuable insights from this research. Red teamers will understand how legitimate business tools can be leveraged for initial access, while defenders will learn critical detection engineering strategies and incident response techniques. We will explore practical methods to identify, investigate and respond to such exploits and monitoring strategies, including a key configuration in a top EDR solution to detect this attack chain. This Briefing bridges the gap between offensive research and enterprise defense, providing actionable intelligence for organizations looking to strengthen their security posture against sophisticated macro-based attacks.
+
+Thanmayee Rao  |  Senior Red Team Engineer, Amazon
+
+https://blackhat.com/asia-26/briefings/schedule/?#when-office-attacks---xll-chains-and-enterprise-edr-nightmares-51264
