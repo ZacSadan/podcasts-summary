@@ -1,0 +1,90 @@
+Feed: Greg Isenberg
+Episode: You need to be skillsmaxxing (10x your Claude/Codex)
+Method: description
+Language: en
+Words: 803
+URL: https://www.youtube.com/watch?v=xHsftiyT9pQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get Your Complete Financial OS at https://startup-ideas-pod.link/brex_SIP
+
+I talk with Remy, known online as AI with Remy, about agent skills and how to share them across a whole team. Remy explains that a skill is an SOP for AI: a markdown file that teaches Claude your exact way to do a task. He then shows his system. He keeps his team skills in one GitHub repository, and he installs that repository as a plugin in Claude Code and Codex. The result is one source of truth, automatic updates for everyone, version control, and company ownership of the work. Listen to this episode if you run daily tasks with agents and you want your whole team to get the same quality of output.
+
+Remy’s prompt + skill setup: https://startup-ideas-pod.link/Remy-skills
+
+Timestamps
+
+00:00 – Intro
+02:33 – Skills as SOPs for AI
+04:27 – How the agent uses skills
+05:13 – AI is single player
+06:21 – Example Skills: Notion, Brand Voice, Email
+08:07 – How to share skills
+11:40 – What is a Plugin?
+14:58 – Anatomy of a Plugin
+15:30 – Version Control and Rollback
+16:58 – A Second Repo for Personal Skills
+18:29 – The Day Claude Deleted 150 Skills
+20:02 – Skills as Company Assets
+21:00 – A Web App on Top of the Repo
+24:46 – How Many Skills to Build
+27:00 – The Self-Improvement Loop
+28:15 – Skill Maxxing
+30:40 – Closing Thoughts
+
+Key Points
+
+• A skill is a markdown SOP that teaches an agent your exact way to do a task.
+• Most skills sit on one laptop, so a great process stays with one person.
+• A GitHub repo plus a plugin gives the team one source of truth for every skill.
+• Auto-update sends each skill edit to every teammate in Claude Code and Codex.
+• A company-owned repo keeps the skills when a teammate moves on.
+• Remy builds thin agents and thick skills, so any harness can run the same process.
+
+Numbered Section Summaries
+
+1. Skills as SOPs for AI 
+
+Remy defines a skill as a markdown file that holds your full process, in the same way an SOP holds a process for an employee. He asks Claude for a sponsorship proposal, and Claude finds the proposal skill and produces a branded document in one shot. This matters because the model keeps your preferences from week to week.
+
+2. The Microsoft Word Era of Skills 
+
+Remy compares today's skills to documents in the early Microsoft Word years: each file lives on one machine, and copies spread by email. Google Docs solved that with one shared file. Skills wait for the same shift, and that gap is the theme of the episode.
+
+3. Skills Worth Sharing 
+
+He shows three skills from a single week: Notion formatting, AI with Remy brand voice, and email formatting for Resend. Each one captures a look and a standard that he wants across the whole team. Shared skills keep the output consistent, whoever runs the task.
+
+4. Early Sharing Methods and Their Limits 
+
+Remy walks through zip files on Slack, Google Drive, Dropbox, and Obsidian. Each method leaves duplicate copies, and Claude reads skills only from its own `.claude/skills` folder, so these setups need symlinks and manual repair. Technical teams cope with that; a junior marketer needs something simpler.
+
+5. From Repo to Plugin 
+
+The answer is a GitHub repo of team skills, grouped by department, installed as a plugin. In Claude Code you run `/plugin`, add the repo URL as a marketplace, and install the plugins you need. A few JSON files turn the repo into a plugin, and Remy had Claude write those for him.
+
+6. Distribution, Updates, and Ownership 
+
+With auto-update switched on, one edit reaches every teammate's Claude and Codex. Git history allows a rollback to any earlier version of a skill. The repo sits inside the company GitHub organization, so the business keeps the skills as an asset, and Enterprise accounts can push the plugin to everyone automatically.
+
+7. A UI, a Skills Assistant, and Usage Data 
+
+He built a web app that reads live from the team repo. It maps how skills call each other, such as a YouTube publish workflow that runs titles, thumbnails, and descriptions in sequence. An ask box recommends the right skill for a job, and a new hook counts each skill run per person, which shows the busy skills and the idle ones.
+
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+FIND REMY ON SOCIAL
+X: https://x.com/remy_gaskell
+Youtube: https://www.youtube.com/@aiwithremy
+AI with Remy: https://www.aiwithremy.com/

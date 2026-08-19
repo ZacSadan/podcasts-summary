@@ -1,0 +1,20 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Qualcomm BootROM: A Journey Through Sahara
+Method: description
+Language: en
+Words: 140
+URL: https://www.youtube.com/watch?v=ZlWvdRBuxpc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+BootROM is a critical component in the security architecture of many system-on-chips (SoCs), including the Qualcomm Snapdragon and MSM/MDM-family SoCs, deployed in billions of smartphones and IoT devices worldwide. As an embedded, immutable component, BootROM serves as the root of trust for the entire Secure Boot chain.
+
+This Briefing will present a comprehensive analysis of new vulnerabilities found by our team at the BootROM level: vulnerabilities in Emergency Download Mode (EDL) and its Sahara protocol, which allow bypassing cryptographic verification of Secondary Boot Loader (SBL) images and subsequent boot stages.
+
+The Briefing will demonstrate that functional vulnerabilities in EDL mode allow an attacker with physical access to the device to gain complete control of the modem subsystem and its QuRT operating system.
+
+Alexander Kozlov  |  Principal Security Researcher, Kaspersky Lab
+Sergey Anufrienko  |  Security Research Group Manager, Kaspersky Lab
+
+https://blackhat.com/asia-26/briefings/schedule/?#qualcomm-bootrom-a-journey-through-sahara-51195
