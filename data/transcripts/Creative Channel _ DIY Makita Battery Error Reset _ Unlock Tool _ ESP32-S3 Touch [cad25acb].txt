@@ -1,0 +1,82 @@
+Feed: Creative Channel
+Episode: DIY Makita Battery Error Reset & Unlock Tool | ESP32-S3 Touchscreen
+Method: description
+Language: en
+Words: 335
+URL: https://www.youtube.com/watch?v=mSKKcPt2vXo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video I build the KST Makita Tool – a standalone diagnostic, error reset and unlock tool for Makita LXT 18V battery packs, including packs showing the common two blinking LED error.
+
+FREE FIRMWARE + WIRING DIAGRAM + GUIDE
+The firmware is completely FREE for Creative Channel fans:
+https://ai.kenhsangtao.com/makita/
+
+The tool runs on the correct diymore ESP32-S3 ES3C28P / ES3N28P board with a 2.8-inch ILI9341V + FT6336G capacitive touchscreen, 16MB Flash and 8MB PSRAM.
+
+🔧 MAIN FEATURES
+• Read battery Model and ROM ID
+• Read manufacture date
+• Read charge cycle count
+• Read individual cell voltages
+• Read temperature
+• Check battery error / lock status
+• Clear Error
+• Unlock battery pack
+• Control the battery pack LED
+• Vietnamese / English interface
+• Touchscreen control
+• Wi-Fi control
+
+📦 PARTS LIST
+
+1. diymore ESP32-S3 ES3C28P / ES3N28P + 2.8" Touch Display
+ILI9341V 240×320 + FT6336G
+16MB Flash / 8MB PSRAM
+Buy here:
+https://s.shopee.vn/5Arlpb69OD
+
+2. Makita Battery Connector Cable
+https://s.shopee.vn/9fKBBoN0wi
+
+3. Makita LXT 14.4V / 18V Battery Base
+https://s.shopee.vn/5VUcEGLPFU
+
+4. 4.7kΩ Resistor
+Used to pull the DATA line up to 3.3V
+https://s.shopee.vn/6VN9QDJrIa
+
+5. 3.7V Li-Po Battery
+For standalone operation
+https://s.shopee.vn/4Vc52leAkv
+
+6. 3D-Printed Enclosure
+The 3D model download : https://makerworld.com/en/models/3190807-diy-makita-battery-error-reset-unlock-tool#profileId-3609768
+
+🔌 WIRING
+DATA → GPIO2
+ENABLE → GPIO3
+B- → GND
+
+Use a 4.7kΩ resistor to pull DATA up to 3.3V.
+
+⚠️ Never pull the DATA line up to 5V and never connect ESP32 GPIO directly to the battery B+ / B- terminals.
+
+On this website you can:
+
+• Flash the firmware directly using desktop Chrome / Edge
+• Download the .BIN firmware
+• View Vietnamese / English wiring diagrams
+• Open the wiring diagram full screen
+• View the complete parts list
+• Read the setup and usage guide
+
+The firmware is provided as a merged image containing the bootloader, partition table and application, and is flashed directly at offset 0x0.
+
+Thanks for watching!
+
+Kênh Sáng Tạo .COM × Creative Channel
+
+#Makita #MakitaBattery #MakitaLXT #BatteryRepair #BatteryUnlock #BatteryReset #ESP32S3 #DIYElectronics #KSTMakitaTool #CreativeChannel
