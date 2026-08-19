@@ -85,7 +85,7 @@ jobs:
           [ -n "$INPUT_FEED" ] && args+=(--feed "$INPUT_FEED")
           [ "$INPUT_RESEND_HISTORY" = "true" ] && args+=(--resend-history)
           [ "$INPUT_NO_PDF" = "true" ] && args+=(--no-pdf)
-          python main.py "${args[@]}"
+          ~/.venv/bin/python main.py "${args[@]}"
 
       - name: Commit results
         run: |
