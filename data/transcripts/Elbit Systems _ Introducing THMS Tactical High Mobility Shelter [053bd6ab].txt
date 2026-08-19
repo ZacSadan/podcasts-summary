@@ -1,0 +1,32 @@
+Feed: Elbit Systems
+Episode: Introducing THMS Tactical High Mobility Shelter
+Method: description
+Language: en
+Words: 239
+URL: https://www.youtube.com/watch?v=LnjX_UECsmw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔗https://lnkd.in/d7YQJuKR
+
+Modern land forces have to stay connected while constantly on the move, often far from any fixed infrastructure or static command post. THMS keeps them linked.
+
+The Tactical High Mobility Shelter (THMS), developed and built by Elbit Systems Sweden, is a highly mobile, rapidly deployable battlefield networking platform for digitally connected and distributed land forces. Acting as a forward communication and sensing node, it extends both line-of-sight and beyond-line-of-sight (BLOS) connectivity so maneuvering units, sensors and command elements stay coordinated in complex and contested environments.
+
+*Key capabilities:*
+* Telescopic mast reaching up to 25 meters, supporting payloads up to 100 kg
+* Multi-role integration: tactical communications, electronic warfare (EW), EO/IR sensors, surveillance, SATCOM, tactical 5G and high-power laser (HPL)
+* Fully self-contained with integrated power, autonomous for up to 24 hours and independent of the host vehicle
+* Automated mast deployment and a unique automatic guying rope system for setup in under five minutes
+* Compatible with both tracked and wheeled platforms
+* Developed and manufactured in Sweden with a European supply chain, built for extreme weather and Arctic conditions
+
+*Timestamps:*
+00:00 - Introduction to THMS & Long-Range Connectivity
+00:24 - 25m Telescopic Mast & Multi-Role Sensor Integration
+00:49 - Mobility, Automated Deployment & Guying Rope System
+01:11 - Operational Effectiveness & Continuous Connectivity
+
+THMS makes its debut at *DALO Industry Days* 2026, Denmark, on August 19 to 20. 
+Meet the Elbit Systems Sweden team at booth 2206.
