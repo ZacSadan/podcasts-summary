@@ -1,0 +1,12 @@
+Feed: Seeed Studio
+Episode: As Served — a table that shows your meal at its real size.
+Method: description
+Language: en
+Words: 60
+URL: https://www.youtube.com/watch?v=8Z1Vlju_1gg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As Served projects each dish onto the table at its real size, so guests see the portion before they order. Pointing and holding for three seconds places the order.
+A Seeed XIAO ESP32-C3 on the XIAO Bus Servo Adapter drives the SO-101 arm that delivers the matching utensil, and a reTerminal E1002 shows the menu and order card on e-paper.
