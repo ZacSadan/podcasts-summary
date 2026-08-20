@@ -1,0 +1,21 @@
+Feed: Cleo Abram
+Episode: This is A Heart on a Chip
+Method: description
+Language: en
+Words: 61
+URL: https://www.youtube.com/shorts/yEbT5hb0xWs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This is part of your heart on a chip!
+
+Scientists made them by scanning the arteries of real patients, creating a 3D image, and 3D printing it onto a piece of glass.
+
+They’re using it to understand blood clots, make patient-specific treatments, and test new drugs.
+
+To see what happens next subscribe…
+
+DOI: 10.1016/j.celbio.2026.100541 @sydney_uni 
+
+#chip #science #biology #heart #3dprinting #tech

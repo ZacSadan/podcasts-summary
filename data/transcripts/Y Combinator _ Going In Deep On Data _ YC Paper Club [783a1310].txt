@@ -1,0 +1,21 @@
+Feed: Y Combinator
+Episode: Going In Deep On Data | YC Paper Club
+Method: description
+Language: en
+Words: 82
+URL: https://www.youtube.com/watch?v=IfoPg2QefF8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This week's YC Paper Club is focused on data. Three domain experts give talks to break down the challenges and frontiers of training data, benchmarks, and multilingual pre-training.
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+Chapters:
+
+00:00 - Francois Chaubard: Why a whole night about data? 
+9:51 - Vincent Sunn Chen: The Art & Science of Benchmarking Agents
+28:44 - Volo Kuleshov: Inception: Diffusion Language Models for Production
+40:26 - Shayne Longpre: ATLAS: Practical Scaling Laws for Multilingual Models
