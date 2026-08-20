@@ -1,0 +1,11 @@
+Feed: Gartner ThinkCast
+Episode: The Autonomous Era Is Here: What Supply Chain Leaders Need to Do Next
+Method: description
+Language: en
+Words: 190
+URL: https://www.gartner.com/en/podcasts/thinkcast
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The autonomous business era is no longer a future-state vision. It's already reshaping how supply chains operate. In this episode of Gartner ThinkCast, you'll hear from Gartner Senior Director Analyst Lindsay Azim as she delivers a preview of the 2026 Gartner Supply Chain Symposium/Xpo Opening Keynote. Drawing on both Gartner insights and real-world examples, she explores why success isn't about implementing AI first, fastest, or even best. It's about preparing supply chains for a future where people and machines work together to drive agility, resilience and growth. You'll learn: Why Gartner believes the autonomous business era is already underway How leaders should balance short-term AI value with long-term transformation The difference between an automation mindset and an autonomous mindset What autonomous-ready operations and workforces look like in practice Dig deeper: Register to attend a Gartner Supply Chain conference Download the Gartner Supply Chain Top 25 See why Gartner is the world authority on AI Timestamps: (00:00) Intro (01:31) A new business era begins (05:18) Defining autonomous business (07:10) What autonomous supply chains look like (09:35) The rise of machine customers (12:22) Success isn't about AI first (17:25) Exploitation versus exploration
