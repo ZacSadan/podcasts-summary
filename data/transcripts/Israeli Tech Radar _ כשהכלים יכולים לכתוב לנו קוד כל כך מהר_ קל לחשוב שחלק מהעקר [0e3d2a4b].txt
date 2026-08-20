@@ -1,0 +1,20 @@
+Feed: Israeli Tech Radar
+Episode: כשהכלים יכולים לכתוב לנו קוד כל כך מהר, קל לחשוב שחלק מהעקרונות הישנים כבר פחות חשובים.
+Method: description
+Language: he
+Words: 96
+URL: https://www.youtube.com/shorts/_BxCezUH-DA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+אבל בפועל, אולי דווקא עכשיו הם חשובים יותר.
+רבקה שפיגל, Senior Backend and Data Engineer ב Tikal, מדברת בהרצאה שלה על המעבר מדמו של אפליקציית LLM למערכת שעובדת בפרודקשן.
+שם כבר צריך להתמודד עם התנהגות לא עקבית, ניהול State, שינויים ב Prompts, עבודה עם מודלים שונים ו Validation.
+וכאן עקרונות כמו Clean Code חוזרים לתמונה.
+כי בסוף, גם כשהקוד נכתב בעזרת Agents, הם עדיין צריכים לקרוא ולהבין אותו.
+וכשהקוד ברור ומסודר, גם להם קל יותר לעבוד איתו.
+
+🎥 רוצים לשמוע עוד?
+צפו בהרצאה המלאה:
+Agent Architectures and Frameworks, Rivka Spiegel, Senior Backend and Data Engineer, Tikal
