@@ -1,0 +1,20 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | How OS, Libraries, and Hardware Keep Your AES Keys Alive
+Method: description
+Language: en
+Words: 297
+URL: https://www.youtube.com/watch?v=r5kkRtEsKT0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+FIPS 140-3 requires cryptographic modules to ensure that sensitive security parameters, including AES keys, are reliably zeroized once they are no longer needed. In practice, however, real systems behave very differently from what this requirement implies. Even when applications appear to implement proper zeroization, surrounding layers such as cryptographic libraries, operating systems, and hardware continue to influence how long keys remain in memory in ways developers cannot easily observe.
+
+In this Briefing, we will present the first system-wide, empirical analysis of key zeroization behavior using an FPGA-based live memory forensic technique capable of monitoring physical memory independently of the CPU. By applying this method to Linux and Windows 11 on AArch64 SoC environment (Xilinx KR260) and Intel/AMD PCs with Alinx AXKU3 via Thunderbolt, we uncover several previously unrecognized zeroization failures. AES round keys processed within CPU vector registers are copied into kernel save areas during context switches and remain unzeroized after process termination. Abnormal termination conditions, including signal-based crashes, cause keys to persist for seconds to hours, and distribution-specific crash reporting mechanisms may duplicate them further into core dumps. Most strikingly, we observe that certain systems fail to zeroize memory during reboot, allowing AES keys to survive across system restarts despite expectations derived from FIPS 140-3 guidance.
+
+These findings reveal a fundamental gap between the zeroization guarantees assumed during module development and the actual behavior of deployed systems. Our work provides a new methodology for evaluating zeroization on real hardware and offers practical insights for application developers, library maintainers, and OS vendors seeking to meet the intent of FIPS 140-3. Ultimately, we show that zeroization must be validated as a system property, not merely as a software implementation detail.
+
+Toyofumi Sawa  |  Ph.D. Candidate, Institute of Information Security
+Kuniyasu Suzaki  |  Professor, Institute of Information Security
+
+https://blackhat.com/asia-26/briefings/schedule/?#breaking-the-illusion-of-key-zeroization-how-os-libraries-and-hardware-keep-your-aes-keys-alive-51118
