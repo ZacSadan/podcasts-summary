@@ -1,0 +1,19 @@
+Feed: AI With Henry
+Episode: הבינה המלאכותית לא עונה לכולם אותו דבר - וזו הסיבה
+Method: description
+Language: he
+Words: 93
+URL: https://www.youtube.com/shorts/JtE51fWzt28
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+רוב האנשים חושבים שהתשובה של הבינה המלאכותית תלויה רק באיך שמנסחים את השאלה. אבל כשמתמטיקאי בשם טרנס טאו כותב אליה קצר ומדויק, היא עוברת למצב שונה לגמרי - מפסיקה להסביר כמו למתחיל ומדברת אליו כמו לעמית. לא כי הוא שאל טוב יותר, אלא כי הוא הראה לה כבר במשפט הראשון כמה הוא יודע. אז בפעם הבאה שאתם פותחים שיחה, תגידו לבינה המלאכותית מי אתם - ותראו אם התשובה משתנה.
+
+📄 המחקר המקורי (Sean Goedecke, LLMs reward expertise): https://www.seangoedecke.com/llms-reward-expertise/
+🔗 כל הקישורים שלי: https://taplink.cc/henry.ai
+
+📧 henrystauber22@gmail.com
+📸 אינסטגרם: @bintech.ai
+
+#בינהמלאכותית #AI #ChatGPT #פרומפטים #טכנולוגיה
