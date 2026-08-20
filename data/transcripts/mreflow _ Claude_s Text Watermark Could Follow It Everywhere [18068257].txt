@@ -1,0 +1,27 @@
+Feed: mreflow
+Episode: Claude’s Text Watermark Could Follow It Everywhere
+Method: description
+Language: en
+Words: 149
+URL: https://www.youtube.com/shorts/O-8TbMFOAfg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Anthropic is working on a watermark for Claude-generated text that could follow the text even after you copy, paste, or edit it 👀
+
+They haven't revealed exactly how this watermark works yet, but one way could be by creating a statistical pattern in Claude's word choices that humans can’t see, but a detector potentially could.
+
+And the implications of this have taken the internet by storm. 
+
+
+People are wondering what happens if Claude only edits something that you originally wrote? Does that now get flagged as AI-generated? What about code, copyright, privacy, or people simply rewriting the text enough to remove the watermark entirely?
+
+And then there’s the bigger debate: Do people have a right to know when something was created with AI? 
+
+
+Curious where you land on this one. Let me know in the comments 👇
+
+And follow for more AI news and updates.
+
+#AI #ainews #anthropic #claude
