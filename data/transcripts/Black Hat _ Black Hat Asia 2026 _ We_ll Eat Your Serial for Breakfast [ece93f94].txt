@@ -1,0 +1,25 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | We'll Eat Your Serial for Breakfast
+Method: description
+Language: en
+Words: 300
+URL: https://www.youtube.com/watch?v=mSiD2TvlyWc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Serial-to-IP converters may sound like "boring" equipment whose only purpose is translating serial data into TCP/IP. Yet they are necessary and ubiquitous: they enable connectivity for medical devices in hospitals, PLCs, sensors and actuators in factories, and RTUs, IEDs and relays in electrical substations. Legacy serial-only devices are not going away any time soon.
+
+Attackers do not find them boring at all. In 2015, an attack against Ukrainian power companies intentionally corrupted the firmware of several vulnerable serial-to-IP servers, rendering electrical substations inoperable and causing power outages. Even before that, researchers had reported major vulnerabilities in converters. Now that attacks on global critical infrastructure are more common, we have revisited serial-to-IP converters. To this end, we have:
+* Quantitatively analyzed firmware from five major vendors, finding outdated components, n-day vulnerabilities and a lack of binary hardening similar to those in less critical devices.
+* Performed an in-depth analysis of several devices from two major vendors often used in healthcare and OT environments, redacted, where we found 23 new vulnerabilities, some of which allow attackers to take full control of mission-critical devices connected via the serial link.
+* Used open-source intelligence to find public evidence of these vendors' devices (often with pictures) in electrical substations, water treatment
+plants and other critical infrastructure.
+* Connected common serial devices such as temperature sensors, barcode scanners, industrial routers, and patient monitors to these vulnerable converters to demonstrate how easy it is to tamper with their data exchange and what impact that can have.
+
+Unfortunately, not much has changed in the last decade. In this talk, we will demonstrate what attackers can achieve when exploiting serial-to-IP converters, which are sometimes less secure than a cheap home router.
+
+Stanislav Dashevskyi  |  Principal Security Researcher, Forescout Technologies
+Francesco La Spina  |  Senior Security Researcher, Forescout Technologies
+
+https://blackhat.com/asia-26/briefings/schedule/?#well-eat-your-serial-for-breakfast-exploiting-serial-to-ip-converters-in-critical-infrastructure-50903
