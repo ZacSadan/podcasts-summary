@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Bypassing Authentication Reflection Mitigations for SYSTEM Shells
+Method: description
+Language: en
+Words: 258
+URL: https://www.youtube.com/watch?v=EBmssApSYDM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A year ago, authentication reflection vulnerabilities resurfaced as a powerful attack vector through the discovery of CVE-2025-33073. This logical vulnerability allowed taking over almost any Windows machine without any user interaction. Following the official patch by Microsoft, we had a gut feeling that the root cause of the issue was still not addressed. This presentation will cover our journey to bypass the mitigations and pop SYSTEM shells again.
+
+In this session, we will start with a reminder regarding the internals of the CVE-2025-33073 vulnerability. We will then build on this to present the generic and iterative bypass methodology that was followed during the research. The methodology will be immediately illustrated by disclosing the first vulnerability that we uncovered: a trivial local privilege escalation via NTLM reflection.
+
+Afterwards, we will transition to Kerberos where attack scenarios will be discussed, with both total and partial control of DNS. The attack vector will progressively be refined to finally achieve a full-blown RCE primitive as domain user, via a completely novel Kerberos authentication coercion technique. Throughout this part, in-depth and undocumented details on the inner workings of several specific Windows components will be shared to provide a better understanding of the vulnerability. In the second part, we will dive into how this vulnerability was short-lived and unintentionally patched. Eventually, our methodology will once again be applied to transform it into a privilege escalation vulnerability.
+
+The final section will cover the patches' analysis, as well as our thoughts on the current state of authentication reflection vulnerabilities.
+
+Guillaume André  |  Security Researcher, Synacktiv
+
+https://blackhat.com/asia-26/briefings/schedule/?#the-gift-that-keeps-on-giving-bypassing-authentication-reflection-mitigations-for-system-shells-51084

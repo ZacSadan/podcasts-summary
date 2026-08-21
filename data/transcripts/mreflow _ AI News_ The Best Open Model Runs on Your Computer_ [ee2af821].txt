@@ -1,0 +1,72 @@
+Feed: mreflow
+Episode: AI News: The Best Open Model Runs on Your Computer!
+Method: description
+Language: en
+Words: 233
+URL: https://www.youtube.com/watch?v=EfGF7QbJItA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you might have missed this week. Get $100 in free credits for @Hyperagent when you sign up for a paid here: https://hyperagent.com/invite/MATT100?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT100
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Tripo P2.0 Preview: https://x.com/tripoai/status/2089750360114298937
+mRNA Cancer Vaccine: https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/
+Pioneering mRNA Technology: https://www.modernatx.com/en-US/media-center/all-media/blogs/advancing-fight-against-cancer
+Qwen3.8 Open Weights: https://x.com/Alibaba_Qwen/status/2088280182356611304
+LM Studio Bionic: https://lmstudio.ai/
+Hermes Agent: https://hermes-agent.nousresearch.com/
+Pacing Cyber Capabilities: https://openai.com/index/pacing-model-development-cyber-capabilities/
+ChatGPT Computer History: https://learn.chatgpt.com/docs/customization/computer-history
+Apple Messages Plugin: https://x.com/ChatGPT/status/2090499359641329950
+Meta AI Mac App: https://x.com/spencerbarnett/status/2090164939105476969
+Perplexity Brain Memory: https://www.perplexity.ai/hub/blog/brain-agentic-memory-as-a-knowledge-wiki
+Gemini Watermark Toggle: https://x.com/GeminiApp/status/2088277477672255830
+Claude Gmail Drive: https://x.com/claudeai/status/2089806039088517356
+ChatGPT For Teens: https://openai.com/index/chatgpt-for-teens/
+Free Google AI Students: https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/
+HappyShrimp Music Model: https://www.alibabacloud.com/blog/alibaba-releases-ai-music-generation-model-happyshrimp-1-0-in-beta-test_603466
+Cursor Origin Code Hosting: https://cursor.com/changelog/origin-code-hosting
+Slack Code Agent: https://www.salesforce.com/introducing-slack-code/
+AI Authorship Study: https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/
+Unitree Superman Robot: https://x.com/UnitreeRobotics/status/2089240553682809175
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:23 Tripo P2.0
+5:00 AI Cancer Breakthrough
+8:06 HyperAgent Agent Teams
+9:24 Qwen3.8-27b (Open Source and Local)
+17:42 OpenAI Presses Pause
+19:33 ChatGPT Computer History
+21:23 ChatGPT Apple Messages
+22:23 New Meta AI App
+23:07 Perplexity Brain
+23:48 Gemini Removes Watermarks
+24:30 Claude Gmail and Drive
+24:55 ChatGPT for Teens
+26:10 Gemini for Free
+26:32 HappyShrimp
+27:51 Cursor Origin
+28:14 Slack Code
+29:20 Dead Internet Proof
+30:04 Unitree Superman Robot
+30:37 Final Thoughts
+32:25 WTF?
