@@ -1,0 +1,21 @@
+Feed: mreflow
+Episode: This Pyramid Could Be Your Next Intern
+Method: description
+Language: en
+Words: 123
+URL: https://www.youtube.com/shorts/1m5Ee9QbLF0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Your next intern might be a tiny pyramid-shaped computer 🤖
+
+The Autonomous Intern 2 is built specifically to run AI agents.
+
+You can connect it to Slack, Telegram, or Discord, give it tasks just by talking to it, and keep things like its memory, project files, writing style, and API keys stored locally on the device.
+
+It comes preloaded with OpenClaw or Hermes, and there’s even a Developer Edition where you can run tools like Claude Code, Codex, or your own agent framework.
+
+I’m a sucker for weird AI hardware, and I genuinely love the design of this thing. It starts at $249, and is available to order now through Autonomous's website (no sponsored!)
+
+Follow for more cool AI, robotics, and future tech.

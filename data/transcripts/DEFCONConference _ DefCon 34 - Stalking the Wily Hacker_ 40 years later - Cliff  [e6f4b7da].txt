@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DefCon 34 - Stalking the Wily Hacker: 40 years later - Cliff Stoll
+Method: description
+Language: en
+Words: 92
+URL: https://www.youtube.com/watch?v=656058JxTM0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+40 years ago today, I tripped over a 75-cent accounting glitch in a Unix system. That tiny clue led to a year-long chase across networks, modem banks, and international borders, ultimately uncovering a crew of German hackers working for the East German Stasi and the Soviet KGB. We had no budget, no roadmap, and no “cyber” anything. We improvised with soldering irons, shell scripts, logbooks, curiosity, and far too much coffee. Let’s revisit the chase – not just to remember, but to ask what changed, what didn’t, and why it still matters.
