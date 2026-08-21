@@ -1,0 +1,14 @@
+Feed: Seeed Studio
+Episode: SmartServe
+Method: description
+Language: en
+Words: 147
+URL: https://www.youtube.com/watch?v=z7dQpqSvzxU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+SmartServe is an end-to-end IoT restaurant automation platform designed to eliminate dining friction, streamline floor operations, and bridge the communication gap between diners and restaurant staff. The system enables customers to instantly request service, ask for the bill, leave reviews, and provide tips, while giving managers and waiters real-time visibility through live dashboards.
+How We Incorporated Seeed Products
+At the heart of every dining table is the Seeed Studio Wio Terminal. We specifically chose the Wio Terminal for this project because its compact, all-in-one design integrates a vibrant 2.4-inch color LCD screen, reliable onboard Wi-Fi, and tactile physical buttons into a single, sleek enclosure.
+This completely eliminates the need for messy external wiring, breadboards, or extra shields, making it an ideal, plug-and-play tabletop device. Diners can easily interact with the physical buttons to trigger instant requests, while the screen provides clear, immediate visual confirmation of their actions.
