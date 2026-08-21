@@ -1,0 +1,36 @@
+Feed: Aerospike
+Episode: Pod Ready ≠ Data Safe: How Miro Migrated a Critical Dataset from Redis to Aerospike on Kubernetes
+Method: description
+Language: en
+Words: 643
+URL: https://www.youtube.com/watch?v=xeKMUtrWXuI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+https://aerospike.com/
+
+Miro Staff Software Engineer Yuriy Chernikov shares an unfiltered look at how one of the world's fastest-growing productivity platforms migrated from Redis to Aerospike, deployed it on Kubernetes in production, survived a near-total data loss incident, and came out with zero issues six months later. This session was delivered at the "Lessons from the Field: Scale, Availability, and Performance" meetup in Berlin on July 8, 2025, co-hosted by Aerospike, AWS, Adjust, and Miro. It's a must-watch for any engineer evaluating Aerospike for high-throughput, low-latency workloads at scale.
+
+What this session covers:
+
+How Miro scaled its resource management system to 3 billion-plus records, handling 100,000 requests per second with spikes up to 500,000 requests per second, all with sub-millisecond latency requirements
+Why Miro replaced Redis with Aerospike: the key requirements were persistent storage, sub-millisecond read and write latency, native sharding by hash, secondary indexes, and lower total cost of ownership
+How Miro evaluated Aerospike on Kubernetes before committing to production, including replicating Dirk's conference demo on their own infrastructure and confirming 99th percentile latency results
+The real-world migration story: running Aerospike alongside Redis in shadow mode, migrating billions of records without user impact, and the moment they discovered 99% of data had disappeared during the rollout
+A detailed technical breakdown of why the data loss happened: Karpenter rotating Kubernetes nodes every 30 days, NVMe storage being local to EC2 instances on AWS, and how cascading evictions across all three availability zones drained the cluster before replication could complete
+How Miro and the Aerospike team solved the node eviction problem using a custom webhook that blocks pod eviction until data migration is complete, and why you must explicitly enable safe pod eviction if you run Aerospike on Kubernetes in a similar setup
+Why 30 percent of backups were incomplete: the Aerospike backup pod was mid-download when Karpenter evicted its node, and the scheduled backup never restarted, solved by excluding the backup pod from Karpenter's eviction scope
+A measured performance comparison: Aerospike was 66 percent faster than Redis in production, which translated to approximately three microseconds in absolute terms, context that matters when evaluating what latency gains are actually achievable
+Three hard-won lessons from the incident: always verify your backups with real data at production volume, define success invariants that go beyond availability checks and confirm actual data integrity, and test restoration procedures against datasets large enough to surface edge cases before they hit production
+A Q&A covering Aerospike's data model beyond key-value, including bins as typed columns, support for complex nested data types like lists and maps of lists, HyperLogLog, and JSON document access, plus a discussion of deployment options including the Aerospike Kubernetes Operator versus managed cloud service
+
+This talk is directly relevant to platform engineers, site reliability engineers, backend architects, and data infrastructure teams working on high-volume systems that demand real-time performance. Whether you are running workloads on AWS with Kubernetes, evaluating a Redis replacement at scale, or managing a distributed database in a multi-tenant environment with varied sharding requirements, Miro's experience offers concrete, production-tested guidance. The Aerospike Kubernetes Operator and Karpenter interaction, the AWS NVMe storage behavior, and the backup scheduler gap are all real failure modes that any team running stateful workloads on Kubernetes needs to understand.
+
+Miro was founded in 2011 and grew its user base by over 1,000 percent in three years. Its resource management system stores images, videos, documents, and metadata at a scale where every profile interaction touches this infrastructure at least three times. Aerospike's ability to meet Miro's sub-millisecond latency, horizontal scalability, and cost targets made it the right fit for this critical path system.
+
+Aerospike Website: https://aerospike.com/
+Aerospike Documentation: https://docs.aerospike.com/
+Aerospike Free Trial: https://aerospike.com/get-started/
+
+#Aerospike #Kubernetes #Redis #RealTimeDatabase #DatabaseMigration #Miro #KubernetesOperator #AWS #NVMe #Karpenter #SubMillisecond #HighThroughput #LowLatency #KeyValueDatabase #DistributedDatabase #DatabaseAtScale #SRE #PlatformEngineering #DataInfrastructure #CloudNative #BackendEngineering #DatabasePerformance #NoSQL #KubernetesProduction #StatefulWorkloads #AWSKubernetes #DatabaseReliability #IncidentResponse #DataRecovery #TechTalk

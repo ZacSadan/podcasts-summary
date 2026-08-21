@@ -1,0 +1,92 @@
+Feed: Greg Isenberg
+Episode: Grok Bot: make a 1 person company with agents
+Method: description
+Language: en
+Words: 807
+URL: https://www.youtube.com/watch?v=qQluNEfSVHk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Billy Howell for an inside look at a real business that runs on Grok Bot agent teams. Billy tests hundreds of tools for The Rundown, and he uses Grok Bot to run his local newsletter, The Arlington Bagel, which goes to 6,000 readers every Thursday. He walks me through his chief of staff bot, his research and sales agents, and the routines that move work forward while he sleeps. We cover the token math, the four-week plan he follows, and the business models that fit this tool best: newsletters, directories, and Shopify stores. You leave with a setup you can copy for one project this month.
+
+Timestamps
+
+00:00 – Intro
+02:22 – Grok Bot Overview
+03:12 – What makes GrokBot special
+06:09 – Pick one project
+08:09 – Creating your initial agent team
+11:19 – First week sprint with Grok Bot
+13:06 – Automated Routines within Grok Bot
+15:51 – Agent Org Structure
+17:35 – Best Practices for building Agents
+19:45 – Newsletter playbook
+21:12 – Plugins
+22:24 – Newsletter playbook pt 2
+25:43 – Sales agent
+29:06 – Iterating and Improving Agents
+33:34 – Grok Bot business ideas
+36:45 – Site stack builder
+38:36 – Directories and landing pages
+41:42 – One project for a month
+42:50 – Closing Thoughts
+
+Key Points
+
+• Keep one project per Grok Bot account, so context stays clean and tokens stay available.
+• Start with a chief of staff bot, and let it audit your business and name the first three agents.
+• Follow the four weeks: build the team, execute, hire and fire, then automate.
+• Ask each agent for a five-line brief: what shipped, what is stuck, what needs you.
+• Move repeatable steps into scripts or make com, and keep agent tokens for high value work.
+• Newsletters and directories give the easiest entry, and the two models feed each other.
+
+Numbered Section Summaries
+
+1. One Project, One Agent Team
+Billy runs each Grokbot account on a single mission. Several businesses in one account cause context bloat, slow work, and heavy token use. He pays $200 a month for a second account that holds his Shopify experiment alone.
+
+2. Design as a Feature
+Grokbot gives you a limited set of agents, and Billy counts roughly 76 to 88 shape and color combinations. One thread per bot works like a direct message to a teammate, so he finds each agent fast and saves switching costs.
+
+3. The Chief of Staff Audit
+Billy picks a chief of staff first and connects it to Notion, Slack, and Gmail. On day one it takes stock of the business and names the top three agents that drive revenue. His audit produces a research agent, a sales agent, and a Beehive platform expert.
+
+4. Build, Execute, Expand, Automate
+Week one builds the team. Week two stays on execution alone. Week three fills the real gaps, such as an inbox agent. Week four adds routines, so the team moves the ball while Billy sleeps.
+
+5. Routines and Five-Line Briefs
+Each agent sends a short daily or weekly report to the chief of staff: what shipped, what is stuck, and what needs the human. Five lines keep tokens and context tight, and the chief of staff routes the rest of the work.
+
+6. Teach Agents to Review Like You
+Billy runs adversarial QA loops with a panel of subagents across three rounds, and output moves from about 50 percent done to about 90 percent done. He then turns a feedback thread into a skill, so another agent reviews work in his own style.
+
+7. The Newsletter Machine
+A research bot checks his source list twice a week and fills Notion cards with restaurant news and events. A make.com step formats each blurb the same way every week, and Beehive sends the issue on Thursday. His sales agent watches the Gmail inbox, prices the ad slots, builds a sales sheet, and found a local bagel shop sponsor this week.
+
+8. Directories, Shopify, and the Site Builder Stack
+Billy runs a stack of Cloudflare, Porkbun, Astro, and GitHub, and he shipped a live booking page from the beach in two or three hours. For directories, a research agent writes a brand page as markdown each day and a coding agent publishes it. He calls a newsletter plus a directory the lowest barrier entry point for a Grokbot business.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND BILLY ON SOCIAL:
+
+X/Twitter: https://x.com/billyjhowell
+
+Instagram: https://www.instagram.com/billyjhowell
+
+Tiktok: https://www.tiktok.com/@saasfatigue
+
+Youtube: https://www.youtube.com/@billyjhowell
