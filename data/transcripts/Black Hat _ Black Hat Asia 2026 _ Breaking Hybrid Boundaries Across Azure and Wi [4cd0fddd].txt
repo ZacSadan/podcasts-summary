@@ -1,0 +1,20 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Breaking Hybrid Boundaries Across Azure and Windows
+Method: description
+Language: en
+Words: 237
+URL: https://www.youtube.com/watch?v=41GGT31rA8k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Hybrid environments link on premises systems with Azure cloud services, creating a shared management and trust layer that organizations often assume to be secure by design. Our research shows how this assumption can hide critical exposure. During an assessment of Windows Admin Center in both Azure managed and on premises deployments, we uncovered four independent zero day vulnerabilities that can be combined into a full kill chain reaching from the local operating system to the Azure tenant including cross tenant compromise.
+
+The issues include a cryptographic flaw that enables unauthenticated cross tenant influence, a local privilege escalation, weaknesses in a modern token verification flow that allow identity and authorization bypass, and a chain of client and server side validation problems that enable remote code execution and complete Active Directory compromise. These findings reveal how a single management service that operates across host, cloud and browser layers can create pathways for movement across boundaries that are normally considered isolated.
+
+This presentation will show how attackers can progress from unauthenticated external or internal positions to full administrative control in both environments, and how defenders can identify and break the chain. By viewing the system through the combined lens of trust design, credential handling, and verification logic, the research highlights blind spots in hybrid architectures and shows where similar patterns may emerge in other platforms.
+
+Ilan Kalendarov  |  Security Research Team Lead, Cymulate
+Ben Zamir  |  Security Researcher, Cymulate
+
+https://blackhat.com/asia-26/briefings/schedule/?#breaking-hybrid-boundaries-across-azure-and-windows-50893
