@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | PhantomRPC: A New Privilege Escalation Flaw in Windows RPC
+Method: description
+Language: en
+Words: 263
+URL: https://www.youtube.com/watch?v=krztD4lJK30
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Windows Inter-process Communication (IPC) is one of the most complex technologies within the Windows operating system. At the core of this ecosystem lies the Remote Procedure Call (RPC) mechanism, which can function as a standalone communication channel or as the underlying transport layer for more advanced inter-process communication technologies. Due to its complexity and broad usage, RPC has historically been a rich source of security issues. Over the years, researchers have identified numerous vulnerabilities in services that rely on RPC, ranging from local privilege escalations to full remote code execution.
+
+In this Briefing, I will present a new vulnerability within the RPC architecture that enables a new local privilege escalation technique in all windows versions. This technique allows processes with impersonation privileges to elevate their permissions to SYSTEM level. Although this vulnerability is different from the known "Potato" exploit family, Microsoft has not issued a patch despite proper disclosure.
+
+I will introduce five distinct exploitation paths that demonstrate how privileges can be escalated from various local or network service contexts to SYSTEM. Some approaches involve coercion, others require user interaction, and some leverage background services. Because this is an architectural flaw, the number of possible attack vectors is unlimited, any new process or service that depends on RPC may introduce an additional escalation path. For this reason, we will also describe a methodology for identifying such opportunities and constructing custom exploits.
+
+This research is intended for vulnerability researchers, exploit developers, red team operators, and defenders seeking to understand, detect, and mitigate these classes of attacks.
+
+Haidar Kabibo  |  Application Security Specialist, Kaspersky
+
+https://blackhat.com/asia-26/briefings/schedule/?#phantomrpc-a-new-privilege-escalation-flaw-in-windows-rpc-50806
