@@ -1,0 +1,41 @@
+Feed: Veritasium
+Episode: Qu'est-ce qui s'étend vraiment dans un Univers en expansion ?
+Method: description
+Language: en
+Words: 199
+URL: https://www.youtube.com/watch?v=gTufqzaCoqM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+À mesure que l'univers s'étend, on dit que l’#espace #enexpansion "étire" les photons. Mais si cela étire les photons, est-ce que cela étire aussi les molécules, les galaxies et vous ? Une partie de cette vidéo a été sponsorisée par Salesforce. Rendez-vous sur https://salesforce.com/veritasium pour en savoir plus.
+
+Un grand merci à Geraint Lewis – cette vidéo est basée sur son article "On the relativity of redshifts"
+https://arxiv.org/abs/1605.08634
+Découvrez sa chaîne YouTube : https://ve42.co/gfl et ses livres : https://ve42.co/GFLbooks
+
+Références :
+Expanding Space: the Root of all Evil?
+Matthew J. Francis, Luke A. Barnes, J. Berian James, Geraint F. Lewis
+https://arxiv.org/abs/0707.0380
+
+Montage et effets spéciaux par Trenton Oliver
+Miniature par Ignat Berbeci
+
+Musique provenant de https://epidemicsound.com
+
+#PME #petiteentreprise #startups #SalesforceEssentials
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+
+Music from https://epidemicsound.com
+
+0:02 - Preuve de l'expansion de l'univers
+0:46 - Comprendre le décalage vers le rouge
+1:17 - Trois types de décalage vers le rouge
+1:55 - Expérience de Pound-Rebka et équivalence
+3:14 - Observateurs et mesures du décalage
+5:44 - Le décalage cosmologique expliqué
+6:59 - Un seul cadre pour le décalage
+9:03 - Effet sur les objets et conclusion
