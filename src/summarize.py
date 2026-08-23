@@ -531,7 +531,7 @@ def _truncate_to_token_budget(llm, text: str, max_prompt_tokens: int) -> str:
     """Truncate `text` (word-boundary-safe) so it tokenizes to at most
     max_prompt_tokens under the model's actual tokenizer. Word count is a
     poor proxy for token count — Hebrew text tokenizes far less efficiently
-    than English in Gemma3, so a fixed word limit that's safe for English
+    than English in Gemma, so a fixed word limit that's safe for English
     can silently overflow the context window for Hebrew. Falls back to
     _LOCAL_LLM_WORD_LIMIT-based truncation if tokenization itself fails."""
     try:
@@ -737,7 +737,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
 
 def _summarize_with_local_llm(episode, text: str, long_summary: bool = False) -> tuple:
     """Returns (hebrew_summary, english_summary, steps) using a local GGUF model
-    (Gemma3-4B-Instruct via llama-cpp-python) — no network calls, no API key.
+    (Gemma4-E4B-Instruct via llama-cpp-python) — no network calls, no API key.
 
     If the transcript is already mostly Hebrew, summarize directly in Hebrew
     (one fewer model call, no translation round trip). Otherwise summarize in
@@ -893,10 +893,6 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
         url_block = "\n\n**Links mentioned:**\n" + "\n".join(lines)
 
     steps_block = "\n".join(f"  • {text}" for text, _category in pipeline_steps)
-    telegram_steps_block = "\n".join(
-        f"  • {text}" for text, category in pipeline_steps
-        if category != "debug"
-    )
     date_str = episode.published.strftime("%d/%m/%Y %H:%M") + " UTC"
     generated_str = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M") + " UTC"
     desc_block = f"\n**Original description:**  \n{desc_clean[:600]}" if desc_clean else ""
@@ -919,8 +915,7 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
     )
     telegram_footer = (
         f"---\n\n"
-        f"**Link:**\n{episode.url}\n\n"
-        f"*Pipeline:*\n{telegram_steps_block}\n"
+        f"**Link:**\n{episode.url}\n"
     )
 
     full_text = header + he_block + en_block + desc_block + "\n" + footer

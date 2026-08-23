@@ -1,6 +1,6 @@
 # Podcast & YouTube Summarizer
 
-An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates a detailed Hebrew summary for each. Summarization runs on a local GGUF model (Gemma3-4B-Instruct) via `llama-cpp-python`, entirely on the GitHub Actions runner — no external paid APIs, no local setup required.
+An automated pipeline that monitors Hebrew and English podcast RSS feeds and YouTube channels, fetches new episodes, extracts transcripts, and generates a detailed Hebrew summary for each. Summarization runs on a local GGUF model (Gemma4-E4B-Instruct) via `llama-cpp-python`, entirely on the GitHub Actions runner — no external paid APIs, no local setup required.
 Results are delivered automatically to a configured Telegram channel.
 ---
 
@@ -34,7 +34,7 @@ Every hour (GitHub Actions cron)
         ▼
   For each new episode (stops after 3h wall-clock; rest deferred):
     ├─ Try to get transcript (8 methods, cheapest first)
-    ├─ Summarize locally with Gemma3-4B-Instruct (GGUF, CPU)
+    ├─ Summarize locally with Gemma4-E4B-Instruct (GGUF, CPU)
     │    ├─ Hebrew source  → summarize directly in Hebrew
     │    └─ non-Hebrew source → summarize in English, then translate to Hebrew
     │    (long transcripts are map-reduce chunked by actual token count)
@@ -54,7 +54,7 @@ The pipeline runs on a free GitHub-hosted Ubuntu runner (2 CPU cores). All state
 ## Features
 
 - **Fully automated** — GitHub Actions cron fires every hour, processes new episodes, and commits results back
-- **Local LLM summarization** — Gemma3-4B-Instruct (GGUF, `llama-cpp-python`) runs entirely on the Actions runner's CPU, no API key and no external service required
+- **Local LLM summarization** — Gemma4-E4B-Instruct (GGUF, `llama-cpp-python`) runs entirely on the Actions runner's CPU, no API key and no external service required
 - **Language-aware pipeline** — Hebrew-source transcripts are summarized directly in Hebrew; non-Hebrew transcripts are summarized in English first (the model's strongest language), then translated to Hebrew as a separate step — this avoids repetition loops and script-drift that a small model can hit when asked to reason and generate long-form Hebrew directly from non-Hebrew source text
 - **Map-reduce for long transcripts** — Transcripts too long for a single call (measured by actual tokenizer count, not word count, since Hebrew tokenizes far less densely than English) are split into chunks, summarized independently, then combined into one final summary
 - **Graceful degradation** — If the local LLM fails to load or produces bad output (refusal, repetition, wrong script) after retries, falls back to BART (`facebook/bart-large-cnn`) + Helsinki-NLP translation models, then to a simple extractive summary as a last resort
@@ -103,13 +103,13 @@ By default, summaries are sent to Telegram only. To also write them to `results.
 ---
 *Pipeline:*
   • Transcript: <method> (<N> words, lang=<lang>) — <audio analysis note>
-  • Summary: Gemma3-4B-Instruct (he)
+  • Summary: Gemma4-E4B-Instruct (he)
 ```
 
 The **Pipeline** section shows:
 - Which transcript method was used and word count
 - Whether the **full audio file was transcribed** (Whisper) or show notes / captions were used instead
-- Which summarization model actually produced the summary — e.g. `Gemma3-4B-Instruct (he)` for a Hebrew-source transcript summarized directly, `Gemma3-4B-Instruct (en→he)` for a non-Hebrew source that went through the English-then-translate path, or the BART+Helsinki fallback's step names if the local LLM failed. This line is shown in both `results.txt.md` and the Telegram message.
+- Which summarization model actually produced the summary — e.g. `Gemma4-E4B-Instruct (he)` for a Hebrew-source transcript summarized directly, `Gemma4-E4B-Instruct (en→he)` for a non-Hebrew source that went through the English-then-translate path, or the BART+Helsinki fallback's step names if the local LLM failed. This line is shown in both `results.txt.md` and the Telegram message.
 
 An **English Summary** block appears in `results.txt.md` whenever an English summary was produced along the way — either the English-first intermediate summary (non-Hebrew source, before translation) or the BART fallback's English summary. It is written between the Hebrew summary and the original description, but it is **never** included in the Telegram message, which always contains only the Hebrew summary and the pipeline footer.
 
@@ -136,11 +136,11 @@ Language priority: Hebrew episodes prefer `he/iw` captions first, then `en`. Eng
 
 ## Summarization Pipeline
 
-### Primary: Gemma3-4B-Instruct (local GGUF model)
+### Primary: Gemma4-E4B-Instruct (local GGUF model)
 
-Downloaded automatically from Hugging Face (`bartowski/google_gemma-3-4b-it-GGUF`, Q4_K_M quantization) and cached across runs via `actions/cache`. Loaded once per run via `llama-cpp-python` (`n_ctx=8192`, `n_threads=2`, tuned for the runner's 2 CPU cores) — no API key, no network calls at inference time.
+Downloaded automatically from Hugging Face (`bartowski/google_gemma-4-E4B-it-GGUF`, Q4_K_M quantization) and cached across runs via `actions/cache`. Loaded once per run via `llama-cpp-python` (`n_ctx=8192`, `n_threads=2`, tuned for the runner's 2 CPU cores) — no API key, no network calls at inference time.
 
-**Why this model and this shape of pipeline:** several smaller/faster models (Qwen2.5 1.5B and 3B, DictaLM 2.0) were tried first and each failed in production on real Hebrew content — repetition loops, code-switching into Chinese script under long-context load, or outright failing to complete. Gemma3-4B was the first to reliably produce accurate, non-repetitive, non-hallucinated summaries across both short and long transcripts, in both Hebrew and English source content.
+**Why this model and this shape of pipeline:** several smaller/faster models (Qwen2.5 1.5B and 3B, DictaLM 2.0) were tried first and each failed in production on real Hebrew content — repetition loops, code-switching into Chinese script under long-context load, or outright failing to complete. Gemma3-4B was the first to reliably produce accurate, non-repetitive, non-hallucinated summaries across both short and long transcripts, in both Hebrew and English source content; the pipeline has since moved to Gemma4-E4B-Instruct.
 
 **Language-dependent routing** (`_is_mostly_hebrew()` check on the transcript text):
 
@@ -155,7 +155,7 @@ Downloaded automatically from Hugging Face (`bartowski/google_gemma-3-4b-it-GGUF
 
 ### Fallback: BART + Helsinki (local models)
 
-Used only when the primary Gemma3-4B path raises an exception (model failed to load, or every retry attempt was rejected by the quality guards). Runs entirely on CPU inside the GitHub Actions runner using `transformers` + `torch`.
+Used only when the primary Gemma4-E4B path raises an exception (model failed to load, or every retry attempt was rejected by the quality guards). Runs entirely on CPU inside the GitHub Actions runner using `transformers` + `torch`.
 
 **Hebrew episode pipeline:**
 1. Extractive pre-summary (if >1,500 words) to reduce translation cost
@@ -243,7 +243,7 @@ Language is auto-detected from feed metadata and Hebrew character ratio. Overrid
 
 ### Required Secrets
 
-No API token is required for summarization — Gemma3-4B and its BART+Helsinki fallback both run locally on the Actions runner.
+No API token is required for summarization — Gemma4-E4B and its BART+Helsinki fallback both run locally on the Actions runner.
 
 | Secret | Description |
 |--------|-------------|
@@ -330,7 +330,7 @@ URL: <episode URL>
 
 | Package | Version | Purpose |
 |---------|---------|---------|
-| `llama-cpp-python` | 0.3.16 | Runs the local Gemma3-4B-Instruct GGUF model on CPU |
+| `llama-cpp-python` | 0.3.35 | Runs the local Gemma4-E4B-Instruct GGUF model on CPU |
 | `feedparser` | 6.0.11 | RSS/Atom feed parsing |
 | `beautifulsoup4` | 4.12.3 | HTML parsing for page content extraction |
 | `lxml` | 5.3.0 | Fast HTML/XML parser backend |
