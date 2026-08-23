@@ -1,0 +1,18 @@
+Feed: LangTalks
+Episode: Background Agents & the AI-SDLC Mindset | Lee Twito & Gal Peretz | LangTalks Meetup AI-SDLC
+Method: description
+Language: en
+Words: 67
+URL: https://www.youtube.com/watch?v=H-nYkDGe36s
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A live demo of a background agents platform, and the mindset shift behind it: what changes in how an R&D org plans, reviews, and ships once agents are doing real work across the SDLC rather than just autocompleting code.
+
+Speakers: Lee Twito & Gal Peretz — LangTalks
+Lee Twito: https://www.linkedin.com/in/lee-twito/
+Gal Peretz: https://www.linkedin.com/in/gal-peretz/
+
+LangTalks Meetup: AI-SDLC — AWS Experience at Floor28, Tel Aviv, August 5, 2026
+https://langtalks.ai

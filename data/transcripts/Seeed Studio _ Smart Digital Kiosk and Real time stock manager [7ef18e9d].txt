@@ -1,0 +1,35 @@
+Feed: Seeed Studio
+Episode: Smart Digital Kiosk and Real time stock manager
+Method: description
+Language: en
+Words: 232
+URL: https://www.youtube.com/watch?v=5e9iP5OEc0M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+### IoT Smart Kiosk Menu & Real-Time Stock Manager
+
+**Overview**
+
+Manual inventory management in quick-service restaurant kiosks leads to customer dissatisfaction, order cancellations, and operational delays when sold-out items remain visible on ordering displays. This project bridges physical inventory state and digital menu interfaces by connecting a **Seeed Studio XIAO ESP32-S3** directly to a dynamic web application powered by **Firebase Realtime Database**.
+
+When an item stock changes at the counter, hardware sensors transmit live updates to the cloud over Wi-Fi, automatically updating stock quantities and applying a prominent **"SOLD OUT"** visual overlay on the web display in real-time.
+
+---
+
+### System Architecture & Workflow
+
+1. **Hardware Detection Layer:** Physical microswitches or sensors connected to the XIAO ESP32-S3 monitor real-time stock levels on the kitchen counter.
+2. **Cloud Synchronization Layer:** The ESP32 formats stock changes as JSON payloads and transmits them via HTTPS/WebSockets to Firebase Realtime Database under the `/menu` node.
+3. **Web Interface Layer:** A single-page web application utilizes the Firebase Web SDK (`onValue` listener) to reflect data changes instantly.
+4. **Dynamic Image & UI Routing:** CSS triggers opacity changes for zero-stock items while JavaScript dynamically handles item pricing, stock counters, and image routing.
+
+---
+
+### Technical Specifications
+
+* **Microcontroller:** Seeed Studio XIAO ESP32-S3 (Wi-Fi 802.11 b/g/n, dual-core LX7)
+* **Cloud Backend:** Firebase Realtime Database
+* **Web Stack:** HTML5, CSS3, JavaScript (ES6 Modules)
+* **Firmware Environment:** Arduino IDE / C++ (`Firebase-ESP-Client` library)

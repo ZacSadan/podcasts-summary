@@ -1,0 +1,24 @@
+Feed: LangTalks
+Episode: Panel: Building Internal AI-SDLC Platforms | Hud & Overcut | LangTalks Meetup AI-SDLC
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/watch?v=25ecbeP5KR4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A panel on building internal AI-SDLC platforms — what teams are actually standing up in-house, how they decide what to build versus buy, where agents earn trust, and the questions the room brought with it.
+
+Moderators: Lee Twito & Gal Peretz — LangTalks
+Lee Twito: https://www.linkedin.com/in/lee-twito/
+Gal Peretz: https://www.linkedin.com/in/gal-peretz/
+
+Panelists:
+Inbal Levy — Forward Deployed Engineer, Hud
+https://www.linkedin.com/in/inbalevy/
+Raz Berman Gold — Co-Founder & CTO, Overcut
+https://www.linkedin.com/in/raz-berman-gold/
+
+LangTalks Meetup: AI-SDLC — AWS Experience at Floor28, Tel Aviv, August 5, 2026
+https://langtalks.ai

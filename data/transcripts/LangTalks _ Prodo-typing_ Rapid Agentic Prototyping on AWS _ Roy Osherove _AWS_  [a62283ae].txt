@@ -1,0 +1,17 @@
+Feed: LangTalks
+Episode: Prodo-typing: Rapid Agentic Prototyping on AWS | Roy Osherove (AWS) | LangTalks Meetup AI-SDLC
+Method: description
+Language: en
+Words: 57
+URL: https://www.youtube.com/watch?v=EcJD9SQeDtU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Prototyping with agents is easy; getting that prototype to production scale is where it breaks. A hands-on look at "prodo-typing" — building agentic prototypes on AWS that are already shaped for production.
+
+Speaker: Roy Osherove — Hands-On Chief AI Architect, AWS
+LinkedIn: https://www.linkedin.com/in/osherove/
+
+LangTalks Meetup: AI-SDLC — AWS Experience at Floor28, Tel Aviv, August 5, 2026
+https://langtalks.ai

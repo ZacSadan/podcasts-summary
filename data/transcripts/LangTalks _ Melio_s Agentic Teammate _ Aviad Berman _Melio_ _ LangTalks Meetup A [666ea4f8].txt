@@ -1,0 +1,17 @@
+Feed: LangTalks
+Episode: Melio's Agentic Teammate | Aviad Berman (Melio) | LangTalks Meetup AI-SDLC
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/watch?v=N2TNOpWaImY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+How Melio built an agentic teammate into its engineering workflow — what the agent owns, how it is reviewed and trusted, and what the team learned putting it in front of real developers.
+
+Speaker: Aviad Berman — Melio
+LinkedIn: https://www.linkedin.com/in/aviad-berman-4a034a131/
+
+LangTalks Meetup: AI-SDLC — AWS Experience at Floor28, Tel Aviv, August 5, 2026
+https://langtalks.ai
