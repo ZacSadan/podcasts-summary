@@ -242,6 +242,11 @@ IMPORTANT RULES:
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
+ACCURACY RULE (highest priority, never break this):
+- Only state facts, names, numbers, quotes, and claims that are literally present in the transcript below. Never invent, guess, extrapolate, or "fill in" a name, company, statistic, or detail that is not actually there, even if it would sound plausible.
+- If you are not confident about a specific name, number, or detail because the transcript is unclear or garbled at that point, simply omit that detail instead of guessing at it or inventing a plausible-sounding substitute.
+- Do NOT attribute a claim, quote, or fact to a person or company unless the transcript clearly says they made it.
+
 Cover EVERY subject: technology topics, business models, products, companies, people mentioned, arguments made, predictions, and all links/resources. {length_instr}.
 
 Respond EXACTLY in this format (no extra text before or after):
@@ -272,6 +277,11 @@ IMPORTANT RULES:
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 
+ACCURACY RULE (highest priority, never break this):
+- Only state facts, names, numbers, quotes, and claims that are literally present in the show notes below. Never invent, guess, extrapolate, or "fill in" a name, company, statistic, or detail that is not actually there, even if it would sound plausible.
+- If you are not confident about a specific name, number, or detail because the source is unclear at that point, simply omit that detail instead of guessing at it or inventing a plausible-sounding substitute.
+- Do NOT attribute a claim, quote, or fact to a person or company unless the source clearly says they made it.
+
 Cover EVERY subject in depth. 1200-1500 words.
 
 Respond EXACTLY in this format (no extra text before or after):
@@ -296,6 +306,7 @@ IMPORTANT RULES:
 - Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info
 - This is a working note, not a final summary — plain prose is fine, no need for headers
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+- ACCURACY: only state facts, names, numbers, and claims literally present in this transcript segment. Never invent or guess a name, company, or statistic. If unsure about a detail, omit it rather than guessing.
 
 Respond EXACTLY in this format (no extra text before or after):
 NOTES:
@@ -322,6 +333,7 @@ IMPORTANT RULES:
 - Do NOT use hashtags (words starting with #) anywhere
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned" — weave each link into the sentence of the paragraph where that topic was discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
+- ACCURACY: only combine facts, names, numbers, and claims that literally appear in the notes below. Never invent, guess, or add a name, company, or statistic that isn't in the notes, even if it would sound plausible. If a note is unclear or ambiguous, omit that detail rather than guessing at it.
 
 Respond EXACTLY in this format (no extra text before or after):
 ENGLISH_SUMMARY:
@@ -342,6 +354,8 @@ RULES:
 - Keep product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) in English, exactly as they appear
 - Keep the same structure: headings, bullet points, paragraph breaks
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character
+- Do NOT write full English sentences or paragraphs anywhere in the output. The ONLY English allowed is the product/company/tool names and acronyms that were already in English in the source text. Every sentence of prose must be in Hebrew.
+- This is a literal translation, not a re-summary: do NOT add, invent, or guess any name, number, company, or claim that is not already present in the English summary below
 - Do NOT repeat any sentence more than once
 
 Respond EXACTLY in this format (no extra text before or after):
@@ -360,8 +374,14 @@ You are summarizing a podcast episode. Write a detailed Hebrew summary.
 
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Do NOT write full English sentences, clauses, or phrases anywhere in the output. The ONLY English allowed is individual product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) embedded inside an otherwise-Hebrew sentence — never a run of ordinary English words like "for example" or "the company said".
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
+
+ACCURACY RULE (highest priority, never break this):
+- Only state facts, names, numbers, quotes, and claims that are literally present in the transcript below. Never invent, guess, extrapolate, or "fill in" a name, company, statistic, or technical term that is not actually there, even if it would sound plausible or fluent in Hebrew.
+- If a name, number, or term in the transcript is unclear, garbled, or ambiguous, do NOT invent a plausible-sounding Hebrew or English substitute for it — omit that specific detail and move on to the next topic.
+- Do NOT attribute a claim, quote, or fact to a person or company unless the transcript clearly says they made it.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -392,8 +412,14 @@ You are summarizing a podcast episode that has full, detailed show notes. Write 
 
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character. If you notice yourself writing a non-Hebrew, non-English character, stop and rewrite that word in Hebrew instead.
+- Do NOT write full English sentences, clauses, or phrases anywhere in the output. The ONLY English allowed is individual product names, company names, tools, frameworks, and acronyms (AI, AGI, SaaS, API, etc.) embedded inside an otherwise-Hebrew sentence — never a run of ordinary English words like "for example" or "the company said".
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information. If you find yourself about to write something you already said, stop and move to the next topic instead.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
+
+ACCURACY RULE (highest priority, never break this):
+- Only state facts, names, numbers, quotes, and claims that are literally present in the show notes below. Never invent, guess, extrapolate, or "fill in" a name, company, statistic, or technical term that is not actually there, even if it would sound plausible or fluent in Hebrew.
+- If a name, number, or term in the source is unclear, garbled, or ambiguous, do NOT invent a plausible-sounding Hebrew or English substitute for it — omit that specific detail and move on to the next topic.
+- Do NOT attribute a claim, quote, or fact to a person or company unless the source clearly says they made it.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -425,8 +451,13 @@ You are summarizing PART {part} OF {total} of a longer podcast transcript. Write
 
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character.
+- Do NOT write full English sentences, clauses, or phrases anywhere in the output. The ONLY English allowed is individual product names, company names, tools, frameworks, and acronyms embedded inside an otherwise-Hebrew sentence.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once.
+
+ACCURACY RULE (highest priority, never break this):
+- Only state facts, names, numbers, and claims literally present in this transcript segment. Never invent or guess a name, company, statistic, or term that is not actually there.
+- If a name, number, or term is unclear or garbled, omit that specific detail rather than inventing a plausible-sounding substitute.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms)
@@ -451,8 +482,13 @@ You are given Hebrew notes covering different parts of the same podcast episode,
 
 LANGUAGE RULE (highest priority, never break this):
 - Write ONLY in Hebrew script and English tech terms. NEVER use Chinese, Russian, Arabic, or any other script — not even one character.
+- Do NOT write full English sentences, clauses, or phrases anywhere in the output. The ONLY English allowed is individual product names, company names, tools, frameworks, and acronyms embedded inside an otherwise-Hebrew sentence.
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 - Do NOT add an English translation, gloss, or restatement of any Hebrew sentence — not in parentheses, not on a new line, not anywhere. Write each idea in Hebrew exactly once and move on. The ONLY English allowed is product names, company names, tools, and acronyms embedded naturally inside a Hebrew sentence.
+
+ACCURACY RULE (highest priority, never break this):
+- Only combine facts, names, numbers, and claims that literally appear in the notes below. Never invent, guess, or add a name, company, statistic, or term that isn't in the notes, even if it would sound plausible. If a note is unclear or ambiguous, omit that detail rather than guessing at it.
+- Do NOT attribute a claim, quote, or fact to a person or company unless the notes clearly say they made it.
 
 IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms like AI, AGI, SaaS, API, etc.)
@@ -541,6 +577,23 @@ def _is_refusal(text: str) -> bool:
 
 _NON_HEBREW_SCRIPT_RE = re.compile(r"[一-鿿぀-ヿ가-힣Ѐ-ӿ؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]")
 
+# A tech-term/acronym list ("Google Cloud, Kubernetes, and OpenAI API") can
+# contain several consecutive Latin words without being English prose. Real
+# English sentences are instead dense in short function words (the, is, that,
+# with, ...) — so flag a window of Latin words only if enough of them are
+# function words, which a list of product/company names never has.
+_ENGLISH_FUNCTION_WORDS = {
+    "the", "is", "are", "was", "were", "and", "that", "this", "with", "for",
+    "have", "has", "had", "not", "but", "you", "your", "they", "their",
+    "what", "when", "which", "from", "about", "into", "than", "then",
+    "also", "because", "while", "these", "those", "there", "been", "being",
+    "will", "would", "could", "should", "can", "its", "so", "if", "of",
+    "to", "a", "an", "as", "on", "in", "at",
+}
+_LATIN_WORD_RE = re.compile(r"[A-Za-z']+")
+_ENGLISH_PROSE_WINDOW = 15
+_ENGLISH_PROSE_MIN_HITS = 5
+
 
 def _has_wrong_script(text: str, max_chars: int = 0) -> bool:
     """Return True if the text contains Chinese/Japanese/Korean/Cyrillic/Arabic
@@ -548,6 +601,23 @@ def _has_wrong_script(text: str, max_chars: int = 0) -> bool:
     Even a single stray character (e.g. an Arabic letter dropped into a name like
     "ד"ר רالف") is a real failure, not noise — so this has zero tolerance by default."""
     return len(_NON_HEBREW_SCRIPT_RE.findall(text)) > max_chars
+
+
+def _has_english_prose_run(text: str) -> bool:
+    """Return True if the text contains a run of Latin-script words dense enough
+    in English function words to be real English prose — a sign the model wrote
+    full English sentences instead of Hebrew prose with embedded tech terms.
+    A run of product/company names and acronyms is allowed (no function words);
+    an actual English sentence or clause is not."""
+    words = _LATIN_WORD_RE.findall(text)
+    if len(words) < _ENGLISH_PROSE_WINDOW:
+        return False
+    for i in range(len(words) - _ENGLISH_PROSE_WINDOW + 1):
+        window = words[i:i + _ENGLISH_PROSE_WINDOW]
+        hits = sum(1 for w in window if w.lower() in _ENGLISH_FUNCTION_WORDS)
+        if hits >= _ENGLISH_PROSE_MIN_HITS:
+            return True
+    return False
 
 
 def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
@@ -648,6 +718,12 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
         if check_hebrew_script and _has_wrong_script(parsed):
             logger.warning(
                 f"  Local LLM code-switched into a non-Hebrew script "
+                f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
+            )
+            continue
+        if check_hebrew_script and _has_english_prose_run(parsed):
+            logger.warning(
+                f"  Local LLM wrote English prose instead of Hebrew "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
             continue
