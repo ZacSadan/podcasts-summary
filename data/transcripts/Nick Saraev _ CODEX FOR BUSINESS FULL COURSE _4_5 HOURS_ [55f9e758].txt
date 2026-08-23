@@ -1,0 +1,50 @@
+Feed: Nick Saraev
+Episode: CODEX FOR BUSINESS FULL COURSE (4.5 HOURS)
+Method: description
+Language: en
+Words: 616
+URL: https://www.youtube.com/watch?v=DJZISqryDfw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get all course resources 100% free: https://skool.com/maker-zero/about
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+Summary ⤵️
+This is the definitive course all about Codex for business. In this course, I guide people from absolute beginner all the way up to seasoned pro, building prompts, skills, automations, and then helping you put actual business-ready systems onto the cloud so anybody on your team or your clients' teams can run them.
+
+I also walk you through advanced tips like computer use, browser use, APIs, MCPs, plugins, scheduled tasks, and more. This really is your all-in-one resource for getting up to speed on OpenAI's Lovely Codex
+
+Chapters
+0:00 What you'll build in this course
+2:43 Install Codex, create your account, interface tour
+24:34 The RACE framework: where automation pays off
+31:36 The 4 levels: prompts, skills, local automations, cloud automations
+33:37 Sales: turn a sales call into a proposal with e-sign and checkout
+1:08:18 Automate it: webhook from your call recorder to a finished proposal
+1:28:04 Marketing: organic content repurposing with skills
+2:18:58 Operations: daily pipeline hygiene on a schedule
+2:46:15 After-hours voice agent that handles leads
+3:35:10 Maintaining and upgrading your systems
+3:56:47 Advanced tips: browser use and computer use
+4:26:23 FAQ: delivering agents to clients, security, what to build next
