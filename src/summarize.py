@@ -559,9 +559,9 @@ def _is_degenerate_repetition(text: str, min_sentences: int = 6) -> bool:
     return len(set(sentences)) / len(sentences) < 0.6
 
 
-_LOCAL_LLM_MODEL = "Gemma3-4B-Instruct"
-_LOCAL_LLM_REPO = "bartowski/google_gemma-3-4b-it-GGUF"
-_LOCAL_LLM_FILE = "google_gemma-3-4b-it-Q4_K_M.gguf"
+_LOCAL_LLM_MODEL = "Gemma4-E4B-Instruct"
+_LOCAL_LLM_REPO = "bartowski/google_gemma-4-E4B-it-GGUF"
+_LOCAL_LLM_FILE = "google_gemma-4-E4B-it-Q4_K_M.gguf"
 
 _llm_instance = None
 
