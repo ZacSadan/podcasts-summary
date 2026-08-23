@@ -1,0 +1,26 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Ensuring the Cloud Quantum Computer Runs Your Program… But Learns Nothing
+Method: description
+Language: en
+Words: 227
+URL: https://www.youtube.com/watch?v=lS4qlzbFN6c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Quantum programs executed on cloud quantum computers expose three critical assets:
+
+1. the input states, which may encode sensitive parameters or proprietary data;
+
+2. the quantum circuit structure, which represents the designer's intellectual property; and
+
+3. the quantum output, the high-value "gold nugget" produced by the computation — such as an RSA private key recovered by Shor's algorithm or the molecular structure of a breakthrough anti-aging drug.
+
+Our prior work, ObfusQate, protected quantum circuits by obfuscating their structure so that untrusted compilers cannot infer the algorithmic logic. In this work, we address the third and most valuable threat vector: quantum output theft. We will present a hybrid quantum-classical output-encryption mechanism in which carefully selected quantum gates are inserted before compilation to deliberately corrupt the measurement results that we call quantum encryption. Only the legitimate user — who holds a classical decryption key describing the inserted gates — can reconstruct the true output, classically without the need of a quantum computer.
+
+Evaluated across five benchmark algorithms, our approach yields high statistical divergence and strong functional corruption, ensuring that cloud providers cannot learn the output even after running the circuit. The technique is practical, compiler-agnostic, and imposes minimal overhead, making it suitable for protecting quantum IP in untrusted cloud environments.
+
+Vivek Balachandran  |  Associate Professor, Singapore Institute of Technology
+Amal Raj  |  Research Engineer, Singapore Institute of Technology
+
+https://blackhat.com/asia-26/briefings/schedule/?#cloaq-ensuring-the-cloud-quantum-computer-runs-your-program-but-learns-nothing-50774
