@@ -915,7 +915,8 @@ def _format_output(episode, hebrew_summary: str, english_summary: str,
     )
     telegram_footer = (
         f"---\n\n"
-        f"**Link:**\n{episode.url}\n"
+        f"**Link:**\n{episode.url}\n\n"
+        f"*Pipeline:*\n{steps_block}\n"
     )
 
     full_text = header + he_block + en_block + desc_block + "\n" + footer
