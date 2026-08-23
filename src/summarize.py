@@ -238,6 +238,7 @@ IMPORTANT RULES:
 - Do NOT skip any technological, business, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
+- This applies even when the "transcript" below is actually YouTube show notes / video description text (marked [SHOW NOTES]). Creators routinely paste a standing personal-bio paragraph into every video's description — e.g. "I'm [Name], I run [Company]...", "If this is your first video...", childhood/immigration story, "As for my path: I started my first business at...", net worth or company revenue figures about the creator, career history unrelated to this specific video. Skip all of that entirely, no matter how long it is or how much of the text it takes up. Only summarize the part that describes THIS episode's actual content (what it teaches/covers), typically found after a "Summary" line or timestamped chapter list.
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
@@ -272,6 +273,7 @@ IMPORTANT RULES:
 - Do NOT skip any technological, business, security, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
+- Creators routinely paste a standing personal-bio paragraph into every video's description — e.g. "I'm [Name], I run [Company]...", "If this is your first video...", childhood/immigration story, "As for my path: I started my first business at...", net worth or company revenue figures about the creator, career history unrelated to this specific video. Skip all of that entirely, no matter how long it is or how much of the text it takes up. Only summarize the part that describes THIS episode's actual content (what it teaches/covers), typically found after a "Summary" line or timestamped chapter list.
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode". If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
@@ -303,7 +305,7 @@ IMPORTANT RULES:
 - Keep all product names, company names, tools, frameworks, and acronyms as they appear
 - Include all numbers, statistics, names, and specific claims made in this part
 - Do NOT summarize or refer to other parts — only what appears in THIS transcript segment
-- Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info
+- Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info — this includes a creator's standing personal-bio paragraph often pasted into video descriptions (childhood/immigration story, "I'm [Name], I run [Company]...", "As for my path: I started my first business at...", net worth or revenue figures about the creator, career history unrelated to this specific video). Skip it entirely, however long it is.
 - This is a working note, not a final summary — plain prose is fine, no need for headers
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
 - ACCURACY: only state facts, names, numbers, and claims literally present in this transcript segment. Never invent or guess a name, company, or statistic. If unsure about a detail, omit it rather than guessing.
@@ -329,7 +331,7 @@ IMPORTANT RULES:
 - Use bold section headers (**Heading**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.)
-- Do NOT include the podcast host/owner's own biography or company description — only content actually discussed
+- Do NOT include the podcast host/owner's own biography or company description (childhood story, past businesses, net worth, career history) — only content actually discussed. If any of the notes below contain such biographical material, drop it even though it's already been passed to you.
 - Do NOT use hashtags (words starting with #) anywhere
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned" — weave each link into the sentence of the paragraph where that topic was discussed
 - Do NOT repeat the same sentence, phrase, or idea more than once. Every sentence must add new information.
@@ -429,6 +431,7 @@ IMPORTANT RULES:
 - Do NOT skip any technological, business, security, or product topics
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.) — focus only on what was discussed in THIS episode
 - Do NOT include the podcast host/owner's own biography, credentials, or company description (his standard intro about himself) — only summarize content actually discussed in the episode, and any biographical info about guests
+- Creators routinely paste a standing personal-bio paragraph into every video's description — e.g. "I'm [Name], I run [Company]...", "If this is your first video...", childhood/immigration story, "As for my path: I started my first business at...", net worth or company revenue figures about the creator, career history unrelated to this specific video. Skip all of that entirely, no matter how long it is or how much of the text it takes up. Only summarize the part that describes THIS episode's actual content (what it teaches/covers), typically found after a "Summary" line or timestamped chapter list.
 - Since this is based on full show notes, be especially thorough and complete
 - Do NOT use hashtags (words starting with #) anywhere. If a keyword is worth mentioning, write it as a normal word with no "#"
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned in the episode" — this applies no matter how that heading is phrased or reworded (Hebrew or English). If the last thing you write is a heading followed by a list of links/topics with no new analysis, delete that heading entirely and instead weave each link into the sentence of the paragraph where that topic was actually discussed
@@ -463,7 +466,7 @@ IMPORTANT RULES:
 - Keep ALL English tech terms as-is (product names, company names, tools, frameworks, acronyms)
 - Include all numbers, statistics, names, and specific claims made in this part
 - Do NOT summarize or refer to other parts — only what appears in THIS transcript segment
-- Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info
+- Do NOT include generic podcast/channel descriptions, host biography, or subscription/social-media info — this includes a creator's standing personal-bio paragraph often pasted into video descriptions (childhood/immigration story, "I'm [Name], I run [Company]...", "As for my path: I started my first business at...", net worth or revenue figures about the creator, career history unrelated to this specific video). Skip it entirely, however long it is.
 - This is a working note, not a final summary — plain prose is fine, no need for headers
 
 Respond EXACTLY in this format (no extra text before or after):
@@ -496,7 +499,7 @@ IMPORTANT RULES:
 - Use bold section headers (**כותרת**) and bullet points
 - Include all numbers, statistics, names, and specific claims made
 - Do NOT include generic descriptions of the podcast/channel itself (its mission, social links, subscription info, follow us on X/Facebook/TikTok etc.)
-- Do NOT include the podcast host/owner's own biography or company description — only content actually discussed
+- Do NOT include the podcast host/owner's own biography or company description (childhood story, past businesses, net worth, career history) — only content actually discussed. If any of the notes below contain such biographical material, drop it even though it's already been passed to you.
 - Do NOT use hashtags (words starting with #) anywhere
 - Never close the summary with a standalone heading whose sole purpose is to list links, sources, or "additional things mentioned" — weave each link into the sentence of the paragraph where that topic was discussed
 
