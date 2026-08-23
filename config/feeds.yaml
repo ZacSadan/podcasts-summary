@@ -400,3 +400,7 @@ feeds:
   url: "https://anchor.fm/s/10e1c62b8/podcast/rss"
   spotify_url: "https://open.spotify.com/show/3TcLj7yJyozvLyYxPCjePH"
 
+- name: The Startup Ideas Podcast
+  url: "https://rss2.flightcast.com/ordbkg8yojpehffas7vr7qpc.xml"
+  spotify_url: "https://open.spotify.com/show/6aB0v6amo3a8hgTCjlTlvh"
+
