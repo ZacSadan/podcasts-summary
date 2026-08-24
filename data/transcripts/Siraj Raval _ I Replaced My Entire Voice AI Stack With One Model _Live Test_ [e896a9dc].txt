@@ -1,0 +1,46 @@
+Feed: Siraj Raval
+Episode: I Replaced My Entire Voice AI Stack With One Model (Live Test)
+Method: description
+Language: en
+Words: 270
+URL: https://www.youtube.com/watch?v=x9Dxgf00zXA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I ripped out my entire voice AI stack, every subscription and API key, and replaced all of it with one thing: Mistral's Voxtral. This is part 2 of my Mistral experiment. Everything runs live, nothing is faked, and if it fails, you watch it fail.
+
+I put it through three rounds on my real production workload: batch transcription across languages, multilingual voice generation, and a live voice agent I can talk to in any language. The code-switching test (English to Hindi to French mid-sentence) is the one that surprised me.
+
+Try Mistral Speech yourself: https://mistr.al/audio-sirajraval-yt
+
+Mistral Speech is a full audio intelligence stack that passes the human test. Voxtral Mini Transcribe 2, Voxtral Realtime, and Voxtral TTS are open-weights models for batch transcription, live STT, and natural voice synthesis. Multilingual, cost-efficient, and deployable on-prem or at the edge.
+
+Follow Mistral on X: https://x.com/mistralai
+Subscribe: @MistralAIOfficial
+Follow on LinkedIn: https://www.linkedin.com/company/mistralai/
+
+Chapters:
+0:00 My whole business runs on voice
+0:33 The rules: everything live, nothing faked
+0:47 What Voxtral actually is
+1:26 Round 1: transcription (English → Hindi → French, one take)
+2:30 The real pricing on my actual files
+2:35 Round 2: wiring it into my multi-agent system
+2:54 Round 3: live voice agent, real round trip
+3:13 My straight verdict: who should switch, who should wait
+3:41 Run the same experiment yourself
+3:51 Part 1: the agent that coded my whole codebase
+
+What would you build with a multilingual voice agent? Tell me in the comments.
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval
+
+#AI #Mistral #Voxtral #VoiceAI
