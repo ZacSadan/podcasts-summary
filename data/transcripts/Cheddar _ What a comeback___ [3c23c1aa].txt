@@ -1,0 +1,13 @@
+Feed: Cheddar
+Episode: What a comeback!🦿🤖
+Method: description
+Language: en
+Words: 68
+URL: https://www.youtube.com/shorts/-vG9lUisfuY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Beijing is hosting the 2026 World Humanoid Robot Games (August 22-26) with 2,056 robots from 666 teams across 16 countries competing in 50 events. 
+
+The competition has exploded year-over-year with 138% more teams and 311% more robots. Events range from autonomous sports like soccer and running to work scenarios in retail and assembly, revealing both rapid advances in humanoid robotics and significant gaps that remain before real-world deployment.
