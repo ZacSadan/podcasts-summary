@@ -116,7 +116,29 @@ _TIMESTAMP_RE = re.compile(
 )
 
 
+# Creators routinely paste a standing personal-bio paragraph into video
+# descriptions ("If this is your first video: I'm [Name], I run [Company]...",
+# childhood/immigration story, "As for my path: I started my first business
+# at...", net worth/revenue figures, career history). An instructable LLM can
+# be told to skip this, but the BART fallback (and the plain extractive
+# fallback) have no such instruction mechanism — they summarize whatever raw
+# text they're given. So this is stripped out of the text itself, upstream of
+# every pipeline, rather than relying on any model to filter it out.
+_BIO_START_RE = re.compile(
+    r"(?:➡️|→)?\s*if this is your first (?:video|episode)\b.{0,4000}?(?=\n\s*(?:summary\b|chapters?\b|show ?notes\b|timestamps?\b)|\Z)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _strip_creator_bio(text: str) -> str:
+    """Remove a standing creator personal-bio paragraph from show-notes/description
+    text, if one is present. No-op if the "if this is your first video" marker
+    isn't found, so it never touches an actual transcript."""
+    return _BIO_START_RE.sub(" ", text)
+
+
 def _clean_text(text: str, strip_urls: bool = False) -> str:
+    text = _strip_creator_bio(text)
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\[SHOW NOTES[^\]]*\]", "", text)
     text = _TIMESTAMP_RE.sub(" ", text)
@@ -674,6 +696,7 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
     base_text = _truncate_to_token_budget(llm, text, text_budget)
 
     result = ""
+    english_drift_fallback = ""  # last valid-but-wrong-script output, for a translate repair pass
     for attempt, shrink in enumerate([1, 2, 4]):
         truncated = base_text if shrink == 1 else _truncate_to_token_budget(llm, base_text, text_budget // shrink)
         prompt = prompt_tpl.format(transcript=truncated, **fmt_kwargs)
@@ -729,9 +752,29 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
                 f"  Local LLM wrote English prose instead of Hebrew "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
+            # Keep the best (longest) valid English-prose output around: if
+            # every shrink attempt still drifts to English, translating this
+            # back to Hebrew preserves full-quality content instead of
+            # discarding the whole chunk and falling back to BART+Helsinki.
+            if len(parsed) > len(english_drift_fallback):
+                english_drift_fallback = parsed
             continue
         result = parsed
         break
+
+    if not result and check_hebrew_script and english_drift_fallback:
+        logger.warning(
+            "  Local LLM kept drifting to English after all retries — "
+            "translating its English output to Hebrew instead of discarding it"
+        )
+        try:
+            translate_tokens = min(2048, max(256, int(len(english_drift_fallback.split()) * 1.5 * _MAX_TOKENS_TRANSLATE_MARGIN)))
+            result = _run_local_llm(
+                llm, _TRANSLATE_TO_HEBREW_PROMPT, "HEBREW_SUMMARY:", english_drift_fallback, {},
+                check_hebrew_script=True, max_tokens=translate_tokens,
+            )
+        except Exception as e:
+            logger.warning(f"  Translate-repair pass also failed ({type(e).__name__}: {e})")
 
     if not result:
         raise RuntimeError("All local LLM attempts failed")

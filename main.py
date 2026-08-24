@@ -273,6 +273,27 @@ def append_result(text: str):
 _TG_MAX = 4096
 
 
+_HEBREW_CHAR_RE = re.compile(r"[֐-׿]")
+_RLM = "‏"  # Right-to-Left Mark
+
+
+def _fix_rtl_alignment(text: str) -> str:
+    """Prepend a Right-to-Left Mark to every line that contains Hebrew text.
+
+    Telegram picks each line's alignment from its first strong-direction
+    character. A Hebrew line that happens to start with a Latin/neutral
+    token — an emoji-free bracketed label like "[Youtube Channel]", a
+    bold tag, or a link — renders left-aligned even though the visible
+    content is Hebrew. Forcing a leading RLM makes the line's first
+    strong character Hebrew, so Telegram right-aligns it regardless of
+    what markup precedes the Hebrew text."""
+    lines = text.split("\n")
+    return "\n".join(
+        _RLM + line if _HEBREW_CHAR_RE.search(line) else line
+        for line in lines
+    )
+
+
 def _md_to_tg_html(text: str) -> str:
     """Convert the markdown used in results.txt.md to Telegram HTML."""
     import re as _re
@@ -293,6 +314,7 @@ def _md_to_tg_html(text: str) -> str:
     text = _re.sub(r'^-{2,}$', '', text, flags=_re.MULTILINE)
     # collapse 3+ blank lines to 2
     text = _re.sub(r'\n{3,}', '\n\n', text)
+    text = _fix_rtl_alignment(text)
     return text.strip()
 
 
