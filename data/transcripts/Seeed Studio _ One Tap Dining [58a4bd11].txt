@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: One Tap Dining
+Method: description
+Language: en
+Words: 74
+URL: https://www.youtube.com/watch?v=VgsKN8xb7sY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Our project, One-Tap Dining, is a smart restaurant service signaling system that allows customers to request assistance with a single button press. We use the Seeed Studio XIAO ESP32-C3 to process the request, a Grove Button for customer input, and a Grove Chainable RGB LED to indicate service status. The alert is wirelessly sent to a Seeed Studio Wio Terminal, which acts as the waiter’s dashboard to display the table number and service request.
