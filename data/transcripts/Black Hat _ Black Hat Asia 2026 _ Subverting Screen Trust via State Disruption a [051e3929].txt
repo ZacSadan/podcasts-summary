@@ -1,0 +1,22 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Subverting Screen Trust via State Disruption and ONE-WAY Flooding
+Method: description
+Language: en
+Words: 270
+URL: https://www.youtube.com/watch?v=sYoeYDSBjrI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As core components of graphics and input architecture, SurfaceFlinger and InputDispatcher share critical responsibilities in physical screen handling. Although they are tightly integrated in the system architecture and interact frequently via the Binder driver, surface composition and input processing are fundamentally independent workflows. This seemingly unremarkable premise exposes a unique attack surface: by forcing SurfaceFlinger's scheduler into mishandling VSYNC signals, malware can fully disable the device's UI protections.
+
+Android's ongoing tapjacking mitigations have made zero-permission exploitation extremely difficult over the past 8 years. Our talk aims to break this deadlock by exploiting multiple vulnerabilities to successfully attack the latest Android 15 devices and threaten nearly all downstream OEM vendors! This research spans SurfaceFlinger, SystemServer and WMShell, and also covers several critical core services. Additionally, we will introduce a universal exploitation technique that bypasses standard defenses—even when all protection mechanisms are functioning as intended—by exploiting design flaws in the Binder transaction mechanism. Overall, the attack chain enables zero-permission bypass of privileged window control logic, rendering most UI protections, including TRUSTED_OVERLAY, ineffective. These findings have earned over $42,000 in vulnerability rewards, with one vulnerability remaining unpatched since 2023.
+
+Beyond theoretical feasibility, this research will present the POC on production devices to validate its practical reliability and stability. Additionally, we will develop a fully weaponized version and simulate real-world malware targeting the system permission controller. This enables privilege escalation that exceeds conventional expectations, without any user awareness.
+
+WeiMin Cheng  |  Independent Researcher,  
+Zhihan Lin  |  Security Engineer, Chengdu Royal Security Technology Co., Ltd.
+Sheng Cao  |  Mobile Security Researcher, Huazhong University of Science and Technology
+Songzhou Shi  |  Security Researcher, LSPosed Team
+
+https://blackhat.com/asia-26/briefings/schedule/?#vsyncbreaker-subverting-screen-trust-via-state-disruption-and-one-way-flooding-50006
