@@ -1,0 +1,17 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Practical Attacks Against Smartphone Boot ROMs
+Method: description
+Language: en
+Words: 103
+URL: https://www.youtube.com/watch?v=0hItwQVp8a4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Boot ROMs are an immutable component of any hardware platform, and vulnerabilities in them can compromise the entire boot chain. This talk aims to outline the impact of vulnerabilities in the USB interface of smartphone Boot ROMs at a low level, demonstrating how a smartphone's entire ecosystem can be manipulated from a single vulnerability.
+
+Using example targets from two different manufacturers, this talk aims to outline the impact of code execution vulnerabilities in multiple boot stages of a smartphone, providing practical demonstrations of secure boot bypass on mobile devices, on-device fuzzing, and decryption of protected firmware images.
+
+Christopher Wade  |  Staff Engineer
+
+https://blackhat.com/asia-26/briefings/schedule/?#practical-attacks-against-smartphone-boot-roms-50532
