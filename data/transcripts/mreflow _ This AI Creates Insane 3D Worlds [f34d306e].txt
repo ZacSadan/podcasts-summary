@@ -1,0 +1,25 @@
+Feed: mreflow
+Episode: This AI Creates Insane 3D Worlds
+Method: description
+Language: en
+Words: 141
+URL: https://www.youtube.com/shorts/ZY628bslSYY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This might be one of the coolest AI models I’ve seen all year.
+
+Tencent’s new WorldClaw model can generate an entire editable 3D world from a prompt — not just the environment, but every individual object inside it.
+
+Trees, buildings, carts, lamp posts, terrain, they’re all generated as separate 3D assets you can actually work with.
+
+Under the hood, it combines image generation, segmentation, and Tencent’s Hunyuan 2D-to-3D tech to turn a generated scene into a full collection of 3D objects.
+
+And the use cases could get really interesting.
+
+You could imagine generating game environments in minutes, building virtual worlds for simulations, or even creating environments where robots can train before they ever enter the real world.
+
+Unfortunately we can’t actually play with this model yet, but this is absolutely one I’m keeping an eye on.
+
+#ai #ainews #aimodel #genai #3dart
