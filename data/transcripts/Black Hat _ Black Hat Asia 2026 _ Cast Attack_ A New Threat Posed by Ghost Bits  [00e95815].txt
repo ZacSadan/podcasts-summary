@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Cast Attack: A New Threat Posed by Ghost Bits in Java
+Method: description
+Language: en
+Words: 194
+URL: https://www.youtube.com/watch?v=HhbLr4LKIl0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In modern security defense systems, input validation and data integrity checks are the core to preventing attacks. However, a commonly overlooked source of vulnerabilities has long lurked in the code, not due to complex logic errors, but because of "ghost bits" silently erased during type conversion. This presentation reveals a novel attack technique called Cast Attack, which originates from data loss during Java's type casting process.
+
+In this talk, we will demonstrate how Cast Attack can be used to bypass defenses such as WAFs, as well as introduce four major attack surfaces: privilege/access bypass, arbitrary file read, SMTP injection, and XSS. Affected vendors include, but are not limited to Oracle, Spring, Eclipse, Apache, Atlassian, JetBrains, and others.
+
+The impact of Cast Attack far exceeds expectations. It not only challenges current input validation mechanisms but also provides attackers with a low-cost, stealthy attack vector that can cause unforeseen security vulnerabilities in critical systems. Could this become the next widely exploited attack technique? In this session, we will uncover this hidden threat together.
+
+Xinyu Bai  |  Security Researcher,  
+Zhihui Chen  |  Security Engineer, Alibaba Cloud
+Zongzheng Zheng  |  Independent Researcher, University of New South Wales
+
+https://blackhat.com/asia-26/briefings/schedule/?#cast-attack-a-new-threat-posed-by-ghost-bits-in-java-50444
