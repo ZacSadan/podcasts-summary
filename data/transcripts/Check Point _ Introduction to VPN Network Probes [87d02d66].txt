@@ -1,0 +1,17 @@
+Feed: Check Point
+Episode: Introduction to VPN Network Probes
+Method: description
+Language: en
+Words: 83
+URL: https://www.youtube.com/watch?v=EnF2VTd4LI8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Discover how Check Point AIOps enhances VPN monitoring with VPN Network Probes.
+
+In this introductory video, you'll learn how Network Probes actively validate VPN connectivity, detect silent failures, and provide real-time visibility into tunnel health. 
+
+We'll also explore how AIOps, Skyline, Prometheus, and Grafana help security administrators improve monitoring, accelerate troubleshooting, and maintain reliable VPN connectivity across their environments.
+
+For a comprehensive overview of Check Point AIOps, visit our YouTube channel, Tech Point Central, and watch the full video: Check Point AIOps: https://www.youtube.com/watch?v=P5GHtf4M

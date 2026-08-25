@@ -1,0 +1,15 @@
+Feed: Check Point
+Episode: Configuring VPN Network Probes
+Method: description
+Language: en
+Words: 66
+URL: https://www.youtube.com/watch?v=kyBzNEFIg8Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to configure VPN Network Probes in Check Point Security Management and Smart-1 Cloud.
+
+This video walks through the complete configuration process, including creating probe objects, selecting protocols, defining source and destination settings, and assigning probes to Security Gateways. Follow this step-by-step guide to enable proactive VPN monitoring and improve operational visibility.
+
+ Follow this step-by-step guide to enable proactive VPN monitoring and improve operational visibility.

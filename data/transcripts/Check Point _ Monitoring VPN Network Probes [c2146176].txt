@@ -1,0 +1,15 @@
+Feed: Check Point
+Episode: Monitoring VPN Network Probes
+Method: description
+Language: en
+Words: 55
+URL: https://www.youtube.com/watch?v=anyaV6DOVLw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Explore how Check Point AIOps provides real-time monitoring of VPN Network Probes and VPN tunnels. 
+
+In this video, you'll learn how to use the AIOps Asset Dashboard to analyze VPN throughput, monitor probe status, validate tunnel health, and quickly identify connectivity issues. 
+
+Gain actionable insights that help simplify troubleshooting and maintain a reliable VPN infrastructure.
