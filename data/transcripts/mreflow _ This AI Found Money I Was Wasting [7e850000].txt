@@ -1,0 +1,27 @@
+Feed: mreflow
+Episode: This AI Found Money I Was Wasting
+Method: description
+Language: en
+Words: 188
+URL: https://www.youtube.com/shorts/f74JmwXm-sQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I built an AI-powered business expense tracker that automatically digs through my email for receipts, categorizes my expenses, and keeps track of where my money is going—without me having to constantly update a spreadsheet.
+
+And I built the whole thing with a team of AI agents in @Hyperagentapp .
+
+Fernando finds receipts, invoices, and subscription confirmations in my inbox. Jackson categorizes everything into things like software subscriptions, production costs, gear, travel, and subcontractors. Then Xander keeps everything organized in a dashboard, flags subscriptions I forgot about, and updates it daily.  
+
+Because the agents can hand work off to each other, the whole thing operates more like one connected workflow instead of three separate AI chats.
+
+And my team can use the same agents through Hyperagent or directly inside Slack—or even copy the build for themselves.
+
+Build your own team of AI Agents with Hyperagent and get $100 in bonus credits when you sign up for a paid plan here: https://hyperagent.com/invite/MATT100?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT100
+
+The link will also be in a pinned comment! 
+
+And bonus points if you can guess what my agents are named after 👀
+
+#HyperagentPartner #AIagents #businessidea #startup #ai
