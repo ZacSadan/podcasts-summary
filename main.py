@@ -38,6 +38,11 @@ MAX_SEEN_ENTRIES = 1000
 
 MAX_RUN_HOURS = 3  # stop starting new episodes past this wall-clock budget; remaining ones defer to the next cron run
 
+# A YouTube premiere/scheduled stream that hasn't started broadcasting yet gets
+# retried on later runs instead of being marked permanently seen. Give up and
+# mark it seen anyway after this long, in case it never actually airs.
+PENDING_RETRY_MAX_HOURS = 48
+
 
 # ── Shabbat guard ─────────────────────────────────────────────────────────────
 
@@ -66,8 +71,10 @@ def load_config() -> tuple[list, dict]:
 def load_seen() -> dict:
     if SEEN_PATH.exists():
         with open(SEEN_PATH, encoding="utf-8-sig") as f:
-            return json.load(f)
-    return {"version": 1, "entries": {}}
+            data = json.load(f)
+            data.setdefault("pending", {})
+            return data
+    return {"version": 1, "entries": {}, "pending": {}}
 
 
 def save_seen(seen: dict):
@@ -82,10 +89,28 @@ def save_seen(seen: dict):
 
 def mark_seen(seen: dict, episode_id: str):
     seen["entries"][episode_id] = datetime.now(timezone.utc).isoformat()
+    seen["pending"].pop(episode_id, None)
 
 
 def is_seen(seen: dict, episode_id: str) -> bool:
     return episode_id in seen["entries"]
+
+
+def mark_pending_retry(seen: dict, episode_id: str) -> bool:
+    """Record that episode_id failed transcript retrieval because its video
+    isn't live yet. Returns True if it should still be retried (within the
+    retry window), False if the window has expired and it should now be
+    marked permanently seen instead."""
+    first_seen = seen["pending"].get(episode_id)
+    now = datetime.now(timezone.utc)
+    if first_seen is None:
+        seen["pending"][episode_id] = now.isoformat()
+        return True
+    age = now - datetime.fromisoformat(first_seen)
+    if age > timedelta(hours=PENDING_RETRY_MAX_HOURS):
+        seen["pending"].pop(episode_id, None)
+        return False
+    return True
 
 
 def _rebase_in_progress(run) -> bool:
@@ -460,7 +485,7 @@ def main():
         logger.info("No new episodes to process.")
         return
 
-    from src.transcript import get_transcript
+    from src.transcript import get_transcript, NotYetLiveError
     from src.summarize import summarize_episode
 
     max_whisper = settings.get("max_whisper_per_run", 1)
@@ -478,11 +503,22 @@ def main():
         enforce_whisper = feed_cfg.get("enforce_whisper", False)
 
         # In test mode, don't apply the whisper budget to get_transcript so all 3 run
-        transcript = get_transcript(episode, settings,
-                                    whisper_count=0 if args.test else whisper_count,
-                                    enforce_whisper=enforce_whisper,
-                                    no_pdf=args.no_pdf,
-                                    transcripts_dir=DEBUG_DIR)
+        try:
+            transcript = get_transcript(episode, settings,
+                                        whisper_count=0 if args.test else whisper_count,
+                                        enforce_whisper=enforce_whisper,
+                                        no_pdf=args.no_pdf,
+                                        transcripts_dir=DEBUG_DIR)
+        except NotYetLiveError:
+            if not args.test and mark_pending_retry(seen, episode.id):
+                logger.warning("  Video not yet live — will retry on a later run")
+                save_seen(seen)
+                if not commit_and_push_seen(episode.id):
+                    logger.error("  Could not persist pending-retry mark — stopping run")
+                    break
+                continue
+            logger.warning("  Video still not live after retry window — giving up, marking seen")
+            transcript = None
 
         if transcript is None:
             logger.warning("  No transcript found — skipping episode")

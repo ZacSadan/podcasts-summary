@@ -10,3 +10,4 @@ venv/
 .claude/
 claude.md
 summarize_local.py
+The Gemma Bake-Off.md

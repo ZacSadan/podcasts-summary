@@ -66,6 +66,27 @@ class TranscriptResult:
     attempted: List[str] = field(default_factory=list)  # methods tried before this succeeded
 
 
+# Substrings yt-dlp/youtube-transcript-api raise when a video is a premiere or
+# scheduled live stream that hasn't started broadcasting yet — a transient
+# state, unlike a deleted/private/region-blocked video.
+_NOT_YET_LIVE_MARKERS = (
+    "this live event will begin in a few moments",
+    "premieres in",
+    "this live event will begin in",
+)
+
+
+def _is_not_yet_live_error(text: str) -> bool:
+    low = text.lower()
+    return any(marker in low for marker in _NOT_YET_LIVE_MARKERS)
+
+
+class NotYetLiveError(Exception):
+    """Raised when a YouTube video is a premiere/scheduled stream that hasn't
+    started broadcasting yet. Callers should retry later rather than treating
+    this as a permanent transcript failure."""
+
+
 def strip_html(html: str) -> str:
     soup = BeautifulSoup(html, "lxml")
     return soup.get_text(separator=" ", strip=True)
@@ -196,6 +217,8 @@ def try_youtube_captions(video_id: str, language: str) -> Optional[TranscriptRes
                 except Exception:
                     pass
     except Exception as e:
+        if _is_not_yet_live_error(str(e)):
+            raise NotYetLiveError(str(e)) from e
         logger.warning(f"youtube-transcript-api failed for {video_id}: {e}")
 
     # Strategy B: yt-dlp --write-auto-sub fallback
@@ -223,6 +246,8 @@ def try_youtube_captions(video_id: str, language: str) -> Optional[TranscriptRes
                         lang = f.split(".")[-2] if "." in f else "auto"
                         return TranscriptResult(text, "youtube_captions_yt_dlp", lang, len(text.split()))
     except Exception as e:
+        if _is_not_yet_live_error(str(e)):
+            raise NotYetLiveError(str(e)) from e
         logger.debug(f"yt-dlp captions failed for {video_id}: {e}")
 
     return None
@@ -299,7 +324,10 @@ def try_description(episode, min_length: int) -> Optional[TranscriptResult]:
 # ── Method 4: Whisper (speech-to-text fallback) ───────────────────────────────
 
 def _download_audio(url: str, out_tmpl: str, tmpdir: str) -> None:
-    """Download audio with three fallbacks. Raises if all methods fail."""
+    """Download audio with three fallbacks. Raises if all methods fail.
+
+    Raises NotYetLiveError instead if every attempt failed because the video
+    is a premiere/scheduled stream that hasn't started broadcasting yet."""
     import yt_dlp
 
     base_opts = {
@@ -308,6 +336,7 @@ def _download_audio(url: str, out_tmpl: str, tmpdir: str) -> None:
         "quiet": True,
         "no_warnings": True,
     }
+    not_yet_live = False
 
     # Attempt 1: yt-dlp default
     try:
@@ -315,6 +344,7 @@ def _download_audio(url: str, out_tmpl: str, tmpdir: str) -> None:
             ydl.download([url])
         return
     except Exception as e:
+        not_yet_live = not_yet_live or _is_not_yet_live_error(str(e))
         logger.warning(f"yt-dlp default failed: {e}")
 
     # Attempt 2: yt-dlp with iOS player client (bypasses YouTube bot check)
@@ -324,6 +354,7 @@ def _download_audio(url: str, out_tmpl: str, tmpdir: str) -> None:
             ydl.download([url])
         return
     except Exception as e:
+        not_yet_live = not_yet_live or _is_not_yet_live_error(str(e))
         logger.warning(f"yt-dlp ios client failed: {e}")
 
     # Attempt 3: pytubefix
@@ -336,8 +367,11 @@ def _download_audio(url: str, out_tmpl: str, tmpdir: str) -> None:
         stream.download(output_path=tmpdir, filename="audio")
         return
     except Exception as e:
+        not_yet_live = not_yet_live or _is_not_yet_live_error(str(e))
         logger.warning(f"pytubefix failed: {e}")
 
+    if not_yet_live:
+        raise NotYetLiveError(f"video not yet live: {url}")
     raise RuntimeError(f"all audio download methods failed for {url}")
 
 
@@ -359,6 +393,8 @@ def try_whisper(episode, model_size: str = "small") -> Optional[TranscriptResult
 
         try:
             _download_audio(url, out_tmpl, tmpdir)
+        except NotYetLiveError:
+            raise
         except Exception as e:
             logger.error(f"Audio download failed: {e}")
             return None
@@ -441,9 +477,16 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
                    enforce_whisper: bool = False,
                    no_pdf: bool = False,
                    transcripts_dir=None) -> Optional[TranscriptResult]:
+    """Returns None if no transcript could be found through any method.
+
+    Raises NotYetLiveError instead if the only failures seen were YouTube
+    reporting the video as a premiere/scheduled stream that hasn't started
+    broadcasting yet — a transient state the caller should retry later rather
+    than treating as a permanent transcript failure."""
     attempted: List[str] = []
     page_text: Optional[str] = None
     page_fetched = False
+    not_yet_live = False
 
     def _get_page_text() -> Optional[str]:
         nonlocal page_text, page_fetched
@@ -456,6 +499,14 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
         result.attempted = attempted[:]
         return result
 
+    def _try_youtube_captions_safe(video_id, language):
+        nonlocal not_yet_live
+        try:
+            return try_youtube_captions(video_id, language)
+        except NotYetLiveError:
+            not_yet_live = True
+            return None
+
     if transcripts_dir:
         result = try_cached_transcript(episode, transcripts_dir)
         if result:
@@ -465,7 +516,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
     if enforce_whisper and episode.youtube_video_id:
         # Even with enforce_whisper, prefer YouTube captions when they are full (≥500 words).
         attempted.append("youtube_captions")
-        result = try_youtube_captions(episode.youtube_video_id, episode.language)
+        result = _try_youtube_captions_safe(episode.youtube_video_id, episode.language)
         if result and result.word_count >= 500:
             logger.info(f"  Transcript via youtube_captions (enforce_whisper overridden, {result.word_count} words)")
             attempted.pop()  # succeeded — not a failed attempt
@@ -490,7 +541,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
         attempted.append("rss_tag")
 
         if episode.youtube_video_id:
-            result = try_youtube_captions(episode.youtube_video_id, episode.language)
+            result = _try_youtube_captions_safe(episode.youtube_video_id, episode.language)
             if result:
                 logger.info(f"  Transcript via youtube_captions ({result.word_count} words)")
                 return _return(result)
@@ -518,7 +569,11 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
             attempted.append("whisper_limit_reached")
         else:
             attempted.append("whisper")
-            result = try_whisper(episode, settings.get("whisper_model", "small"))
+            try:
+                result = try_whisper(episode, settings.get("whisper_model", "small"))
+            except NotYetLiveError:
+                not_yet_live = True
+                result = None
             if result:
                 logger.info(f"  Transcript via whisper ({result.word_count} words)")
                 attempted.pop()  # succeeded
@@ -534,7 +589,7 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
     attempted.append("rss_tag")
 
     if episode.youtube_video_id:
-        result = try_youtube_captions(episode.youtube_video_id, episode.language)
+        result = _try_youtube_captions_safe(episode.youtube_video_id, episode.language)
         if result:
             logger.info(f"  Transcript via youtube_captions fallback ({result.word_count} words)")
             return _return(result)
@@ -551,5 +606,8 @@ def get_transcript(episode, settings: dict, whisper_count: int = 0,
         logger.info(f"  Transcript via description fallback ({result.word_count} words)")
         return _return(result)
     attempted.append("description")
+
+    if not_yet_live:
+        raise NotYetLiveError(f"{episode.title!r} not yet live — no transcript available yet")
 
     return None
