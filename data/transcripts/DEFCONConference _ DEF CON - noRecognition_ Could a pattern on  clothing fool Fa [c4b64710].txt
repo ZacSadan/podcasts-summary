@@ -1,0 +1,15 @@
+Feed: DEFCONConference
+Episode: DEF CON - noRecognition: Could a pattern on  clothing fool Facial Recognition? - Bill Swearingen
+Method: description
+Language: en
+Words: 177
+URL: https://www.youtube.com/watch?v=WyPmt8CE5L4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+You are being watched. Not in the vague, philosophical sense. Right now. The ATM you used this morning. The gas pump. Every doorbell on your block. The 125 smart streetlights you walked past on your way to lunch. You are indexed, cataloged, and matched against databases you never consented to join, by AI models that are wrong more often than the vendors will ever admit.
+
+Other solutions to this involves looking ridiculous. Face paint. IR glasses. Masks. Real-time deepfake software running on your phone. Congrats, you defeated the algorithm AND ensured every human within 50 feet is staring at you. Super subtle. I built something different. noRecognition is a genetic algorithm that breeds adversarial patterns, printed on ordinary fabric, that defeat the entire facial recognition pipeline: person detection, face detection, and identity recognition across 10 models used by Clearview AI, Axon, Hikvision, and Palantir. No electronics. No software. You look like a person wearing a scarf. The AI sees nothing.
+
+I will demonstrate this live on stage. One camera. One scarf. Zero detections. Come watch me disappear.
