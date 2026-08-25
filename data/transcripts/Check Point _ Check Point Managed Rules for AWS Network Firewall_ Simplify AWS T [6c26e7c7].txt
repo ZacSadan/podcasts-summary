@@ -1,0 +1,19 @@
+Feed: Check Point
+Episode: Check Point Managed Rules for AWS Network Firewall: Simplify AWS Threat Prevention
+Method: description
+Language: en
+Words: 73
+URL: https://www.youtube.com/watch?v=PM3xl_GJAH4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Check Point and AWS have partnered to create Check Point Managed Rules for AWS Network Firewall to simplify scaling the deployment of advanced firewall rules and reduce management overhead. This service from Check Point provides expertly curated, pre-configured rule sets designed to detect and prevent malicious network activity.
+
+Learn more about AWS & Check Point:
+https://partners.amazonaws.com/partners/001E000000UfZXoIAN/Check%20Point%20Software%20Technologies
+
+https://www.checkpoint.com/cloudguard/amazon-aws-security/
+
+Find, try and buy Check Point Managed Rules for AWS Network Firewall on AWS Marketplace:
+https://aws.amazon.com/marketplace/pp/prodview-jwt2dqbpulfze
