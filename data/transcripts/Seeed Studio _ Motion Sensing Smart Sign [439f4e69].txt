@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: Motion Sensing Smart Sign
+Method: description
+Language: en
+Words: 63
+URL: https://www.youtube.com/watch?v=Uywy9_Et93w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The project is about a smart sign board built based on a web interface which uses a seeed XIAO ESP32S3 module for controlling the brightness and operation of the signboard via wifi, based on motion detection by a Grove PIR motion Sensor and the ambient light level of the surroundings. The signboard can be monitored and controlled remotely, making it energy‑efficient and interactive.
