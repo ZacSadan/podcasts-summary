@@ -1,0 +1,75 @@
+Feed: Veritasium
+Episode: Mais comment fonctionne vraiment Google Maps ?
+Method: description
+Language: en
+Words: 601
+URL: https://www.youtube.com/watch?v=dZ_OSjeOk04
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Les mathématiques derrière Google Maps. Sponsorisé par boot.dev - Cliquez sur ce lien https://boot.dev/?promo=VERITASIUM et utilisez notre code VERITASIUM pour bénéficier de 25% de réduction sur votre premier paiement chez boot.dev.
+
+Si vous cherchez une boîte de modélisation moléculaire, essayez Snatoms, un kit que j'ai inventé où les atomes s'assemblent magnétiquement - https://ve42.co/SnatomsV
+
+Inscrivez-vous à la newsletter Veritasium pour recevoir chaque semaine des actualités scientifiques - https://ve42.co/Newsletter
+
+Pour ceux qui sont curieux à propos de l’estimation du nombre de chemins : nous avons estimé les chemins sans retour NYC→SF, en utilisant un modèle de réseau spatial clairsemé avec un degré moyen ≈ 2,5 et une longueur caractéristique ≈ √N.
+
+▀▀▀
+0:00 Qu’est-ce qu’un « algorithme de plus court chemin » ?
+3:30 L’algorithme de Dijkstra en 20 minutes
+6:30 Le premier planificateur d’itinéraire
+10:31 L’algorithme de recherche A*
+12:40 Le plus court n’est pas le plus rapide
+15:08 Hiérarchie du réseau routier
+18:29 Cartographier l’Amérique du Nord - Dissection imbriquée
+25:17 Comment fonctionnent les applications de cartographie ?
+28:04 La simplicité est une condition préalable à la fiabilité
+
+▀▀▀
+Découvrez la chaîne de @twoswap pour des vidéos fantastiques !
+
+Un grand merci à Ben Strasser et Julian Dibbelt qui ont été incroyablement généreux de leur temps et de leurs retours.
+
+Merci à tous les experts que nous avons interviewés pour cette vidéo : Aaron Bernstein, Tim Roughgarden, Tomas Rokicki, Jon Kleinberg, Virginia Vassilevska Williams, Peter Sanders, et l’équipe derrière le SSSP Barrier Paper : Xinkai Shu, Ran Duan, Xiao Mao, Longhui Yin, Jiayi Mao
+
+Pour plus d’informations sur le choix de l’heuristique de A*, regardez la vidéo de Polylog : https://youtu.be/A60q6dcoCjw?si=5LHOmZ8ZKvR_kLcx
+
+Si vous souhaitez en savoir plus sur l’A* de Minecraft, regardez la vidéo de RedLogic : https://youtu.be/Zg0Cxn8AVZA?si=DyECX4wmeuSb4c1n
+
+▀▀▀
+Références : https://ve42.co/DijkstraRefs
+
+▀▀▀
+Remerciements particuliers à nos soutiens sur Patreon :
+Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, André Powell, Anton Ragin, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Bryan Ackermann, Chris Brewer, Data Don, Dave Kircher, David Johnston, David Tseng, EJ Alexandra, Evgeny Skvortsov, Garrett Mueller, Gnare, gpoly, Hayden Christensen, Hong Thai Le, Ibby Hadeed, Jeromy Johnson, Jesse Brandsoy, Juan Benet, Kelcey Steele, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Mark Heising, Martin Paull, Meekay, meg noah, Michael Krugman, Moebiusol - Cristian, Orlando Bassotto, Parsee Health, Paul Peijzel, Richard Sundvall, Robson, Sam Lutfi, Shalva Bukia, Sinan Taifour, Tj Steyn, Ubiquity Ventures, Vahe Andonians, wolfee
+
+▀▀▀
+Scénariste : Sulli Yost
+Producteur & Réalisateur : Sulli Yost
+Présentateurs : Henry van Dyck & Derek Muller
+Montage : Jonny Lennard et Trenton Oliver
+Montage additionnel : James Stuart
+Cadreurs : Sulli Yost & Henry van Dyck
+Illustrateurs : Jakub Misiek & Maria Gusakovich
+Animateurs : @twoswap, Andrew Neet, Jonny Lennard, Alex Drakoulis & Fabio Albertelli
+Chercheurs : Aakash Singh Bagga & Callum Cuttle
+Créateurs de la miniature : Abdallah Rabah, Ren Hurley, Ben Powell & Daniel Ellacott
+Équipe de production : Jess Bishop-Laggett, Glen Griffiths, Matthew Cavanagh & Anna Milkovic
+Producteurs exécutifs : Casper Mebius, Gregor Čavlović & Derek Muller
+
+Données cartographiques © contributeurs OpenStreetMap, disponibles sous la licence Open Database License : https://www.openstreetmap.org/copyright
+Vidéos/photos supplémentaires fournies par Getty Images et Pond5
+Musique par Epidemic Sound
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Problématique du plus court chemin
+0:44 - Origine de l'algorithme de Dijkstra
+2:16 - Principe et explication de l’algorithme de Dijkstra
+6:29 - Impact et diffusion de l’algorithme
+7:46 - Limites et défis pour l’échelle
+9:51 - Optimisations : A* et variantes
+12:44 - Recherche bidirectionnelle et hiérarchies de routes
+19:05 - Hiérarchies de contraction et héritage de Dijkstra

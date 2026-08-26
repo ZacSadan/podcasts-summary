@@ -1,0 +1,15 @@
+Feed: Cheddar
+Episode: Such quirky running style, but does it actually serve the physics?🤖
+Method: description
+Language: en
+Words: 124
+URL: https://www.youtube.com/shorts/ssWKS-fX8N8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+At the Beijing Robot Games, there’s one humanoid that stood out amongst the rest, it’s the Tien Kung Omni, a 5.5 ft. research capable of navigating complex terrains with advanced AI.
+
+Tien Kung won the 400-meter race by running with its arms held high near its face, a gait viewers likened to “a shy person hiding behind their hands.” While the running style can be seen as humorously charming, it actually derived from hundreds of trials and errors for the most optimal running physics. The robot’s developers had programmed a human-style arm swing, but through reinforcement learning, the robot discovered that keeping its arms near its face prevented shoulder joints from overheating, allowing more power to flow to its legs.
+
+(Video by IG khanflicks)
