@@ -1,0 +1,17 @@
+Feed: DARPAtv
+Episode: DARPA Support Helps Laser Thermal Beat the Heat
+Method: description
+Language: en
+Words: 106
+URL: https://www.youtube.com/watch?v=t64bcWmu2n8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Electronic systems are getting more powerful and generating more heat, creating performance and reliability challenges across defense and commercial applications.
+ 
+Laser Thermal is developing measurement tools to help researchers and manufacturers better understand and manage those thermal challenges. Through a DARPA Direct-to-Phase II SBIR award, the company accelerated its technology from a lab-based implementation toward a more versatile, deployable platform.
+ 
+Now, DARPA’s Embedded Entrepreneur Initiative (EEI) is helping Laser Thermal identify pathways to broader adoption through commercialization expertise, mentorship, and market insight.
+ 
+In this video, Laser Thermal’s Brian Foley discusses the company’s work with DARPA and how EEI is helping position its technology for greater impact.
