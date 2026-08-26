@@ -1,0 +1,44 @@
+Feed: mreflow
+Episode: I Built a FREE App That Runs Your Entire Business
+Method: description
+Language: en
+Words: 252
+URL: https://www.youtube.com/watch?v=rKo9iLGjUbs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I vibe coded a free productivity app that keeps my entire business in one place, and I built it so anyone can download and customize it. I already use an earlier version of this dashboard every day, but this time I rebuilt it from scratch to see how far I could push Codex on a genuinely useful business tool. I used Codex inside ChatGPT for the initial build, then spent hours testing, debugging, and refining it.
+
+The result is Control Center: one dashboard for industry news, brand mentions, reminders, audience analytics, newsletters, and recurring tasks. It connects to Gmail, tracks social growth across YouTube, X, Instagram, and more, and can optionally use OpenAI, Anthropic, Gemini, Grok, or local models to rank and summarize what matters. No AI API key is required. You can install it locally from GitHub for free, customize every section, and optionally host it online.
+
+Download your own control center on GitHub: http://github.com/mreflow/control-center
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+00:00 Why Building With AI Matters
+01:23 Control Center Tour
+03:03 Building the App From Scratch
+05:12 Testing, Debugging & Dark Mode
+06:56 Today Page & Industry News
+08:56 Mentions & Reminders
+10:39 Audience Tracking & Tasks
+12:04 Newsletters, Settings & AI
+19:35 Installing, Updating & Hosting the App
+
+#AIProductivity #VibeCoding #ProductivityApp

@@ -1,0 +1,35 @@
+Feed: Check Point
+Episode: Unified Policies in R82 20
+Method: description
+Language: en
+Words: 171
+URL: https://www.youtube.com/watch?v=ZYwKEVC_O2M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Imagine enforcing consistent security policies across your entire organization with a single unified policy. Check Point R82.20 introduces Unified Policies, enabling administrators to manage traditional firewalls, Cloud Firewalls, SASE, and SD-WAN from one centralized policy framework. This simplifies policy management, reduces operational complexity, and helps ensure consistent security across hybrid and multi-cloud environments.
+
+In this video, We explain how Unified Policies work and demonstrates how a single policy can be applied across multiple security products. You will see how the Infinity Portal provides a centralized management experience, allowing security teams to define, manage, and enforce consistent access policies regardless of where users, applications, or workloads are located.
+
+Whether you are managing on-premises firewalls, cloud environments, remote users, or branch offices, this feature provides a unified approach to policy administration while reducing configuration errors and improving operational efficiency.
+
+Ready to discover how Unified Policies simplify enterprise security management with Check Point R82.20? Watch this video!
+
+#CheckPoint
+#CheckPointUnifiedPolicy
+#UnifiedPolicies
+#UnifiedPolicy
+#R82.20
+#InfinityPortal
+#SecurityManagement
+#UnifiedSecurityManagement
+#FirewallPolicy
+#TraditionalFirewall
+#CloudFirewall
+#CloudSecurity
+#CloudGuard
+#CloudGuardNetworkSecurity
+#AWSSecurity
+#SASE
+#CheckPointSASE
