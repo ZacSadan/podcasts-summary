@@ -1,0 +1,31 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Pamela Slea, Boltive Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 257
+URL: https://www.youtube.com/watch?v=d8pJf_fvwkU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Pamela Slea, CEO, at Boltive. 
+
+What happens to brand safety when an AI agent, not a human, writes the ad? On this episode of Agents of Change, we sit down with Pamela Slea, CEO of Boltive, an ad security and privacy technology company building the guardrails that let buy-side and sell-side agents transact at scale.
+
+We talk about where Boltive is already trusting agents in production (hint: privacy compliance monitoring across hundreds of thousands of sites), where human judgment still has to stay in the loop, how the definition of "brand safety" is being rewritten in real time, and what jobs in advertising and technology might look like — or disappear — by 2036.
+
+In this episode:
+
+- How Boltive uses agents to monitor consent and compliance at scale, jurisdiction by jurisdiction
+- Why "human in the loop" means more than oversight — it means using AI strategically, not just tactically
+- Redefining brand safety when brands themselves aren't writing the ads anymore
+- A 10-years-out prediction: which ad-tech jobs disappear, and which new ones emerge
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+New episodes dropping across the AAO channels and Agents of Change feed over the next few weeks.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI

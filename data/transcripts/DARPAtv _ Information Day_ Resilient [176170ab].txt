@@ -1,0 +1,20 @@
+Feed: DARPAtv
+Episode: Information Day: Resilient
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/watch?v=cC558U6A5h4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Resilient Disruption Opportunity seeks to establish a new paradigm for forecasting the long-term durability of concrete infrastructure through the closed-loop co-development of advanced modeling and physical testing. Resilient’s main technical challenge is to create a scalability model to characterize fundamental degradation mechanics and predict how micro-scale damage translates into macro-scale structural failure over time.
+
+Resilient will use a material accelerator to rapidly generate the high-fidelity data needed to validate and refine the Scalability Model across diverse climates. This closed-loop approach will enable accurate, risk-based service-life predictions, eliminating the need for costly structural over-design and accelerating the deployment of resilient, long-lasting infrastructure.
+
+Program manager: Christine Sanders
+https://www.darpa.mil/about/staff/christine-sanders?utm_source=youtube&utm_medium=social&utm_campaign=resilient&utm_term=info-day-resilient
+
+Resilient program: https://www.darpa.mil/research/programs/resilient?utm_source=youtube&utm_medium=social&utm_campaign=resilient&utm_term=info-day-resilient
+
+#darpa
