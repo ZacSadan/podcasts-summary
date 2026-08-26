@@ -1,0 +1,67 @@
+Feed: Greg Isenberg
+Episode: WebMCP clearly explained (and how to make $$)
+Method: description
+Language: en
+Words: 814
+URL: https://www.youtube.com/watch?v=EoNH3Tn8wYE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Vinny is back on the pod, and he explains WebMCP. WebMCP puts MCP tools inside the browser UI, so any agent that you bring can read a page and act on it. Vinny demos an espresso gear store where his agent compares two machines, checks the counter width, matches accessories, adds an item to the cart, and applies a coupon. Together we map the agent-native options, from headless APIs to in-app agents, and we place WebMCP in the middle of that map. I close the episode with two cash-flowing business ideas that a semi-technical founder can start today.
+
+Timestamps
+00:00 – Intro
+02:28 – WebMCP Clearly Explained
+07:22 – Demo: Conditional Tools And Browser Session Login
+09:11 – The Agent-Native Paradigm
+12:12 – How Agents Interact with Apps
+16:05 – Demo: Accessories, Cart, And Coupons
+18:42 – Where WebMCP fits
+21:03 – Startup Idea 1: WebMCP Conversion Agency
+24:27 – Startup Idea 2: Agent Mystery Shopper
+26:11 – Closing Thoughts
+
+Key Points
+
+• WebMCP makes a website agent-readable and agent-actionable through a short, clear list of tools.
+• The browser session carries the login, so tools stay conditional and the setup stays simple.
+• The live store demo compares machines, matches accessories, adds to the cart, and applies a coupon.
+• WebMCP sits between headless APIs and in-app agents, and it keeps the visual UI that most people prefer.
+• Vince says WebMCP launched in February as a joint Microsoft and Google experiment in Chrome.
+• The first markets: complex commerce, SaaS admin consoles, read-only flows in regulated industries, and internal tools.
+
+Numbered Section Summaries
+
+1. What WebMCP Is Vince describes WebMCP as MCP in the UI, in the browser. It is an experimental feature from Google and Microsoft, so early builders get a first mover advantage. I put it in one line: websites with agent buttons.
+
+2. The Espresso Store Demo Vince starts from his own problem. He wants to upgrade from a Mara X machine, and he needs one that makes two flat whites a day and fits a 32 cm counter. His agent talks to the store, puts two machines side by side, and highlights the specs that match the request.
+
+3. From SEO To AEO To Agent Execution I frame the shift in three steps. SEO asks if Google understands the page. AEO asks if AI cites the answer. WebMCP asks if the agent finishes the job, and that is where billions of dollars will change hands.
+
+4. Login State As The Auth Layer Tools stay conditional on the browser session. Vince logs in and the full tool list appears, and he logs out and three tools remain. The agent shares the session, so the login covers the access, and API keys and tokens stay out of the flow.
+
+5. The Agent-Native Map Vince walks through his diagram: raw APIs and classic MCP servers stay headless, computer use and browser MCP read screenshots and the whole DOM, and in-app agents keep the user inside your product. WebMCP lands in the middle. It gives the app agent capabilities while the user brings the agent that already holds their context and memory.
+
+6. Where WebMCP Fits First Vince names compatibility-driven commerce as the top use case, plus complex stores like camera systems. SaaS admin, analytics, and marketing consoles follow. Regulated sectors such as insurance and banking self-service can ship read-only tools that guide the user, and internal tools give founders a safe place to start.
+
+7. Startup Idea 1: WebMCP Conversion Agency I pitch an agency that makes boring business websites agent ready: law firms, HVAC and home services, med spas, and dentists. You ship V1 tools such as request a quote and book a consult, charge $2,000 to $10,000 for setup, and keep a few hundred to $700 per month for monitoring and evals. Vince suggests you sell it as a package across MCP, WebMCP, and internal tools, so you own the expert seat while the standard matures.
+
+8. Startup Idea 2: The Agent Mystery Shopper The second idea tests whether agents complete the journeys that matter: buy the hoodie, book the consult, file the claim, reorder the item. The customer gets a recurring report on where the agent stalls, which descriptions read poorly, which tools are absent, and where conversion risk sits. Price it near $100 to a few hundred per month, turn the repeat fixes into software, and pair it with the conversion agency as a lead source.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND VINNY ON SOCIAL:
+
+X/Twitter: https://x.com/hot_town
+Youtube: https://www.youtube.com/channel/UCHP5Hdx0X-sM0uv2bl_OOqg

@@ -1,0 +1,27 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | WhisperPair: A Security Analysis of Google Fast Pair
+Method: description
+Language: en
+Words: 351
+URL: https://www.youtube.com/watch?v=mJlBPqiDdik
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Google Fast Pair has promised "one-tap" Bluetooth onboarding and seamless account synchronisation across phones, laptops and tablets, since 2017. In practice, it has quietly become the default pairing path for modern earbuds, headphones and speakers across the Android ecosystem. Users trust that once an accessory is bonded, it will not suddenly attach to somebody else's phone without explicit consent.
+
+This Briefing shows that this trust was misplaced. We will present WhisperPair, a family of attacks that let a nearby adversary hijack Fast Pair compatible accessories that are not in pairing mode, seize audio, activate microphones, and silently attach the victim's device to the attacker's Google account for long term location tracking and stalking. The trick is simple but devastating: although the Fast Pair specification requires accessories to reject unauthorised pairing requests, a wide range of chipsets and vendors fail to enforce this in practice.
+
+Using only commodity hardware and standard Bluetooth stacks, we evaluated 25 commercial earbuds, headphones and speakers from 16 brands, covering what we believe to be all major audio manufacturers currently supporting Fast Pair. Most of them could be hijacked in under 15 seconds, and every vulnerable model that supported Google's Find Hub extension allowed covert account binding and stalking until factory reset.
+
+The Briefing walks through the attack in live demos, dissects what went wrong in Google's compliance chain, and releases a practical test harness that defenders can run against their own products. We will close with our proposed solution: IntentPair, a drop in protocol hardening that cryptographically binds user intent into Fast Pair without sacrificing usability. Our findings will show how a small usability "add-on" can introduce large-scale security and privacy risks for hundreds of millions of users when intent is not cryptographically bound, and how to address this to avoid such mass-scale problems.
+
+For further information about this work, please visit https://whisperpair.eu/
+
+Seppe Wyns  |  PhD Student, DistriNet, KU Leuven
+Sayon Duttagupta  |  Scientific Researcher, COSIC, KU Leuven
+Nikola Antonijević  |  PhD Student, COSIC, KU Leuven
+Dave Singelée  |  Associate Professor, DistriNet - Group T, KU Leuven
+Bart Preneel  |  Professor, COSIC, KU Leuven
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#whisperpair-a-security-analysis-of-google-fast-pair-50553
