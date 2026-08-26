@@ -1,0 +1,27 @@
+Feed: Creative Channel
+Episode: Turning a Ryobi 40V Brushless Motor Into a Powerful Water Pump
+Method: description
+Language: en
+Words: 149
+URL: https://www.youtube.com/watch?v=lc5hO8LxOV8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this project, I reused a Ryobi 40V brushless motor from a grass trimmer/brush cutter , rated at approximately 1500W and weighing around 1.8 kg , to build a powerful portable water pump.
+
+Water Pump Kit
+https://s.shopee.vn/9pdojRO0Ri
+
+- The pump is driven by an approximately 1500W BLDC motor controller  and powered from a Makita 40V battery through a battery adapter.
+
+- For better alignment and a cleaner installation, I designed a custom 3D printed mounting frame to hold the motor and aluminum water pump securely on the same base.
+
+The result is a compact cordless water pump that can be powered by a 40V tool battery and easily carried wherever water pumping is needed.
+
+- Custom designed 3D printed motor/pump mounting frame
+https://makerworld.com/en/models/3221263-diy-1500w-cordless-water-pump-ryobi-40v-motor#profileId-3647517
+
+⚠️ Always prime the pump with water before operation and avoid running the pump dry for extended periods.
+
+#DIYWaterPump #CordlessWaterPump #Makita40V #Ryobi40V #BrushlessMotor #BLDC #3DPrinting #DIYProjects
