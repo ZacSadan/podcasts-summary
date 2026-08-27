@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: This Company Will Buy Your AI Training Data
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/shorts/Z93MPi8ZO3A
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI companies want your data so badly that we may be entering the era where they just start paying you for it. 👀
+
+I came across a company called Verb that lets you choose what data you’re willing to share, block certain companies, and even set your own price.
+
+And I think this could become a much bigger trend.
+
+As people get more protective of their data—but AI companies need more of it for training and advertising—the solution might simply become: pay people directly.
+
+Obviously, there are some MASSIVE privacy questions here.
+
+So I’m curious: Would you sell your data to big tech if the price was right? 
+
+#AI #Ainews #chatgpt

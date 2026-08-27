@@ -1,0 +1,23 @@
+Feed: Big Think
+Episode: Ethan Mollick: 4 guiding principles for using AI responsibly
+Method: description
+Language: en
+Words: 138
+URL: https://www.youtube.com/watch?v=Wo92nfT-Kjs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get the full class from Ethan Mollick for your business: https://bigthink.com/plus/
+
+Become a Big Think member to unlock expert classes, premium print issues, exclusive events and more: https://bigthink.com/membership/?utm_source=youtube&utm_medium=social&utm_campaign=membership&utm_content=btplus-ytdesc-text-seg-mollick-Wo92nfT-Kjs
+
+Lego sets famously come with detailed instructions, including parts lists and visual, step-by-step directions. But generative AI isn’t far enough along for that type of support. (You’re lucky if you get a few tooltips thrown in.) Working with such an open-ended technology is an exciting prospect, but it can also be difficult to feel confident as you do so.
+
+Luckily, Wharton Professor Ethan Mollick has done some of the legwork upfront. In this video lesson, he explains how to invite AI into your workflow – and discusses important guardrails to make sure a human (such as yourself) remains “in the loop.”
+
+Follow Big Think+
+
+LinkedIn: https://www.linkedin.com/showcase/big-think-plus
+Twitter: https://twitter.com/bigthinkplus
+Facebook: https://www.facebook.com/bigthinkplus

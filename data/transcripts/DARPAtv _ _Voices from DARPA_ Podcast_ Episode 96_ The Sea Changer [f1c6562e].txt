@@ -1,0 +1,17 @@
+Feed: DARPAtv
+Episode: "Voices from DARPA" Podcast, Episode 96: The Sea Changer
+Method: description
+Language: en
+Words: 212
+URL: https://www.youtube.com/watch?v=tCDFBu4YLEY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As the landscape of naval warfare changes, traditional defense methods like large convoys and standard object recognition are becoming impractical. New, scalable solutions are needed to help U.S. Navy Sailors identify maritime threats, track potential targets, and safeguard the massive commercial and military logistics vessels that form the backbone of global trade and defense.
+
+In this episode, we speak with Christopher Kent, a program manager in DARPA’s Tactical Technology Office. With a background in naval architecture and as the former Deputy Chief Engineer for the Department of the Navy, Kent came to DARPA to solve real-world problems. He shares his work on developing innovative technologies that provide a new layer of security for vessels at sea as well as other parts of the battlefield, including:
+
+• Pulling Guard: A semi-autonomous, unmanned system towed behind a ship that acts as a dedicated mobile sentry. It can detect and neutralize threats, providing military-grade protection to commercial vessels without the insurance and regulatory burdens of arming the host ship itself.
+
+• Heimdall: Advanced tracking software, inspired by human vision, that can lock onto and follow potential threats in cluttered and chaotic environments. Originally designed for maritime use, this technology has proven so effective that the U.S. Army is also adopting it for ground-based defense systems.

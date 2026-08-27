@@ -1,0 +1,19 @@
+Feed: Israeli Tech Radar
+Episode: פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+Method: description
+Language: he
+Words: 113
+URL: https://www.youtube.com/shorts/rgPu6LemI_M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+סדרת Chief Engineering ממשיכה עם הפרק השביעי, בהובלת ליאור כנפי, Founder & CEO של Tikal.
+בפרק ליאור מארח את אביעד חן, Co Founder & VP R&D ב Backline AI, לשיחה על הדרך שלו כמפתח, יזם ומנהל פיתוח לאורך שלושה סטארטאפים.
+הם מדברים על ההחלטות והטעויות שעיצבו את הדרך שלו, על בניית ארכיטקטורה מתוך היכרות אמיתית עם הלקוחות, ועל יצירת תרבות שמאפשרת לצוותים לקבל החלטות גם כשהמנהל לא נמצא בחדר.
+השיחה מגיעה גם לעבודה עם Agents בתהליך הפיתוח, ואיך מגדירים את הבקרה, האחריות והנקודות שבהן עדיין צריך החלטה אנושית.
+
+הפרק כבר באוויר 🎧
+
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Chief Engineering With Aviad Chen, Co Founder & VP R&D at Backline AI

@@ -1,0 +1,24 @@
+Feed: Elbit Systems
+Episode: The Art of Light: Elbit Systems’ Precision Optics
+Method: description
+Language: en
+Words: 103
+URL: https://www.youtube.com/watch?v=dF4hBZZLHtA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔗 elbitsystems.com
+
+Behind Elbit Systems’ most advanced electro-optical solutions lies an end-to-end, fully in-house optical manufacturing capability. 
+
+By combining decades of legacy expertise with cutting-edge technologies, from nanometric CNC machining and atomic layer deposition to MRF polishing for space optics - we design substrates and coatings built to withstand the extreme flux of high-energy lasers and the harsh environments of space missions.
+
+* Nanometric Precision Machining & Lens Centering
+* High-Vacuum Thin-Film Coatings (IBS & ALD)
+* High-Energy Laser Damage Threshold Testing
+* Ultra-Lightweight Space Optics & MRF Polishing
+* Automated Metrology & Wavefront Analysis
+
+Learn more about Elbit Systems’ electro-optical innovations:
+https://elbitsystems.com/

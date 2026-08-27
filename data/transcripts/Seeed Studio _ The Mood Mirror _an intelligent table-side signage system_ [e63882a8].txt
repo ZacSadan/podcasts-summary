@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: The Mood Mirror (an intelligent table-side signage system)
+Method: description
+Language: en
+Words: 161
+URL: https://www.youtube.com/watch?v=gEvu0nEw274
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Mood Mirror is an intelligent table-side signage system that uses on-device computer vision to classify arriving dining guests and instantly personalise both the welcome message on the table sign and the ambient RGB lighting atmosphere — all before guests are seated, with no interaction required from staff or customers. A Seeed reCamera 2002w mounted at the restaurant entrance classifies each arriving group in under two seconds (group size, energy level, and occasion cues) entirely on-device — no images ever leave the camera. The profile label is sent to a Seeed XIAO ESP32S3 Plus at the table, which updates a 2.9" 4-colour ePaper welcome card (via the XIAO EN04 driver board) with a personalised message and menu recommendation, while simultaneously driving a 6x10 RGB WS2812B matrix to a mood-matched colour and animation. The full pipeline completes in under 4 seconds, and the entire build uses only Seeed Studio hardware for a total cost of $96.59 — under the $100 contest budget.
