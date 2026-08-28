@@ -1,0 +1,26 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Mass Scale Hijacking of Shared Mobility and EV-Charging Fleets
+Method: description
+Language: en
+Words: 256
+URL: https://www.youtube.com/watch?v=1ntsyqs5yy0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Rentable IoT infrastructures—such as e-scooters, EV chargers, shared bicycles, laundry machines, and public tools—are now deployed at city scale and controlled through cellular IoT backends. However, our research reveals that these systems systematically rely on weak resource identifiers, inconsistent authentication models, and insecure backend APIs, enabling attackers to remotely manipulate thousands of devices without physical access.
+
+In this talk, we will present the first large-scale, cross-vendor security study of the rentable IoT ecosystem, covering 17 hardware devices and 92 mobile/mini-program apps. By reverse-engineering firmware, extracting cellular traffic from insecure modem debug channels, re-implementing binary protocols as "phantom clients," and performing black-box API testing, we uncovered 57 previously unknown vulnerabilities across 28 products. These issues enable attackers to:
+• Force all rentable devices offline (city-wide DoS)
+• Remotely lock, unlock, or disable mobility devices
+• Obtain free charging, free rides, or unrestricted device usage
+• Hijack user accounts and leak sensitive personal data
+• Spoof device states to mislead operators and trigger operational failures
+
+To scale these attacks, we introduce IDScope, an automated enumeration engine capable of inferring all valid device serial numbers or user IDs within minutes, bypassing rate limits and enabling exploitation of every device in a vendor's fleet.
+
+We will demonstrate end-to-end attacks on real devices—turning thousands of EV chargers into free power stations, remotely stopping active e-bikes, unlocking shared devices, and impersonating entire device fleets. The talk will conclude with practical mitigations for both vendors and cities seeking to protect smart-mobility infrastructure.
+
+Hetian Shi  |  Hardware and IoT Security Researcher, Tsinghua Univeristy
+
+https://blackhat.com/asia-26/briefings/schedule/?#the-rentable-iot-meltdown-mass-scale-hijacking-of-shared-mobility-and-ev-charging-fleets-50304
