@@ -1,0 +1,15 @@
+Feed: Anthropic
+Episode: We're building a way for AI models to connect to any device and run real experiments.
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/shorts/djVUCj5i4sw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Scientists spend a significant amount of their time just getting their devices to communicate with one another. Each device tends to have its own programming interface, and so far there has been no standardized way to integrate them, or to allow them to connect to AI. 
+
+The Model Hardware Standard (MHS) gives AI models one common way to connect to lab and manufacturing equipment and operate it safely, with limits built into each device.
+
+MHS started as a collaboration between Anthropic and HHMI Janelia Research Campus, and is beginning as a research preview with partners across science, robotics and manufacturing.

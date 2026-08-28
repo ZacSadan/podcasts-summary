@@ -1,0 +1,17 @@
+Feed: Anthropic
+Episode: Model Hardware Standard: AI operating physical equipment
+Method: description
+Language: en
+Words: 91
+URL: https://www.youtube.com/watch?v=UxJZrCFzTHY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. 
+
+MHS started as part of a beneficial deployments project between Anthropic and HHMI Janelia Research Campus and is evolving into a wider industry effort.
+
+This video shows what MHS is, how it works, and early examples of AI agents operating lab and manufacturing equipment.
+
+MHS is now in research preview with select partners. Read more about how we're learning what AI can do in the physical world: https://www.anthropic.com/news/model-hardware-standard-research-preview

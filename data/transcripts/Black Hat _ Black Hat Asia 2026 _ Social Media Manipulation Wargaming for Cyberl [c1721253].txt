@@ -1,0 +1,17 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Social Media Manipulation Wargaming for Cyberliteracy and Research
+Method: description
+Language: en
+Words: 193
+URL: https://www.youtube.com/watch?v=zihOGGeoaTU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+LLM-powered bots are influencing social media around the world, amplifying the effects of misinformation and disinformation. Detecting if content is being promoted or manipulated by such bots is difficult, both for casual observers of social media platforms as well as for platform operators faced with continuous "cat and mouse" development by malicious adversaries. To address both challenges, we produced "Capture the Narrative", the world's first CTF-style massively-multiplayer wargame for social media manipulation. Over four weeks in 2025, 288 students formed 70+ teams from Australian universities and competed in a multiplayer competition to manipulate an in-house social media platform we called "Legit Social". They were aiming to swing a simulated election in a fictional country, a task which they ultimately completed by moving the electorate by 1.8 percentage points.
+
+In this Briefing, I will introduce the competition, as well as discuss its outputs, which include the associated awareness campaign as well as a collaboratively developed dataset made up of survey data, developed bot software, and recorded bot activity for the thousands of bots producing millions of artificial posts to amplify in-game misinformation.
+
+Hammond Pearce  |  Senior Lecturer, UNSW (University of New South Wales)
+
+https://blackhat.com/asia-26/briefings/schedule/?#capture-the-narrative---social-media-manipulation-wargaming-for-cyberliteracy-and-research-50370

@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: Claude Cowork: העוזר שמקבל גישה למחשב
+Method: description
+Language: he
+Words: 138
+URL: https://www.youtube.com/watch?v=E_3ocoCe8g4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+מה קורה כשה-AI כבר לא רק עונה על שאלות, אלא מקבל גישה לקבצים ומתחיל לעבוד איתם? Claude Cowork יכול לעזור לנתח תיקיות, לעשות סדר בקבצי פרויקט ולהפוך סיכומי פגישות לתוכנית עבודה. לצד היכולות מגיעים גם סיכונים: גישה למידע רגיש, שינוי ומחיקת קבצים וחיבורים לשירותים חיצוניים. אז איך משתמשים בכלים כאלה בצורה חכמה, אילו הרשאות כדאי להגביל ואיך שומרים על המידע שלנו?
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

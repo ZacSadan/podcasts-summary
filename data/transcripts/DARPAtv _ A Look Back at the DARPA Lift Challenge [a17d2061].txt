@@ -1,0 +1,25 @@
+Feed: DARPAtv
+Episode: A Look Back at the DARPA Lift Challenge
+Method: description
+Language: en
+Words: 213
+URL: https://www.youtube.com/watch?v=tbgY6brdXQU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The DARPA Lift Challenge aimed to revolutionize heavy vertical lift aviation by seeking novel drone designs capable of carrying payloads more than four times their weight. This would revolutionize how we use drones across all sectors.
+
+As military missions become more complicated, warfighters need more capable drones to use across diverse scenarios. The same applies to infrastructure inspection, package delivery, disaster response, and other civilian applications.
+
+Current multirotor drones, also known as unmanned aircraft systems (UAS), are simple, affordable, and easy to operate. But their payload-to-weight ratio is low, typically 1:1 or less.
+
+DARPA challenges accelerate technological breakthroughs by focusing the ingenuity of teams of innovators and giving wild ideas a place to thrive.
+
+Competitors created aircraft that were both lightweight and powerful – lifting at least 4x its weight while flying a 5-nautical-mile circuit course.
+
+In a head-to-head, live performance trial, competing teams flew their novel drone designs. Those with the highest payload-to-weight ratios and novel designs competed for $6.5 million in prizes.
+
+But it was not just a prize competition – it was a catalyst for long-term growth and innovation across the American drone industry. Participants played a critical role in advancing vertical lift technologies that will have far-reaching benefits for military missions and civilian needs.
+
+Find out more at www.darpa.mil/lift

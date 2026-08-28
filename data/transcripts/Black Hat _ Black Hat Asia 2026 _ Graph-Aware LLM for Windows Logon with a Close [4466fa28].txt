@@ -1,0 +1,19 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Graph-Aware LLM for Windows Logon with a Closed-Loop Guarded Detection Agent
+Method: description
+Language: en
+Words: 313
+URL: https://www.youtube.com/watch?v=7QVcpQA_j_I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Because Windows Event Logs were never originally designed for detecting unauthorized logons, traces of attacks are easily buried in a massive amount of noise. It is also inherently difficult to create reliable signatures for suspicious log entries in Windows Event Logs, and research on analysis methods has been ongoing for many years. In recent years, the use of LLMs for log analysis has advanced; however, in real-world investigations, log sizes often exceed hundreds of gigabytes. In such cases, prompts quickly become too large, making it impractical to apply LLMs directly. In addition, hallucinated explanations and lack of reproducibility remain key challenges when using LLMs in security operations.
+
+In this Briefing, we will present a practical, production-ready framework that combines graph analytics with LLM agents to accurately detect suspicious logons. Concretely, we compress logs into graph information by constructing an authentication graph of users and hosts from Windows Event Logs. This makes it possible to reduce the data to a realistic size that can actually be fed to an LLM. On top of that, a closed-loop detection agent autonomously iterates the cycle of generating search queries to a database → executing the queries → evaluating the results → exploring further. Through this loop, it detects signs such as concentrations of service tickets, cross-host logons by privileged accounts, remote service access, and suspicious chains of logons. The outcome of the analysis is presented as an incident severity level, an evidence timeline, and an attack scenario summary, automatically providing information that can be directly used in real incident investigations.
+
+Our approach aggregates millions of events down to a few dozen suspicious logons within minutes, and elevates LLM usage in DFIR into a form that is auditable, reproducible, and operationally viable. We will release an open-source tool that implements this method so that analysts can apply it to real-world incident analysis.
+
+Shusei Tomonaga  |  CTO, JPCERT/CC
+
+https://blackhat.com/asia-26/briefings/schedule/?#graph-aware-llm-for-windows-logon-with-a-closed-loop-guarded-detection-agent-50039

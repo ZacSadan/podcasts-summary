@@ -1,0 +1,15 @@
+Feed: Anthropic
+Episode: AI models can now help run physical science experiments
+Method: description
+Language: en
+Words: 83
+URL: https://www.youtube.com/watch?v=P1zBiAQU1IA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. 
+
+MHS began as a collaboration between Anthropic’s Beneficial Deployments team and HHMI Janelia Research Campus. This video tells the story of how MHS was developed and shows how it can be used to accelerate scientific research. 
+
+MHS is now in research preview with select partners. Read more about how we're learning what AI can do in the physical world: https://www.anthropic.com/news/model-hardware-standard-research-preview
