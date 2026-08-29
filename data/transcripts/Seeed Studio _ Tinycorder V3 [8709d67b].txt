@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: Tinycorder V3
+Method: description
+Language: en
+Words: 68
+URL: https://www.youtube.com/watch?v=mmH_TkKPQ2Y
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This project is an evolution of the old Tinycorder that I presented last year. In this case i use a XIAO ESP32C6 to create a bigger handheld. But very light because uses an e-ink display and a rechargeable coin cell LIR2032. Each waiter can use one of this devices to take the orders and manage a better customer experience. The device also is quite cute, I think so.

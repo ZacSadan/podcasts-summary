@@ -1,0 +1,43 @@
+Feed: Siraj Raval
+Episode: My AI Bill Was $231/Month. Now It's $4
+Method: description
+Language: en
+Words: 192
+URL: https://www.youtube.com/watch?v=zG2J3CEx8ic
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Try DataImpulse now
+https://dataimpulse.com/?utm_source=youtube&utm_medium=video&utm_campaign=SirajRaval
+
+I cancelled every AI subscription I had, ChatGPT Plus, Claude Pro, Midjourney, ElevenLabs, Perplexity, Cursor, and replaced the entire $231/month stack with one consumer laptop running open source models. DeepSeek V4 Flash as the daily driver, a local coding assistant, local image generation, local voice, and a research agent that reads the web like a human. In this video: exactly what survived, what got worse, what got better, and the one thing a local machine still can't do by itself.
+
+Everything I built, step by step (models, configs, agent setup):
+https://siraj-local-stack.surge.sh 
+
+Chapters:
+00:00 My $231/month AI bill
+00:22 Cancelling everything
+00:53 The hardware you actually need
+01:12 DeepSeek V4 Flash, running locally
+02:15 Replacing ChatGPT, coding, images & voice
+02:55 Building the local research agent
+03:20 The wall: 403 blocked
+03:37 The fix: residential IPs
+04:26 A full day on the $0 stack
+04:58 The thing I didn't expect
+05:14 The honest truth: where cloud still wins
+05:50 The real costs, measured
+06:23 Verdict
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval
+
+#localai #deepseek #aiagents #opensource

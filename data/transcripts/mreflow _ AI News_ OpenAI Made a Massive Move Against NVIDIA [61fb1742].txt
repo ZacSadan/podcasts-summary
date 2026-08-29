@@ -1,0 +1,80 @@
+Feed: mreflow
+Episode: AI News: OpenAI Made a Massive Move Against NVIDIA
+Method: description
+Language: en
+Words: 270
+URL: https://www.youtube.com/watch?v=TInwQglNkzo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI news you probably missed this week. Download the Codex app and try Sites here: https://chatgpt.com/download/?utm_source=creator&utm_campaign=youtube&utm_content=partnership-mattwolfe
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Jalapeño Inference Results: https://openai.com/index/jalapeno-first-results/
+Nvidia Acquires Hugging Face: https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion
+Open Weight Token Share: https://x.com/rauchg/status/2091234105702887879
+Apple M6 Chips: https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/
+GLM-5.3-Flash Released: https://z.ai/blog/glm-5.3-flash
+Qwen3.8-Flash Released: https://www.alibabacloud.com/blog/alibaba-releases-qwen3-8-flash-with-innovative-model-architecture-delivering-optimal-price-performance_603503
+Gemini Omni Flash: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
+Text-to-Video Leaderboard: https://arena.ai/leaderboard/text-to-video
+Gemini 3.5 Transcribe: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/
+AI Mode Travel Booking: https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/
+Gemini Notebook Expert Intelligence: https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/
+Antigravity Remote Control: https://www.antigravity.google/blog/remote-control-for-antigravity
+ChatGPT Work Website Sign-In: https://x.com/ChatGPT/status/2092366554965107164
+ChatGPT Scheduled Tasks Update: https://x.com/ChatGPT/status/2092335329110004140
+GPT-5.6 Sol Price Drop: https://x.com/OpenAI/status/2090885187634905500
+Cowork Built-In Browser: https://claude.com/blog/cowork-built-in-browser
+Claude In Chrome GA: https://claude.com/blog/claude-in-chrome-generally-available
+Claude Memory Everywhere: https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it
+Perplexity Local-First Agent: https://www.perplexity.ai/hub/blog/a-local-first-agent-for-private-and-cost-effective-knowledge-work
+Dr. Dre Uses AI: https://gizmodo.com/dr-dre-says-he-uses-ai-to-produce-songs-2000802009
+Stability AI Funding: https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names
+TIME100 AI 2026: https://time.com/collection/time100-ai/2026/
+Skild AI S1: https://x.com/SkildAI/status/2092300842900865389
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:16 OpenAI Jalapeno
+1:46 Nvidia Buying Hugging Face
+3:56 Open Weight Takeover
+5:21 Apple M5 Ultra
+7:01 GLM-5.3-Flash / 0x Alpha
+9:13 Qwen3.8-Flash
+10:08 ChatGPT Sites
+11:42 Gemini Omni 1.1 Flash
+15:17 Gemini 3.5 Transcribe
+15:42 AI Search Travel Updates
+15:56 Gemini Notebook Update
+16:20 Antigravity Remote Control
+17:14 ChatGPT Work Sign-in
+18:03 ChatGPT Scheduled Tasks Update
+18:31 GPT-5.6 Sol Pricing Change
+18:42 Claude Cowork Browser
+19:18 Claude in Chrome
+19:39 Claude Memory Update
+20:21 Perplexity Portable Computer
+21:40 Dr. Dre Likes AI
+23:11 Stability AI Investments
+23:44 TIME 100 AI Influence
+25:56 Skild S1
+26:44 Personal Achievement
+28:33 Thank You All (With Cameos)

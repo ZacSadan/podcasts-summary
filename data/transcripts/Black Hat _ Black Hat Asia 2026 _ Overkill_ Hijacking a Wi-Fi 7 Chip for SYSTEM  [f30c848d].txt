@@ -1,0 +1,22 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Overkill: Hijacking a Wi-Fi 7 Chip for SYSTEM Privileges
+Method: description
+Language: en
+Words: 203
+URL: https://www.youtube.com/watch?v=Hr5Wla1__0k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+"A RISC-V CPU in your modern Windows PC? It is more likely than you think!"
+
+Research on Windows privilege escalation often concentrates on uncovering vulnerabilities within the kernel itself. However, this is only one part of the broader security picture. Leveraging firmware on Windows for exploits, unlike on Android, remains largely overlooked. It deserves far more attention.
+
+In this Briefing, we will take a deep dive into the driver and firmware powering MediaTek's latest client Wi-Fi 7 chip, the Filogic 360 codenamed MT7925. We will present our point of entry and describe how we leveraged both Linux and Windows drivers to get more insights into the kernel-firmware communication. Then, we will explain and showcase how we got code execution on the MT7925 device and how it enabled us to analyze the entire firmware.
+
+At the end, we will demonstrate a complete exploit chain, starting with a leak, then the takeover of the communication processor of the MT7925 from userspace, followed by the exploitation of a bug in the firmware-kernel interface to escalate privileges on the latest Windows 11 25H2 release.
+
+Nicola Stauffer  |  Graduate Student, Zürich University of Applied Sciences ZHAW
+Gürkan Gür  |  Senior Lecturer, Zürich University of Applied Sciences ZHAW
+
+https://blackhat.com/asia-26/briefings/schedule/?#overkill-hijacking-a-wi-fi-7-chip-for-system-privileges-50277

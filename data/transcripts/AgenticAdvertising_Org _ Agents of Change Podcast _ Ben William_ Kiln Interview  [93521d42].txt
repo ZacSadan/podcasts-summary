@@ -1,0 +1,29 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Ben William, Kiln Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 269
+URL: https://www.youtube.com/watch?v=pBDoNfNYWNo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Ben Williams, Founder and MD, at Kiln to talk trust, governance, and what AdCP means for the future of ad tech.
+
+Ben shares where agents already run autonomously in his own agency (platform integrations like Anthropic, Workspace, and Slack), and where he draws a hard line today (agents don't get banking access). We dig into AdCP and who stands to win and lose if DSPs and SSPs become commodity rails — Ben's take: the opaque, high-take-rate intermediaries lose, and publishers, broadcasters, and society win. We also talk human-in-the-loop guardrails in his own AdCP prototypes, and where he sees things heading as those prototypes go live. He closes with a 2036 prediction: which ad-tech job disappears, and which new role — VP of Agentic — takes its place.
+
+In this episode:
+
+- Where Ben trusts agents to run autonomously today, and where he doesn't (yet)
+- AdCP's winners and losers if DSPs and SSPs become commodity rails
+- Why human-in-the-loop is heavy now but won't stay that way as prototypes scale
+- A 2036 prediction: the rise of the "VP of Agentic" and the mindsets that get left behind
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+New episodes dropping across the AAO channels and Agents of Change feed over the next few weeks.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI
