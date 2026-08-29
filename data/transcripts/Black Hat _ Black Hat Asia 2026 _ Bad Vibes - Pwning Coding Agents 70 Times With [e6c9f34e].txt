@@ -1,0 +1,22 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Bad Vibes - Pwning Coding Agents 70 Times With The Same Bugs
+Method: description
+Language: en
+Words: 273
+URL: https://www.youtube.com/watch?v=7UCpHzFYF40
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+It seems like everyone with access to a keyboard is vibe-coding these days, with an increasingly significant amount of code being written through the use of AI Coding Agents. These tools, whether specialized IDEs, IDE extensions, or CLI utilities, come with varying features, interfaces and architectures. However, they all suffer from the same fundamental, severe vulnerabilities and flawed design choices, which we will expose.
+Our research has uncovered 70+ serious vulnerabilities across a broad array of major platforms, including GitHub Copilot, Google Gemini CLI and Antigravity, OpenAI Codex, Claude Code, Amazon Q and Kiro, Cursor, and more. These vulnerabilities demonstrate that the industry is collectively making similar, fundamental mistakes in securing these agentic applications, which means that not only coding agents may suffer from similar problems.
+
+In this session, we will first map out what an attacker needs to achieve in order to truly compromise an AI agent. We will present a variety of issues which lead to severe consequences, making coding agents perform actions significantly more devious than just writing terrible code. Come vibe with us as we demonstrate these attacks across multiple products, showing how to turn a successful prompt injection into a devastating machine compromise using various command-line tricks, creative path manipulation techniques, and turning sandbox features against themselves to bypass established defenses.
+
+By detailing the common, critical mistakes shared across these vendors, we aim to provide developers and architects with actionable takeaways to avoid these deep-seated vulnerabilities and better secure the future of AI development tools.
+
+Philip Tsukerman  |  Vulnerability Research Team Lead, Cyberark
+Nil Ashkenazi  |  Cyber Security Researcher, Cyberark
+Alon Zahavi  |  Senior Security Researcher, Cyberark
+
+https://blackhat.com/asia-26/briefings/schedule/?#bad-vibes---pwning-coding-agents-70-times-with-the-same-bugs-50048
