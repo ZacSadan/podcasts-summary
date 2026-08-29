@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: Reachy PizzAIolo: An AI Restaurant Ordering Experience with Reachy Mini + Seeed Studio E1003
+Method: description
+Language: en
+Words: 146
+URL: https://www.youtube.com/watch?v=tX6S0qZtahA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Reachy PizzAIolo is a conversational restaurant ordering prototype combining Reachy Mini Lite with Seeed Studio's reTerminal E1003. Customers order by speaking naturally to Reachy, while an ordering service maintains a structured basket and updates the E1003 in real time so they can see and review what they have ordered. Once confirmed, the same order appears in an active-orders view for restaurant staff.
+
+The project explores a different approach to interactive signage: instead of making the screen the main interface, the E1003 becomes the persistent visual companion to a conversation. The current prototype supports conversational ordering, live E1003 order review and real-time order handoff, and I have also used Reachy to take orders at an actual pizza party.
+
+Future work includes combining touch and voice, more natural full-duplex conversation, structured ordering skills and potentially using one local AI server to provide AI services across an entire restaurant.
