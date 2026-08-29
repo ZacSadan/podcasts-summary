@@ -1,0 +1,52 @@
+Feed: Insider
+Episode: How AI Data Centers Are Making Everything More Expensive
+Method: description
+Language: en
+Words: 277
+URL: https://www.youtube.com/watch?v=-4dc6907JYY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The rapid growth of AI data centers is creating a shortage of the memory chips used in everyday devices like laptops, phones, cameras, and gaming consoles. 
+
+The world's three largest memory chipmakers — SK Hynix, Samsung, and Micron — are shifting production to High Bandwidth Memory, specialized microchips that power AI data centers, rather than the DRAM and NAND chips found in many consumer electronics. With fewer traditional chips being produced, tech manufacturers are paying more for components and passing the costs to customers through higher prices.
+
+Read "I used Claude to solve a problem that data centers helped cause for my photography business. It's saved me thousands": https://bit.ly/3SHI29M 
+
+And "I skipped college and now earn over $40 an hour in a blue-collar job. The AI boom is creating more opportunities for me": https://bit.ly/4zMbdJE 
+
+00:00 - Intro
+01:22 - Types of Memory & Storage
+03:22 - The Rise of AI & HBM
+04:53 - Higher Prices for Electronics
+09:03 - Higher Costs for Professionals
+11:39 - Foto Care
+13:19 - The Future of Memory Prices
+17:36 - Credits
+
+------------------------------------------------------
+#aidatacenter #memorychips #highbandwidthmemory #electronics #datacenters #SoExpensive 
+
+WATCH MORE:
+Why Uber Is More Expensive ... For Some People
+https://youtu.be/gnjVqeBoaqs
+
+The Fight To Make Expensive Stadium Food Illegal
+https://youtu.be/j6G91ryji5s
+
+How America Made The World Cup Unaffordable
+https://youtu.be/dlkgv-rYE4o
+
+
+Business Insider is a global newsroom covering business, technology, innovation, and the economy.
+
+Visit our homepage for the top stories of the day: https://www.businessinsider.com/?utm_source=youtube
+Sign up for our newsletters: https://www.businessinsider.com/subscription/newsletter?utm_source=youtube
+
+Find Business Insider on Facebook: https://www.facebook.com/businessinsider
+... on Instagram: https://www.instagram.com/businessinsider
+... on X:  https://x.com/BusinessInsider
+... on TikTok: https://www.tiktok.com/@businessinsider
+
+How AI Data Centers Are Making Everything More Expensive | So Expensive | Business Insider
