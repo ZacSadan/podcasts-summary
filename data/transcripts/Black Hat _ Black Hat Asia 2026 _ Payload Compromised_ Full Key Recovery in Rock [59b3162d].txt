@@ -1,0 +1,29 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Payload Compromised: Full Key Recovery in Rocket.Chat E2EE
+Method: description
+Language: en
+Words: 338
+URL: https://www.youtube.com/watch?v=35kun8wzFRU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Rocket.Chat is used in more than 150 countries, where many organizations rely on its end-to-end encryption (E2EE) for security-critical communication. This talk presents the first comprehensive analysis of Rocket.Chat's E2EE as deployed in real systems. By combining automated symbolic analysis with in-depth manual inspection of the implementation, we identify practical attacks that break both confidentiality and integrity.
+
+Our most severe finding is a practical key-recovery attack.
+An attacker with access to encrypted user backups can recover private keys and all derived group keys in twelve days under realistic assumptions. We validate this attack with practical proof-of-concept exploits. This results from weak offline-attack resistance combined with a biased, low-entropy password generator used to encrypt key backups. At the time of reporting, any server operating under a malicious-server threat model could execute the attack.
+
+We also uncover structural failures in the platform's key-rotation workflow. Although E2EE passwords and a master key were rotated, the group keys protecting message content were never replaced. Clients continued to accept and redistribute compromised group keys, which were then reused to encrypt new messages and decrypt past ones. A single key recovery therefore enabled expanding and persistent compromise across group communication.
+
+Manual analysis further revealed integrity failures, including ciphertext forgery made possible by unauthenticated AES-CBC encryption.
+
+Beyond the technical flaws, we also reconstruct how this fragile design emerged by examining public development discussions and historical commits. This OSINT analysis explains why several fundamental E2EE principles were never integrated and how long-term structural risks accumulated.
+
+The most severe vulnerabilities, including key recovery and broken key rotation, were fixed within six months of disclosure, and remaining integrity issues were patched after extended coordination. Attendees will learn how to analyze real-world E2EE systems, detect specification-implementation gaps, and replace password-based architectures with modern best practices.
+
+Hayato Kimura  |  Researcher, National Institute of Information and Communications Technology & The University of Osaka
+Ryoma Ito  |  Senior Researcher, National Institute of Information and Communications Technology
+Kazuhiko Minematsu  |  Research Fellow, NEC Corporation
+Takanori Isobe  |  Professor, The University of Osaka
+
+https://blackhat.com/asia-26/briefings/schedule/?#payload-compromised-full-key-recovery-in-rocketchat-e2ee-50105
