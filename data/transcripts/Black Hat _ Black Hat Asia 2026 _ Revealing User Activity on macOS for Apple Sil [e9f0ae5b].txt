@@ -1,0 +1,23 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Revealing User Activity on macOS for Apple Silicon
+Method: description
+Language: en
+Words: 296
+URL: https://www.youtube.com/watch?v=PuQIMyz0BeQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Apple's M-series now powers a huge portion of executive, enterprise, and developer laptops. One blind spot has stayed largely off the radar: interrupt-based side channels where signals raised by normal device activities such as networking, input, and display can be sensed by an unprivileged attacker. We show that a determined attacker can turn those signals into high-fidelity surveillance of user activities on macOS for Apple Silicon.
+
+In this talk, we will present TIDE, which works like a stethoscope for the OS: every time macOS returns from the kernel to user space, it produces a tiny, deterministic "heartbeat we can feel from user space". By listening for that heartbeat, TIDE pinpoints exactly when an interrupt occurs without any timers. With TIDE as our sensor, we reverse-engineer Apple's publicly undocumented interrupt delivery and reveal that shared peripheral interrupts are uniformly distributed across all active cores. This quirk means an unprivileged attacker no longer has to "chase the right core" to spy on user activities within the same OS.
+
+To demonstrate the effectiveness of TIDE, we will present two live, end-to-end attacks on real Apple Silicon hardware. One is website fingerprinting on Safari with about 94% Top-1 accuracy in closed-world and about 91% in open-world to reveal the websites users have visited. The other is Video fingerprinting with roughly 80% to identifying streaming content from its interrupt patterns. We conclude with potential software-only mitigations Apple can deploy, plus longer-term OS/SoC directions. We call for more parties to join in this effort to enhance the security of macOS.
+
+Xin Zhang  |  Ph.D. Student, Peking University
+Zhi Zhang  |  Senior Lecturer, The University of Western Australia
+Chang Liu  |  Ph.D. Student, Tsinghua University
+Qingni Shen  |  Full Professor, Peking University
+Trevor E. Carlson  |  Associate Professor, National University of Singapore
+
+https://blackhat.com/asia-26/briefings/schedule/?#silicon-valleys-quiet-leak-revealing-user-activity-on-macos-for-apple-silicon-50062
