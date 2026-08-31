@@ -1,0 +1,21 @@
+Feed: Seeed Studio
+Episode: PaperDine: Touch-Free Restaurant Management System
+Method: description
+Language: en
+Words: 170
+URL: https://www.youtube.com/watch?v=RjIYbXeqVdU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+PaperDine is an end-to-end, touch-free smart restaurant ecosystem designed to eliminate unhygienic screens and improve kitchen workflow. By combining cloud databases with edge AI, the system synchronizes front-of-house customer ordering with back-of-house order management in real-time.
+
+The project heavily incorporates the Seeed Studio ecosystem across all physical touchpoints:
+
+TRMNL 7.5" OG DIY Kit: Utilized for both the "TableSpot" (a dynamic, interactive customer signage panel for daily specials and QR ordering) and the "ChefAssist" (a high-contrast Kitchen Order Display System).
+
+Grove Vision AI Module V2: Runs local edge-AI gesture recognition (Rock, Paper, Scissors) in the kitchen, allowing chefs to clear tickets and manage orders completely touch-free.
+
+Seeed Studio XIAO ESP32-C3: Acts as the primary controller for the Vision AI module, processing the gesture data, triggering audio feedback via a buzzer, and communicating seamlessly with our Firebase cloud backend.
+
+SenseCraft AI & HMI(Seeedash): I utilized SenseCraft HMI(Seeedash) to deploy code-free, custom UI graphics to the TableSpot screens, and SenseCraft AI to seamlessly flash the hand-gesture detection model onto the Vision AI module.

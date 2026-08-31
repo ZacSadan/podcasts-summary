@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: CraveGuide: Voice-Driven Food Recommendation & Ordering
+Method: description
+Language: en
+Words: 127
+URL: https://www.youtube.com/watch?v=FuM-9vpIqiI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+CraveGuide is a voice-enabled smart restaurant assistant that helps customers discover and order food based on their cravings. Users simply speak their preference, such as spicy, sweet, sour, vegetarian, or non-vegetarian, and the system converts the speech into text, recommends suitable dishes, and allows users to navigate the menu, select quantity, and place an order.
+
+The project incorporates Seeed Studio products at its core. The XIAO ESP32-S3-based EE04 E-Paper Display Driver controls the 4.26-inch 800×480 e-paper interface, providing a low-power and highly readable user interface. The Seeed Studio reSpeaker Flex Linear 4-Mic Array, with its onboard XMOS XVF3800, is used for voice capture and audio processing through I²S. The two modules communicate through UART, while ElevenLabs Speech-to-Text converts the recorded voice into text for the recommendation system.

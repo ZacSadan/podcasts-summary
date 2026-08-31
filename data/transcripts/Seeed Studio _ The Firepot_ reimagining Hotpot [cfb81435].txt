@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: The Firepot: reimagining Hotpot
+Method: description
+Language: en
+Words: 160
+URL: https://www.youtube.com/watch?v=DE8_xfprRk8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Fire Pot is a self-serve hotpot counter with eight ingredient bins built into the tabletop. A ceiling-mounted projector turns the whole surface into a display and a webcam watches your hands, so reaching for a bin projects its name, price, calories, and a plain-language tasting note right onto the food itself — no screen, no app, nothing to hold. A load cell sits under every bin, so scooping food into your bowl prices it live in an on-table cart, and the running total updates as you add or return ingredients.
+
+A Seeed Studio XIAO ESP32S3 is the board reading all eight load cells: each cell runs through its own HX711 amplifier, and the XIAO aggregates all eight channels and streams them to the host over USB at 115200 baud. Its small footprint let it sit on a simple prototype-board carrier tucked under the tabletop, wired to eight load cells, which is what makes the whole live-weighing, live-pricing interaction possible.

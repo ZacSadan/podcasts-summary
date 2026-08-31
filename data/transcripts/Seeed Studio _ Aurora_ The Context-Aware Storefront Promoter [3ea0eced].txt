@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: Aurora: The Context-Aware Storefront Promoter
+Method: description
+Language: en
+Words: 68
+URL: https://www.youtube.com/shorts/OdE6n-D3waY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A hyper-targeted, privacy-first, ultra-low-power e-ink sign that reads the weather and the room to show the right promotion at the right moment. It runs entirely on the edge using a three-node ESP-NOW architecture: a XIAO ESP32-S3 Sense handles Wi-Fi, audio cry-detection, and broadcasts data; a Grove Vision AI V2 handles face detection; and a XIAO EE04 board mathematically renders the digital mokuhanga graphics to a 7.5" e-paper display.

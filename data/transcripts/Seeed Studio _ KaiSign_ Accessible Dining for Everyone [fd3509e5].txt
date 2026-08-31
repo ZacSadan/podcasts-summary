@@ -1,0 +1,12 @@
+Feed: Seeed Studio
+Episode: KaiSign: Accessible Dining for Everyone
+Method: description
+Language: en
+Words: 118
+URL: https://www.youtube.com/watch?v=E7D-2-5b5FE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+KaiSign is an accessible AI-powered restaurant ordering system that enables customers to order independently through three interaction modes: touch, American Sign Language (ASL), and voice. Normal-mode users navigate the menu through a compact capacitive keypad, Deaf users can communicate custom requests through a camera-based ASL recognition system, and blind users interact through voice using the Seeed Studio XIAO ESP32-S3 Sense, whose built-in microphone captures their requests. A Raspberry Pi runs the KaiSign dashboard and AI pipeline, while the XIAO ESP32-S3 Sense provides the compact user interface and voice input. 
+By combining Seeed hardware with AI-driven interaction, KaiSign transforms a conventional restaurant kiosk into a single, adaptable platform designed to make ordering more independent, accessible, and efficient for everyone.

@@ -1,0 +1,19 @@
+Feed: Seeed Studio
+Episode: Lumina Desk: The Smart Restaurant Table
+Method: description
+Language: en
+Words: 218
+URL: https://www.youtube.com/watch?v=Wh-x-9c9yRo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Lumina Desk is a restaurant table that takes the guest's order by voice. The guest sits down, says "Hey Lumina", and orders out loud. An ePaper screen on the table shows the order, live prices, allergen tags and the running bill, while the kitchen gets the ticket instantly on a browser dashboard. Everything runs on one Raspberry Pi.
+
+Two Seeed products do the hardest jobs in the build.
+
+The reSpeaker XVF3800 4-Mic Array is the microphone. A restaurant is a noisy room, and the assistant's own speaker sits a few inches from the mic. The XVF3800 handles the direction finding and echo cancellation in hardware, before the audio ever reaches the Pi, so the guest is heard and the room is not. It is plug and play over USB with no driver and no HAT.
+
+The reTerminal E1002 is the table screen. Its 7.5 inch colour ePaper has no backlight and no glare, so it reads like a printed table card rather than a tablet glowing at someone who is eating. It holds the bill on screen with the power off, and the built in ESP32-S3 and WiFi mean no cable running across the table.
+
+It is deployed in a working pizza restaurant with 189 dishes on the menu, and the whole build is open source on GitHub.

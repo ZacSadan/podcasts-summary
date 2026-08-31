@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: NEXORA - Intelligent Spaces, Better Experiences.
+Method: description
+Language: en
+Words: 104
+URL: https://www.youtube.com/watch?v=MOL8ULAfpSY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+NEXORA is an intelligent restaurant signage system that provides real-time seating availability and helps customers understand the current state of a restaurant before choosing where to sit. Built around the Seeed Studio reTerminal E1002 7.5" six-colour ePaper display, the system shows table occupancy, estimated availability, and branch information. ESP32-S3 nodes with occupancy sensors detect changes in seating and share the live data through MQTT. A Seeed XIAO ESP32-S3 Sense powers a voice assistant that can answer customer questions using the same real-time seating data. Historical occupancy data can also be used to identify dwell times and busy periods, creating useful insights for restaurant management.

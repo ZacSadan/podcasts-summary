@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: TokiiSign
+Method: description
+Language: en
+Words: 66
+URL: https://www.youtube.com/watch?v=YDJHQbYd8Go
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On Table display, showing table number, Custom QRcode (for menu or reviews), Server name, Daily Specials/info. Built into the Tokii eco system where apps are installed over wifi from github repo, OTA updates. Buttons cycle through pre entered options in the web interface. Can be used without internal battery and just plugged in to update thanks to E ink display. Compatible with other Tokii apps also.

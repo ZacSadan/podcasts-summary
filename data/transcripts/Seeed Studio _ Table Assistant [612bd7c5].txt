@@ -1,0 +1,12 @@
+Feed: Seeed Studio
+Episode: Table Assistant
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/shorts/PF28VosVNZQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This small tabletop display digitally showcases a restaurant’s daily specials or happy hour specials. No printed menus, no paper—just digital updates. The e-paper display doesn’t require power to maintain the image—it stays on for as long as you like.
+A nice extra: a call button lets you get the server’s attention. Enjoy your meal!

@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: BiteBuddy
+Method: description
+Language: en
+Words: 164
+URL: https://www.youtube.com/shorts/cOp6ZTZDcyA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Our project is a tabletop interactive restaurant robot designed to provide customers with an engaging and convenient way to browse menus, place orders, and receive order confirmations. The robot displays the restaurant menu and allows customers to interact with it through a touch interface. Once the customer places an order, the order is communicated to the restaurant-side tab, where restaurant staff can view and manage it. The customer then receives an order confirmation and can proceed with payment.
+
+The project uses two Seeed Studio products as key parts of the system. The **Wio Terminal** handles the robot's display, touch-based user interaction, and communication, providing the main interface between the customer and the ordering system. The **XIAO ESP32** controls the robot's physical interactions, including deciding when the robot's hands should move, as well as handling additional functions such as the microphone. Together, these Seeed products allow us to combine a digital ordering interface with physical robot interaction, creating an interactive tabletop ordering experience for restaurants.
