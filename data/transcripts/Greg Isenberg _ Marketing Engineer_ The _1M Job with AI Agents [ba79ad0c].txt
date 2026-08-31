@@ -1,0 +1,65 @@
+Feed: Greg Isenberg
+Episode: Marketing Engineer: The $1M Job with AI Agents
+Method: description
+Language: en
+Words: 787
+URL: https://www.youtube.com/watch?v=8ZC1G1ezN5o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode I explain a role that I call the marketing engineer. I believe this person becomes one of the most valuable hires in tech in the next 18 to 24 months. I define the job, I show the four eras of marketing that lead to it, and I give the tool stack that makes it work. I use a commercial HVAC software company as a worked example, and I list six systems that a marketing engineer builds. I close with four ways to earn money from this skill and a 30-day plan to learn it.
+
+Timestamps:
+
+00:00 – Intro
+01:46 – The Evolution of Marketing
+04:29 – What is a marketing engineer
+07:19 – Build the Growth OS
+10:18 – Marketing Engineer Tool stack
+13:23 – Live Data Workflow
+14:32 – Agent Job Description
+16:56 – Example: vertical SaaS for HVAC contractors
+18:27 – System 1: Customer Truth
+20:20 – System 2 - 4: Founder content, Outbound signal and Creative Testing
+23:31 – System 5: AI search visibility and the growth cockpit
+24:19 – System 6: Eval Loop
+25:06 – Ways to Monetize
+29:41 – The 30-day plan
+32:24 – Closing Thoughts
+
+Key Points
+
+• I expect the marketing engineer to command salaries from 250K to more than 1 million dollars.
+• I build the growth repo first, because it holds the marketing memory of the whole company.
+• I write a job spec for each agent, in the same way that I write a job description for a person.
+• I measure qualified replies and pipeline, because business results show the true signal.
+• I treat taste and judgment as the moat, because agents become a commodity.
+• I recommend one working system over five half-built ones.
+
+Numbered Section Summaries
+
+1. The Four Eras of Marketing I started and sold three venture-backed companies across the web, social, and mobile eras. Each technology shift creates a new type of valuable marketer: the traditional storyteller, the digital acquisition marketer, then the growth hacker. The agentic shift now creates the marketing engineer.
+
+2. My Definition of the Role A marketing engineer turns market signal into pipeline with AI agents, data, code, and taste. The person keeps the old skills of positioning, customer understanding, and distribution. The new part is that the person also builds the system behind the marketing.
+
+3. The Growth Repo Most teams use AI in random chats, and the work disappears each week. I fix this with a GitHub repo or a structured folder that I call Growth OS. It holds folders for customer truth, the content engine, the outbound engine, creative testing, and agent jobs.
+
+4. The Tool Stack I use Grokbot as the layer that stays close to the live internet, because it connects to the X ecosystem. I use Claude and Codex to build the repo, the landing pages, and the internal tools. Hermes-style workflows run scheduled jobs with memory and approval, creative models handle ads and thumbnails, and local AI covers sensitive data.
+
+5. Agent Job Specs Every agent needs a written spec: the data source, the run schedule, the filters, the expected output, the approval step, and the metric. I train agents in the same way that I train a new hire, with small tasks and corrections. Each correction goes back into the repo, so the system compounds.
+
+6. Six Systems, With an HVAC Example I use a vertical SaaS company that sells to commercial HVAC contractors. The six systems are the customer truth file, the founder content engine, the outbound signal engine, the creative testing engine, AI search visibility, and the growth cockpit. Each one turns a sharp customer pain, such as missed follow-up quotes after a service call, into content, outbound, and tests.
+
+7. Four Ways to Earn Money The first path is the role inside a company, which sits directly beside revenue. The second is consulting on a 30, 60, or 90 day embed, at five to thirty thousand dollars per month. The third is a productized service with one tight wedge, and the fourth is software that comes from the pain that repeats across clients.
+
+8. The 30-Day Plan Week one is an audit of one real company and a market map. Week two is the growth repo and the first "what the market is telling us" file. Week three is one working machine, and week four is results and a written case study.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
