@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - ESP32 as counter-surveillance platform - Cybertiger, Colonel Panic, The Wrew
+Method: description
+Language: en
+Words: 164
+URL: https://www.youtube.com/watch?v=PcK-TDmzshc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Privacy should be accessible to all. Historically, counter-surveillance tools have been expensive, complex, and inaccessible to most individuals, often limited to well-funded researchers and costly hardware configurations. The ESP32 offers a transformative alternative. This presentation will demonstrate how an affordable microcontroller has become the foundation for a growing suite of open-source, user-friendly anti-surveillance tools. We will discuss the technical features that make the ESP32 a compelling choice for these applications, including passive 802.11 and Bluetooth monitoring, OUI-based device fingerprinting, and robust cryptographic capabilities. Applications include detecting police body cameras in operational environments, mapping Flock Safety automatic license plate recognition (ALPR) infrastructure, identifying unauthorized drones, detecting radio frequency jamming across 2.4GHz, 5GHz, and cellular bands, and tracking autonomous robots operating with known-vulnerable firmware. These tools are cost-effective and freely available. We will also consider future developments in accessible counter-surveillance hardware, such as the ESP32-S5 with 5GHz support, GPS, displays, haptics, etc. Advancing anti-surveillance culture requires designing devices that individuals are motivated to use and carry.
