@@ -1,0 +1,11 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Jeff Moss, Founder and Creator of Black Hat
+Method: description
+Language: en
+Words: 63
+URL: https://www.youtube.com/watch?v=HbPqeqUm9fQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode, Black Hat Founder Jeff Moss reflects on the evolution of cybersecurity, the rise of AI and automation, and the growing challenge of separating trustworthy insights from an overwhelming volume of information. In a world of endless content, Black Hat continues to bring together the people, perspectives, and expertise that help cybersecurity professionals learn, connect, and navigate an increasingly complex landscape.

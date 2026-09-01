@@ -1,0 +1,18 @@
+Feed: Anthropic
+Episode: Meet Claude Fable 5.1
+Method: description
+Language: en
+Words: 108
+URL: https://www.youtube.com/shorts/uVS88gnaxcg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress.
+
+It excels at complex, multi-step work, like a long mathematical proof or a contract with hundreds of cross-references. It avoids shortcuts and is smart enough to fix the root causes of software issues.
+
+Across our benchmarks, Fable 5.1 sets a new standard, and at lower effort levels it can achieve similar or better results than Fable 5 at a much lower cost.
+Claude Fable 5.1 is available everywhere today.
+
+Read more: https://www.anthropic.com/claude-fable-and-mythos-5-1
