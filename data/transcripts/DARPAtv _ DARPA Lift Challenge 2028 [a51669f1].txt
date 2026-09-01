@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: DARPA Lift Challenge 2028
+Method: description
+Language: en
+Words: 58
+URL: https://www.youtube.com/watch?v=Ws6boq4yeAQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+It’s official – the DARPA Lift Challenge will return the summer of 2028. The 2026 Lift Challenge teams proved we can go farther than a 4:1 payload-to-weight ratio. So what is the ratio?  The next competition aims to explore those limits. Check DARPA.mil/lift in the coming weeks for additional information and to sign up for our email list.

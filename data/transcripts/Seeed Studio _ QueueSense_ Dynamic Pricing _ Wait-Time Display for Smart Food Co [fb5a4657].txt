@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: QueueSense: Dynamic Pricing & Wait-Time Display for Smart Food Courts.
+Method: description
+Language: en
+Words: 118
+URL: https://www.youtube.com/watch?v=Y-0NyUZq8WI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+QueueSense uses the Seeed XIAO ESP32-S3 and EE04 e-Paper board to build a smart queue and dynamic pricing display for busy food courts. A proximity sensor detects crowd density, and the e-Paper screen shows real-time wait times and adaptive pricing. Staff can adjust settings via onboard buttons, while Wi-Fi enables live menu synchronization. The EE04's ultra-low power consumption and battery support allow flexible, wire-free installation. This project transforms static signage into an interactive, data-driven tool that improves customer flow and operational transparency.
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

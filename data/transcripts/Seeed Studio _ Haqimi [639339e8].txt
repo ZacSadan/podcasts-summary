@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: Haqimi
+Method: description
+Language: en
+Words: 151
+URL: https://www.youtube.com/watch?v=gVOlLt1kKp0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Haqi Mi is an AI interactive welcoming device placed at the entrance of a restaurant. It transforms the traditional static signboard into an intelligent character that actively "attracts customers".
+
+When customers pass by the restaurant, Haqi Mi can sense and recognize the customers in front of it through the camera, then actively rotate the servo, make movements and greet them. At the same time, it combines the restaurant's special dishes of the day to release the corresponding aroma of the food, allowing those passing by not only to see the delicious food but also to truly "smell" it.
+
+For example, during lunchtime, Haqi Mi can actively turn towards the passing customers and say: "Our signature dish has just come out. Do you want to smell it?" Then it releases the aroma of the corresponding dish, and combines movements and dish displays to turn an ordinary passing by into an interesting interaction.

@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: The One-Prompt Dashboard Trick
+Method: description
+Language: en
+Words: 113
+URL: https://www.youtube.com/shorts/-goIBDS9UNU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I turned a boring spreadsheet into the ultimate content creator dashboard.
+
+It tracks my audience and growth across YouTube, Instagram, TikTok, LinkedIn, X, Threads, Facebook, and my newsletter, all in one place that my whole team can use.
+
+And I built the whole thing with @OpenAI ChatGPT Sites inside the Codex app.
+
+Sites handles the hosting, authentication, database, analytics, and even lets you add WebMCP actions that AI agents can interact with directly.
+
+Basically: custom software for your team without having to build all the infrastructure yourself.
+
+🔗If you want to try Sites for yourself, head to the link in the pinned comment to download the Codex app!
+
+#AI #Ainews #ChatGPT #Codex #contentcreator
