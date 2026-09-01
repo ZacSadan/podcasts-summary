@@ -1,0 +1,15 @@
+Feed: TrafficGuard
+Episode: TrafficGuard for Social
+Method: description
+Language: en
+Words: 66
+URL: https://www.youtube.com/watch?v=94V7ftjwLOQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Meet TrafficGuard for Social, built to help advertisers detect and prevent ad fraud across their Meta campaigns. Uncover bots, click farms and fake engagement, block invalid users from your ad sets and retargeting, and recover the budget they were quietly draining. Gain the visibility you need to protect your campaign data and reach buyers who actually convert.
+
+🌐 Website: www.trafficguard.ai 
+💻 LinkedIn: www.linkedin.com/company/trafficguard-hq/
+⭐ G2: www.g2.com/products/trafficguard/reviews

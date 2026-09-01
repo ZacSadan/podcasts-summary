@@ -1,0 +1,21 @@
+Feed: Check Point
+Episode: AWS and Check Point - Better Together
+Method: description
+Language: en
+Words: 69
+URL: https://www.youtube.com/watch?v=WX9jQMQCoSg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+By implementing Check Point’s unified, AI powered security platform on AWS’s scalable cloud infrastructure, organizations can securely accelerate cloud and AI adoption. Together, AWS and Check Point deliver end to end protection across applications, users, and AI workloads—strengthening posture, reducing risk, and ensuring secure innovation in the AWS cloud.
+
+Find, try and buy Check Point solutions on AWS Marketplace:
+
+https://aws.amazon.com/marketplace/seller-profile?id=a979fc8a-dd48-42c8-84cc-63d5d50e3a2f”
+
+Learn more about AWS & Check Point:
+
+https://partners.amazonaws.com/partners/001E000000UfZXoIAN/Check%20Point%20Software%20Technologies
+
+https://www.checkpoint.com/cloudguard/amazon-aws-security/
