@@ -1,0 +1,27 @@
+Feed: Lets AI News
+Episode: האיש שגוגל שילמה מיליארדים כדי להחזיר
+Method: description
+Language: he
+Words: 147
+URL: https://www.youtube.com/watch?v=dpSzJduTu-o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+נועם שזיר הוא אחד השמות המסקרנים במרוץ ה-AI העולמי — האיש שהיה שותף להמצאת טכנולוגיית ה-Transformer שעליה מבוססים מודלי שפה כמו ChatGPT. אחרי שהקים את Character.AI, גוגל שילמה כ-2.7 מיליארד דולר בעסקה שכללה רישוי טכנולוגיה וגיוס אנשי מפתח, ושזיר חזר לגוגל כדי לעבוד על Gemini. עכשיו הוא עוזב שוב — הפעם ל-OpenAI. הסיפור שלו חושף לא רק את המלחמה על טכנולוגיית ה-AI, אלא גם את המלחמה על האנשים שמפתחים אותה.
+
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

@@ -1,0 +1,99 @@
+Feed: Nick Saraev
+Episode: How to Think Clearly In The Era Of AI: Full Course (5 Hours)
+Method: description
+Language: en
+Words: 778
+URL: https://www.youtube.com/watch?v=QLLuZbuTIRc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get the document 100% free: https://skool.com/maker-zero/about
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+Summary ⤵️
+This is the Clear Thinking Course, a magnum opus I put together over the course of the last few days where I dumped everything that I know about thinking clearly and making effective decisions into one place
+
+This course represents around a decade of my life of learning various thinking techniques on both the hardware side, e.g. biological optimizations, and software side, e.g. thinking techniques and rationality principles
+
+You will learn about things like expected value methodology, Bayes' theorem, the planning fallacy, local and global maxima and minima, the power law, the chain law, exploration versus exploitation, and more!
+
+I hope you enjoy.
+
+Chapters
+0:00 Intro
+2:49 What this course covers
+5:02 How to take this course
+6:05 The biological basis of cognition
+11:19 Why your brain is stingy with energy
+14:13 Working memory and the four-chunk limit
+16:32 Chunking and meaning
+23:21 The rats and enriched environments
+32:08 What willpower really is
+36:01 Asymmetric bets
+45:30 Nobody is designing this for you
+46:16 Choice architecture
+48:37 Defaults and organ donation
+54:07 Finding the defaults in your life
+56:48 Friction, the golden rule
+1:03:40 Optimizing your hardware
+1:05:32 Sleep, nutrition and exercise
+1:07:39 Check for a sleep disorder first
+1:15:14 Cutting caffeine
+1:20:16 Bloodwork and deficiencies
+1:22:52 Cutting alcohol
+1:26:07 Protein, fiber and creatine
+1:28:34 Raising your VO2 max
+1:30:37 The REHIT protocol
+1:34:15 Workspace design and air quality
+1:38:44 Removing intelligible speech
+1:42:07 Working next to a window
+1:43:13 Reducing clutter
+1:44:30 Batching notifications
+1:48:21 Single-tasking your screen
+1:52:17 Software: models as programs
+1:54:09 Expected value
+2:04:24 The resulting trap
+2:10:47 Power laws
+2:14:36 The Pareto principle
+2:21:37 The chain law
+2:27:24 Local vs global maximae
+2:34:24 Attentional residue
+2:39:52 Akrasia
+2:47:50 Map vs territory
+2:57:47 Ulysses contracts
+3:03:48 Opportunity cost
+3:12:03 Incentives and Goodhart's law
+3:17:49 Chesterton's fence
+3:23:07 Bayes in natural frequencies
+3:31:28 Fermi approximations
+3:38:45 Hourly rate and the offload rule
+3:50:38 The planning fallacy multiplier
+3:57:04 Explore-exploit tradeoff
+4:05:08 Immediately actionable techniques
+4:06:09 TAPs, or trigger action plans
+4:20:54 Noticing
+4:33:30 Pre-mortems
+4:39:15 Resolve cycles and five-minute timers
+4:47:14 Using AI without losing your edge
+4:55:32 Full course recap
+5:01:26 Closing

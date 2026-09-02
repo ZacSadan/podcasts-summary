@@ -1,0 +1,75 @@
+Feed: Veritasium
+Episode: Un capteur quantique peut-il vraiment capter votre rythme cardiaque à 60 km ?
+Method: description
+Language: en
+Words: 575
+URL: https://www.youtube.com/watch?v=uRFCJYcZRr4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+La technologie Ghost Murmur de la CIA est-elle réelle ? Sponsorisé par Ground News. Rendez-vous sur https://ground.news/Ve pour bénéficier de 40 % de réduction sur l’abonnement illimité Vantage.
+
+Si vous cherchez un kit de modélisation moléculaire, essayez Snatoms, un kit que j’ai inventé où les atomes s’assemblent magnétiquement - https://ve42.co/SnatomsV
+
+Inscrivez-vous à la newsletter Veritasium pour recevoir chaque semaine des actualités scientifiques - https://ve42.co/Newsletter
+
+▀▀▀
+Un immense merci à Patrick Maletinsky de l’Université de Bâle et Jan Jeske de l’Institut Fraunhofer pour leurs éclairages sur la magnétométrie NV.
+
+Merci également à Brad Roth de l’Université d’Oakland, John Wikswo de l’Université Vanderbilt, et Bob Fagaly de l’IEEE pour leurs contributions sur l’histoire et les limites de la magnétométrie.
+
+Merci à Douglas London, ancien officier supérieur des opérations de la CIA (retraité), pour sa contribution à l’histoire. Son livre, The Recruiter, est disponible ici - https://ve42.co/Recruiter
+
+Un grand merci à Herbert Lin de l’Université Stanford et Emma Briant de l’Université de Notre Dame pour leurs connaissances sur les tactiques de tromperie et de propagande.
+
+▀▀▀
+Références
+
+Exclusif | « Ghost Murmur » via le New York Post
+Exclusif | Trump confirme l’outil « Ghost Murmur » de la CIA via le New York Post
+Bouchard, D. E. (2026). Scientists question CIA’s claim of long-range heartbeat detection. Scientific American.
+Roth, B. J. (2023). Biomagnetism: The First Sixty Years. Sensors
+Doherty, M. W. et al. (2013). The nitrogen-vacancy colour centre in diamond. Physics Reports.
+« Quantum Diamond Sensing: The Surprising Power of NV Centers | Ron Walsworth » par 632nm Podcast sur YouTube
+« Ronald Walsworth - “Quantum Diamond Sensors” » par Stanford Physics sur YouTube
+Arai, K. et al. (2022). Millimetre-scale magnetocardiography of living rats with thoracotomy. Communications Physics.
+
+Sources supplémentaires disponibles ici : Ghost Murmur Video - https://ve42.co/ReferencesGhost
+
+Images & Vidéos :
+https://www.youtube.com/watch?v=WmXuaHX3QeY
+https://www.youtube.com/watch?v=DkmHh6eZoZs
+https://www.youtube.com/watch?v=vrRJimixWEc
+
+▀▀▀
+Remerciements particuliers à nos soutiens sur Patreon :
+
+Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, André Powell, Anton Ragin, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Bryan Ackermann, Cartier, Chris Brewer, Daniel Martins, Data Don, Dave Kircher, David Johnston, David Tseng, EJ Alexandra, Evgeny Skvortsov, Garrett Mueller, Gnare, gpoly, Hayden Christensen, Hong Thai Le, Ibby Hadeed, Jeromy Johnson, Jesse Brandsoy, Juan Benet, Kelcey Steele, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Mark Heising, Martin Paull, Meekay, meg noah, Michael Krugman, Orlando Bassotto, Parsee Health, Paul Peijzel, Richard Sundvall, Robson, Sam Lutfi, Shalva Bukia, Sinan Taifour, Tj Steyn, Ubiquity Ventures, Vahe Andonians, William Yoon, wolfee
+
+▀▀▀
+Scénariste : Gregor Čavlović
+Producteur et réalisateur : Gregor Čavlović
+Présentateur : Gregor Čavlović
+Monteurs : Jack Saxon et James Stuart
+Monteur additionnel : James Horsley
+Animateurs : Emma Wright, Fabio Albertelli et Domonkos Józsa
+Chercheur : Aakash Singh Bagga
+Équipe de production : Jess Bishop-Laggett, Glen Griffiths, Matthew Cavanagh & Anna Milkovic
+Producteur exécutif : Casper Mebius
+
+Contributions à la miniature par Abdallah Rabah, Ren Hurley et Ben Powell
+
+Vidéos/photos supplémentaires fournies par Getty Images et Pond5
+Musique d’Epidemic Sound
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Crash d'avion et opération de sauvetage
+0:43 - Apparition de Ghost Murmur et emballement médiatique
+1:54 - Doute et début de l'enquête sur Ghost Murmur
+2:32 - Premiers principes du champ magnétique du cœur
+3:14 - Défis de la détection du champ cardiaque
+5:16 - Fonctionnement des magnétomètres et diamants NV
+7:40 - Physique quantique et détection magnétique avancée
+13:45 - Limites, doutes et vraies applications militaires
