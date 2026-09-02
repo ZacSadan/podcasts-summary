@@ -1,0 +1,74 @@
+Feed: Greg Isenberg
+Episode: 5 GitHub Repos: Kill AI Slop, Go Viral, Make Money
+Method: description
+Language: en
+Words: 737
+URL: https://www.youtube.com/watch?v=9_SZFIW7tus
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this solo episode, I review five free, open source GitHub repos that help you build products, make money, or save time: Peter Yang's No AI Slop Skill, the CRM by TryComp AI, Video Use by browser use, SkillSpector by NVIDIA, and Phone Harness. For each repo I explain what it does, why it matters, how to install it, and the first small workflow to try. I close with a simple three-step method: install the repo, make one small workflow work, then decide to productize it or keep it as your own leverage.
+
+Timestamps
+
+00:00 – Intro
+01:44 – Repo 1: No AI Slop
+05:20 – Repo 2: Agentic-first CRM
+10:52 – Repo 3: Video Use
+15:15 – Repo 4: SkillSpector
+18:49 – Repo 5: Phone Harness
+22:25 – Closing Thoughts
+
+Links to repos:
+petergyang/no-ai-slop — https://github.com/petergyang/no-ai-slop
+trycompai/crm — https://github.com/trycompai/crm
+browser-use/video-use — https://github.com/browser-use/video-use
+NVIDIA SkillSpector — https://github.com/NVIDIA/SkillSpector
+phone-harness — https://github.com/ShawnPana/phone-harness
+
+Numbered Section Summaries
+
+1. Why I Watch GitHub Now
+    
+I treat GitHub as an early view of the agentic era. Many SaaS companies, agencies, workflows, and startup ideas start there first. I picked the repos from the ones that got attention over the last 30 days, and I explain each one in plain English.
+    
+2. No AI Slop Skill: Human Ideas First, AI Cleanup Second
+    
+Peter Yang's skill strips the patterns that make writing smell like AI, and it keeps your actual voice. I care about this because founders write constantly: tweets, landing pages, cold emails, launch posts, onboarding copy, and investor updates. Readers who sense AI copy trust you less, so this repo makes your communication more believable.
+    
+3. The CRM Built For Agents
+    
+The CRM by TryComp AI treats your CRM as a workspace for an agent instead of a filing cabinet for you. The agent researches people, enriches company data, schedules follow-ups, and keeps the notes current. Most businesses lose money because opportunities scatter across old emails, so a system that maintains the relationship graph for you is real revenue.
+    
+4. One Small Pipeline To Start With
+    
+I would start with a single pipeline of warm leads that deserve a follow-up: everyone who replied, booked a call, asked about pricing, or promised to circle back. The install needs bun and docker, a git clone, the env example, and a few bun commands. It runs locally on localhost 3000 with the API on localhost 3001, and it uses Google or Microsoft OAuth for sign-in, email, and calendar.
+    
+5. Video Use: Turn Your Edit Style Into A System
+    
+Video Use by browser use lets coding agents edit your raw footage. The agent removes filler words, cuts dead space, adds subtitles, color grades, builds overlays, renders the video, and then checks the output. Your edit style usually lives in muscle memory, and this repo makes it explicit and repeatable, which shrinks the distance between raw material and published content.
+    
+6. SkillSpector: Scan The Tool Before You Trust It
+    
+NVIDIA's SkillSpector scans agent skills for prompt injection, data exfiltration, supply chain risk, hidden instructions, and MCP related risks. A skill carries instructions, scripts, dependencies, and tool access, so it changes how your agent behaves. As builders assemble their own AI work environments, security becomes a normal founder problem, and I like that NVIDIA gives this category credibility.
+    
+7. Phone Harness: Agents That Operate A Real Phone
+    
+Phone Harness connects an agent like Codex or Claude Code to a real iPhone through Mac iPhone mirroring, or to an Android through ADB. The agent sees the screen, taps, types, scrolls, opens apps, and verifies the result, so mobile QA, API-free automations, and repetitive creator workflows become possible. The project is early, and face ID and camera flows stay tricky, but the direction is obvious.
+    
+8. Install, Test, Then Decide To Productize
+    
+My method has three steps: install the repo, build one small workflow that adds value, then decide to productize it or keep it for your own speed. Even people with light technical skills learn a lot from the install itself. I recommend a monthly habit of finding and installing new repos, because it connects the dots in this era.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/
