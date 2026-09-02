@@ -1,0 +1,40 @@
+Feed: DoiT
+Episode: How Stefanini Automated Kubernetes Savings with PerfectScale by DoiT
+Method: description
+Language: en
+Words: 210
+URL: https://www.youtube.com/watch?v=nEWsNlFhQKg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Kubernetes cost optimization starts with seeing the waste. Stefanini's FinOps team
+found 26% in monthly compute savings with PerfectScale by DoiT.
+
+https://doit.com
+
+Stefanini is a global technology consulting firm delivering IT service desk, ITO and
+BPO for its customers on a Kubernetes-based platform.
+
+- The problem: Kubernetes cost data existed, but it was hard to visualize which
+  workloads were driving spend, and engineers were copying resource requests between
+  deployments instead of sizing CPU and memory to the job.
+- What changed: PerfectScale exposed per-workload efficiency inside the clusters, so
+  sizing problems were caught before production. Automation then applied the
+  right-sizing continuously.
+- The result: about 26% of total compute saved every month, with the platform team
+  freed up for strategic work instead of manual tuning.
+
+"Without the tool, I don't know how we would do it. We'd have to have twice the
+number of people on my team to stay on top of it, but with PerfectScale, we can
+focus on the more strategic issues."
+David Adkins, Director of Software & Platform Engineering, Stefanini
+
+Read the full story: [TBD link]
+
+Stefanini, PerfectScale, PerfectScale by DoiT, DoiT, Kubernetes,
+Kubernetes cost optimization, FinOps, cloud cost management,
+IT services, managed services, container right-sizing,
+compute optimization, cloud cost savings, K8s automation
+
+#Kubernetes #FinOps #PerfectScale
