@@ -43,6 +43,15 @@ MAX_RUN_HOURS = 3  # stop starting new episodes past this wall-clock budget; rem
 # mark it seen anyway after this long, in case it never actually airs.
 PENDING_RETRY_MAX_HOURS = 48
 
+# Methods that only ever surface whatever text the RSS/page already had at
+# publish time (no real transcript). Richer show notes (PDF, transcript page,
+# captions) are sometimes published shortly *after* the RSS entry appears, so
+# an episode that falls back to one of these should be retried for a while
+# before being summarized and sent — see e.g. Security Now, whose GRC show-notes
+# PDF can lag the episode's RSS entry by a few hours.
+WEAK_TRANSCRIPT_METHODS = {"description", "page_content"}
+WEAK_RETRY_MAX_HOURS = 12
+
 
 # ── Shabbat guard ─────────────────────────────────────────────────────────────
 
@@ -73,8 +82,9 @@ def load_seen() -> dict:
         with open(SEEN_PATH, encoding="utf-8-sig") as f:
             data = json.load(f)
             data.setdefault("pending", {})
+            data.setdefault("pending_weak", {})
             return data
-    return {"version": 1, "entries": {}, "pending": {}}
+    return {"version": 1, "entries": {}, "pending": {}, "pending_weak": {}}
 
 
 def save_seen(seen: dict):
@@ -90,10 +100,27 @@ def save_seen(seen: dict):
 def mark_seen(seen: dict, episode_id: str):
     seen["entries"][episode_id] = datetime.now(timezone.utc).isoformat()
     seen["pending"].pop(episode_id, None)
+    seen["pending_weak"].pop(episode_id, None)
 
 
 def is_seen(seen: dict, episode_id: str) -> bool:
     return episode_id in seen["entries"]
+
+
+def _mark_pending_retry(bucket: dict, episode_id: str, max_hours: float) -> bool:
+    """Record that episode_id failed for a retryable reason. Returns True if it
+    should still be retried (within the retry window), False if the window has
+    expired and it should now be treated as a permanent failure instead."""
+    first_seen = bucket.get(episode_id)
+    now = datetime.now(timezone.utc)
+    if first_seen is None:
+        bucket[episode_id] = now.isoformat()
+        return True
+    age = now - datetime.fromisoformat(first_seen)
+    if age > timedelta(hours=max_hours):
+        bucket.pop(episode_id, None)
+        return False
+    return True
 
 
 def mark_pending_retry(seen: dict, episode_id: str) -> bool:
@@ -101,16 +128,15 @@ def mark_pending_retry(seen: dict, episode_id: str) -> bool:
     isn't live yet. Returns True if it should still be retried (within the
     retry window), False if the window has expired and it should now be
     marked permanently seen instead."""
-    first_seen = seen["pending"].get(episode_id)
-    now = datetime.now(timezone.utc)
-    if first_seen is None:
-        seen["pending"][episode_id] = now.isoformat()
-        return True
-    age = now - datetime.fromisoformat(first_seen)
-    if age > timedelta(hours=PENDING_RETRY_MAX_HOURS):
-        seen["pending"].pop(episode_id, None)
-        return False
-    return True
+    return _mark_pending_retry(seen["pending"], episode_id, PENDING_RETRY_MAX_HOURS)
+
+
+def mark_pending_weak_retry(seen: dict, episode_id: str) -> bool:
+    """Record that episode_id only produced a weak transcript (e.g. RSS
+    description fallback) and richer show notes might still be published soon.
+    Returns True if it should still be retried, False if the retry window has
+    expired and it should now be summarized/sent with what we have."""
+    return _mark_pending_retry(seen["pending_weak"], episode_id, WEAK_RETRY_MAX_HOURS)
 
 
 def _rebase_in_progress(run) -> bool:
@@ -528,6 +554,18 @@ def main():
                 logger.error("  Could not persist seen-mark — stopping run to avoid re-processing episodes next time")
                 break
             continue
+
+        if not args.test and transcript.method in WEAK_TRANSCRIPT_METHODS \
+                and mark_pending_weak_retry(seen, episode.id):
+            logger.warning(f"  Only a weak transcript ({transcript.method}) — "
+                            "will retry on a later run in case richer show notes appear")
+            save_seen(seen)
+            if not commit_and_push_seen(episode.id):
+                logger.error("  Could not persist pending-retry mark — stopping run")
+                break
+            continue
+        elif transcript.method in WEAK_TRANSCRIPT_METHODS:
+            logger.warning("  Weak transcript retry window expired — summarizing with what we have")
 
         if transcript.method == "whisper":
             whisper_count += 1

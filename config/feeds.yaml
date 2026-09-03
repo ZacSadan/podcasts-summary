@@ -289,6 +289,9 @@ feeds:
   disabled: true
 
 - name: Veritasium
+  url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"
+
+- name: Veritasium en Français
   url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCin0m13qWv3-051xlWlHamA"
 
 - name: Cheddar
