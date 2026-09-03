@@ -1,0 +1,23 @@
+Feed: Seeed Studio
+Episode: ServeCircle — A BLE-Controlled Interactive Turntable for Shared Dining
+Method: description
+Language: en
+Words: 298
+URL: https://www.youtube.com/watch?v=0mKcLiJvbGg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ServeCircle is a Bluetooth Low Energy controlled interactive tabletop turntable designed for shared dining. It reimagines restaurant signage as physical guidance: instead of only indicating where an item is, the system moves the selected dish, drink, teapot, or condiment into the guest’s reach.
+
+The prototype is powered by a Seeed Studio XIAO ESP32C6. A Seeed Studio half-duplex TTL bus-servo adapter connects the XIAO to a Feetech STS3215 smart servo, which provides precise position control and smooth continuous rotation. From a phone, the user can select an exact position, adjust rotation speed and direction, or stop the platform immediately. The firmware also stops continuous rotation if the BLE connection is lost.
+
+The turntable mechanism and enclosure were designed from scratch and fabricated with a 3D printer. The compact, modular structure can be adapted with different platform sizes and item holders for shared dishes, tea service, condiments, tasting flights, or countertop displays.
+
+In restaurants and cafés, items often end up at the far side of a shared table. Reaching across hot dishes can be awkward and may be difficult for children, older guests, or people with limited mobility. ServeCircle turns a simple selection into a clear physical response, reducing unnecessary reaching while keeping the dining experience intuitive and social.
+
+The project uses accessible components and is designed to be replicated and customized. Its firmware, BLE protocol, wiring information, iOS controller source, assembly documentation, and 3D-printable parts can form a reusable foundation for other interactive dining applications.
+
+ServeCircle turns signage into service: not just showing the way, but moving the dining experience within everyone’s reach.
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

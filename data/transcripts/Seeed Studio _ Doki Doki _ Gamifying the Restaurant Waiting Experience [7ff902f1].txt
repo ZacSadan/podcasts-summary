@@ -1,0 +1,18 @@
+Feed: Seeed Studio
+Episode: Doki Doki : Gamifying the Restaurant Waiting Experience
+Method: description
+Language: en
+Words: 206
+URL: https://www.youtube.com/watch?v=mqsWhydx0Jw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DokiDoki is a wireless paging system designed for restaurants and cafes with a gaming twist. It uses two separate devices. The first device is a portable Pager for the customer. The second device is a Base Station for the kitchen staff. Also reduces paper waste by not printing paper tokens
+
+The system operates on the ESP-NOW protocol. ESP-NOW provides low-overhead communication between devices. It does not require a local Wi-Fi router. This makes the system very fast and very reliable. 
+
+The Pager device uses a Seeed Studio XIAO ESP32-C3 micro-controller. It also includes a 1.8-inch TFT display. The Pager includes a fully playable retro game to keep customers entertained while they wait, restaurant can also show ads on the screen, and customer can order items from the restaurant using the buttons. 
+The Base Station uses a Seeed Studio XIAO ESP32-C6 micro-controller. Staff can send order status messages from the Base Station to the Pager. When the Pager receives a message, it shows a bright red alert on the screen. https://github.com/icebelly29/DokiDoki
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

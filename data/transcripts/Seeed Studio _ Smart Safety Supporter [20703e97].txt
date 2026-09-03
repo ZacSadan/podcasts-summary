@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: Smart Safety Supporter
+Method: description
+Language: en
+Words: 146
+URL: https://www.youtube.com/watch?v=Ys4B9YkJpmo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A smart building safety supporter built using the Seeed Studio XIAO ESP32-S3 Sense. The compact board is ideal for this project because it combines powerful ESP32-S3 processing, an onboard camera, AI capability, and wireless connectivity in a small form factor. The system uses camera-based AI to estimate the number of people in a monitored area and an MQ-6 sensor to detect a possible gas alert. When an emergency condition occurs, a buzzer is activated and an evacuation dashboard displays the alert, people estimate, camera location, and exit instructions. The prototype demonstrates how embedded AI and environmental sensors can work together to support faster emergency response and safer building evacuation. https://www.hackster.io/safetypals/smart-safety-supporter-ca6c18?auth_token=6ba22974145e56ccb6213ee92399b130
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

@@ -1,0 +1,19 @@
+Feed: Black Hat
+Episode: Black Hat Asia 2026 | Mobile Track Spotlight
+Method: description
+Language: en
+Words: 103
+URL: https://www.youtube.com/watch?v=QZGwGYxYVCY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Mobile security continues to evolve at a breakneck pace, with new attack surfaces, ecosystem shifts, and research breakthroughs reshaping the landscape every year. In this interactive session, members of the Black Hat Asia Review Board will highlight the trends, techniques, and vulnerabilities that stood out during this year's Briefings review cycle.
+
+Join us for a fast paced discussion on what's emerging, what's escalating, and what practitioners should be paying attention to next. Bring your questions—this session is designed to be conversational and candid.
+
+Anant Shrivastava  |  Founder, Cyfinoid Research
+Pamela O'Shea  |  Director, Shea Security
+Shanna Daly  |  CEO, Torin Cyber Group
+
+https://blackhat.com/asia-26/briefings/schedule/index.html#mobile-track-spotlight-54521

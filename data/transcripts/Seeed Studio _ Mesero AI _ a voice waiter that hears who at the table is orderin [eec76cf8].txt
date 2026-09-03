@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: Mesero AI — a voice waiter that hears who at the table is ordering
+Method: description
+Language: en
+Words: 211
+URL: https://www.youtube.com/watch?v=DuR8mbUjhpM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Mesero AI turns a restaurant table into the waiter. A diner taps an NFC sticker onthe table stand, their phone opens a display-only screen, and from then on theysimply talk: the order appears as they say it, the kitchen sees it, and the bill ispaid from the same page.
+The Seeed reSpeaker XVF3800 is what makes this possible, not an accessory to it.Its four-microphone array cancels the room and computes direction of arrival inhardware, so the device knows which seat each phrase came from and attributes everydish to the diner who actually ordered it — no seat numbers, no app, no per-personsetup. The same hardware echo cancellation lets a diner interrupt the agentmid-sentence, because the array still hears the room while the speaker is talking.The XIAO ESP32S3 streams 16 kHz PCM to the backend over WiFi and drives the phonescreen in step with the conversation, and a Seeed 114993346 speaker sits in theprinted dock.
+About US$51 in parts. Firmware, backend, both screens and the printable case arefully open source, with a step-by-step build guide. https://www.hackster.io/gabogiraldo/mesero-ai-a-waiter-that-lives-in-the-table-b71172
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

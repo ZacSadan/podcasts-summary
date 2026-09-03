@@ -1,0 +1,45 @@
+Feed: mreflow
+Episode: The Most Overhyped and Underhyped New AI Models
+Method: description
+Language: en
+Words: 107
+URL: https://www.youtube.com/watch?v=Po_Dh7WLgmM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A bunch of new models... Join the free newsletter here: https://futuretools.io/newsletter
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Gemini 3.8 Flash: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+Claude Fable And Mythos: https://www.anthropic.com/claude-fable-and-mythos-5-1
+Path To Astra: https://openai.com/index/path-to-astra/
+Astra Security Concerns: https://www.theinformation.com/articles/secret-technique-behind-openais-astra-model-sparks-security-concerns
+Artificial Analysis: https://artificialanalysis.ai/
+DeepSWE: https://deepswe.datacurve.ai/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:20 Fable 5.1
+7:50 Fable 5.1 Tests
+11:07 Gemini 3.8 Flash
+13:58 Gemini 3.8 Flash Tests
+18:40 OpenAI Astra
+20:41 Recurrent Depth
+23:35 Conclusion
