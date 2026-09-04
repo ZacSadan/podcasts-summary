@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: Shop/office time based message system
+Method: description
+Language: en
+Words: 149
+URL: https://www.youtube.com/watch?v=o_PpS90x8Sc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AYO1 is a backend system to allow users to make time based messages on a display. You can link your AYO1 account to the Sensecraft screen as external input, either as HTML to simply manage all screens over the AYO1 site, or use the AYO1 api as external data in your own screen designs. Restaurants can also show at the time they want the Daily Menu or other Data such as exceptional opening events or closures, sales, discounts, etc. Manage multiple signs in your shop and window. Further on the AYO1 platform will allow a search of open shops within a selected region. AYO (Are You Open). The platform is still under construction.
+
+This is one of the projects submitted to Seeed Studio’s Interactive Signage Contest 2026, we invite global makers to design signage solutions that transform the restaurant experience. Start with the sign as your smallest solution.  https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

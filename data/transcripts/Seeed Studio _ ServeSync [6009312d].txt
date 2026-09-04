@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: ServeSync
+Method: description
+Language: en
+Words: 136
+URL: https://www.youtube.com/watch?v=IuRHizdBxsQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ServeSync is a smart restaurant ordering and table-management system. Customers scan a unique QR code at their table to access a web-based menu and place orders. Two Seeed Studio XIAO ESP32-S3 boards communicate using ESP-NOW to provide food-status and table-cleaning notifications.
+
+The XIAO ESP32-S3 is ideal for this application because of its compact size, built-in wireless connectivity, sufficient GPIO pins, and powerful ESP32-S3 processor. It enables a small, low-cost, and expandable solution for smart restaurant automation. https://www.hackster.io/554105/servesync-smart-restaurant-ordering-and-table-management-cdc3ab
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

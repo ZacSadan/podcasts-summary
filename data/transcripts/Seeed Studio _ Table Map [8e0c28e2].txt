@@ -1,0 +1,31 @@
+Feed: Seeed Studio
+Episode: Table Map
+Method: description
+Language: en
+Words: 258
+URL: https://www.youtube.com/watch?v=H7K5KoyuIYc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI Table Map turns the "please wait to be seated" card into a live map of the
+restaurant.
+
+The Seeed Studio reTerminal E1001 is the whole guest-facing device. Its 7.5"
+ePaper shows which tables are free, how many people each one seats, and how long
+the wait will be. Everything on that screen is drawn by the E1001 itself, on its
+ESP32-S3, using Seeed_GFX and all four grey levels of the panel. The same chip joins WiFi through its own setup portal,
+finds the server over mDNS, and drives an 80-LED halo around the printed frame
+that turns green, amber or red as the room fills up.
+
+The occupancy comes from AI: a YOLO26n person detection model running on a
+Raspberry Pi, watching the restaurant's existing IP camera. You draw one box
+around each table, and that single step feeds everything.
+
+The staff get their own screen too - a touch dashboard with a floor plan of the
+same room. It flags a table the moment guests sit down and nobody has greeted
+them yet, and one tap claims the table or holds it for a booking.
+
+All the AI runs inside the building. No frames stored, no cloud.https://github.com/mickraa/table-map/blob/main/README.md
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

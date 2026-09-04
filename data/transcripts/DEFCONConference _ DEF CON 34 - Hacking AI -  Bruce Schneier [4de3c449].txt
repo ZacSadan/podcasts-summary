@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON 34 - Hacking AI -  Bruce Schneier
+Method: description
+Language: en
+Words: 151
+URL: https://www.youtube.com/watch?v=eEBv0STiYhI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Humans are hacking AI systems. Humans are hacking with AI systems. But also, AIs are hacking human systems. They’re finding and exploiting vulnerabilities in computer code, and they’ll soon be doing the same with all sorts of other codes. For example: the tax code can be hacked. Vulnerabilities are called loopholes, exploits are called tax avoidance strategies, and black hats are called accountants. Similarly, financial markets can be hacked. So can any system of rules or laws, including democracy itself. AIs will hack these systems at our request, and they’ll also do this innately, organically – and possibly in ways we don’t immediately see. We need to consider a world where increasingly sophisticated hacks or our social, economic, and political systems are discovered computer speeds, and then exploited at computer scale and scope. Right now, our systems of patching these systems operate at a human pace, which won't be good enough.

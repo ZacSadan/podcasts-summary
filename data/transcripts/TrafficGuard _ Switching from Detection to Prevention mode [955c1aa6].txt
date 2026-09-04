@@ -1,0 +1,26 @@
+Feed: TrafficGuard
+Episode: Switching from Detection to Prevention mode
+Method: description
+Language: en
+Words: 145
+URL: https://www.youtube.com/watch?v=sd8j-znNTUA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to switch from Detection to Prevention mode in TrafficGuard Shield and start protecting your Google Ads campaigns from invalid traffic and click fraud.
+
+TrafficGuard Shield monitors your Google Ads traffic during Detection mode, giving you visibility into invalid and non-incremental clicks. When you are ready to take action, switching to Prevention mode enables TrafficGuard to actively protect your campaigns and reduce wasted ad spend.
+
+In this video, you’ll learn how to:
+
+• Switch from Detection to Prevention mode in TrafficGuard Shield
+• Enable Google Ads click fraud protection
+• Start blocking invalid traffic before it wastes your budget
+• Protect your campaign data and optimisation signals
+
+TrafficGuard Shield is built for advertisers looking for a simple way to protect Google Ads from click fraud, bots, repeat clicks and other sources of invalid traffic.
+
+Signup for free: https://dash.trafficguard.ai/signup
+
+#GoogleAds #ClickFraud #ClickFraudProtection #InvalidTraffic #PPC #TrafficGuard
