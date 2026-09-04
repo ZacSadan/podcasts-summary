@@ -1,0 +1,21 @@
+Feed: mreflow
+Episode: This Robot Can Learn Almost ANY Task
+Method: description
+Language: en
+Words: 70
+URL: https://www.youtube.com/shorts/K_iUGDw2Sho
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This robot can repot plants, make pour-over coffee, assemble kits, and even cook pancakes. 
+
+And all of those tasks were learned from a single video demonstration.
+
+Skild AI’s new S1 model can recreate tasks lasting up to 10 minutes, with dozens of individual step, WITHOUT any fine-tuning or additional training.
+
+It’s basically prompting...but for robots.
+
+Follow for more of the latest futuristic tech and robotics breakthroughs!
+
+#Robotics #ArtificialIntelligence #AI #FutureTech

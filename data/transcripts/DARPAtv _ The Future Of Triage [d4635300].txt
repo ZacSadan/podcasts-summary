@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: The Future Of Triage
+Method: description
+Language: en
+Words: 72
+URL: https://www.youtube.com/watch?v=frfAD-zunfY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The DARPA Triage Challenge (DTC) seeks to transform how medical responders triage in mass casualty incidents by advancing scalable, timely, and accurate tools. 
+
+Through a series of challenge events, DTC drives innovations in identifying vital signs of injury, locating and assessing casualties, and transmitting critical data. These breakthroughs aim to help responders prioritize care and save lives when medical resources are stretched in both civilian and military crises.
+
+DARPA Triage Challenge: https://drupal.darpa.mil/research/challenges/darpa-triage-challenge?utm_source=youtube&utm_medium=social&utm_campaign=triage&utm_term=future-of-triage

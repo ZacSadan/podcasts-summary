@@ -1,0 +1,34 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Chinmayi Bettadapur, Salesforce Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 249
+URL: https://www.youtube.com/watch?v=K49jZJKJ6oQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Chinmayi Bettadapur, VP and GM, Media & Entertainment at Salesforce. 
+
+How are enterprise product teams using AI agents to accelerate roadmaps, and what happens when "talk to my agent" becomes a reality across the media industry? On this episode of Agents of Change, Chinmayi Bettadapur shares how Salesforce is leveraging agentic workflows to fast-track product prototyping, why one-size-fits-all out-of-the-box agents fail, and how humans remain essential for fact-checking and validation.
+
+We talk about where Salesforce is seeing immediate velocity gains from agents, how to build bespoke agentic solutions at scale alongside clients, and what the evolution of advertising jobs will look like by 2036.
+
+In this episode:
+
+- Fast-tracking product roadmaps: How Agentforce Media uses agents to prototype at record speed
+
+ - Why out-of-the-box agents collect dust — and how to co-create bespoke agentic workflows at scale
+
+- The evolving role of the human in the loop for fact-checking and governance
+
+- A 10-years-out prediction: Automating transactional work and redefining what it means to "talk to my agent"
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+New episodes dropping across the AAO channels and Agents of Change feed over the next few weeks.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI

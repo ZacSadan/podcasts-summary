@@ -1,0 +1,146 @@
+Feed: Creative Channel
+Episode: DIY GOOT Soldering Station with ESP32-S3 | Makita 18V + Temperature Control + 3D Printed Case
+Method: description
+Language: en
+Words: 539
+URL: https://www.youtube.com/watch?v=HQLEGyu-QDM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this video, I build a complete KST GOOT Soldering Station using an ESP32-S3, a color display, real-time temperature sensing, and an 18V Makita LXT battery.
+
+In the past, I used GOOT soldering tips in a very basic way. I only used the two heater terminals together with a quick-charge trigger board and a push button, which meant I basically had to guess the tip temperature.
+
+However, these GOOT soldering tips also have two additional K-type thermocouple terminals for temperature sensing.
+
+So I decided to take full advantage of the tip and build a proper temperature-controlled soldering station.
+
+🌐 Free firmware + wiring diagrams + instructions:
+https://ai.kenhsangtao.com/goot/
+
+🧊 3D-printable enclosure:
+https://makerworld.com/en/models/3255627-diy-goot-soldering-station-with-esp32-s3#profileId-3690114
+
+Main hardware:
+- ESP32-S3 DevKitC-1 N16R8
+- 1.47-inch ST7789 SPI TFT display, 172×320 resolution
+- MAX31855 K-type thermocouple temperature sensor module
+- EC11 rotary encoder module with push button
+- IRLB8721 N-channel power MOSFET
+- MP1584 DC-DC step-down converter for the 5V supply
+- 5V active buzzer
+- Roller lever limit switch for iron-stand detection
+- Makita LXT 18–21V battery
+
+Main features:
+- Real-time soldering-tip temperature monitoring
+- Encoder temperature adjustment
+- ±5°C per encoder step
+- Quick temperature presets:
+300 / 330 / 360 / 390 / 420 / 450 / 480 / 500°C
+- Placing the iron on the stand immediately activates Sleep mode at 50°C
+- Lifting the iron restores the previous temperature setpoint
+- Sleep mode can be enabled or disabled in Settings
+- Audible confirmation beeps
+- Built-in Wi-Fi settings page
+- °C/°F selection
+- Display brightness adjustment
+- Buzzer settings
+- Temperature offset calibration
+
+Wi-Fi:
+SSID: KST-TramHan
+Password: kst123456
+Configuration page: 192.168.4.1
+
+The firmware is completely free for the Creative Channel community.
+
+========================
+COMPONENT LIST
+========================
+
+1. Japanese GOOT soldering tip
+https://s.shopee.vn/9V19K2UZrr
+
+2. GOOT soldering iron handle shell
+https://s.shopee.vn/9V19K5TITp
+
+3. ESP32-S3 DevKitC-1 N16R8 controller board
+https://s.shopee.vn/6fgxwFPnN4
+
+4. 1.47" ST7789 SPI TFT display, 172×320
+https://s.shopee.vn/6L47XbOEFn
+
+5. MAX31855 K-type thermocouple temperature sensor module
+https://s.shopee.vn/2gApCI0nBz
+
+6. EC11 rotary encoder module with push button
+https://s.shopee.vn/2VrOyeustZ
+
+7. IRLB8721 N-channel power MOSFET
+https://s.shopee.vn/3qMmZJyVq2
+
+8. Resistor kit
+Required:
+1 × 220Ω
+1 × 10kΩ
+https://s.shopee.vn/7AdEXHpFA7
+
+9. 5V active buzzer
+https://s.shopee.vn/LmuOnnST8
+
+10. DC-DC step-down converter, 7–28V input to 5V/3A output
+https://s.shopee.vn/50YjynDbfN
+
+11. Roller lever limit switch
+Used to detect when the soldering iron is placed on the stand
+https://s.shopee.vn/4LJ3BVLg9B
+
+12. GX12 4-pin male + female aviation connector
+https://s.shopee.vn/2LXymgW3WM
+
+13. 4-core 0.3mm heat-resistant silicone cable
+https://s.shopee.vn/7fZV8bjQdJ
+
+14. Makita LXT 18V battery contact terminal
+https://s.shopee.vn/20v8OL3ygs
+
+15. 12–24V push-type self-locking power switch
+https://s.shopee.vn/2gApBgknrc
+
+16. Male-to-female Dupont jumper wires
+https://s.shopee.vn/5AsAAMHjgM
+
+17. Aluminum heatsink for the IRLB8721 MOSFET - optional
+https://s.shopee.vn/9zxPvHlCSD
+
+18. 2-pin screw terminal block
+https://s.shopee.vn/4VcTNDnX7g
+
+19. 5×7cm double-sided perfboard PCB
+https://s.shopee.vn/8KpBwmUsjp
+
+20. JST XH2.54 connectors
+Required:
+1 × 8-pin
+1 × 5-pin
+1 × 4-pin
+https://s.shopee.vn/1VyrmWCgtd
+
+21. JST XH2.54 cables
+Required:
+1 × 8-pin double-ended cable
+1 × 5-pin double-ended cable
+1 × 4-pin single-ended cable
+https://s.shopee.vn/gPkmxsLNQ
+
+22. Higher-current 4-pin cable
+A 3S battery balance lead with thicker wire can also be used
+https://s.shopee.vn/3B75liATEU
+
+You will also need a suitable Makita LXT 18–21V battery, hookup wire, solder, heat-shrink tubing, and other small assembly materials.
+
+I hope you enjoy this project and build a great soldering station of your own.
+
+#GOOT #SolderingStation #ESP32S3 #ESP32 #Makita18V #MakitaLXT #MAX31855 #ST7789 #IRLB8721 #DIYElectronics #Soldering #3DPrinting #CreativeChannel #KST

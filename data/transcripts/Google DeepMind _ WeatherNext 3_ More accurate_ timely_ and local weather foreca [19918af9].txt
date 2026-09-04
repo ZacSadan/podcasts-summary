@@ -1,0 +1,32 @@
+Feed: Google DeepMind
+Episode: WeatherNext 3: More accurate, timely, and local weather forecasts
+Method: description
+Language: en
+Words: 204
+URL: https://www.youtube.com/watch?v=_6jZlnRsXXQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+WeatherNext 3: More accurate, timely, and local weather forecasts 
+
+Predicting the weather is one of the oldest, most complex challenges we face. Traditional numerical weather prediction models are powerful, but they can be slow to run and costly at a global scale. WeatherNext 3 takes a different approach. Built on a fundamentally different architecture, WeatherNext 3 learns directly from real-world observations, including live satellite feeds and ground-level weather station data.
+
+
+What makes WeatherNext 3 different?
+Hourly refresh: While traditional models typically refresh every six hours, WN3 produces a fresh forecast every single hour.
+Hyper-Local resolution: Native 5km resolution for temperature and humidity, enabling better detail for coastal regions, mountains, and urban areas.
+Actionable data: Includes variables like 100m wind speeds for wind energy management and detailed cloud/radiation metrics for solar energy planning.
+Global reach: Delivering high-resolution insights everywhere.
+You can now use WeatherNext 3 through Google Search, Gemini, Google Maps and more. 
+
+Learn more: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+Read the full paper: https://storage.googleapis.com/deepmind-media/papers/weathernext_3.pdf
+Disclaimer: For official weather forecasts, severe weather warnings, and public safety advisories, please refer to your local meteorological agency or national weather service.
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/

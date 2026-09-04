@@ -1,0 +1,30 @@
+Feed: The Patent Yogi
+Episode: EDM PRECISION CUTTING
+Method: description
+Language: en
+Words: 112
+URL: https://www.youtube.com/shorts/OytngquErNA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+How do these two pieces of metal fit together with such incredible precision?
+
+The secret is EDM—Electrical Discharge Machining.
+
+Instead of cutting metal with a blade, it uses controlled electrical sparks to remove tiny amounts of metal.
+
+A thin wire moves through deionized water, while those sparks cut the metal with extreme precision..
+
+PatentYogi Search Experts found a U.S. patent from 1999 describing a wire-cut EDM machine using a traveling wire electrode, workpiece, and dielectric fluid like deionized water.
+
+So the basic process? Not new.
+
+Based on this prior art, the viral invention is most likely not patentable.
+
+Final scores:
+Novelty: 2/10.
+Commercial Value: 8/10.
+Patentability: 2/10.
+
+Incredible precision—or an old technology?
