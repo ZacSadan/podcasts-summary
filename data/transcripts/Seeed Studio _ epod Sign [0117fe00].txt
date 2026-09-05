@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: epod Sign
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/watch?v=Q14jcQIcKss
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A diy version of the ipod 2001. But it comes edge impulse for preson and keyword recognition to control a menu: https://github.com/TheAfricanJiant/epod
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

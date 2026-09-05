@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: VERT (Versatile Eco-farming Robotic Technology)
+Method: description
+Language: en
+Words: 146
+URL: https://www.youtube.com/watch?v=oCtGXtEe35Y
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+V.E.R.T. (Versatile Eco-Farming Robotic Technology) is a smart, automated greenhouse system designed to make farming more efficient, sustainable, and accessible. It uses sensors, automation, and robotics to monitor key growing conditions such as temperature, humidity, soil moisture, and pH, then automatically responds when plants need attention. A connected web dashboard allows farmers to monitor and control their greenhouse remotely.
+
+V.E.R.T combines Seeed Studio hardware, IoT, and robotics to help farmers reduce resource waste, protect crops from unpredictable weather, and improve food production even in small spaces. https://github.com/princessshanelle/VERT
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

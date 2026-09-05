@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: ClockPulse menu/chameleon signage project
+Method: description
+Language: en
+Words: 197
+URL: https://www.youtube.com/watch?v=6PcHylcb9tY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+It is a two stage interactive signage project which will enhance restaurant aesthetic, provide a beautiful customer experience and attract more customers. The indoor signage provides an interactive device which lets users browse through the menu using hand gestures and able to order food. It uses the xiaoESP32S3 as the main microcontroller to control the tft screen and interfaced with seed studios gesture sensor as well as the e paper display to display the received orders. 
+
+Then the outdoor interactive signage is able to make individuals to take unique photos in front of a large colored e paper display. It is able to extract colors from a uses dresses and forms a unique artistic signage. The xiao ESP32C3 was used here alongside a pc and monitor( serving in the place of a large e paper color display) https://github.com/Fanka-Elvis/ClockPulse-menu-chameleon-signage-project-
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

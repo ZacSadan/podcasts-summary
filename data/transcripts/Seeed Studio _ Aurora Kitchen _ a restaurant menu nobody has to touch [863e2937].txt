@@ -1,0 +1,23 @@
+Feed: Seeed Studio
+Episode: Aurora Kitchen — a restaurant menu nobody has to touch
+Method: description
+Language: en
+Words: 285
+URL: https://www.youtube.com/watch?v=c3wlpjcuzns
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Aurora Kitchen is a restaurant menu you order from with hand gestures alone.
+
+A Seeed Grove Smart IR Gesture Sensor (PAJ7660) sits under the screen and reads the
+customer's hand from about 20 cm away. A Seeed XIAO ESP32-S3 turns those raw sensor frames into clean, debounced gesture events and sends them over WiFi to a Flask app driving the menu, the cart and a live kitchen board. Swipe to browse. Pinch to add. Push, and the order is in the kitchen with a pickup code. Hold an open palm and a help screen appears showing every gesture as a drawing.
+
+Paper menus are wrong the moment a dish sells out. Touchscreens are a surface every
+customer puts their hands on right before they eat. This is neither.
+
+It also means a customer who is Deaf or cannot speak orders exactly the way everyone else does. No pointing, no notepad, no waiting for a staff member to understand them. The whole interaction is visual from end to end, down to the pickup code on the kitchen screen that replaces a name being called across a room they cannot hear.
+
+Everything runs on the restaurant's own network. No cloud, no subscription, no internet connection required. Firmware, server, wiring and protocol spec are all open, along with a simulator that runs the whole system with no hardware attached.https://github.com/Matt-Klaus/aurora-kitchen
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. From AI-powered interactions to smarter displays and playful physical experiences, every project starts with one simple challenge: How can a small sign create a better restaurant experience? Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026
