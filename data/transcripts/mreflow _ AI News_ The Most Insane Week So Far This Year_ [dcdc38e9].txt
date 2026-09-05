@@ -1,0 +1,69 @@
+Feed: mreflow
+Episode: AI News: The Most Insane Week So Far This Year!
+Method: description
+Language: en
+Words: 215
+URL: https://www.youtube.com/watch?v=GfPZm9yucQo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you probably missed this week. Try AI Flows with Artlist Unlimited here 👉 https://artlist.io/
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+GPT-6 Astra: https://openai.com/index/gpt-6-astra/
+Claude Fable and Mythos 5.1: https://www.anthropic.com/claude-fable-and-mythos-5-1
+Gemini 3.8 Flash: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+Muse Spark 1.3: https://research.meta.ai/blog/introducing-muse-spark-1-3
+Multiple Accounts In Codex: https://x.com/gabrielchua/status/2093228185823687134
+Voice In Google Workspace: https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/
+FastH3 Video Model: https://x.com/haoailab/status/2093391548289540596
+Interactive AI Livestreams: https://x.com/fal/status/2094286082275696880
+Atlas World Model: https://www.worldlabs.ai/blog/atlas
+Runway Introduces Solaris: https://runway.com/news/research/introducing-solaris
+OpenClaw 2.0: https://openclaw.ai/blog/openclaw-2-accidentally
+Muse Voice Transcribe: https://research.meta.ai/blog/introducing-muse-voice-transcribe
+MAI-Transcribe-2 Speech Model: https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/
+NVIDIA Acquires Hugging Face: https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/
+ChatGPT Chats In Court: https://www.techspot.com/news/113667-chatgpt-conversations-could-end-up-court-theyre-not.html
+NYC School AI Moratorium: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat
+Dyson Introduces Camerajet: https://www.dyson.com/discover/news/latest/introducing-camerajet
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+1:30 Claude Fable 5.1
+4:04 Gemini 3.8 Flash
+7:04 Artlist AI Flows
+8:02 Muse Spark 1.3
+11:00 GPT-6 Astra
+13:09 Megabonk Comparisons
+17:18 ChatGPT Multiple Accounts
+17:46 Google Voice in Gmail Etc
+18:46 Real-Time AI Video
+20:43 World Labs Atlas
+22:47 Runway Solaris
+23:52 OpenClaw 2.0
+24:21 Muse Voice Transcribe
+24:43 MAI-Transcribe-2
+25:00 Nvidia Acquires Hugging Face
+26:34 ChatGPT Unprotected
+26:56 NYC Bans AI in Schools
+27:43 AI Toothbrush
+28:46 Final Thoughts
+30:26 WTF?

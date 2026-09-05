@@ -1,0 +1,19 @@
+Feed: Y Combinator
+Episode: Hard Tech Startups Are Built One Milestone at a Time
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/shorts/knW0YgE-Wd8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+At Heart Aerospace, Anders Forslund built the company one material milestone at a time, using each one to earn the credibility and capital to build the next.
+
+“We really had no technology. I came to YC Demo Day with a little 3D-printed model.”
+
+“We went from having the LOIs to building the 400-kilowatt motor, which was the size of a small jet engine. That in turn attracted actual pre-orders, and then that attracted more capital.”
+
+Their first major airline customer came through the spam folder.
+
+“United Airlines came through an inbound email through our info email... we showed them the electric motor we built, and they kind of immediately got it.”
