@@ -1,0 +1,17 @@
+Feed: Y Combinator
+Episode: Paul Graham on what motivates founders
+Method: description
+Language: en
+Words: 93
+URL: https://www.youtube.com/shorts/Wxq7ZIEodJg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Paul Graham on what drives founders through the hard parts:
+
+“Being dutiful is not enough. The obstacles are too fearsome for mere dutifulness.”
+
+“You know what actually motivates founders day to day? The fear of failure.”
+
+“If your server’s crashing, you’re not thinking, ‘I got to deal with this because if I deal with it, I’ll become a billionaire.’ You’re thinking, ‘Oh no, the server’s crashing. It will be a disaster. The engine of my model train set is falling off the edge of the table. I need to go and save it.’”
