@@ -1,0 +1,76 @@
+Feed: Veritasium en Français
+Episode: Comment fabrique-t-on de l'antimatière ?
+Method: description
+Language: en
+Words: 599
+URL: https://www.youtube.com/watch?v=LjroiBkuM2c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+L’usine qui fabrique la substance la plus volatile au monde. Sponsorisé par SoFi - Rejoignez SoFi Plus dès aujourd’hui et profitez davantage de votre argent ! Rendez-vous sur https://sofi.com/veritasium
+
+Si vous cherchez un kit de modélisation moléculaire, essayez Snatoms, un kit que j’ai inventé où les atomes s’assemblent magnétiquement - https://ve42.co/SnatomsV
+
+Inscrivez-vous à la lettre d’information Veritasium pour recevoir chaque semaine des actualités scientifiques - https://ve42.co/Newsletter
+
+▀▀▀
+0:00 Le problème du stockage de l’antimatière
+2:18 Qu’est-ce que l’annihilation de particules ?
+6:13 L’asymétrie matière-antimatière
+12:44 La symétrie CPT
+16:28 L’expérience de Wu
+22:13 L’usine d’antimatière
+25:35 Comment fabriquer de l’antimatière
+32:05 Comment stocker l’antimatière ?
+33:55 Création d’anti-atomes
+44:44 L’antimatière tombe-t-elle vers le haut ou vers le bas ?
+50:18 Le piège à antimatière portable
+53:34 Bombes à antimatière
+
+▀▀▀
+Simulateur d’antimatière :
+Pour préserver nos serveurs, essayez de le télécharger d’abord ici - https://ve42.co/TotalAnnihilatorDWNLD
+Mais vous pouvez aussi l’utiliser sur notre site web - https://ve42.co/TotalAnnihilator
+Bonne annihilation !
+
+▀▀▀
+Un sincère merci à ceux qui nous ont aidés à comprendre et à vérifier différents aspects de ce sujet — Prof. David I Kaiser, Prof. Chris Parkes, Prof. Matt Strassler, Prof. Yuval Grossman, Prof. Stephen Barr.
+Un immense merci également à l’équipe du CERN qui nous a fait découvrir l’installation d’antimatière et a contribué à cette vidéo — Dr Ruggero Caravita, Prof. Patrice Pérez, Prof. Stefan Ulmer.
+À Dr Piotr Traczyk du CERN — Merci de nous avoir donné accès aux modèles 3D utilisés tout au long de ce documentaire et pour votre expertise.
+
+▀▀▀
+Références : https://ve42.co/AntimatterRefs
+
+▀▀▀
+Remerciements particuliers à nos soutiens sur Patreon : Adam Foreman, Albert Wenger, Alex Porter, Alexander Tamas, André Powell, Anton Ragin, armedtoe, Balkrishna Heroor, Bertrand Serlet, Blake Byers, Bruce, Charles Ian Norman Venn, Chris Brewer, Daniel Martins, Data Don, Dave Kircher, David Johnston, David Tseng, EJ Alexandra, Evgeny Skvortsov, Garrett Mueller, Gnare, gpoly, Hayden Christensen, Hong Thai Le, Ibby Hadeed, Jeromy Johnson, Jesse Brandsoy, Jose Garcia Soria, Juan Benet, Kelcey Steele, KeyWestr, Kyi, Lee Redden, Marinus Kuivenhoven, Mark Heising, Martin Paull, Meekay, meg noah, Michael Krugman, Orlando Bassotto, Parsee Health, Paul Peijzel, Richard Sundvall, Robson, Sam Lutfi, Shalva Bukia, Sinan Taifour, Tj Steyn, Ubiquity Ventures, Vahe Andonians, William, wolfee
+
+▀▀▀
+Auteurs : Lily Shepherd, Casper Mebius & Derek Muller
+Producteurs et réalisateurs : Lily Shepherd & Casper Mebius
+Présentateur : Casper Mebius
+Monteurs : Spencer Wright, Jack Saxon, Peter Nelson et Trenton Oliver
+Animateurs : Emma Wright, Fabio Albertelli, Andrew Neet, Alex Drakoulis & Damonkos Jozsa
+Illustrateurs : Jakub Misiek & Maria Gusakovich
+Écriture additionnelle : Sophia Rose
+Assistant monteur & designer sonore : James Stuart
+Chercheurs : Sophia Rose, Gabe Strong, Naomi Dinmore, Darius Garewal & Callum Cuttle
+Simulations : Sophia Rose et Jakub Misiek
+Opérateurs caméra : Jonathan Moy de Vitry, Lily Shepherd, Naomi Dinmore & Casper Mebius
+Créateurs de la miniature : Abdallah Ranah, Ren Hurley & Ben Powell
+Équipe de production : Jess Bishop-Laggett, Matthew Cavanagh, Anna Milkovik, Katy Southwood & Josh Pitt
+Producteurs exécutifs : Derek Muller, Casper Mebius & Gregor Cavlovic
+
+Vidéos/photos supplémentaires fournies par Getty Images & Storyblocks
+Musique d’Epidemic Sound
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Introduction à l'antimatière et ses mystères
+2:32 - Origines et théorie de l'antimatière
+7:50 - Asymétrie matière-antimatière et symétrie CPT
+16:43 - Expériences historiques sur la parité et la symétrie CP
+22:27 - Visite et fonctionnement de l'usine d'antimatière
+28:40 - Production et manipulation de l'antihydrogène
+40:54 - Études sur la gravité et la précision des mesures
+49:07 - Applications, limites et conclusion sur l'antimatière
