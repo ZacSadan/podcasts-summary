@@ -1,0 +1,13 @@
+Feed: DEFCONConference
+Episode: DEF CON SG1 - CSIT Village -   Ernest Ang - From Chrome Renderer, To Mouse To System
+Method: description
+Language: en
+Words: 99
+URL: https://www.youtube.com/watch?v=u-AmlDm-pNE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+You click on a link. A download prompt appears. Your mouse suddenly seems to take on a life of its own and clicks the pop-up. Before you know it, your Windows machine belongs to me.
+
+This session breaks down an amusing and far-fetched (yet entirely technical) exploit chain, starting from the highly restrictive Chromium renderer process and escalating to kernel-level privileges by chaining and abusing three vulnerabilities: CVE-2024-5274, CVE-2024-11114, and CVE-2025-29824. I will be sharing my learnings, laughs and grief while venturing into V8, Mojo, CLFS and everything in between (i.e. Ubercage, kCFG) while attempting to make this work.

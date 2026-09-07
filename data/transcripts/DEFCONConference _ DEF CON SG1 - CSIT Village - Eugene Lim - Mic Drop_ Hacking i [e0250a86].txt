@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DEF CON SG1 - CSIT Village - Eugene Lim - Mic Drop: Hacking into Enterprise Audiovisual Hardware
+Method: description
+Language: en
+Words: 52
+URL: https://www.youtube.com/watch?v=-Rkh47bu-lc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Audiovisual hardware - from web conferencing cameras to meeting room systems - is deeply embedded in modern enterprises' physical attack surface. However, they are often poorly secured and monitored. This presentation dives into real and novel vulnerabilities discovered in enterprise-grade equipment, and walks through the risks they can pose to any organisation.
