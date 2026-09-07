@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: August Ranger Training Session 7: Open Datalogger for Interspecies
+Method: description
+Language: en
+Words: 143
+URL: https://www.youtube.com/watch?v=F08wFn0K8lo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this Ranger Training session, we explored Open Datalogger for Interspecies — how open hardware, sensing technologies, connectivity, and AI can work together to help us better observe and understand the living world around us. Our Solution Team shared practical ideas for building scalable data-collection systems, from environmental sensing and edge devices to real-world field deployment.
+The discussion also went beyond hardware, touching on topics such as live data streaming, cameras, LoRa and mesh networking, remote monitoring, and the trade-offs between connectivity, power consumption, and cost. It was a great conversation with Rangers and makers from different backgrounds, bringing together technology, nature, and community-driven experimentation. If you're interested in IoT, conservation technology, field sensing, or interspecies applications, we hope this session offers useful ideas and inspiration.
+Not a Ranger yet but eager to learn with us? Let’s keep learning and building together. https://www.seeedstudio.com/ranger-program
