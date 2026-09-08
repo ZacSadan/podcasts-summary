@@ -1,0 +1,22 @@
+Feed: Israeli Tech Radar
+Episode: למה AI צריך רתמה | איתן מסוארי, Israeli Tech Radar 2026-27
+Method: description
+Language: he
+Words: 118
+URL: https://www.youtube.com/shorts/bMX1yvCebuc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+היום כמעט כל מפתח עובד עם AI, אבל לרוב כל אחד עושה את זה קצת אחרת.
+זה מהיר, זה עובד, וזה גם יוצר סיכון שקשה לראות מראש.
+איתן מסוארי, Head of Tech ב Tikal, מדבר בהרצאה שלו על הפער הזה.
+מבחינתו הבעיה היא לא היכולת של הכלים, אלא היעדר המסגרת סביבם.
+כאן נכנס Harness Engineering: בניית השכבות סביב המודלים וה Agents שכבר נמצאים בתהליך הפיתוח, בדיוק כמו שהיינו בונים סביב כל מערכת אחרת,
+כדי שהמהירות שהם מביאים לא תבוא על חשבון היציבות של המוצר.
+לא כדי להאט את העבודה, אלא כדי שאפשר יהיה לסמוך עליה גם בעוד שנה.
+
+🎥 רוצים לשמוע עוד?
+צפו בהרצאה המלאה:
+Israeli Tech Radar 2026-27 Launch for Israeli Engineering Leaders Forum 10/6/2026 (Hebrew)
+https://tkl.to/tikal-radar-2026-27-launch
