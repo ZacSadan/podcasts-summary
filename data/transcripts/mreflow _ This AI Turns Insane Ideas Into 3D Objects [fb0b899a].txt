@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: This AI Turns Insane Ideas Into 3D Objects
+Method: description
+Language: en
+Words: 70
+URL: https://www.youtube.com/shorts/tqUEnRj0NbM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This was just a picture… and now it’s a 3D-printable object. 
+
+A new AI model called Tripo 2.0 can take almost any image and turn it into a full 3D model you can export to Blender, Unreal Engine, or a 3D printer.
+
+The possibilities are wild: custom game characters, collectibles, animation assets, product prototypes, or literally anything you can imagine.
+
+What would you create with it?
+
+#ai #ainews #3dmodels #futuretech

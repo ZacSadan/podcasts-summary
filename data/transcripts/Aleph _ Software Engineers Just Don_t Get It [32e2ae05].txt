@@ -1,0 +1,16 @@
+Feed: Aleph
+Episode: Software Engineers Just Don't Get It
+Method: description
+Language: en
+Words: 129
+URL: https://www.youtube.com/shorts/zYgHTIYpuFY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+You can't 10x a chip company's velocity the way you can a software startup. The atoms don't move faster.
+Elad Raz breaks down why: nine months are locked in manufacturing at TSMC before you see a single wafer. The design phase has its own hard constraints — verification, analog layout, place and route — all dominated by a small number of EDA tool vendors (Synopsys, Cadence, Mentor) who have no incentive to disrupt themselves. And a single mistake costs $50–$150 million to fix.
+AI can improve what happens inside that design window. It cannot compress the physics of fabrication.
+🔔 Subscribe for unfiltered takes on the realities of building hardware at the frontier.
+Watch the full episode → https://bit.ly/3R4FAck 
+#Semiconductors #TSMC #ChipFabrication #EDA #Synopsys #NextSilicon #HardwareStartup #EladRaz #DeepTech #Invested
