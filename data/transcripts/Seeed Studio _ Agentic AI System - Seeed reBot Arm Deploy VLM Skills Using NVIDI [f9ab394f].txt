@@ -1,0 +1,22 @@
+Feed: Seeed Studio
+Episode: Agentic AI System - Seeed reBot Arm Deploy VLM Skills Using NVIDIA Cosmos3-Edge
+Method: description
+Language: en
+Words: 148
+URL: https://www.youtube.com/watch?v=4KGRLdLLSM8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+From Natural Language to Physical Action, we built reBot arm with 21 native VLM Action skills! Read more: https://www.seeedstudio.com/blog/2026/08/20/building-an-agentic-physical-ai-system-with-rebot-b601-and-vlm-skills-using-cosmos3-edge/
+Explore the open-source reBot arm at Seeed Studio: https://www.seeedstudio.com/reBot-Arm-B601-RS-Assembled-Kit-with-Gripper-p-6865.html
+
+At WRC 2026 (World Robot Conference), Seeed is showcasing reBot B601-RS arm × VLM Skills, turning a robotic arm into an agentic Physical AI system.
+Instead of following predefined programs, the VLM can dynamically:
+Perceive → Reason → Plan → Act → Observe → Recover
+
+Powered by NVIDIA Cosmos 3-Edge and 21 native Action Skills, reBot arm can adapt to real-world changes, recover from failures, and execute tasks through continuous closed-loop interaction.
+
+The project was developed by Seeed team Wenhan Fan, YaoHui Zhu, youjiang yu, Junjie Liu, Vector Li, and Elaine Wu; together with NVIDIA team Asier Arranz, Johnny Núñez Cano, Minto Zheng, and Abhilash Somasamudramath. Appreciate everyone's great effort and contribution!❤️
+
+From scripted robots to adaptive Physical AI endpoints.🦾🦾
