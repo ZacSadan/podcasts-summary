@@ -1,0 +1,21 @@
+Feed: Liam Ottley
+Episode: The End Is Near for Claude Code AI Operating Systems...
+Method: description
+Language: en
+Words: 170
+URL: https://www.youtube.com/watch?v=T2v2pf_uypE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get Kylon for your own business, first month FREE ($100 value), sign up through: https://app.kylon.io/c/p_rPCmMI32cB6JrauRRYrJIRujz5Iz30
+
+To deploy Kylon for clients, book a call: https://cal.com/team/kylon/meet-kylon
+
+Want an AI Makeover for YOUR Business?
+👉🏻 https://bit.ly/aimakeover 
+
+Follow me on Instagram to see behind the scenes:
+🤳🏻 https://www.instagram.com/liamottley 
+
+In this video, Liam Ottley breaks down why he's moving away from custom Claude Code AI operating systems for client installs, after building AIOS setups for four businesses on-site and running group sessions with founders in Cape Town, Bali and Montenegro. He explains what an AI operating system actually is, why the setup time, founder training and agent hosting make it hard to hand off, and then walks through Kylon, the platform he's using instead: Slack for your team, n8n for your agents, and a Lovable-style app builder on one shared database. If you're an AI agency owner, an AI automation agency operator, or a founder trying to automate your business with AI agents without hiring a developer, this is how the AIOS install is changing.

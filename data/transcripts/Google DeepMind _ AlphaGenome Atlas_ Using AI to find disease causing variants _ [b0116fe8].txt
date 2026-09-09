@@ -1,0 +1,17 @@
+Feed: Google DeepMind
+Episode: AlphaGenome Atlas: Using AI to find disease causing variants 🧬
+Method: description
+Language: en
+Words: 72
+URL: https://www.youtube.com/shorts/ya04CpsRJH0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+How do you find a single typo in a person's DNA that causes a rare disease? It is like finding a needle in a 9-billion-piece haystack.
+
+Enter AlphaGenome Atlas: a new AI-powered database charting the molecular impact of every possible genetic variant.
+
+Scientists are already using it to look into unsolved rare diseases, map rare mutations linked to complex traits, and more.
+
+🔗 Find out how by tapping the link → https://goo.gle/4ihF2LZ

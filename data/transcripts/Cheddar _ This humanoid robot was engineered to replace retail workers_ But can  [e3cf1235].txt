@@ -1,0 +1,15 @@
+Feed: Cheddar
+Episode: This humanoid robot was engineered to replace retail workers. But can it actually do it?
+Method: description
+Language: en
+Words: 74
+URL: https://www.youtube.com/shorts/uSFeehN3V8w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+At IFA 2026, the world’s largest consumer electronics and future tech event, AiMOGA (Chery Auto’s robotics division) unveiled Mornine, a 5’4” (1.67-meter) humanoid robot engineered for customer reception, retail support, and showroom demonstrations.
+
+While the specs are impressive: 40 degrees of freedom, 3D LiDAR, autonomous navigation, multilingual support. Yet as Mornine debuts at IFA 2026, the real question remains: Can a robot truly replace human interaction in the workplace?
+
+(Video by IG official_cybernews khanflicks)

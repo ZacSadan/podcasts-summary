@@ -1,0 +1,19 @@
+Feed: DARPAtv
+Episode: Heimdall
+Method: description
+Language: en
+Words: 99
+URL: https://www.youtube.com/watch?v=88YM7PCrEQg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The Heimdall program looks to leverage advancements in machine learning to aid or automate targeting activities that are currently performed manually.
+
+Accurately aiming at a potential target in the water from a moving ship is an extremely challenging task.
+
+The software developed in Heimdall will automatically maintain gun system targeting in a dynamic environment.
+
+Originally conceptualized for the Navy to track fast-moving maritime surface threats like small boats or torpedoes, the software's flexibility has allowed it to be tested by the U.S. Army on turret-mounted ground systems like CROWS (Common Remotely Operated Weapon Station) to engage small drones
+
+https://www.darpa.mil/research/programs/heimdall

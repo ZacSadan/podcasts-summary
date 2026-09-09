@@ -1,0 +1,26 @@
+Feed: Google DeepMind
+Episode: AlphaGenome Atlas: Understanding the human genome
+Method: description
+Language: en
+Words: 137
+URL: https://www.youtube.com/watch?v=U0aToL5C-bQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+We’ve used AlphaGenome to predict the molecular impact of every possible single-letter change in the human genome. All nine billion of them.
+
+AlphaGenome Atlas is a 1PB dataset containing every single possible nucleotide variant alongside an AlphaGenome Variant Impact (AVI) score. This score helps researchers instantly understand the potential impact of any given variation.
+
+AlphaGenome Atlas is available to researchers around the world, with coding and non-coding variations available. 
+
+Learn more: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome
+
+Disclaimer: The information provided by AlphaGenome Atlas is not intended to be a substitute for professional medical advice, diagnosis, or treatment, and does not constitute medical or other professional advice. AlphaGenome has not been validated for, and is not approved for, any clinical use.
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind 
+Find us on X https://x.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind 
+Add us on Linkedin https://www.linkedin.com/company/deepmind/

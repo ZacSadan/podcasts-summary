@@ -1,0 +1,68 @@
+Feed: Greg Isenberg
+Episode: I'm Obsessed With Local AI. Here's Why
+Method: description
+Language: en
+Words: 803
+URL: https://www.youtube.com/watch?v=UtFo1ZNC2ns
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I run this episode solo. I explain local AI in plain terms: the model runs on hardware I control, and a cloud model runs somewhere else. I map the four pieces of the local AI landscape — the model, the warehouse, the software, and the workflow — and I define the words that beginners meet first: parameters, tokens, context window, quantization, and GGUF. I walk through the Google open model stack (Gemma 4, Google AI Edge, LiteRT-LM, AI Edge Gallery), compare the other open model families, and show three ways to run a model today. I close with a first workflow you can copy and three startup ideas that use local AI as the wedge.
+
+And a special thank you to Google for supporting the podcast. 
+
+Get the full guide to running local AI: https://startup-ideas-pod.link/local-ai
+
+
+Timestamps
+
+00:00 – Intro
+01:35 – The Open Model the Landscape
+03:09 – Vocab Decoder
+06:48 – Google Gemma Clearly Explained
+10:29 – Other Open Model Families
+14:20 – Path 1: Run Gemma in LM Studio
+18:17 – Path 2: Ollama
+20:15 – Path 3: Google AI Edge
+21:07 – Hardware Cheat Sheet
+21:52 – First Workflow to Build
+22:47 – Workflows Before Fine-Tuning
+25:06 – Local vs Cloud vs Hybrid Eval
+26:33 – Framework for Local AI Startup Ideas
+27:22 – Startup Idea 1: Home Health QA Reviewer
+29:24 – Startup Idea 2: Offline Field Report Copilot
+32:10 – Startup Idea 3: Pre-Send Reviewer for Professional Services
+34:47 – Build Your Local AI Lab
+37:55 – Closing Thoughts
+
+Key Points
+
+• Ask whether the model is good enough for the job, and the business opportunities become clear.
+• Local AI has four pieces: the model, the warehouse (Hugging Face), the software (LM Studio or Ollama), and the workflow you build around them.
+• Gemma 4 E4B is my practical starting point; E2B fits phones and older machines.
+• Hybrid architecture wins: local does the private first pass, cloud does the heavy reasoning, and a human approves anything important.
+• Start with one repeated workflow — one folder, one model, one output — and run it 10 times.
+• I see a 24-month window to build local-AI-native software for verticals that still run early-2000s tools.
+
+Numbered Section Summaries
+
+1. The Four Pieces of the Local AI Landscape I break the space into the model (the brain file, such as Gemma, Llama, or Mistral), the warehouse (Hugging Face), the software that runs the model (LM Studio or Ollama), and the workflow (the product around all of it). Underneath the tools sit Llama.cpp and MLX, and for shipping on-device apps in the Google ecosystem you reach Google AI Edge and LiteRT-LM. On Hugging Face I read a model card slowly and look for six things: purpose, size, license, hardware, supported inputs, and quantized files.
+
+2. The Vocabulary That Matters I define parameters as the internal weights, where more parameters give more capacity and cost more memory: 2B and 4B for edge devices and fast workflows, 12B as a middle ground, and 26B or 31B for workstation territory. I define tokens, the context window, quantization (Q4 for easier running, Q8 for more quality), and GGUF as the common local file format. I suggest you start on a phone or a spare 2021 laptop and keep your money for later.
+
+3. The Google Open Model Stack Gemma is Google's open model family, and Gemma 4 targets efficient local and on-device use across E2B, E4B, 12B, and 26B/31B. The specialized models deserve attention: EmbeddingGemma for search by meaning, FunctionGemma for tool use and structured function calling, PaliGemma for vision, ShieldGemma for safety, and Gemma Scope for interpretability. Around the models sit Google AI Edge, LiteRT-LM, AI Edge Gallery, and Gemini plus Google Cloud for frontier-level reasoning.
+
+4. Three Ways to Run Gemma Today Path one is LM Studio: download the app, search for Gemma 4, pick E4B or E2B, grab the quantized GGUF, and paste real customer notes into a chat to feel the value. Then start the LM Studio local server so your scripts and prototypes call the model through localhost. Path two is Ollama with a local API on port 11434, and path three is Google AI Edge with LiteRT-LM for Android, iOS, web, desktop, and edge apps. I also give a RAM cheat sheet: 8 GB stays small, 16 GB runs useful experiments, 32 GB opens larger workflows, and a strong GPU makes the bigger models realistic.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
