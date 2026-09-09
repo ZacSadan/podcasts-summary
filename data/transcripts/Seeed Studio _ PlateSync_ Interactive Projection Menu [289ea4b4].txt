@@ -1,0 +1,15 @@
+Feed: Seeed Studio
+Episode: PlateSync: Interactive Projection Menu
+Method: description
+Language: en
+Words: 163
+URL: https://www.youtube.com/watch?v=Sl5KmE67-88
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+PlateSync reimagines restaurant menus by transforming dining tables into context-aware, touchless spatial signage. Using an overhead camera and projection system, the device detects when a dining plate is placed on the table, automatically scaling and aligning high-definition dish visuals to the physical rim of the plate. Customers browse menu categories and confirm orders without the hassle touching the display and getting unclean hands using horizontal hand gestures above the table surface, eliminating the clutter of printed paper. 
+
+The system leverages the Seeed Studio Grove Vision AI Module V2 (XIAO ecosystem) as an intelligent edge-vision co-processor. The Seeed vision hardware processes live camera frames at the edge to detect plate geometry and extract real-time gesture motion vectors, offloading computational overhead and enabling low-latency, modular projection signage suited for scalable restaurant deployment. https://www.hackster.io/george-toms/platesync-interactive-projection-menu-a3619d
+
+This project is part of Seeed Studio’s Interactive Signage Contest 2026, where makers around the world are reimagining what a sign can do. Explore more projects and ideas from the contest: https://www.seeedstudio.com/make-a-sign-interactive-signage-contest-2026

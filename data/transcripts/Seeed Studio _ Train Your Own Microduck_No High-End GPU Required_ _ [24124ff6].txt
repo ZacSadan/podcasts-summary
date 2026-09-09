@@ -1,0 +1,13 @@
+Feed: Seeed Studio
+Episode: Train Your Own Microduck—No High-End GPU Required! 🐥
+Method: description
+Language: en
+Words: 67
+URL: https://www.youtube.com/watch?v=3j07yMSlhJk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+You don’t need a high-end GPU to train a Microduck—even your laptop can do it! In this video, we’ll start from scratch, set up the environment step by step, and walk you through how to train the cutest Microduck! Tutorial at: https://seeedstudio.feishu.cn/wiki/R9NPw2uIZi1svSk8rBScNgLXn1d
+
+Microduck is jointly designed and developed by Hugging Face and Pollen Robotics, with Seeed Studio in Shenzhen supporting agile manufacturing, engineering, and production at scale.

@@ -1,0 +1,11 @@
+Feed: Check Point
+Episode: Application Security for the AI Era | Check Point WAF Series Intro
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/watch?v=PO7cH0xAHyQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI is changing how attackers operate, and how businesses need to defend themselves. In this introduction to our Check Point Application Security series, we break down the modern threat landscape and preview what's ahead: web application security, API security, GenAI security, and the platform capabilities that keep your business running. Learn more at https://www.checkpoint.com/cloudguard/waf/
