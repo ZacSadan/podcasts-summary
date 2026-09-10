@@ -1,0 +1,13 @@
+Feed: Check Point
+Episode: Protecting AI Chatbots from Prompt Injection & Data Leakage | Check Point WAF
+Method: description
+Language: en
+Words: 55
+URL: https://www.youtube.com/watch?v=rPi14iIoQvc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Every business is shipping AI right now, and most haven't secured it. This video shows a real data leakage attack against an unprotected chatbot, then the same attack against one protected by Check Point. See how prompt injection prevention, data leakage prevention, and content control work together to secure GenAI applications. 
+
+Learn more at https://www.checkpoint.com/cloudguard/waf/

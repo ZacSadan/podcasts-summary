@@ -1,0 +1,21 @@
+Feed: mreflow
+Episode: This AI Makes Any Photo 3D
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/shorts/iSXeiUXiln8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+World Labs’ new Atlas model can reconstruct an entire 3D environment from just one photo, then let you control the camera and explore it from completely new angles.
+
+What you're seeing IS NOT an AI video, it’s an entire fully explorable world.
+
+You can also give it multiple images and it can combine them into one larger, navigable scene.
+
+What would you build with this?
+
+And follow for more of the coolest AI and tech breakthroughs.
+
+#ai #ainews #3d #genAI #futuretech

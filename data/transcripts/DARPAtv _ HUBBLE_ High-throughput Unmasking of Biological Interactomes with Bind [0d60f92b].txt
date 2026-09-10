@@ -1,0 +1,21 @@
+Feed: DARPAtv
+Episode: HUBBLE: High-throughput Unmasking of Biological Interactomes with Binding Landscape Emulators
+Method: description
+Language: en
+Words: 216
+URL: https://www.youtube.com/watch?v=Q4uu06tq7Dk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Modern science has largely solved how individual proteins fold, though a much larger challenge remains: understanding how they interact. Proteins do not function in isolation; they constantly bind, signal, and partner with one another to drive every biological process in the human body. 
+
+ Mapping these interactions is a significant challenge. The sheer number of potential pairings grows exponentially with every protein involved, creating a search space so vast that traditional laboratory testing would take thousands of years to complete. Furthermore, current tools are biased; they capture stable, long-lasting protein bonds, but miss the fleeting, temporary "handshakes" that dictate real-time biological responses to stress, illness, or injury. 
+
+To bypass these massive time and resource barriers, DARPA has launched the High-throughput Unmasking of Biological Interactomes with Binding Landscape Emulators (HUBBLE) program. HUBBLE is developing revolutionary, physics-informed computational models to map protein-protein interactions at an unprecedented scale. 
+
+Instead of simulating every single atom in a slow, brute-force supercomputer calculation, HUBBLE will identify the simplified physical rules – the diffusive binding landscapes that govern how proteins find and connect with one another. This approach will allow researchers to predict how proteins behave in real-time, shrinking simulation times by a factor of 10 million. The goal is to generate a dynamic, context-aware catalog of over 100 million protein interactions. 
+
+https://www.darpa.mil/research/programs/hubble?utm_source=youtube&utm_medium=social&utm_campaign=hubble&utm_term=program-video
+
+#darpa
