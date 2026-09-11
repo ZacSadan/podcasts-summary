@@ -1,0 +1,42 @@
+Feed: mreflow
+Episode: Trying To Solve The Biggest AI Problem
+Method: description
+Language: en
+Words: 132
+URL: https://www.youtube.com/watch?v=-KcHn0QcSb0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI video is getting REALLY hard to spot… So I tried to build a tool that could detect it for me. Want to run it yourself? Here's the GitHub link: https://github.com/mreflow/ai-slop-detector
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+https://github.com/mreflow/ai-slop-detector
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+00:00 AI Slop Is Everywhere
+01:16 Can We Actually Detect It?
+02:44 Building The AI Slop Detector
+04:46 Well… It Doesn’t Work
+06:34 8 Hours Later
+08:38 Testing A Real AI Detector
+10:09 Finally Getting It Working
+15:42 This Gets Expensive FAST
+16:49 So… Is This Really AGI?
+18:49 The Final Result
