@@ -1,0 +1,34 @@
+Feed: Siraj Raval
+Episode: ChatGPT vs Claude: I Made Them Build the Same Pitch Deck
+Method: description
+Language: en
+Words: 201
+URL: https://www.youtube.com/watch?v=OVUx1f8Q5QM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Try Gamma's Connectors for ChatGPT and Claude (free): https://gamma.1stcollab.com/sirajraval_yt
+This video contains a paid integration by Gamma. #GammaPartner
+
+I had a real pitch due on Friday, so I made ChatGPT and Claude compete for the job: same task, same deadline, and one rule, I was not allowed to leave the chat window. Gamma's new Connectors turn the conversation itself into a finished deck. One of them made me a ten slide deck in under two minutes. The other one kept the deck alive while I changed my mind.
+
+What's in the video:
+0:00 A real pitch, one rule
+0:33 Gamma shipped Connectors for ChatGPT and Claude
+0:54 Round one: ChatGPT builds the deck (40 second setup)
+1:57 Round two: Claude thinks out loud and the deck updates with me
+2:42 Pulling real data from Gmail, Notion and Slack into slides
+3:00 Who wins, and why that is the wrong question
+3:31 Full honesty: I checked every slide
+3:58 Three things I built while making this: a content calendar, a campaign launch plan, a client one pager
+4:43 Try it, link above
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval

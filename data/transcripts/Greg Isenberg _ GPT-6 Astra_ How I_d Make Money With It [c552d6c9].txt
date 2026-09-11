@@ -1,0 +1,63 @@
+Feed: Greg Isenberg
+Episode: GPT-6 Astra: How I’d Make Money With It
+Method: description
+Language: en
+Words: 730
+URL: https://www.youtube.com/watch?v=nglqTHwuZ-8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I talk with Ras Mic about GPT-6 Astra. We skip the game demos and the 3D toys, and we focus on use cases to earn money or improve products. I share 9 Astra prompts that I posted publicly, and Greg Brockman reposted. Ras then shows his hardware project: he moved from a speaker idea to a parts list, a Blender layout, and merged code in about 30 minutes. The takeaway is simple: use this model for the ideas that felt too large for you last year.
+
+Timestamps
+
+00:00 – Intro
+01:53 – Astra Overview
+04:14 – 9 Astra Prompts
+11:48 – Jarvis Speaker Idea
+16:21 – Think Bigger with Astra
+18:29 – Vibe Coding to Vibe Manufacturing
+21:16 – Closing Thoughts
+
+Key Points
+
+• Astra costs more per task, and it uses fewer steps, so the value per dollar stays high.
+• A performance audit moved one of Ras’s apps from 800 ms to 20–30 ms.
+• A security audit on his live payments app found real risks in production.
+• Ras went from a speaker idea to a $561 parts order and a merged pull request in about 30 minutes.
+• Ras’s point: intelligence keeps climbing, and bravery stays flat. Ask for bigger things.
+• The shift that vibe coding brought to software now reaches physical products.
+
+Numbered Section Summaries
+
+1. Why This Review Skips the Demos Ras opens with the reason for this format. The viral Astra clips show games and 3D scenes, and those stay fun to watch. We spend the episode on work that pays: better code, better products, and new businesses.
+
+2. Price, Speed, and Two Audits Astra sits at OpenAI's top price and matches Fable. A Codex subscription covers most of that cost today, and the model finishes tasks in fewer steps. Ras recommends two prompts for any live app: a full performance review, and a security audit.
+
+3. Reference Images and Computer Use Ras gets his best UI results when he gives Astra a reference image, and he used the old Microsoft XP network icon for one design. He also rates the computer-use ability highly. He pointed Codex at the Canada Revenue Agency site, and it found pages that Google search missed.
+
+4. Nine Prompts I Posted I share the prompt list from my post that Greg Brockman reposted. The first three serve solo operators: a bill renegotiator that talks to provider chat support, a service-business teardown that turns an agency workflow into a $500–$5,000 per month software product, and a marketplace watcher that texts me every underpriced listing in my city.
+
+5. Agents for Operations and Growth The next six prompts run a company. A weekly operator dashboard reads my docs, Stripe exports, and calls, then names the three highest-leverage actions. An agent-opportunity audit ranks tasks by human hours saved within 30 days. A browser operator returns an SOP, a nightly QA agent opens my app on a real phone, a competitor agent reports monthly, and a browser game captures leads for the core product.
+
+6. Ras’s AI Speaker Project Was likes the HomePod hardware and wants his own agent inside it. Jailbreaking stayed closed to him, so he asked Astra to design a build. Astra connected to Blender, modeled the speaker, specified a Raspberry Pi build, and set a $350–$450 budget before tax.
+
+7. From Blender Layout to a Merged PR Astra returned Amazon.ca links totaling $561 before tax, and Ras bought the parts. It then rendered the wiring layout in Blender, named Chinese suppliers for the shell, wrote the loader code for his agent repo, and opened a pull request. Ras merged it, and the whole path took about half an hour.
+
+8. Vibe Manufacturing and Subsidized Intelligence I compare this moment to 2024, when Lovable, Bolt, Replit, and v0 turned everyone into a vibe coder. I expect thousands of one-million-dollar-per-year businesses from the physical version of that shift. Ras closes with the economics: his agent counted more than $24,000 of model use in one week against a pair of $200 subscriptions.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND MIC ON SOCIAL
+
+X/Twitter: https://x.com/Rasmic
+Youtube: https://www.youtube.com/@rasmic

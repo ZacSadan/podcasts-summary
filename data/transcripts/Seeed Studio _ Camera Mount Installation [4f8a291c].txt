@@ -1,0 +1,11 @@
+Feed: Seeed Studio
+Episode: Camera Mount Installation
+Method: description
+Language: en
+Words: 62
+URL: https://www.youtube.com/watch?v=2r3tvA7oJ_c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Fixes the camera position, supports free multi-angle adjustment, supports viewing angles such as top-down + wrist view, top-down + side view, supports standard USB cameras, depth cameras including D435i, D405, Gemini2 and other depth cameras, supports robotic arms such as soarm101 and rebot, can be used with a data acquisition test box, and can reuse downloaded datasets and models for out-of-the-box use

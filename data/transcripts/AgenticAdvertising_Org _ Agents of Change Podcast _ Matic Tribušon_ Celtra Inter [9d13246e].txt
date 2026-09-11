@@ -1,0 +1,31 @@
+Feed: AgenticAdvertising.Org
+Episode: Agents of Change Podcast | Matic Tribušon, Celtra Interview | AAO at Cannes Lions
+Method: description
+Language: en
+Words: 248
+URL: https://www.youtube.com/watch?v=PPIwn1GB4d8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the Agents of Change x AgenticAdvertising.org interview series, sponsored by Agnitio, Aubriana Alvarez Lopez sits down at Cannes Lions 2026 with Matic Tribušon, Chief Product Officer, at Celtra.
+
+They talk about what it takes to trust agents with brand-critical work — and where the guardrails still have to come from humans.
+
+Matic makes the case that agents don't really change what creative work requires: strong brand guidelines and rigorous review processes still matter, agents just expose the cracks faster when those aren't in place. 
+
+We talk about pairing generative AI with brand guidelines to let non-designers create more, how human judgment shifts from making to judging when an agent can generate thousands of ad variants overnight, and why the brands with the most rigorous review processes before AI are the ones winning with it now. He closes with a 2036 prediction: the ad ops jobs that disappear, and why humans become curators instead of creators.
+
+In this episode:
+
+- Why creative is one of the trickiest workflows to run agentically
+- Pairing brand guidelines with generative AI to empower non-designers
+- Shifting human judgment from "making" to "judging" at scale
+- A 2036 prediction: fewer ad ops jobs, more humans as curators of AI-made work
+
+Recorded live on the Croisette during Cannes Lions 2026 as part of the Hot Takes on the Croisette series from Agents of Change: Human in the Loop.
+
+Learn more about AAO: https://agenticadvertising.org
+Learn more about Agnitio: https://agnitio.ai
+
+#AgenticAdvertising #CannesLions2026 #AAO #AgentsOfChange #AI

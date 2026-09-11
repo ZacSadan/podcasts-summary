@@ -1,0 +1,13 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Ryan & Isabella Barnett, Akamai
+Method: description
+Language: en
+Words: 71
+URL: https://www.youtube.com/watch?v=62ljM9dO_ns
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this episode of Black Hat Stories, Ryan Barnett, Senior Threat Research Manager, and his daughter Isabella Barnett, a Software Engineering Intern at Akamai, share what it's like to present together at Black Hat, staying ahead of attackers, and what keeps them coming back year after year.
+
+From Isabella's early Black Hat experiences to Ryan's decade-plus of attending, they talk about what makes Black Hat special: the energy, innovation, and community.

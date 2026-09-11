@@ -1,0 +1,22 @@
+Feed: Israeli Tech Radar
+Episode: AGENTS.md זה לא מספיק | איתן מסוארי, Israeli Tech Radar 2026-27
+Method: description
+Language: he
+Words: 107
+URL: https://www.youtube.com/shorts/40-ElXJSVC8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+בשנה האחרונה כמעט כל ריפו קיבל AGENTS.md או CLAUDE.md.
+כותבים שם מה יש בפרויקט, מה מותר לעשות ומה לא, ומרגיש שהסדר הושג.
+איתן מסוארי, Head of Tech ב Tikal, מדבר בהרצאה שלו על מה שהקבצים האלה לא פותרים.
+הם מגדירים כוונה, והכוונה נשארת ברמת ה Prompt.
+היא לא מבטיחה שהתוצאה תהיה נכונה, כי אותה בקשה לא מחזירה בהכרח את אותה תשובה פעמיים.
+ולכן הצעד הבא הוא Evaluations, שבודקות את מה שיצא ולא רק את מה שביקשנו.
+זה ההבדל בין להנחות מערכת לבין לדעת מה היא באמת עשתה.
+
+🎥 רוצים לשמוע עוד?
+צפו בהרצאה המלאה:
+Israeli Tech Radar 2026-27 Launch for Israeli Engineering Leaders Forum 10/6/2026 (Hebrew)
+https://tkl.to/tikal-radar-2026-27-launch

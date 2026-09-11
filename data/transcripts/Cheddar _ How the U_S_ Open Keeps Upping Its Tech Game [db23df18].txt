@@ -1,0 +1,28 @@
+Feed: Cheddar
+Episode: How the U.S. Open Keeps Upping Its Tech Game
+Method: description
+Language: en
+Words: 153
+URL: https://www.youtube.com/watch?v=j7NrLil5bQY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Step inside the IBM data operations center hidden within Arthur Ashe Stadium and discover how artificial intelligence and cutting-edge technology power the digital experience for 14+ million tennis fans. 
+
+In this exclusive look at the U.S. Open, we break down the revolutionary "Serve Quality" stat, AI-powered features like Match Chat and Key Moments, and how this 30-year IBM partnership is reshaping sports fandom. Could AI really solve the impossible: personalizing the experience for 14 million fans simultaneously without drowning them in data?
+
+#USOpen #AI #SportsAI #Wimbledon #IBM #HawkEye #SportsTech #WatsonAI #NYCInnovates
+
+0:00 - Opening
+0:27 - Meet the IBM Data Operations Room
+3:03 - Data Collection: Cameras, Biometrics & Ball Motion
+5:51 - Win Probability with "Why" Behind It
+7:22 - Multi-AI Coordination with Watson X Orchestrate
+9:58 - What's Next: Better Storytelling & Immersive Experiences
+
+Connect with Cheddar!
+On Facebook: https://facebook.com/cheddar
+On Instagram: https://instagram.com/cheddar
+On the web: https://cheddar.com
+In your inbox: https://need2know.cheddar.com/subscribe

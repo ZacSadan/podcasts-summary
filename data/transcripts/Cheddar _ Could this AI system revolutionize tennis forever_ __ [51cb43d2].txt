@@ -1,0 +1,13 @@
+Feed: Cheddar
+Episode: Could this AI system revolutionize tennis forever? 🎾🤖
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/shorts/CQ4srEzLKxw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This year at the U.S. Open, while millions of fans watch matches, IBM’s technology is processing 4.6 MILLION data points per game to deliver insights that don’t exist anywhere else. How will these data points impact both the players and the audience? Check out the entire coverage on our Youtube channel!
+
+#USOpen #AI #SportsInnovation
