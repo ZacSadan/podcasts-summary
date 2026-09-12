@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: Mass Magnetics: USA-made magnetics for robotics and defense
+Method: description
+Language: en
+Words: 50
+URL: https://www.youtube.com/shorts/hkfCJip_HXQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Magnets are becoming critical to the future of robotics, defense, and other major US industries.
+
+But 90% of rare earth magnet material is conventionally thrown away.
+
+The team at Mass Magnetics are recycling magnets from old EV motors into new ones, with the goal of making American magnets at scale.
