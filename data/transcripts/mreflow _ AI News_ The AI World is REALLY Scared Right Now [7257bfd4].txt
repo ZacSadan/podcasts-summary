@@ -1,0 +1,68 @@
+Feed: mreflow
+Episode: AI News: The AI World is REALLY Scared Right Now
+Method: description
+Language: en
+Words: 214
+URL: https://www.youtube.com/watch?v=JwTCjarfJYw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you might have missed this week. See what Optimizely’s Virtual Teammates can automate for you at https://optimizely.com/mattwolfe
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+ChatGPT Images 2.5: https://openai.com/index/introducing-chatgpt-images-2-5/
+Meta Introduces Muse: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+Muse Hits No. 2: https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/
+DeepSeek-V4.1-Flash Release: https://api-docs.deepseek.com/news/news260910/
+Anthropic Researchers' Warning: https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans
+OpenAI's Alien Mind: https://openai.com/index/an-alien-mind/
+OpenAI Navier–Stokes Solution: https://openai.com/index/navier-stokes-solution/
+Paid AI Doom Offer: https://www.youtube.com/watch?v=lPdmYMHrWKg
+Apple Intelligence Health Features: https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/
+iPhone 18 Pro Debut: https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/
+AirPods 5 Announced: https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
+iPhone Duo Unveiled: https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/
+Siri AI Usage Caps: https://appleinsider.com/articles/26/09/09/siri-ai-will-launch-in-beta-complicated-by-daily-usage-caps-future-paid-access
+MAI-Image-2.6: https://microsoft.ai/models/mai-image-2-6/
+ChatGPT Work Writing Style: https://x.com/ChatGPT/status/2097018264048251309
+OpenAI Data Analysis: https://openai.com/index/put-data-to-work/
+Gemini App Windows: https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/
+Suno Licensed Model: https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/
+Lyria 3.5 in Gemini: https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/
+DaVinci Resolve 21.1: https://x.com/Blackmagic_News/status/2097202883662106972
+Artificial Movie Trailer: https://www.youtube.com/watch?v=rDZplZFnbOk
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:20 ChatGPT Images 2.5
+3:10 Meta Muse Agent
+10:45 Optimizely Virtual Teammates
+11:43 Deepseek V4.1-Flash
+14:09 AI Doom Discussion
+26:34 Apple Keynote Announcements
+29:18 MAI-Image-2.6
+29:33 ChatGPT Writes Like You
+30:09 ChatGPT Data Agent
+30:46 Gemini App in Windows
+31:00 Suno V6
+31:36 Lyria 3.5
+32:39 DaVinci Resolve AI
+33:16 Artificial Trailer
+34:11 Final Thoughts
