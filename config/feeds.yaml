@@ -407,3 +407,10 @@ feeds:
   url: "https://rss2.flightcast.com/ordbkg8yojpehffas7vr7qpc.xml"
   spotify_url: "https://open.spotify.com/show/6aB0v6amo3a8hgTCjlTlvh"
 
+- name: Risky Business Media
+  url: "https://risky.biz/rss.xml"
+
+- name: Three Buddy Problem
+  url: "https://securityconversations.fireside.fm/rss"
+  spotify_url: "https://open.spotify.com/show/6dXbRagTUo4fPfpYjIDlwO"
+
