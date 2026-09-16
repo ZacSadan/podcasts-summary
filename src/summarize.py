@@ -628,6 +628,35 @@ def _has_wrong_script(text: str, max_chars: int = 0) -> bool:
     return len(_NON_HEBREW_SCRIPT_RE.findall(text)) > max_chars
 
 
+# Above this ratio of stray-script characters the output is genuinely
+# code-switched prose and not worth repairing; below it, the strays are
+# isolated glyphs dropped into transliterated names ("מורגן אדאמסקי") and
+# deleting them leaves the surrounding Hebrew intact.
+_REPAIRABLE_STRAY_SCRIPT_RATIO = 0.005
+
+
+def _repair_stray_script(text: str) -> str | None:
+    """Delete isolated non-Hebrew-script characters from otherwise-good Hebrew
+    output, returning the cleaned text — or None if the text is too densely
+    code-switched to be repaired this way.
+
+    A handful of stray Arabic/CJK/Cyrillic glyphs inside transliterated proper
+    nouns is a cosmetic defect, not a failed summary. Discarding a complete
+    1600-word Hebrew translation over a few characters is far worse than
+    shipping it with those characters removed, because the alternative is the
+    non-instructable BART fallback, which fabricates content outright."""
+    strays = _NON_HEBREW_SCRIPT_RE.findall(text)
+    if not strays:
+        return text
+    if len(strays) / max(1, len(text)) > _REPAIRABLE_STRAY_SCRIPT_RATIO:
+        return None
+    cleaned = _NON_HEBREW_SCRIPT_RE.sub("", text)
+    # Tidy up the spacing/orphaned punctuation left where glyphs were removed.
+    cleaned = re.sub(r"[ \t]{2,}", " ", cleaned)
+    cleaned = re.sub(r"\s+([,.;:!?])", r"\1", cleaned)
+    return cleaned.strip()
+
+
 def _has_english_prose_run(text: str) -> bool:
     """Return True if the text contains a run of Latin-script words dense enough
     in English function words to be real English prose — a sign the model wrote
@@ -697,8 +726,22 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
 
     result = ""
     english_drift_fallback = ""  # last valid-but-wrong-script output, for a translate repair pass
+    stray_script_fallback = ""   # best output rejected only for stray non-Hebrew glyphs
+    prev_truncated = None
     for attempt, shrink in enumerate([1, 2, 4]):
         truncated = base_text if shrink == 1 else _truncate_to_token_budget(llm, base_text, text_budget // shrink)
+        # Shrinking the *budget* doesn't always shrink the *text*: when the
+        # input already fits comfortably (e.g. translating a 1600-word summary),
+        # a smaller budget yields byte-identical input, and generation is
+        # effectively deterministic here — so re-running costs many minutes on
+        # this 2-core runner to reproduce the same rejected output.
+        if truncated == prev_truncated:
+            logger.warning(
+                f"  Local LLM retry (attempt {attempt + 1}) would re-run identical input "
+                f"({len(truncated.split())} words) — skipping to avoid a no-op re-roll"
+            )
+            continue
+        prev_truncated = truncated
         prompt = prompt_tpl.format(transcript=truncated, **fmt_kwargs)
         response = llm.create_chat_completion(
             messages=[{"role": "user", "content": prompt}],
@@ -746,6 +789,11 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
                 f"  Local LLM code-switched into a non-Hebrew script "
                 f"(attempt {attempt + 1}, {len(truncated.split())} words) — retrying with fewer words"
             )
+            # Keep the best repairable output: if every attempt trips this
+            # check, stripping a few stray glyphs from real Hebrew prose beats
+            # discarding the episode to the fabricating BART fallback.
+            if len(parsed) > len(stray_script_fallback) and _repair_stray_script(parsed) is not None:
+                stray_script_fallback = parsed
             continue
         if check_hebrew_script and _has_english_prose_run(parsed):
             logger.warning(
@@ -761,6 +809,17 @@ def _run_local_llm(llm, prompt_tpl: str, marker: str, text: str, fmt_kwargs: dic
             continue
         result = parsed
         break
+
+    if not result and check_hebrew_script and stray_script_fallback:
+        repaired = _repair_stray_script(stray_script_fallback)
+        if repaired:
+            n_strays = len(_NON_HEBREW_SCRIPT_RE.findall(stray_script_fallback))
+            logger.warning(
+                f"  Local LLM output had {n_strays} stray non-Hebrew character(s) after all "
+                f"retries — stripping them and keeping the {len(repaired.split())}-word Hebrew "
+                f"summary instead of discarding it"
+            )
+            result = repaired
 
     if not result and check_hebrew_script and english_drift_fallback:
         logger.warning(
@@ -910,7 +969,12 @@ def _summarize_with_models(episode, transcript_text: str, lang: str, settings: d
         return _summarize_with_local_llm(episode, text, long_summary)
     except Exception as e:
         logger.warning(f"  Local LLM unavailable ({type(e).__name__}: {e}), falling back to BART+Helsinki")
-        return _bart_helsinki_fallback(transcript_text, lang, settings)
+        he, en, steps = _bart_helsinki_fallback(transcript_text, lang, settings)
+        # Record *why* the good model was skipped. BART is non-instructable and
+        # can fabricate content, so a reader of results.txt must be able to see
+        # that this summary came from the degraded path without digging through
+        # the GitHub Actions log.
+        return he, en, [(f"⚠ Local LLM failed ({type(e).__name__}: {e}) — degraded BART fallback", "summary")] + steps
 
 
 # ── Formatting ────────────────────────────────────────────────────────────────
