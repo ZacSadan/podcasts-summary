@@ -1,0 +1,20 @@
+Feed: mreflow
+Episode: Minecraft + ChatGPT (Holy Crap!)
+Method: description
+Language: en
+Words: 76
+URL: https://www.youtube.com/shorts/nF45_dhsmWY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I let ChatGPT Astra take control of Minecraft and told it to build a portrait of me out of blocks...
+
+Astra operated the game entirely on its own, placing every block one by one. After 1 hour and 42 minutes, I had a massive monument to myself inside Minecraft.
+
+Completely unnecessary? Yes.
+An impressive glimpse at what computer-controlling AI agents can do? Also yes.
+
+What should I make Astra build next?
+
+#ai #ainews #chatgpt #openai #aiagents
