@@ -1,0 +1,31 @@
+Feed: Insider
+Episode: How Owning Your Own AI Can Unlock Smarter, More Precise Agents
+Method: description
+Language: en
+Words: 190
+URL: https://www.youtube.com/watch?v=VQMGznOs0Us
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Sponsored by Dell AI Factory with NVIDIA
+
+At the dawn of agentic AI, off-the-shelf models seemed to eliminate the complexity that was coming at enterprise leaders at breakneck speed. Now that enterprise AI dexterity has matured, it's become clear that generic models make for generic agents, and that better outcomes will result from smaller, smarter models trained on your data and on AI infrastructure you own.
+
+Dr. Jon Krohn and Frank Basso of Lightning AI break down this mindset shift in terms that will resonate with leaders: ROI that shows up in business outcomes and reduced token usage. They also detail how the Dell AI Factory with NVIDIA powers the principles through full-stack, integrated infrastructure that improves utilization.
+
+Learn how the Dell AI Factory with NVIDIA can power your way to AI here: https://dell.com/YourWayToAI 
+
+See more stories of AI, Accelerated: https://www.youtube.com/playlist?list=PLOtR8uMb1m8E 
+
+------------------------------------------------------
+
+Business Insider is a global newsroom covering business, technology, innovation, and the economy.
+
+Visit our homepage for the top stories of the day: https://www.businessinsider.com/?utm_source=youtube
+Sign up for our newsletters: https://www.businessinsider.com/subscription/newsletter?utm_source=youtube
+
+Find Business Insider on Facebook: https://www.facebook.com/businessinsider
+... on Instagram: https://www.instagram.com/businessinsider
+... on X:  https://x.com/BusinessInsider
+... on TikTok: https://www.tiktok.com/@businessinsider

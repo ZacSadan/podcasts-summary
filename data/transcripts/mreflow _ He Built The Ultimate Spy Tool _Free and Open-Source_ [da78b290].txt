@@ -1,0 +1,46 @@
+Feed: mreflow
+Episode: He Built The Ultimate Spy Tool (Free and Open-Source)
+Method: description
+Language: en
+Words: 240
+URL: https://www.youtube.com/watch?v=S2VJU5DQqlU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Check out God's Eye View:
+https://github.com/bilawalsidhu/gods-eye-view
+https://www.spatialintelligence.ai/
+
+What if you could turn your computer into a spy movie command center using real-world data? I sat down with Bilawal Sidhu to explore God's Eye View, his open-source tool that brings flights, satellites, ships, traffic, and more into one interactive 3D globe.
+
+We dive into how he built it with AI, try out its voice controls, and explore everything from military flight data to public traffic cameras and NASA fire detections. Bilawal also shows how people are using it to reconstruct real-world events, and I walk through getting it running on your own computer.
+
+The project is open source, and many of the data sources are free for personal use. Some features require API keys, and voice interaction or heavier usage can add costs.
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Chapters: 
+00:00 God's Eye View: Palantir at Home?
+00:27 What It Does and Who It's For
+02:07 How Bilawal Built It With AI
+03:22 API Costs and Privacy Limits
+06:24 Exploring the Globe With Voice Commands
+07:49 Tracking Flights and Asking AI for Context
+10:06 Exploring Public Cameras and Traffic Data
+11:57 Mapping Fires, Rocket Launches, and Real-World Events
+16:04 How to Install God's Eye View

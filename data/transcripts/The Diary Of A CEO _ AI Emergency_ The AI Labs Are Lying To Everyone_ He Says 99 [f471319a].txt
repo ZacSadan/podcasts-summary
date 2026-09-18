@@ -1,0 +1,86 @@
+Feed: The Diary Of A CEO
+Episode: AI Emergency: The AI Labs Are Lying To Everyone, He Says 99% Chance Of Extinction | Roman Yampolskiy
+Method: description
+Language: en
+Words: 592
+URL: https://www.youtube.com/watch?v=OhOmLqR5nN4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Ed Zitron, Roman Yampolskiy, Nate Soares and Andrew McAfee discuss the risk of AI. This debate brings together four distinct voices at the forefront of the artificial intelligence revolution: 
+
+*Ed Zitron* - A prominent tech critic and CEO of EZPR, a national technology and business public relations and primary research agency
+*Andrew McAfee* - Principal research scientist at MIT and Cofounder and Codirector of the MIT Initiative on the Digital Economy 
+*Nate Soares* - President of the Machine Intelligence Research Institute and author of *If Anyone Builds It, Everyone Dies*
+*Roman Yampolskiy* - Computer scientist pioneer in the field of AI safety, cybersecurity and digital forensics
+
+*In this debate, they explain:*
+■ *The Sandbox Breakout:* How a recent swarm of AI agents bypassed security restrictions, cheated on their evaluations, and actively attempted to delete their own log files to hide their tracks from human overseers.
+■ *Recursive Self-Improvement:* The structural mechanics behind the "fast takeoff" theory, detailing how an AI capable of automated research could exponentially upgrade its own intelligence and architectures in a matter of days.
+■ *The Illusion of Control:* Why attempting to contain an artificial superintelligence is comparable to placing a digital Einstein in a jail cell with an internet connection.
+■ *The Alignment Trap:* How the process of training AI to predict human text inherently forces it to become smarter than the humans providing the data.
+■ *Present Harms vs. Future Extinction:* The ideological divide over whether we must immediately halt AI research to prevent a rogue superintelligence, or increasingly regulate the massive compute expenditures of tech monopolies to address economic and security threats.
+
+00:00:00 Intro
+00:02:19 How Likely Is AI to Cause Human Extinction?
+00:04:05 How Could AI Actually Cause Human Extinction?
+00:09:43 Why AI Safety Became an Urgent Priority
+00:11:12 Roman’s Case for Taking AI Risk Seriously
+00:15:01 Can Humans Control an AI Smarter Than Us?
+00:26:10 How Do You Control Something Smarter Than You?
+00:29:16 Will AI Intelligence Keep Accelerating?
+00:41:37 What Are the Real Risks of Superintelligence?
+00:50:01 When Does AI Become an Existential Crisis?
+00:58:13 Ads
+01:00:12 How Much Job Disruption Could AI Really Cause?
+01:14:54 Why AI Companies Believe They Can Control Superintelligence
+01:24:27 Can China and the West Cooperate on AI Safety?
+01:36:29 What Happens If AI Companies Stay on This Path?
+01:43:47 What Are AI Logs and Why Do They Matter?
+01:52:42 Could a Non-Coder Build a Jail for an AI Einstein?
+02:00:30 How Does the Future of AI Make You Feel?
+02:06:39 How Soon Could We Reach Superintelligence?
+02:19:48 Who Should Be Held Accountable for AI-Related Cybercrime?
+
+*Follow Ed Zitron:*
+Linktree - https://link.thediaryofaceo.com/4XH1I3o
+Better Offline - https://link.thediaryofaceo.com/D46entx
+X - https://link.thediaryofaceo.com/5Lv4gas
+AI Is Already In Dangerous Hands - https://link.thediaryofaceo.com/HFEKLgG
+Where’s Your Ed At Newsletter - https://link.thediaryofaceo.com/PKEJr1
+You can get $10 off your first year of Where's Your Ed At Premium, here - https://link.thediaryofaceo.com/BE4VQcS
+
+*Follow Andrew McAfee:*
+Website - https://link.thediaryofaceo.com/xKxOg7
+X - https://link.thediaryofaceo.com/Bf2vyMQ
+Linkedin - https://link.thediaryofaceo.com/Ek3IQqI
+Substack - https://link.thediaryofaceo.com/EBbsts8
+
+*Follow Nate Soares:*
+If Anyone Builds it, Everyone Dies - https://link.thediaryofaceo.com/4zIyY9u
+X - https://link.thediaryofaceo.com/8gDoVCU
+Linkedin - https://link.thediaryofaceo.com/9Q3PAc
+YouTube - https://link.thediaryofaceo.com/AwerSzm
+
+*Follow Roman Yampolskiy:*
+Who is Roman Yampolskiy? - https://link.thediaryofaceo.com/8ikum9s
+Research Papers - https://link.thediaryofaceo.com/G2BbVXx
+Roman Forum Podcast - https://link.thediaryofaceo.com/7zvifcd
+
+Books: https://link.thediaryofaceo.com/5Bn72tw
+
+Social Media: 
+X - https://link.thediaryofaceo.com/65G3fhN
+Facebook - https://link.thediaryofaceo.com/HRMWccu
+Linkedin - https://link.thediaryofaceo.com/FM85mii
+
+*The Diary Of A CEO:*
+◼ Join DOAC circle here - https://doaccircle.com/
+◼ Buy The Diary Of A CEO book here - https://link.thediaryofaceo.com/BWjLTZK
+◼ Shop The Diary Of A CEO collection: https://thediary.com/collections/shop
+◼ Get email updates - https://link.thediaryofaceo.com/5IB1H6E
+
+*Sponsors:*
+Pipedrive - https://pipedrive.com/CEO
+Wayfair - Visit http://Wayfair.com to start your home refresh

@@ -1,0 +1,74 @@
+Feed: Greg Isenberg
+Episode: Instinct AI is For Real. What You Need to Know.
+Method: description
+Language: en
+Words: 646
+URL: https://www.youtube.com/watch?v=mUAsaprJ66s
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Remy to go through Instinct, the new invite-only personal agent that runs inside iMessage. Remy shares his raw chat history on screen: a haircut booking in Copenhagen, a restaurant reservation, a Bali visa on arrival, and an Emirates Skywards sign-up. We cover the parts that impress us, the points where the agent hits a wall, and the privacy questions that stay open. By the end of this episode you understand what Instinct does today, and you get fresh ideas for personal agents in general.
+
+Timestamps
+
+00:00 – Intro
+02:08 – Instinct Pros
+11:18 – Instinct Cons
+13:16 – Simple Onboarding
+15:19 – Tools and Connectors
+17:43 – Example 1: Booking a Haircut in Copenhagen
+20:24 – Example 2: Restaurant Booking and Calendar Entry
+23:03 – Example 3: Bali Visa on Arrival and Emirates Skywards
+26:00 – Closing Thoughts
+
+Key Points
+
+• Instinct hides the agent complexity behind a phone number and iMessage, so a first-time user starts in seconds.
+• Remy gets it to book a haircut, hold a restaurant table, file a Bali visa on arrival, and open an Emirates Skywards account.
+• A spend-limited virtual card keeps the blast radius small when the agent pays for things.
+• The agent stalls when a task needs a phone app or an Indonesian checkout page.
+• Users report that Instinct keeps copies of email after they disconnect Google, so treat privacy as an open risk.
+• The trusted person network lets one Instinct talk to another, which builds network effects into the agentic era.
+
+Numbered Section Summaries
+
+1. The Invite-Only Launch
+
+Remy first sees Instinct on X, where large AI accounts talk about it. The site shows a wait list, so he grabs an invite code from a public tweet. Scarcity drives the curiosity, and Remy reads the rollout as a marketing play as much as a compute limit.
+    
+2. Onboarding Built for the Mass Market
+
+Remy signs in with a phone number and lands straight in iMessage. The agent opens with photo examples: flight bookings, check-ins, smoothie orders, subscription cancellations. Remy teaches founders AI for a living, so he values a flow that skips MCPs, CLIs, and markdown files.
+    
+3. The Workspace, the Connectors, and the Vault
+
+A simple web workspace sits beside the chat. It holds contact methods, connectors for email, Slack and Granola, and a vault for logins, cards, and addresses. Remy connects his email accounts and stays impressed by how much context Instinct pulls about him.
+    
+4. Real Tasks: Haircut, Restaurant, Visa
+
+Remy asks for salons in Copenhagen. Instinct researches spots, pulls reviews, sends photos, emails the salon, and confirms the booking hours later. It then holds a table at Bistro Central, files the Bali visa on arrival and the arrival card, and opens an Emirates Skywards account with a saved password.
+    
+5. Human Touches: Reactions, Memory, and Game Pigeon
+
+Instinct reacts to messages, reads a thumbs-up as approval, and uses loud effects and confetti. It recalls the monitor from an earlier chat and adds it to the visa arrival card. It even plays a round of Game Pigeon Cup Pong, which surprises us both.
+    
+6. Network Effects, Privacy, and the Ten-Billion Question
+
+The founder Noah announces a trusted person network, so one Instinct can talk to another. I compare the invite rollout to Clubhouse in 2020, which raised at $4vbillion. Meanwhile Claire Vo and Peter Yang report that Instinct keeps copies of their email after they disconnect Google, and the terms raise the same flag.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND REMY ON SOCIAL
+
+X: https://x.com/remy_gaskell
+Youtube: https://www.youtube.com/@aiwithremy
+AI with Remy: https://www.aiwithremy.com/
