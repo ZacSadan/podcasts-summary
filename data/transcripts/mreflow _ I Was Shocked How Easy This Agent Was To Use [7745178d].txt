@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: I Was Shocked How Easy This Agent Was To Use
+Method: description
+Language: en
+Words: 104
+URL: https://www.youtube.com/shorts/FxcYK5WOk1c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Is this the easiest AI agent to use?
+
+I connected Meta's new AI Agent Muse to my email and asked it to audit my subscriptions to see how much I’m spending on AI tools. 
+
+But what impressed me most wasn’t just the audit, it was how easy the agent was to use. It feels like a normal messaging app, runs tasks inside a secure virtual machine, and suggests ways it can help as you connect your apps.
+
+If you’ve only used AI for chatting and haven’t tried agents yet, this might be one of the easiest places to start.
+
+#AI #Aiagent #aitools #meta #muse

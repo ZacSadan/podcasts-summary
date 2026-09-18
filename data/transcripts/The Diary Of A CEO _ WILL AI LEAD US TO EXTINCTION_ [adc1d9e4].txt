@@ -1,0 +1,57 @@
+Feed: The Diary Of A CEO
+Episode: WILL AI LEAD US TO EXTINCTION?
+Method: description
+Language: en
+Words: 470
+URL: https://www.youtube.com/shorts/7a6BfbZiDV4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+214 million people saw this AI warning. So we called an emergency debate to discuss. 
+
+The warning came from someone who had worked at both Anthropic and OpenAI.
+
+Then a current Anthropic employee backed it publicly.
+
+It had spread so far beyond the tech world that a friend of mine who cuts hair and has never really cared about AI messaged me asking, “What the hell is going on?”
+
+I then realised a lot of people were probably asking the same question.
+
+The problem is, when you speak to people who have spent years studying AI, you get completely opposing answers.
+
+So I brought four of them around the same table.
+
+Roman Yampolskiy is a computer scientist who coined the term “AI safety” and has spent years studying whether increasingly intelligent systems can remain under human control.
+
+Nate Soares leads the Machine Intelligence Research Institute and has spent more than a decade working on AI alignment. He believes we are moving too quickly towards systems we don’t yet know how to reliably control.
+
+Ed Zitron thinks much of the AI conversation has become detached from what the technology can actually do today. He believes the industry is overhyping it while distracting us from financial, environmental and social consequences already happening.
+
+Andrew McAfee is an MIT researcher and economist who takes a very different view. He thinks we spend so much time talking about what could go wrong that we barely talk about what AI could make better.
+
+And that disagreement is what made this conversation so interesting to me.
+
+We discussed things like:
+
+- How do you control something that eventually becomes smarter than you?
+- Are the biggest warnings about AI based on evidence or assumptions?
+- What happens to work and human purpose if AI becomes better at more cognitive tasks?
+- Are we ignoring problems AI is already creating because we’re obsessed with hypothetical future ones?
+- Why have Sam Altman, Elon Musk and Geoffrey Hinton all warned about AI?
+
+The question I kept coming back to was simple:
+
+What is actually true?
+
+Depending on who you listen to, AI is either one of the greatest opportunities humanity has ever created or something we’re racing towards without understanding the consequences.
+
+Both claims deserve to be challenged.
+
+There were moments in this debate where I genuinely found myself moving between the arguments. That’s the value of putting people who fundamentally disagree in the same room.
+
+I didn’t want four people telling me the same thing. I wanted each of them to explain where the other side was wrong.
+
+If you’ve watched the last few months of AI news wondering what you’re actually supposed to believe, this conversation is for you.
+
+Our emergency AI debate with Ed Zitron, Roman Yampolskiy, Nate Soares and Andrew McAfee is out now ❤️👊🏾

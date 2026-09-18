@@ -1,0 +1,84 @@
+Feed: Greg Isenberg
+Episode: Building a Software Factory that actually works (Full Course)
+Method: description
+Language: en
+Words: 841
+URL: https://www.youtube.com/watch?v=_LCeJZFIsd4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Get Your Complete Financial OS at https://startup-ideas-pod.link/brex_SIP
+
+I welcome Ras Mic back to the pod to explain the phrase "software factory." Mic shares his screen and walks through the exact system that he runs today. His factory has four steps: isolate, build, prove, and ship. He keeps the whole system in five or six markdown files, so it works with any model and any harness. By the end of this episode, you can boot up your own factory, run many agents in parallel, and trust the code that comes back.
+
+Create your own Software Factory: https://startup-ideas-pod.link/ras-software-factory
+
+Timestamps
+00:00 – Intro
+02:17 – Software Factory Definition
+03:44 – Why the Software Factory Matters
+05:23 – Step 1: Isolate With Git Work Trees
+11:34 – Step 2: Build With the Code Structure Skill
+14:48 – Step 3: Prove With Evidence-Driven Testing
+22:25 – Step 4: Ship With Grep Loop and Greptile
+26:52 – The Physical Factory Analogy
+29:21 – A Software Factory Is Markdown Files
+30:02 – Closing Thoughts
+
+Key Points
+
+• A software factory is a workflow of skills and domain knowledge, so it runs with any model and any harness.
+• Isolate: every feature starts in a fresh git work tree branched from origin main, so each agent keeps its own station.
+• Build: a code structure skill makes the agent write service layer code that a human developer can read.
+• Prove: the agent records a before state and an after state as video, screenshots, or numbers.
+• Ship: Greptile scores the PR, and the agent loops back to build until it earns five out of five.
+• Mic runs up to 15 features in parallel and reviews the visual proof instead of the raw code.
+
+Numbered Section Summaries
+
+1. What a Software Factory Means
+
+Ras defines the term as a workflow, a set of skills, and domain knowledge, packed into markdown files. The word "factory" points to structure, speed, and a conveyor belt that keeps quality high. He is clear that a software factory is a method rather than a product you buy.
+    
+2. Why the Factory Matters Now
+
+Model intelligence keeps rising, and Ras names GPT-6 Astra as his workhorse and the model with the lowest hallucination rate. A factory lets you use that intelligence in a systematic way, instead of typing back and forth with a chat window. He offers his own skills for free, and he asks people to understand the process first and then adapt it.
+    
+3. The Agents.md File as the Master Instruction
+
+The agents.md file is a single markdown document that goes into the agent chat ahead of every message. Ras says most people fill it with facts the agent already reads from the code base. He fills his with a workflow instead, because the workflow is the part the agent lacks.
+    
+4. Step 1: Isolate
+
+A skill called "new feature" starts each task in a fresh git work tree branched from origin main. A work tree acts like a copy of the app, and the agent merges it back later. This keeps two agents apart, so one agent leaves the other agent's files alone. Michael shows four terminal tabs running four features on the same app.
+    
+5. Step 2: Build
+
+The code structure skill tells the agent to write in a service layer architecture. Models get the job done, and they often get it done in a sloppy way, so the skill supplies the guideline. The result stays readable for a hired developer, for Michael, and for any fresh agent that opens the code base later.
+    
+6. Step 3: Prove
+
+Two skills handle proof: evidence-driven testing and before and after. The agent records the broken state, does the work, and records the working state, then embeds both in the PR. When the after shot shows a gap, the agent sends itself back to the build step on its own. For work with an invisible surface, such as performance, the agent supplies numbers: one page went from 815 milliseconds to about 61.
+    
+7. Step 4: Ship
+
+The grep loop skill sends the PR to Greptile, a third-party code review agent, and Greptile returns feedback plus a confidence score. A three out of five sends the agent back through build, prove, and ship. Ras steps in at five out of five and clicks merge. He mentions Code Rabbit and Macroscope as alternatives.
+    
+8. The Factory Analogy and the Case for Code Review
+
+I map the four steps onto a real factory: a custom order gets its own station, the assembly line builds it, quality control tests it, and shipping sends it out the door. Ras agrees, and he says he may rename his skills to match. 
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND MIC ON SOCIAL
+X/Twitter: https://x.com/Rasmic
+Youtube: https://www.youtube.com/@rasmic

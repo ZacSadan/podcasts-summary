@@ -1,0 +1,11 @@
+Feed: Gartner ThinkCast
+Episode: The Executive's Guide to Shaping Your Brand and Reputation
+Method: description
+Language: en
+Words: 227
+URL: https://www.gartner.com/en/podcasts/thinkcast
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Strong execution might earn results, but it doesn't automatically build influence. In this episode of ThinkCast, Gartner Vice President Analyst Rob O'Donohue explains why CIOs can no longer afford to leave their leadership brand to chance. From understanding the difference between brand and reputation to diagnosing when a reset is needed, Rob shares a practical "4D" Framework to help leaders intentionally shape how they're perceived and trusted across the organization. You'll learn: Why "doing a great job" is no longer enough to build executive influence The difference between brand and reputation, and why both matter The three events that signal it's time for a leadership brand reset How CIOs can use feedback, GenAI and behavior change to strengthen their reputation What it takes to turn a desired leadership brand into a lasting perception Dig deeper: Become a client to learn more about building your brand Join us at Gartner IT Symposium/Xpo™ See why Gartner is the world authority on AI Timestamps: (00:00) Understanding the difference between brand and reputation (03:44) The 4D Framework for shaping executive perception (08:53) How GenAI can help strengthen your executive brand (12:00) Identifying gaps between perception and reality (18:36) Turning your brand strategy into daily habits (22:10) Why reputation changes more slowly than behavior (24:22) How to protect and sustain your executive reputation (27:16)The first step to building a stronger executive brand

@@ -1,0 +1,19 @@
+Feed: Aleph
+Episode: Gili Raanan on the Dark Decade Coming for Cybersecurity
+Method: description
+Language: en
+Words: 149
+URL: https://www.youtube.com/shorts/r6-fxMXTj9U
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Gili Raanan, founder of Cyberstarts and the seed investor behind Wiz, says he is "absolutely confident" the next few years bring catastrophic AI-driven cybersecurity events.
+
+Misuse and deliberate harmful use of AI are coming, and there is no way to fence the models off. "The inability to keep models within walled gardens. It's impossible." Everything else follows from that one line.
+
+It lands in the middle of the week's biggest argument in AI. Dario Amodei published "We Must Pace the Frontier" on September 12, and Sam Altman and Elon Musk both backed the call to slow the rate at which models gain new capabilities. Raanan is pointing at the layer underneath it: pace is one question, containment is another, and he does not think the second one has an answer.
+
+"We are facing a very dark decade in terms of cybersecurity consequences driven by AI."
+
+#Shorts #GiliRaanan #AISecurity #Cyberstarts

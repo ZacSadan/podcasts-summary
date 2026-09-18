@@ -1,0 +1,23 @@
+Feed: Israeli Tech Radar
+Episode: טסטים לא עובדים על AI | איתן מסוארי, Israeli Tech Radar 2026-27
+Method: description
+Language: he
+Words: 124
+URL: https://www.youtube.com/shorts/MCJrMQHbnCA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+בדיקות הן אחד הדברים הראשונים שמשתנים כשמכניסים AI לתהליך הפיתוח.
+טסט קלאסי מצפה לתוצאה קבועה, ומערכת שמבוססת מודל לא תמיד מחזירה אותה.
+איתן מסוארי, Head of Tech ב Tikal, מדבר בהרצאה שלו על מה שנבנה במקום.
+במקום לבדוק תוצאה מדויקת, בודקים אם ההתנהגות עומדת בקריטריונים שהגדרנו ומקבלים אינדיקציה אם זה עבר או לא.
+זה תחום שהתפתח מאוד בשנתיים האחרונות.
+לצד זה מגיעה שאלת ההרשאות.
+ה- Agent שרץ בתוך תהליך הפיתוח לא צריך את אותן הרשאות שיש למפתח, ובטח לא את אותן הרשאות ב Staging וב Production.
+ההפרדה הזאת היא חלק מאותה מסגרת, והיא מה שמאפשר לתת לכלים האלה יותר מקום בלי לוותר על שליטה.
+
+🎥 רוצים לשמוע עוד?
+צפו בהרצאה המלאה:
+Israeli Tech Radar 2026-27 Launch for Israeli Engineering Leaders Forum 10/6/2026 (Hebrew)
+https://tkl.to/tikal-radar-2026-27-launch
