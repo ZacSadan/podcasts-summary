@@ -1,0 +1,87 @@
+Feed: Greg Isenberg
+Episode: Jev is HERE. How to use it
+Method: description
+Language: en
+Words: 774
+URL: https://www.youtube.com/watch?v=4mTLpuQpB80
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode, I talk with Ryan Vogel about Jev, a new type of AI built for classification. Ryan shows how Jev takes an input plus an output schema and returns a probability for each choice in about 200 milliseconds. He demos Jev sorting 1,700 emails for 18 cents total, then covers lead scoring, support routing, video clipping, and browser control. I push him on the startup angle: find a business with an expensive queue of incoming information and put Jev at the front of it. You leave with a clear mental model, real use cases, and a simple way to try it today.
+
+Links Mentioned: 
+
+Jev/Typeface AI: https://typesafe.ai
+AI Gateway: https://vercel.com/ai-gateway
+
+Timestamps
+00:00 – Intro
+02:27 – What Jev Is and Why It Matters
+04:32 – Email Triage Demo
+07:19 – Jev as an AI Decision Maker
+15:46 – How to Use Jev in a Business
+20:48 – Startup Idea: Local Services Matching and Instant Quotes
+22:51 – Use Case 1: Bitcoin Signal Test and Limits
+24:03 – Use Case 2: Auto-Clipping Long Videos
+25:27 – Use Case 3: Browser Control: Flight Pick in 7.1 Seconds
+26:18 – How to Get Access
+27:25 – Closing Thoughts
+
+Key Points
+
+• Jev is a classifier: an input and an output schema go in, and a probability for each choice comes out.
+• Ryan's demo scores 1,700 emails for 18 cents total.
+• Each Jev query takes about 200 milliseconds, whatever the input and output structure.
+• Use Jev at any point where a business makes fast, repeatable decisions on incoming data.
+• Keep Jev in an advisory role, and save frontier models for high-intelligence tasks like trading.
+• Instant access runs through the Vercel Gateway, and a waitlist covers direct access.
+
+Numbered Section Summaries
+
+1. What Jev Actually Is
+
+Ryan explains Jev as a classifier. You define an input and an output schema, and Jev returns a probability for each option, for example 80% orange, 10% red, and 10% blue for the color of an iPhone.
+
+2. The 18-Cent Email Demo
+
+Ryan runs Jev on 1,700 of his own emails and scores each one for category, priority, spam score, and reply likelihood. The run uses 4.2 million input tokens and 500,000 output tokens and costs 18 cents total.
+
+3. A Decision Model, Distinct From a Chat Model
+
+Jev returns only structured output, meaning the numbers and categories from your schema, with zero visible reasoning. Developers can drop that type-safe output straight into code. Ryan also tests Jev as a letter-by-letter text generator to show how a decision model differs from a chat model.
+
+4. Cheap Enough to Experiment
+
+A $5 intro credit lasts Ryan's team two days of heavy use, and he estimates $10 could last about three months. His girlfriend's graphic design agency uses Jev to score contact-form leads on a scale from 0 to 1, so high-value leads get a fast reply.
+
+5. The AI Traffic Cop
+
+I frame Jev as a traffic cop: information comes in, and Jev decides what it is, how important it is, and what happens next. A high-confidence lead goes to a human, a lower score goes to automation or an LLM, and the lowest scores get ignored. Ryan adds support routing, where 200-millisecond answers replace slow streaming responses.
+
+6. Put Jev at the Front of the Queue
+
+I ask how to find a business with an expensive queue of incoming information and put Jev at the front of it. Ryan describes a local services platform that matches a request like "I need my driveway power washed" to the best nearby business and turns "instant quote" forms into truly instant quotes.
+
+7. Where Jev Struggles
+
+Ryan's Bitcoin test, which asks Jev to buy, hold, or sell every minute, performs poorly. OpenAI's latest frontier model does a little better because it cross-references news. Ryan's advice: use Jev for routing-style decisions and keep it away from your portfolio.
+
+8. Clips, Browser Control, and Getting Started
+
+Ryan's video clipper scores 17 moments in about three seconds, and he builds it in about 10 minutes. A Browser Use demo shows Jev picking a flight from Zurich to London in 7.1 seconds. To start, use the Vercel Gateway and ask your AI agent which of your daily workflows could use a decision maker like Jev.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND RYAN ON SOCIAL
+
+X: https://x.com/ryanvogel
+Youtube: https://www.youtube.com/@vogeldev/videos
