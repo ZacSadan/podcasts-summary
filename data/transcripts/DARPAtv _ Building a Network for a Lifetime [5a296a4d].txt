@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: Building a Network for a Lifetime
+Method: description
+Language: en
+Words: 62
+URL: https://www.youtube.com/shorts/g4nBCcoHPwk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Artie Mabbett, Ph.D., reflects on his post-DARPA career journey and the importance of the professional network cultivated at the agency. He shares how his experience delivering innovative solutions for the warfighter inspired him to drive change within the defense industry. He emphasizes that the connections made at DARPA—spanning government, military, and the private sector—are invaluable for long-term career growth and leadership opportunities.

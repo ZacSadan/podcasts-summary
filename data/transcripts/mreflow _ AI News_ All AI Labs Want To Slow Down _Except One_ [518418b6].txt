@@ -1,0 +1,70 @@
+Feed: mreflow
+Episode: AI News: All AI Labs Want To Slow Down (Except One)
+Method: description
+Language: en
+Words: 220
+URL: https://www.youtube.com/watch?v=Kof2VcHTjrk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you probably missed from this week.
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Pace the Frontier Essay: https://darioamodei.com/post/we-must-pace-the-frontier
+Musk Backs Dario: https://x.com/elonmusk/status/2098789109980332057
+Altman Agrees on Pacing: https://x.com/sama/status/2098811563415150910
+Hassabis Endorses Dario Essay: https://x.com/demishassabis/status/2098909516582490602
+Zuckerberg Rejects AI Slowdown: https://apnews.com/article/ai-zuckerberg-meta-slowdown-2f4eab05b1e931456d00ebc2fe93c989
+Trump Calls Jensen Onstage: https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit
+Cowork Merges Into Claude: https://claude.com/blog/cowork-is-now-claude
+Claude Projects Redesigned: https://claude.com/blog/projects-redesigned
+Gemini Notebook Study Tools: https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/
+Siri AI Launches: https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/
+Qwen3.8 Omni Flash: https://qwen.ai/blog?id=qwen3.8-omni-flash
+OpenCode Union Alpha Free: https://x.com/opencode/status/2100236430890991782
+Meta One Subscription: https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/
+Muse Outbound Calls Beta: https://x.com/wailord/status/2100342273854894533
+Gemini 3.8 Live: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
+CC Expands to Groups: https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/
+Grok Build Memory: https://x.ai/news/grok-build-memory
+ElevenLabs Music v2.5: https://elevenlabs.io/blog/music-v2-5-model
+ElevenLabs MCP Expansion: https://elevenlabs.io/blog/introducing-voice-music-image-and-video-generation-in-the-elevenlabs-mcp
+OpenAI AI Advertising: https://openai.com/index/reimagining-advertising-with-ai/
+UBTECH Humanoid Robot Factory: https://interestingengineering.com/ai-robotics/ubtech-starts-10000-unit-robot-factory
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:34 Pacing AI Advancement
+9:36 Claude Combines Modes
+10:50 Claude Projects
+13:04 Gemini Notebook Update
+14:19 New Siri AI
+16:54 Qwen3.8-Omni-Flash
+17:45 Union Alpha Model
+19:51 New Meta Subscription
+20:37 Muse Agent Phone Calls
+21:17 Gemini 3.8 Live
+22:02 Google CC
+22:51 Memory in Grok Build
+23:08 ElevenLabs Music v2.5
+23:40 ElevenLabs MCP
+24:10 New ChatGPT Ads
+24:41 10,000 Robots Per Year
+25:22 Final Thoughts

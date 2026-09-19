@@ -1,0 +1,27 @@
+Feed: Lets AI News
+Episode: Vendor Lock: כשהחיבוק של הספק חונק
+Method: description
+Language: he
+Words: 145
+URL: https://www.youtube.com/watch?v=M1Z2RqrwPDE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Vendor Lock הוא מצב שבו עסק או משתמש הופך תלוי מאוד בספק טכנולוגי מסוים, עד שהמעבר לספק אחר הופך יקר, מסובך או כמעט בלתי אפשרי. בעולם ה-AI, התלות הזו יכולה להיווצר סביב מודלים, APIs, דאטה, תהליכי עבודה ותשתיות. בהתחלה זה מרגיש כמו חיבוק נעים: הכול עובד יחד, פשוט ונוח. אבל ככל שהמערכת גדלה, גם המחיר של לעזוב אותה גדל. אז מתי הנוחות הופכת לתלות — ואיך נמנעים מהמלכודת?
+
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

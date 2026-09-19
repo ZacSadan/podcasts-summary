@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: The Coolest Job You'll Ever Have
+Method: description
+Language: en
+Words: 65
+URL: https://www.youtube.com/shorts/jrJ0cScm0LY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DARPA Alum Artie Mabbett, Ph.D., shares his perspective on the unique and dynamic environment at DARPA. He discusses the personal autonomy given to program managers, the diverse roles available beyond deep research, and the agency's constant evolution. Dr. Mabbett encourages individuals with a passion for making a difference to explore opportunities at DARPA, highlighting that success is driven by initiative and a broad, systems-level understanding.
