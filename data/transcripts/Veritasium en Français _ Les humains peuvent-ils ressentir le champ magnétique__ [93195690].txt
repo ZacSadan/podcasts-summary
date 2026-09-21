@@ -1,0 +1,30 @@
+Feed: Veritasium en Français
+Episode: Les humains peuvent-ils ressentir le champ magnétique ? Découvrons la vérité !
+Method: description
+Language: en
+Words: 154
+URL: https://www.youtube.com/watch?v=8F8PAnxfPBQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Des recherches ont montré que certains cerveaux humains peuvent percevoir les rotations de champs magnétiques d’une intensité comparable à celle du champ géomagnétique, comme en témoignent des baisses de la puissance des ondes alpha après le stimulus. Pour en savoir plus, consultez https://ve42.co/magneto
+
+Un immense merci à :
+Le Prof. Shinsuke Shimojo, Connie Wang et Isaac Hilburn, ainsi qu’au Prof. Joe Kirschvink. Leur laboratoire : https://ve42.co/maglab
+
+Remerciements particuliers aux soutiens sur Patreon :
+Donal Botkin, James M Nicholson, Michael Krugman, Nathan Hansen, Ron Neal, Stan Presolski, Terrance Shepherd
+
+Tournage additionnel par Whitney Clavin
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00 - Introduction à l'expérience
+0:38 - Contexte scientifique et protocoles
+2:30 - Études passées et controverses
+3:29 - Présentation de la chambre d'essai
+5:03 - Préparation de l'expérience
+7:03 - Explication de l'enregistrement EEG
+8:04 - Résultats et implications
+11:24 - Conclusion et perspectives
