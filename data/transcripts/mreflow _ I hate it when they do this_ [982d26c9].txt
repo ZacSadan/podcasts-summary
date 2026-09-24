@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: I hate it when they do this!
+Method: description
+Language: en
+Words: 57
+URL: https://www.youtube.com/shorts/nsA_HeY3idE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+PSA to all the AI companies:
+
+Please stop announcing features like they’re live when they’re still rolling out “over the coming weeks.” 
+
+This happened for like 4 different demos in my recent AI news roundup video...
+
+Is it so hard to just make an announcement when I can actually use the new feature 😅
+
+#ai #ainews #claude

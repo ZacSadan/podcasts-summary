@@ -1,0 +1,74 @@
+Feed: Aleph
+Episode: "You Can't Keep AI in a Walled Garden": The Case Against Slowing Down | Gili Raanan on Invested
+Method: description
+Language: en
+Words: 688
+URL: https://www.youtube.com/watch?v=Y4PthSn-lxc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this episode of Invested, Michael Eisenberg sits down with Gili Raanan, Founder of Cyberstarts, inventor of the CAPTCHA, and chairman of Wiz - whose $32 billion acquisition by Google ranks among the largest venture-backed exits of all time.
+
+When Gili left Sequoia in 2018, he made two decisions he now calls "idiotic": to invest only in cybersecurity, at a time when no one believed cyber could produce big outcomes, and to never ask founders a single question about their technology, product, or business idea. Instead, he asks about their mothers and their childhoods - looking for people who faced real hardship, overcame it, and showed early signs of greatness.
+In this candid conversation, Michael and Gili unpack how Gili decides to invest after a single conversation, what made Assaf Rappaport special (starting with the meeting he never showed up to), and why Gili has zero concern that cyber has run its course. They also go deep on the catastrophic risks of AI, the race toward a zero-vulnerability world, why governments must adapt or fall behind, and what CAPTCHA looks like in the age of AI agents.
+
+They discuss:
+- Why Gili bet everything on cybersecurity when investors stayed away
+- Why he never asks founders about their technology or product
+- The childhood signals that point to great founders
+- The Wiz founder who stood him up - and why he never forgot it
+- Letting founders make the call on a multibillion-dollar decision
+- Why cyber is far from running its course
+- The "very dark decade" of AI-driven cyber risk
+- AI that refuses to shut itself down, and the race to zero vulnerabilities
+- Why governments that don't adopt AI risk falling behind
+- Inventing CAPTCHA - and why it never found a business model
+- What makes us uniquely human in the age of AI
+- How October 7th changed his investing and led him to Hapoel Tel Aviv
+
+Gili Raanan is a distinguished cybersecurity expert and the founder of Cyberstarts, an early-stage venture fund he launched in 2018. He has invested in and mentored many of the world's most successful cybersecurity companies, including Wiz, Armis, Fireblocks, Island, Cyera & Upwind.
+
+A Unit 8200 veteran and winner of the Israel Defense Presidential Prize, Gili is widely recognized as the inventor of the CAPTCHA and helped build the first WAF (web application firewall). He built two enterprise software companies that were acquired by EMC and IBM, then spent nearly nine years as a General Partner at Sequoia Capital before founding Cyberstarts, which has raised more than $720 million across 5 funds and made 28 investments with a combined company valuation of $55 billion. Gili sits on 10 company Boards and is a minority owner in Hapoel Tel Aviv, his favorite basketball team.
+
+Please rate this episode 5 stars wherever you stream your podcasts!
+
+KEY TOPICS 
+00:00 - Intro
+02:26 - Two "Idiotic" Decisions
+06:14 - Why He Skips the Smartest Kid
+09:39 - Investing After 10 Minutes
+10:54 - Founders Are a Gift Box
+14:14 - Growing Up Misunderstood in Kfar Saba
+16:23 - Assaf Rappaport: The Wiz Founder Who Stood Him Up
+20:06 - Passing on a $23B Offer
+21:41 - Zero to One, 50 Times
+23:53 - Has Cyber Run Its Course?
+27:07 - A Dark Decade for Cybersecurity
+28:24 - The AI That Won't Shut Down
+32:13 - Governments Must Adapt or Fall Behind
+36:24 - Inventing CAPTCHA
+38:07 - Why CAPTCHA Never Made Money
+41:35 - How October 7th Changed Him
+43:21 - Why He Bought Into Hapoel Tel Aviv
+
+RESOURCES
+Follow Gili on LinkedIn - https://www.linkedin.com/in/giliraanan/
+Follow Gili on X - https://x.com/giliraanan
+Subscribe to Invested: https://content.aleph.vc/invested
+Learn more about Aleph: aleph.vc 
+Sign up for Aleph’s monthly email newsletter: https://newsletter.aleph.vc/
+Subscribe to Aleph’s YouTube channel: https://www.youtube.com/@aleph-vc/
+Follow Michael on Twitter: twitter.com/mikeeisenberg
+Follow Michael on LinkedIn: https://www.linkedin.com/in/mieisenberg/
+Follow Aleph on Twitter: https://x.com/aleph?s=20 
+‍Follow Aleph on LinkedIn: https://www.linkedin.com/company/aleph-vc/
+‍Follow Aleph on Instagram: https://www.instagram.com/aleph.vc/
+
+CREDITS
+Executive Producer: Erica Marom 
+Producer: Sofi Levak, Dalit Merenfeld
+Video and Editing: Nadav Elovic 
+Music and Creative Direction: Uri Ar 
+Content and Editorial: Jackie Goldberg
+Design: Nimrod Sapir

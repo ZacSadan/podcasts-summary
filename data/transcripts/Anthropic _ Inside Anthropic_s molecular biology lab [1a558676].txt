@@ -1,0 +1,15 @@
+Feed: Anthropic
+Episode: Inside Anthropic's molecular biology lab
+Method: description
+Language: en
+Words: 136
+URL: https://www.youtube.com/watch?v=DdCEmlAydcw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research group and lab at Anthropic to see if Claude can help scientists notice more of them.
+
+The team has spent their careers hunting for unusual proteins, from tracing how CRISPR systems evolved to finding new enzymes for cell and gene therapies. Now, they do that work with Claude. It combs through huge datasets of DNA, flags interesting or uncharacterized proteins, and brings the team its most promising ideas. Then the scientists take the best ones to the bench and test them.
+
+In one of the team’s first research programs, Claude discovered a novel enzyme system with CRISPR-like repeats. Read how it happened on our blog: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
