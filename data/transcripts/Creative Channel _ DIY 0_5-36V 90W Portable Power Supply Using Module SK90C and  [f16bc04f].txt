@@ -1,0 +1,22 @@
+Feed: Creative Channel
+Episode: DIY 0.5-36V 90W Portable Power Supply Using Module SK90C and Makita 18V Battery
+Method: description
+Language: en
+Words: 95
+URL: https://www.youtube.com/watch?v=Me5tkb5kx1Y
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I built a portable adjustable DC power supply using a Makita 18V battery and the SK90C 90W buck-boost converter. Adjustable voltage from 0.5-36V with voltage and current control.
+
+Parts:
+- SK90C: https://s.shopee.vn/3g3sbafpSK
+- Jack: https://s.shopee.vn/9fL5kPFRIW
+- Power Switch: https://s.shopee.vn/AAHMLRah5q
+- 3D Print File: https://makerworld.com/en/models/3342301-sk90c-power-supply-powered-makita-18v-battery#profileId-3797435
+- Makita 18V Battery
+
+The SK90C is a 90W DC-DC buck-boost power supply module with a color display, adjustable voltage and current limiting. It can step the input voltage up or down and provide approximately 0.5-36V output, up to 5A within its 90W power limit.
+
+#SK90C #Makita18V #PowerSupply #DIY #3DPrinting #Electronics

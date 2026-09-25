@@ -1,0 +1,26 @@
+Feed: Lets AI News
+Episode: אביתר אדרי בראיון לת״א ניו יורק: האם ה-AI יחסל את כולנו עד 2030?
+Method: description
+Language: he
+Words: 134
+URL: https://www.youtube.com/watch?v=jIqf0pufnVI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+אביתר מתראיין בתכנית "תל אביב ניו יורק" בערוץ 10 ומנתח את האמירות של ג׳נסן הואנג, מנכ״ל NVIDIA, בנוגע לסכנות שבבינה מלאכותית. הואנג טוען כי אין בהכרח צורך ברגולציה חדשה, אלא באכיפה אפקטיבית של החוקים שכבר קיימים. בשיחה נבחנת השאלה כיצד נכון להתמודד עם הסיכונים שמביאה איתה מהפכת ה-AI, והאם מערכת החוקים הקיימת כבר מספקת את הכלים הנדרשים.
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

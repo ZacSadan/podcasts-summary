@@ -1,0 +1,21 @@
+Feed: mreflow
+Episode: 5 Prompts For Every ChatGPT New Feature
+Method: description
+Language: en
+Words: 125
+URL: https://www.youtube.com/shorts/SUtGm-nr4Hk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here are 5 new ways to use ChatGPT’s 5 new features 👇
+
+1. Use GPT-6’s upgraded computer use to turn you workspace into a digital diorama in Blender.
+2. Use GPT Image 2.5 to redesign one corner of a room while preserving the rest.
+3. Use ChatGPT Work’s cloud browser to check your AI subscriptions across websites you’re signed into and build a dashboard of costs and renewal dates.
+4. Use GPT-Live 1 to build a travel planner you can talk to while it researches.
+5. Use The Agents API to build a guitar-practice coach that remembers your progress between sessions.
+
+🔗 Head to the link in the pinned comment to download @OpenAI Codex and try these prompts for yourself!
+
+#ChatGPT_Partner #AI #ChatGPT #Codex #aiprompts

@@ -1,0 +1,71 @@
+Feed: Greg Isenberg
+Episode: Meta Muse AI Connectors: The Next App Store Moment?
+Method: description
+Language: en
+Words: 743
+URL: https://www.youtube.com/watch?v=84q4WA3kA8Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I break down the huge business opportunity because Meta has opened Muse, its personal AI agent, to developers. You can now submit a connector, which lets Muse use your service when someone asks it for help, and I think this could be the app store moment for AI. I explain how a connector works, share four startup ideas you can build on one, and cover how to get customers beyond Meta's directory. I also show how I'd build a first version with a coding agent like Claude Code or Codex, and what I'd test before submitting it to Meta for review.
+
+Timestamps
+
+00:00 – Intro
+01:35 – The App Store Parallel
+04:55 – How a Muse Connector Works
+07:29 – Startup Idea 1: Lead Gen for Business Suppliers
+09:28 – Startup Idea 2: Home Repair Dispatch
+11:07 – Startup Idea 3: Paddle Match and Court Finder
+12:47 – Startup Idea 4: Family Dinner Planning
+14:10 – How to pick an idea?
+14:56 – How People Find Your Connector
+15:32 – Growth Idea 1: Partner With Creators
+16:17 – Growth Idea 2: Product-Led Sharing
+17:46 – Growth Idea 3: Connected Marketplaces and Directory Placement
+19:34 – Building the First Version
+21:38 – Custom Connectors and Meta Approval
+23:56 – Where to Start This Week
+25:31 – Closing thoughts
+
+Muse Connector Prompt: https://startup-ideas-pod.link/muse-connector-prompt
+
+Key Points
+
+• Meta has opened Muse to developers, and a connector lets Muse use your service when someone asks it for help.
+• I look closely at the step in a request where someone needs a business that can deliver and money changes hands.
+• With a small budget, I'd start with lead generation, because I can show a customer a sample before writing much software.
+• I plan distribution around channels I can reach, such as creators, product-led sharing, and connected marketplaces.
+• A coding agent can build the first version, and I still inspect the results and test the awkward requests myself.
+• To start this week, I'd talk to one type of customer about the last time they dealt with the task.
+
+Numbered Section Summaries
+
+1. The App Store Moment for AI
+
+Apple opened the App Store in 2008, and by June 2010 it had paid developers a billion dollars from paid apps and in-app purchases. Muse follows the same model, with Meta building the assistant and outside businesses supplying the services that complete a customer's request. As of recording, Muse is the number one app in the App Store.
+
+2. Your Service in the Middle of a Request
+
+Someone organizing a small event starts with a venue, later realizes they need to rent equipment, and an equipment rental company becomes relevant at that step. Meta now has a submission process, a directory of approved connectors, and editors who can feature them. An app store feature once brought me about 40,000 downloads a day for free, so being early can help you learn faster than others in your category.
+
+3. How a Muse Connector Works
+
+In my example, I ask Muse for a two-hour podcast studio on Tuesday afternoon with a $200 budget, the connector asks the studio's API for a room, and the service books it once I approve the $160 offer. Duffel already does this in travel, where its Muse integration lets people search flights and manage bookings, and the company has passed a billion dollars in annual transaction value. If you already have software, check what customers can do through your API today, because a useful connector might sit inside your product.
+
+4. Custom Connectors, Review, and Open Questions
+
+Meta documents a custom connector option, so I can connect my own Muse to a service through its API and test the integration before pursuing a public listing. Stacktree's founder published a firsthand account of the review form, which offers options for an API or an existing MCP server and asks for product information, usage examples, documentation, and support details. My open questions are how many users Muse will reach and how many connectors Meta will approve, and whether review will look like YC at 0.01% or like the Apple App Store.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+
+Instagram: https://instagram.com/gregisenberg/
+
+LinkedIn: https://www.linkedin.com/in/gisenberg/

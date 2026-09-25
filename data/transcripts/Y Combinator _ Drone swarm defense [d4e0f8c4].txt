@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: Drone swarm defense
+Method: description
+Language: en
+Words: 79
+URL: https://www.youtube.com/shorts/5_ZkERt5siI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Attack drones are reshaping modern warfare, but many countries still lack an effective way to defend their airspace.
+
+Earendil Robotics is building autonomous interceptors, along with the software and training needed to stand up that capability from scratch. Their systems can take off, transit, and intercept targets on their own, reducing months of pilot training to a few clicks.
+
+The goal is air defense that’s affordable enough to deploy in large numbers and simple enough to operate at scale.

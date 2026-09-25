@@ -1,0 +1,30 @@
+Feed: Google Israel
+Episode: Google’s latest moonshot to put machine learning in space
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/watch?v=o1JK79jszqo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A solar panel in space generates up to 8 times more power than one on Earth.
+
+That’s the vision behind Project Suncatcher: Google’s moonshot to capture continuous sunlight and more efficiently power machine learning in space. 
+
+In this video, we explore some of the monumental engineering questions that must be answered to make this idea a reality.
+
+0:14 - How do we put machine learning in space?
+0:30 - How much power can solar panels generate in orbit?
+0:55 - How do TPU satellites communicate?
+1:40 - What is the future of space-based compute?
+
+Read more about Project Suncatcher on News from Google: https://goo.gle/4xEzOOp
+
+ #Google #ProjectSuncatcher #AI #Space #Innovation 
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google

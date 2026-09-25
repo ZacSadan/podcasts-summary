@@ -1,0 +1,39 @@
+Feed: Israeli Tech Radar
+Episode: AI Cost Under Control: From Engineering Strategy to Working Architecture Webinar 22/9/26 (Hebrew)
+Method: description
+Language: he
+Words: 380
+URL: https://www.youtube.com/watch?v=PR7I6CzwkUE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+​On the Agenda:
+
+​Taking Control of AI Cost: An Engineering Playbook // Haggai Philip Zagury, Agentic AI Platform Architect & DevOps Group Leader, Tikal
+​As AI adoption expands across engineering organizations, cost management becomes more than a FinOps concern. Teams use different models, tools, API keys, and workflows, while engineering leaders are expected to control spend without limiting experimentation or reducing development velocity.
+
+​In this session, Haggai will present a seven principle engineering playbook for turning fragmented AI usage into a measurable and governable process.
+
+He will explain how organizations can establish a reliable baseline, centralize visibility across teams and agents, define ownership, and introduce budgets and guardrails before uncontrolled usage becomes a significant operational cost.
+
+​The session will also cover how model routing, context compression, prompt cache optimization, local inference, and continuous evaluations can work together as part of one cost management strategy.
+
+​The focus will be on building an ongoing engineering capability that connects AI spend to workload value and enables organizations to make informed decisions about model selection, infrastructure, and usage policies.
+
+​How I Cut My AI Agent’s Token Bill: A Three Layer Model // Amit Karni, DevOps Tech Lead & AI Platform Engineer, Tikal
+​AI agent costs rarely come from one expensive request. They accumulate as agents repeatedly transmit large contexts, generate unnecessary output, and carry increasingly bloated code and conversation histories into subsequent interactions.
+
+​In this session, Amit will share the practical model implemented at Tikal to reduce token consumption across three complementary layers: transport, output, and design.
+
+​He will demonstrate how context compression reduces the amount of data sent to the model, how agent steering limits unnecessary output, and how design guidance encourages coding agents to generate only the code required for the task.
+
+​Amit will also present the architecture behind the implementation, including a centralized model gateway and dynamic model routing. This architecture makes it possible to direct each workload to the most appropriate model, rather than using premium models by default.
+
+​The session will show how these optimization techniques can be combined into a controlled pipeline and scaled from a local experiment into an engineering capability that supports an entire team or organization.
+
+Explore more Tikal Events:
+Luma: https://tkl.to/tikal-calendar-luma
+Dive into insights on our Tech Blog: 
+https://medium.com/israeli-tech-radar
+Follow us on LinkedIn: https://tkl.to/tikal-linkedin

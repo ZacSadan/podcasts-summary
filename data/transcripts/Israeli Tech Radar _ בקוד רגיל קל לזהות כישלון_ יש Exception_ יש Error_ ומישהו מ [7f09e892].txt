@@ -1,0 +1,19 @@
+Feed: Israeli Tech Radar
+Episode: בקוד רגיל קל לזהות כישלון. יש Exception, יש Error, ומישהו מטפל בזה.
+Method: description
+Language: he
+Words: 86
+URL: https://www.youtube.com/shorts/9VBxKV3QdTs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+עם Agents כישלון יכול להיראות בדיוק כמו הצלחה.
+בפרק עולה הרגע שבו זה נהיה ברור.
+המשימה הושלמה והכל נראה ירוק, אבל הדרך שבה ה Agent הגיע לשם היא לא דרך שמישהו בצוות היה מאשר.
+לכן לא מספיק לבדוק שהתוצאה הגיעה. צריך שכבות הגנה שבודקות גם איך היא הגיעה.
+וזו הנקודה שבה העבודה עם Agents מפסיקה להיות שאלה של יכולת, ומתחילה להיות שאלה של אמון.
+
+הפרק כבר באוויר 🎧
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Harness Engineering: From Vibe Coding to Verification-First AI Delivery Ep.1/4

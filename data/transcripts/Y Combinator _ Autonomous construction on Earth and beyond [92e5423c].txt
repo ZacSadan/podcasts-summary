@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: Autonomous construction on Earth and beyond
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/shorts/iGY7httJjQA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A lot of construction work is still done by hand simply because the machines to automate it don’t exist. That’s become a bottleneck for building things like solar farms, data centers, and other critical infrastructure.
+
+Cosmic Robotics is building those machines. Their robots have already installed 11,000 solar panels, and they just signed a major contract with the largest construction company in the country.
+
+They’re building the construction robots we’ll need on Earth today, and eventually on the Moon and Mars.

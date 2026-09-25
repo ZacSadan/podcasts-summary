@@ -1,0 +1,19 @@
+Feed: Check Point
+Episode: The First AI Network Firewall
+Method: description
+Language: en
+Words: 137
+URL: https://www.youtube.com/watch?v=zKj_QCsOpsg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI is transforming how organizations work, and Check Point encourages organizations to embrace its potential—not hold it back. With Check Point’s AI security solutions, organizations can confidently accelerate their AI adoption while securing the transition.
+
+Discover how Check Point’s AI Network Firewall, available on your existing firewalls with R82.20, brings AI security directly into your existing infrastructure—without new hardware, agents, or network redesign.
+
+In this walkthrough, see how to discover and control AI usage, protect sensitive data with real-time DLP, secure MCP activity, and detect and prevent AI-native threats such as prompt injection and malicious agentic AI.
+
+With the same Security Management Console and policy framework, Check Point helps organizations secure AI usage, protect sensitive data, and prevent emerging AI threats—so security becomes an enabler of AI adoption, not a barrier to it.
+
+Discover. Control. Protect. Prevent.
