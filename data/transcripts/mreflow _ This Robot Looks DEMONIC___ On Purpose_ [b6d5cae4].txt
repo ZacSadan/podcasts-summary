@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: This Robot Looks DEMONIC... On Purpose?
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/shorts/rcUTZysF9s4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This robot looks straight up like a fantasy movie villain, but it was designed like that on purpose.
+
+Despite how it looks, the Threehalves robot's design actually makes perfect sense: four legs for stability, tools that attach directly to its wrists, and horns that house cameras for a remote operator.
+
+The goal is to let skilled workers tackle dangerous jobs from a safe distance, like wildfire zones, collapsed buildings, and toxic environments.
+
+It’s still a half-built proof of concept. But this is the kind of robotics idea I want to see work. Even if I’d absolutely run the other way if I saw it in the woods.
+
+#Robotics #FutureTech #AInews #ai
