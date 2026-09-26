@@ -1,0 +1,53 @@
+Feed: Nick Saraev
+Episode: I Spent $31,141 & 1,000 Hours On Claude Code To Learn This
+Method: description
+Language: en
+Words: 575
+URL: https://www.youtube.com/watch?v=45K3zHckCnQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get all course resources 100% free: https://skool.com/maker-zero/about
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+Summary ⤵️
+Here are some practical tips on Claude Code that I've learned after spending $31,141 and over 1,000 hours working with AI models. You'll learn how to make your outputs more reliable through evals and self-checks, minimize wasted context, run parallel work in defined scopes, and more.
+
+Chapters:
+0:00 I've spent over $30,000 on Claude Code
+0:29 You can't trust the first output
+3:19 A way to check their own work
+4:38 Let the code be the context
+6:38 Letting Claude write your prompt
+8:11 Watch what is eating your context window
+10:11 Loosening the leash
+11:54 Diagnosing before you start a fix
+13:01 MCP servers
+14:56 Run scoped tasks in parallel
+16:50 Always start fresh with a handoff note
+17:52 Ask side questions with /btw
+19:01 Fan out and fan in
+20:53 Set up your CLAUDE.md
+22:17 Keep a backup tool ready
+23:52 Have Claude learn from its mistakes
+25:21 Maker School
