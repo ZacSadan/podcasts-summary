@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: Rocket cargo delivery anywhere on Earth in minutes
+Method: description
+Language: en
+Words: 57
+URL: https://www.youtube.com/shorts/j7Ee8hMme3c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Hop Aero is building rockets that can deliver cargo anywhere on Earth in minutes.
+
+They’re starting with military logistics and other time-sensitive payloads, including temperature-controlled materials with short shelf lives, where getting something there much faster can materially change the outcome.
+
+They’ve already built and successfully hot-fired a new rocket engine, and signed $1.37B in commercial LOIs.

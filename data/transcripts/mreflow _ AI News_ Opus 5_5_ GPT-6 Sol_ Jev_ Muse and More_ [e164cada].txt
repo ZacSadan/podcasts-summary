@@ -1,0 +1,59 @@
+Feed: mreflow
+Episode: AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!
+Method: description
+Language: en
+Words: 177
+URL: https://www.youtube.com/watch?v=aDpIra7NFuE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you probably missed this week. Learn more about GPT-Live 1 and the Agent API here: https://developers.openai.com/api/docs/guides/live
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Meta Connect 2026: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+ChatGPT Voice Upgrades: https://x.com/OpenAI/status/2102808325742322002
+GPT-6 Sol and Luna: https://openai.com/index/introducing-gpt-6-sol-and-luna/
+Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5
+Grok 4.7: https://x.ai/news/grok-4-7
+New AI Model Type: https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
+Made On YouTube: https://www.youtube.com/creators/made-on/
+New Microsoft Copilot: https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/
+Gemini 3.8 Live Avatar: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/
+Gemini 3.8 Flash TTS: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+Gemini in Google Vids: https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/
+Spotify Taste Profile: https://newsroom.spotify.com/2026-09-23/taste-profile-shape-home-feed/
+Google Project Suncatcher: https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:26 Meta Connect Updates
+8:42 GPT-Live-1
+9:48 GPT-6 Sol and Luna
+12:59 Claude Opus 5.5
+18:13 Grok 4.7
+22:04 JEV
+26:52 Made on YouTube Updates
+29:06 New Microsoft Copilot
+30:33 Gemini 3.8 Live Avatar
+30:56 Gemini 3.8 Text-To-Speech
+31:30 Google Vids Update
+31:53 Spotify Update
+32:12 Project Suncatcher
+33:04 Final Thoughts

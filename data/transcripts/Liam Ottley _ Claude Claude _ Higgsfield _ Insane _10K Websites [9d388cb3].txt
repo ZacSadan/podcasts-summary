@@ -1,0 +1,23 @@
+Feed: Liam Ottley
+Episode: Claude Claude + Higgsfield = Insane $10K Websites
+Method: description
+Language: en
+Words: 168
+URL: https://www.youtube.com/watch?v=1P5xtV-Kf0o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Check out Higgsfield AI: 
+👉🏻 https://higgsfield.ai/s/mcp-liamottley-SfAEQx
+
+Want an AI Makeover for YOUR Business?
+👉🏻 https://bit.ly/aimakeover
+
+Follow me on Instagram to see behind the scenes:
+🤳🏼 https://instagram.com/liamottley
+
+I walk through how I built a bold new website for my business AI Makeover using Claude Code, Fable 5, and 3.js, including the concept work, personas, and iteration process needed to avoid “AI slop” design. I explain why strong copy and custom media matter most, and show how I used Higgsfield (via MCP inside Claude Code) to outpaint portrait photos into widescreen assets and turn stills into polished moving clips for the site. I also cover using Mobbin and 21st.dev (via MCP) to source high-quality UI references and components. Finally, I set up Osprey on aimakeover.io to resolve visitors into leads (name, email, LinkedIn, phone), share early results from real traffic, and discuss outbound automation ideas using webhooks, Instantly, and Expandi plus upcoming Osprey features like resolving companies to people.
+
+WATCH NEXT: I Rebuilt This $1,000,000 Business (in 5 Days)
+https://www.youtube.com/watch?v=BMSvmzJuMiM
