@@ -1,0 +1,50 @@
+Feed: Nick Saraev
+Episode: Stop Listening To AI News
+Method: description
+Language: en
+Words: 556
+URL: https://www.youtube.com/watch?v=x55Fj_syFcI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get all course resources 100% free: https://skool.com/maker-zero/about
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+Summary ⤵️
+I think staying on top of every new model prob hurts you more than helps you at this point. They're all just tiny decimal points (4.1 → 4.2) and they rarely meaningfully impact what you can do.
+
+Most of it is entertainment, not education. Richest ppl probably don't even know what model came out. Learn skills that don't change, like sales, marketing, outbound, etc. Don't scroll, search.
+
+Chapters
+0:00 Why AI news holds you back
+0:20 Too much news, not enough change
+1:02 AI news is like politics
+1:40 What AI is actually for
+2:23 Entertainment, not education
+3:51 The cutting edge myth
+4:59 Most hype isn't organic
+5:50 Everyone is incentivized to hype it
+7:02 What to do instead
+7:26 Search, don't scroll
+8:36 Learn skills that don't depreciate
+10:03 Be intentional
