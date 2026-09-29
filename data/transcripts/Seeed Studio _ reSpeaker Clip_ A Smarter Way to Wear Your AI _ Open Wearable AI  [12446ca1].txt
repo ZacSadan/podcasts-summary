@@ -1,0 +1,23 @@
+Feed: Seeed Studio
+Episode: reSpeaker Clip: A Smarter Way to Wear Your AI | Open Wearable AI Recorder
+Method: description
+Language: en
+Words: 78
+URL: https://www.youtube.com/watch?v=DEOZcLJpTxI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A compact wearable voice interface designed to bring AI into your everyday life and work.
+
+🎙️ Personal AI Assistant
+Turn everyday moments into AI-powered interactions.
+💼 Sales Performance Management
+Capture conversations and turn customer interactions into actionable insights.
+🤝 Interview & Smart Meeting
+Stay focused on the conversation while AI helps capture and organize what matters.
+
+🛒 reSpeaker Clip: https://www.seeedstudio.com/respeaker-clip-wearable-ai-recorder.html
+
+
+#SeeedStudio #reSpeakerClip #AINote #reSpeaker #wearable #MicrophoneArray #Nordic #VoiceAI #SoundAI #EdgeAI #VoiceInterface #AIRecorder #VoiceAgent #AIAgent #AIPendant #AINecklace #OpenWearableAIRecorder #TheAIHardwarePartner
