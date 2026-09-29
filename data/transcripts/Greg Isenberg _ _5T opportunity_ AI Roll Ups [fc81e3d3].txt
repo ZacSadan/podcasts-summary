@@ -1,0 +1,68 @@
+Feed: Greg Isenberg
+Episode: $5T opportunity: AI Roll Ups
+Method: description
+Language: en
+Words: 820
+URL: https://www.youtube.com/watch?v=ZT4mpjx0JnE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I break down the $5 trillion wave of small businesses set to change hands as their owners retire, and why AI agents make this wave a real opening for solo founders. I walk through how Thrive Holdings and General Catalyst buy accounting firms, property managers, and support centers, then run AI agents inside them to lift margins. Then I show how I'd run a one-person holding company: the folder structure, the agent files, the human approval rule, and my average week. I close with the strongest arguments against AI roll-ups, including the one I take most seriously.
+
+Timestamps
+
+00:00 – Intro
+01:52 – Why the $5 Trillion Shift Is Happening Now
+04:52 – Examples: Thrive Holdings& General Catalyst
+08:38 – The Fund Playbook
+10:07 – The Small-Deal Gap
+10:51 – The One-Person Holdco
+14:23 – The Folder Structure
+16:47 – The Agent Pipeline
+18:38 – Inside a Reviewer Agent File
+19:41 – My Week Running the Holdco
+21:49 – How to Land the First Business
+22:24 – Arguments Against AI Roll-Ups
+27:43 – Closing Thoughts
+
+Key Points
+
+• About a million small businesses, part of a $5 trillion shift, are set to sell by 2035 as owners retire (McKinsey).
+• AI agents now handle the work these firms run on: data entry, document chasing, status updates, and first drafts.
+• The big funds chase bigger deals, which leaves the small firms open for solo founders and small teams.
+• A one-person holdco runs on shared agents and rules, plus a GM with real upside at each business.
+• A person approves all agent work before it reaches a client.
+• The corrections log, turned into rules every week, becomes the most valuable asset in the holdco.
+
+Numbered Section Summaries
+
+1. Why the $5 Trillion Shift Is Happening Now
+
+Three things line up at once. Owners who built accounting practices, insurance agencies, and property management companies in the 80s and 90s want to retire, and their kids and employees often want something else. AI agents can now do the typing, chasing, and status updates well enough that a person only checks the draft, while buyers still price these firms at 5 to 10% profit.
+
+2. What Thrive and General Catalyst Are Buying
+
+Thrive Holdings has bought close to 50 accounting firms in 24 months, and at one of them, Larson Gross in Bellingham, Washington, AI built on OpenAI's Codex processed 7,000 returns this tax season while accountants saved 31% of their time on average. General Catalyst set aside $1.5 billion, and its company Long Lake reports 18 property management acquisitions and $100 million in EBITDA in under two years. Many of these numbers come from young companies raising money that have yet to face a recession, so I read them as a strong signal of direction and stop short of calling them proof.
+
+3. The Fund Playbook and the Small-Deal Gap
+
+The funds build the agents and software first, buy a trusted firm, run agents in the background, then move the back office over, so revenue holds while costs fall and margins can climb from 5 to 10% to 30 to 40% if the thesis holds. General Catalyst companies pay 60 to 70% in cash and the founder rolls about 30% into equity, which gives the person with the client relationships a reason to stay through the handoff. A billion-dollar fund skips a $2 million bookkeeping firm, most of the businesses up for sale sit at that size, and many retiring owners would rather hand their life's work to a person.
+
+4. The One-Person Holdco
+
+I sit at the top of a holding company that owns a few small businesses, each run by a GM who already works there and gets a real piece of the upside. Every business shares the same agents, rules, back office, and dashboards, so each new business is easier than the last. I use the same models the funds use, I do the integration myself, and after six years running my own holdco, I know the GM decides how far each business goes.
+
+5. Folders, Agents, and the Human Approval Rule
+
+The folder structure holds a thesis, a shared layer with global rules, test examples, and runbooks, and one folder per business with client, people, and rules files plus a corrections log. Work moves from an intake agent to a preparer agent to a reviewer agent, and the reviewer can block work while only a person sends it to the client. Each agent gets a plain-English job description that covers its job, its limits, and when to stop and ask a human.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
