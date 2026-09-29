@@ -1,0 +1,25 @@
+Feed: Google Israel
+Episode: Testing AI chips to survive in space
+Method: description
+Language: en
+Words: 123
+URL: https://www.youtube.com/watch?v=8NPgswgbTnE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Project Suncatcher is a moonshot initiative by Google that aims to put AI into orbit and capture space-based solar energy to power them.
+
+In this video, the Project Suncatcher team tackles hardware survival: how do you build systems that can withstand 5 years of cosmic radiation, solar events, and the force of a rocket launch that generates acceleration loads up to 10 times the force of gravity?
+
+00:24 - How do systems withstand rocket launch forces?
+01:18 - How does space radiation affect electronics?
+02:27 - Will TPUs survive 5 years in orbit?
+
+#Google #ProjectSuncatcher #AI #Space #Innovation
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google
