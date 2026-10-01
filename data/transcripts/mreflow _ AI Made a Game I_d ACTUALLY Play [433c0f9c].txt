@@ -1,0 +1,23 @@
+Feed: mreflow
+Episode: AI Made a Game I’d ACTUALLY Play
+Method: description
+Language: en
+Words: 102
+URL: https://www.youtube.com/shorts/c7twMUavy5Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Opus 5.5 might be the best coding model you can use right now.
+
+I let it run my Megabonk game test for almost 20 HOURS… and the result is kind of insane.
+
+It's also surprisingly affordable. Opus 5.5 is available on Claude’s Pro, Max, Team, and Enterprise plans, so you can access it starting with the $20/month Pro plan.
+
+If you’re using the API, it’s $4 per million input tokens and $20 per million output tokens.
+
+That price-to-performance ratio is pretty wild for a model this good at long-running coding tasks.
+
+Have you tried Opus 5.5 yet?
+
+#ai #ainews #claude #anthropic #vibecoding
