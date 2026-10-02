@@ -1,0 +1,19 @@
+Feed: Israeli Tech Radar
+Episode: פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+Method: description
+Language: he
+Words: 95
+URL: https://www.youtube.com/shorts/uxa74IXhzBU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+סדרת Chief Engineering ממשיכה עם הפרק השמיני, בהובלת ליאור כנפי, Founder & CEO של Tikal.
+בפרק ליאור מארח את מיכל נבו, VP R&D ב־Pheno.AI, לשיחה על מה באמת נדרש כדי להוציא מוצר AI לפרודקשן, ועל הארגון שצריך לעמוד מאחורי זה.
+הם מדברים על הטמעה של AI במוצר, על Evals ו־Guard Rails, על בניית אמון ב־Agent שרץ מול משתמשים אמיתיים, ועל האנשים שצריכים להוביל את זה.
+איך יודעים מי מתאים לשלב שהחברה נמצאת בו עכשיו, ומה קורה כשהשלב מתחלף.
+הפרק כבר באוויר 🎧
+
+
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Chief Engineering | Episode 8
