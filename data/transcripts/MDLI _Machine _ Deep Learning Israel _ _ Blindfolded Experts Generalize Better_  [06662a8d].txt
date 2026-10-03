@@ -1,0 +1,18 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: Blindfolded Experts Generalize Better: Insights from Robotic Manipulation and Videogames
+Method: description
+Language: he
+Words: 197
+URL: https://www.youtube.com/watch?v=7T2Rz1KBt5I
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מאירוע חוקרים TopResearch של קהילת MDLI.
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/topreaserch
+
+
+Behavioral cloning is a simple yet effective technique for learning sequential decision-making from demonstrations. Recently, it has gained prominence as the core of foundation models for the physical world, where achieving generalization requires countless demonstrations of a multitude of tasks. Typically, a human expert with full information on the task demonstrates a (nearly) optimal behavior. In this paper, we propose to hide some of the task’s information
+from the demonstrator. This “blindfolded” expert is compelled to employ nontrivial exploration to solve the task. We show that cloning the blindfolded expert generalizes better to unseen tasks than its fully-informed counterpart. We conduct experiments of real-world robot peg insertion tasks with (limited) human
+demonstrations, alongside a videogame from the Procgen benchmark. Additionally, we support our findings with theoretical analysis, which confirms that the generalization error scales with sqrt (I/m), where I measures the amount of task information available to the demonstrator, and m is the number of demonstrated tasks. Both theory and practice indicate that cloning blindfolded experts generalizes better with fewer demonstrated tasks. Project page with videos and code:
+https://sites.google.com/view/blindfoldedexperts/home.

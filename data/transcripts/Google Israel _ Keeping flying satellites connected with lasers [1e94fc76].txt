@@ -1,0 +1,32 @@
+Feed: Google Israel
+Episode: Keeping flying satellites connected with lasers
+Method: description
+Language: en
+Words: 132
+URL: https://www.youtube.com/watch?v=KO2bNK9L7WA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+To make space-based AI work, thousands of chips must communicate across a vacuum orbit with minimal delay, orbiting in a highly connected constellation.
+
+Without physical cables, we use lasers fired between satellites to transfer information; the equivalent of hitting a moving, coin-sized target from kilometers away, over and over again.
+
+In this video, Google researchers explain how they achieved an 800 Gbps bidirectional laser link by adapting off-the-shelf fiber optics.
+
+00:15 - How can we keep the constellation connected?
+00:38 - Why use lasers for satellite communication?
+01:31 - Can terrestrial hardware work in space?
+
+More on Project Suncatcher: 
+https://youtu.be/o1JK79jszqo
+https://youtu.be/8NPgswgbTnE
+https://youtu.be/ktdbUIZKeSE
+
+#Google #ProjectSuncatcher #AI #Space #Innovation 
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google

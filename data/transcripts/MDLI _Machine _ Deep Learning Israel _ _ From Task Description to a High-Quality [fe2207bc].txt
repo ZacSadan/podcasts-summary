@@ -1,0 +1,16 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: From Task Description to a High-Quality Fine-Tuned SLM, Arnon Mazza
+Method: description
+Language: he
+Words: 128
+URL: https://www.youtube.com/watch?v=El3tyTEb_lY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מאירוע חוקרים TopResearch של קהילת MDLI.
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/topreaserch
+
+
+
+Training a task-specific classifier normally requires a labeled corpus. We study the harder setting where no data exists at all and the only input is a task description in natural language. Two problems arise together. Diversity: a generator prompted from a description samples its own prior and collapses onto a narrow band of surface patterns, and sampling cannot fix a distribution that was never observed. Faithfulness: near the decision boundary, a single teacher call assigns unreliable labels, and errors there are exactly the ones that matter. BARRED (ICML 2026) addresses both. The resulting small models outperform frontier models on human-labeled test sets, at a fraction of the cost and latency.

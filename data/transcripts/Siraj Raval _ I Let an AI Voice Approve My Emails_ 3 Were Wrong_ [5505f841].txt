@@ -1,0 +1,54 @@
+Feed: Siraj Raval
+Episode: I Let an AI Voice Approve My Emails. 3 Were Wrong.
+Method: description
+Language: en
+Words: 375
+URL: https://www.youtube.com/watch?v=_UFnZvLe-X4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Build this yourself, free through the end of November, subject to the Fair Use Policy: https://fish.audio/?fpr=siraj80
+This video contains a paid integration by Fish Audio.
+
+My AI agent already does real work. It reads my inbox, drafts my replies, flags the ones that need a human and moves things on my calendar. It has been doing it for months and it talks like a log file, so I skim it, and skimming isn't checking.
+
+So I added one layer: a voice, built on Fish Audio S2.1 Pro. One function, text in and audio out, English and Hindi in the same voice. Then I ran an experiment I didn't enjoy. One working session, approvals by voice only, log window closed. At the end I opened the log on camera and counted every decision I'd approved without reading: how many were correct and how many were wrong.
+
+I said I'd publish the number before I knew what it was. It's 24 correct, 3 wrong.
+
+The rule I came out with, which is yours to steal: give your agent a voice for output, never for approval. Voice is a great narrator and a terrible auditor. That's about what a confident delivery does to a listener, not about the speech model, which read every wrong sentence perfectly.
+
+WHAT YOU'LL LEARN
+How to add a voice layer to an agent you already have, in one function
+Why one voice across two languages is a different thing from two voices
+Why faster approval means less time to be suspicious
+How to set an approval boundary that survives your own enthusiasm
+
+CHAPTERS
+0:00 I said yes without looking
+0:29 What the agent already does
+1:01 The missing layer
+1:47 Fish Audio
+2:58 It has a personality now
+3:48 The rule: voice only
+4:35 The Hindi thread
+5:02 The calm wrong answer
+5:48 Open the log
+6:07 What the voice actually changed
+6:36 The rule you should steal
+7:43 Close
+
+Fish Audio S2.1 Pro: https://fish.audio/?fpr=siraj80
+The Developer API is free through the end of November, subject to their Fair Use Policy.
+
+Tell me in the comments what you'd never let a voice approve.
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval

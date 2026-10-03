@@ -1,0 +1,18 @@
+Feed: MDLI (Machine & Deep Learning Israel )
+Episode: Flow Matching Neural Processes (NeurIPS), Hussen Abu Hamad
+Method: description
+Language: he
+Words: 163
+URL: https://www.youtube.com/watch?v=TkCkboxVa6Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+ההרצאה הזו היא חלק מאירוע חוקרים TopResearch של קהילת MDLI.
+מוזמנים לצפות בשאר ההרצאות והמצגות בלינק הזה: https://mdli.co.il/topreaserch
+
+
+
+Neural processes (NPs) are a class of models that learn stochastic processes directly from data and can be used for inference, sampling and conditional sampling.
+We introduce a new NP model based on flow matching, a generative modeling paradigm that has demonstrated strong performance on various data modalities.
+Following the NP training framework, the model provides amortized predictions of conditional distributions over any arbitrary points in the data. Compared to previous NP models, our model is simple to implement and can be used to sample from conditional distributions using an ODE solver, without requiring auxiliary conditioning methods. In addition, the model provides a controllable tradeoff between accuracy and running time via the number of steps in the ODE solver. We show that our model outperforms previous state-of-the-art neural process methods on various benchmarks including synthetic 1D Gaussian processes data, 2D images, and real-world weather data.
