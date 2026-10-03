@@ -1,0 +1,13 @@
+Feed: Y Combinator
+Episode: A camera that can see through walls
+Method: description
+Language: en
+Words: 50
+URL: https://www.youtube.com/shorts/Lk_0TviLhnw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Applied Electrodynamics is building cameras that can see through walls and other opaque materials.
+
+Using radio waves, their system can see through drywall, marble, and other surfaces to locate studs, pipes, cables, junction boxes, and other objects hidden behind them, then turn that data into a dimensionally accurate 3D model.

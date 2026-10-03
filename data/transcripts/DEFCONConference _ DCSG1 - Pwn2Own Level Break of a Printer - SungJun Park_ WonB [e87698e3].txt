@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DCSG1 - Pwn2Own Level Break of a Printer - SungJun Park, WonBeen Im
+Method: description
+Language: en
+Words: 70
+URL: https://www.youtube.com/watch?v=XyT00Hdld6c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Modern printers remain one of the most overlooked yet highly privileged devices inside enterprise networks. Despite their deep integration with host systems, vendor services, and internal workflows, their proprietary communication protocols and complex firmware stacks often escape rigorous security scrutiny. In this presentation, we share the research journey that led our team to develop a fully exploit chain against a Canon printer, ultimately earning a win at Pwn2Own Ireland 2025.

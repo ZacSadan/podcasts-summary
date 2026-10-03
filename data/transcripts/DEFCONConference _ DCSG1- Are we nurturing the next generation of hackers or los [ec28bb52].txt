@@ -1,0 +1,15 @@
+Feed: DEFCONConference
+Episode: DCSG1- Are we nurturing the next generation of hackers or losing them - SherpaSec
+Method: description
+Language: en
+Words: 96
+URL: https://www.youtube.com/watch?v=kBGaSIca82k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As cybersecurity evolves, so do its pathways. Emerging tools like LLMs are reshaping how newcomers learn—but are they accelerating understanding, or reducing the need to build strong foundations? When newcomers turn to CTFs, are they becoming creative security thinkers—or highly efficient puzzle solvers?
+
+In addition, we will examine broader structural factors, including regulatory considerations and evolving industry expectations, and how they may impact accessibility for newcomers.
+
+Join us for a thoughtful discussion on how today’s environment is influencing the development of future security researchers, and what it means for the long-term health of the cybersecurity ecosystem.

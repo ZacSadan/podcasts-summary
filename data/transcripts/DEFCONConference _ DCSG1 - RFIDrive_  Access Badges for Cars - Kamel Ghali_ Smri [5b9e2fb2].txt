@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DCSG1 - RFIDrive:  Access Badges for Cars - Kamel Ghali, Smriti
+Method: description
+Language: en
+Words: 82
+URL: https://www.youtube.com/watch?v=8Pbqi61wvDo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+RFID has revolutionized physical access controls for buildings, but in recent years its also made its way into the automotive industry. From acting as a key for vehicles to use as an ID to charge your car, RFID has a lot of uses when it comes to car hacking. In this talk we will explore some of the use cases of RFID in the modern automotive environment, explore instances of it being hacked, and introduce tools to get started with hacking RFID.

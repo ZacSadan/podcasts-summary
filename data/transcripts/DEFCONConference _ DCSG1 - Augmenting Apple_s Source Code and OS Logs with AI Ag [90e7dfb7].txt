@@ -1,0 +1,15 @@
+Feed: DEFCONConference
+Episode: DCSG1 - Augmenting Apple's Source Code and OS Logs with AI Agents -Olivia Gallucci
+Method: description
+Language: en
+Words: 152
+URL: https://www.youtube.com/watch?v=YA5zrUSpxxI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Have you ever wondered how macOS and iOS work under the hood? While Apple is known for its closed ecosystem, did you know that significant portions of macOS and iOS are open source, including security components? For researchers, learning how to analyze and exploit this open-source code, especially with the help of AI, is a game-changer.
+
+This talk walks through how we can operationalize Apple's partial open-source codebase for offensive security: specifically, through the lens of reverse engineering, fuzzing, and vulnerability discovery.
+
+You'll learn how to integrate AI into workflows for triaging diffs, identifying code changes with high exploit potential, and prioritizing fuzzing targets across macOS/iOS. We'll explore how LLMs can uncover private APIs, simulate bug classes in IOKit, and guide fuzzing harness design. Plus: demonstrations, a breakdown of challenges like incomplete source and legal limitations, and a blueprint for building agents that can reason about Apple's ecosystem, so you can, too.

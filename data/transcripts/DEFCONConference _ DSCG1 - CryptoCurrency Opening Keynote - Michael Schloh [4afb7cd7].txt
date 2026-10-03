@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DSCG1 - CryptoCurrency Opening Keynote - Michael Schloh
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/watch?v=yzqFFMn1qPw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Join your fellow hackers managing the Cryptocurrency areas of Defcon, and get a sneak peak of what each workshop teaches as well as an overview of the showcases and programs happening in our Defcon Village and Contest areas. We will report on cryptocurrency trends and perspectives from distinguished positions in industry, academy, and government. We will announce the teams competing in the Cryptocurrency Challenge, and give an overview of what prizes are available to winning contestants of the hackathon, CTF, and contests. Meet the organizers of years of cryptocurrency content at Defcon and bring your questions to the Creator Stage!

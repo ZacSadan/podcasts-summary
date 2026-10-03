@@ -1,0 +1,13 @@
+Feed: DEFCONConference
+Episode: DCSG1 - The DEF CON Singapore Badge Presentation -  Michael Schloh, Joyce Ng, Dani Weidman
+Method: description
+Language: en
+Words: 125
+URL: https://www.youtube.com/watch?v=0Ipwd0FcTAo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Because we're hackers, entering the DEF CON event requires wearing the electronic hacker badge given to all ticket holders. To celebrate the first DEF CON event held in Singapore, we've designed and produced a unique device to open eyes and introduce to hardware hacking. Unboxing your badge leads to curious stares and expressions 'what does it do?' We the designers and producers answer your curiosity with anecdotes, advice, fun tricks, and interesting stories of DEF CON badges including the one in your hands.
+
+Come to hear about the parts choice, how the circuits function, what application features are available, and how to interact with other badges. Inspecting the badges with a close range circuit camera illustrates a number of interesting hardware aspects that we explain.

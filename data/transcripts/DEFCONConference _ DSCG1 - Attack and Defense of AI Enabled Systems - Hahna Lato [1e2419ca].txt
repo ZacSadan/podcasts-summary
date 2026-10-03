@@ -1,0 +1,11 @@
+Feed: DEFCONConference
+Episode: DSCG1 - Attack and Defense of AI Enabled Systems - Hahna Latonick
+Method: description
+Language: en
+Words: 122
+URL: https://www.youtube.com/watch?v=81holvvSdcA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+As Unmanned Aircraft Systems become central to military operations like reconnaissance and combat missions, the integration of Artificial Intelligence has transitioned from a luxury to a mission critical requirement. This shift introduces a new frontier of vulnerabilities where AI powers perception and autonomous decision making while simultaneously opening the door to sophisticated adversarial attacks. This talk explores the dual nature of AI in the aerospace and defense sectors by dissecting current threat landscapes through real world case studies. Attendees will gain insight into specific AI targeted threats such as sensor spoofing and data poisoning alongside robust defensive strategies. We will discuss adversarial training and the implementation of the NIST AI Risk Management Framework to ensure the security of next generation autonomous platforms.

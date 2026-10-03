@@ -1,0 +1,13 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Tony Lee, Black Hat Review Board Member and VP of Operations at HackerOne
+Method: description
+Language: en
+Words: 78
+URL: https://www.youtube.com/watch?v=wwk4SGLGcfY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode of Black Hat Stories, Tony reflects on his journey from attendee and trainer to presenter and Review Board member. He shares why Black Hat continues to grow, the energy that makes Arsenal a must-see destination, and how the community creates opportunities for learning, collaboration, and lasting connections.
+
+From showcasing innovative tools to meeting peers at every stage of their careers, Tony explains why Black Hat remains one of the most valuable gathering places in cybersecurity.

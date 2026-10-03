@@ -1,0 +1,21 @@
+Feed: DARPAtv
+Episode: "Voices from DARPA" Podcast, Episode 97: The Vertical Lift Challenger
+Method: description
+Language: en
+Words: 148
+URL: https://www.youtube.com/watch?v=H_MN-u3edTI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode of Voices from DARPA, we discuss how a logistics challenge sparked a movement to break a nearly century-old barrier holding back heavy vertical-lift aircraft.
+
+Phillip “Donna” Smith is a program manager in DARPA’s Tactical Technology Office. He oversees several of the agency’s aerial drone programs, including the Lift Challenge, a national public competition that began with one simple metric: improve payload-to-weight ratio in vertical aircraft, which currently lift only as much as they weigh.
+
+What began as a hypothesis that these aircraft could lift four times their current weight using more aerodynamic designs, new materials, and better flight controls rapidly became a path to even higher payload efficiency. 
+
+Smith shares insights from the 2026 competition and what led to the decision to go for even bigger goals in 2028.
+
+Additional Lift Challenge information, competition recaps, and upcoming milestones are available at https://www.darpa.mil/research/challenges/lift?utm_source=youtube&utm_medium=social&utm_campaign=lift&utm_term=podcast-ep-97
+
+#darpa #darpaliftchallenge #liftchallenge

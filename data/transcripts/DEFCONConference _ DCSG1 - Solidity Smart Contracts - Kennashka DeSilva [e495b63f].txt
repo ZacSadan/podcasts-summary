@@ -1,0 +1,15 @@
+Feed: DEFCONConference
+Episode: DCSG1 - Solidity Smart Contracts - Kennashka DeSilva
+Method: description
+Language: en
+Words: 119
+URL: https://www.youtube.com/watch?v=4gn5cjVbf40
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Smart contracts power the decentralized economy, but their immutable nature makes vulnerabilities costly. In this hands-on workshop, participants will learn how attackers exploit Solidity smart contracts in real-world scenarios and how to emulate these attacks safely in a controlled environment.
+
+Through guided exercises, attendees will explore common vulnerabilities—including reentrancy, integer overflows, and access control flaws—while applying red teaming techniques to identify and exploit weaknesses. Participants will also learn how to design effective mitigations and incorporate security testing into the development lifecycle, bridging the gap between offensive insight and defensive best practices in blockchain security.
+
+By the end of this workshop, attendees will gain practical skills to identify vulnerabilities, simulate realistic attack scenarios, and harden smart contracts against emerging threats.

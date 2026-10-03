@@ -1,0 +1,32 @@
+Feed: Google Israel
+Episode: Making sure AI chips don’t overheat in space
+Method: description
+Language: en
+Words: 135
+URL: https://www.youtube.com/watch?v=ktdbUIZKeSE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Project Suncatcher is Google’s moonshot to launch solar-powered AI into Earth’s orbit. But operating TPU clusters in space creates a massive hurdle. 
+
+On Earth, cooling chips means blowing air over heat sinks. In the vacuum of space, there is no air.
+
+In this video, Google researchers share the thermal engineering challenge of moving heat, using heat pipes, pumped fluid loops, and thermal vacuum chambers.
+
+00:10 - How do we cool AI chips in space?
+01:05 - How do heat pipes and fluid loops move heat to radiators?
+01:26 - How do thermal vacuum chambers simulate space on Earth?
+
+More on Project Suncatcher: 
+https://youtu.be/o1JK79jszqo
+https://youtu.be/8NPgswgbTnE
+https://youtu.be/KO2bNK9L7WA
+
+#Google #ProjectSuncatcher #AI #Space #Innovation 
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google

@@ -1,0 +1,72 @@
+Feed: Greg Isenberg
+Episode: Masterclass: How FDEs make $1M/yr deploying AI agents
+Method: description
+Language: en
+Words: 440
+URL: https://www.youtube.com/watch?v=1a5HxU52vCQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Google's most advanced audio models are LIVE, try them for yourself:
+Gemini 3.8 Live: https://startup-ideas-pod.link/gemini-3.8-live
+Gemini 3.5 Transcribe https://startup-ideas-pod.link/gemini-3.5-transcribe
+Gemini 3.5 Live Translate: https://startup-ideas-pod.link/gemini-3.5-live-translate
+
+In this episode, I talk with Vas from Varick about what it takes to put AI to work inside a real company. Vas makes the case that AI pays off through process reengineering, and he walks me through the exact method his forward deployed engineers (FDEs) use: interviews, process mining, step sorting, and agents built inside existing systems of record. We go through real engagements, including a $5B public software company and an accounts payable overhaul that cut the cost per invoice from $31 to $6. By the end, you get a clear picture of the FDE role, the business opportunity behind AI roll-ups, and a five-day plan to start on your own.
+
+Links Mentioned:
+FDE Presentation: https://startup-ideas-pod.link/FDE-slides
+Vas’s Article: https://startup-ideas-pod.link/vas-fde
+
+Timestamps
+
+00:00 – Intro
+01:31 – Sponsor: Google
+03:58 – FDE Overview
+05:02 – AI Roll-Ups and Process Reengineering
+08:04 – The Personal Systems Analogy
+09:55 – Understanding a company’s process (step-by-step)
+14:11 – Case Study: $5B Software Company
+18:11 – 4 Buckets for Every Step
+19:04 – Build Inside Systems of Record
+21:36 – Case Study: PE Portfolio
+23:43 – Selling to C-Suite Executives
+27:07 – Process of Mapping Five NetSuite Companies
+28:39 – Example: Accounts Payable Process Map
+32:54 – Case Study: 60-Person Accounting Firm
+34:51 – When to Use Code, Agents, or Humans
+36:00 – Choosing AI Models
+38:16 – Sidekick vs Background Agents
+40:29 – The 3 Skills of a Top FDE
+42:25 – Why FDEs Earn So Much
+45:26 – Five-Day Starter Plan
+47:39 – On-Premise Hardware Demand
+48:36 – OpenAI Private Intelligence
+50:20 – The Full Playbook
+52:01 – Closing Thoughts
+
+Key Points
+
+• AI pays off when you re-engineer the process first, then build agents into it.
+• Map the real process with interviews, system-of-record mining, and existing docs.
+• Sort every step into four buckets: delete, plain code, agent, or human decision.
+• Build agents inside the tools clients already use, like Salesforce, NetSuite, and Slack.
+• Sell the outcome each buyer cares about, and prove it with before-and-after KPIs.
+• Top FDEs combine domain knowledge, production engineering, AI judgment, and strong communication.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND VAS ON SOCIAL
+
+Varick Agents: https://www.varickagents.com/#hero-section
+X/Twitter: https://x.com/vasuman
+AI Forward Deployed Engineers: https://learn.varickagents.com/fde-in-30-days

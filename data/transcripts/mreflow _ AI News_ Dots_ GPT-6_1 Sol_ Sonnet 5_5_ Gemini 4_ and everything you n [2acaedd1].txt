@@ -1,0 +1,66 @@
+Feed: mreflow
+Episode: AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know
+Method: description
+Language: en
+Words: 196
+URL: https://www.youtube.com/watch?v=dDgncbBAA0c
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's the AI News you probably missed this week. See what Optimizely’s Virtual Teammates can automate for you at https://optimizely.com/mattwolfe 
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+DevDay 2026 Recap: https://openai.com/index/devday-2026-recap/
+OpenAI Introduces Dots: https://openai.com/index/introducing-dots/
+xAI Trolls Dots Launch: https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/
+GPT-6.1 Sol: https://openai.com/index/introducing-gpt-6-1-sol/
+Claude Sonnet 5.5: https://www.anthropic.com/claude-sonnet-5-5
+Claude Code Mods: https://claude.com/blog/claude-code-mods
+ClaudeDevs Mods Announcement: https://x.com/ClaudeDevs/status/2105721434807083061
+Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+Ideogram 4.5: https://ideogram.ai/models/4.5/
+Strands Decider 2B: https://strandsagents.com/blog/introducing-strands-decider/
+xAI Team Bots: https://x.ai/news/team-bots
+ElevenLabs Eleven v4: https://elevenlabs.io/blog/eleven-v4
+Microsoft MAI-Voice-2.1: https://microsoft.ai/models/mai-voice-2-1/
+Microsoft Streaming Transcription Model: https://microsoft.ai/news/our-first-streaming-transcription-model/
+Trump Superintelligence Executive Order: https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: mattwolfe@smoothmedia.co
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:27 Dots
+7:31 GPT-6.1 Sol
+9:24 Other Dev Day Announcements
+10:35 Decisions API
+11:39 ChatGPT Space and Pages
+12:40 Meeting Plugin
+12:57 Sign in with ChatGPT
+13:55 Optimizely Update
+15:07 Claude Sonnet 5.5
+19:12 Mod Claude Code
+19:39 Gemini 4 Argon
+22:03 Ideogram 4.5
+23:17 Strands Decider 2B
+24:04 Grok Team Bots
+24:34 Eleven V4
+25:24 MAI-Voice-2.1
+25:52 MAI-Transcribe
+26:06 Super Intelligence Agreement
+27:15 Final Thoughts
