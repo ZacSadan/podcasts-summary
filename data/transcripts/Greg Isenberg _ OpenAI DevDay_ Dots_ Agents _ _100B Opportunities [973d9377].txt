@@ -1,0 +1,73 @@
+Feed: Greg Isenberg
+Episode: OpenAI DevDay: Dots, Agents & $100B Opportunities
+Method: description
+Language: en
+Words: 758
+URL: https://www.youtube.com/watch?v=Y_RevX5yMq8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I watched almost 60 minutes of Sam Altman on stage at OpenAI Dev Day 2026. Out of 20-plus launches, I pick the three or four that I think can make people billions of dollars in aggregate. I break down Dots, OpenAI's personal agent platform, plus the Decisions API, the Agents API with computer use, and Sign in with ChatGPT. I also share my four-step framework for building in this world and two business ideas I hope someone takes. If you want to build a business and make money around AI, this episode is for you.
+
+Timestamps
+
+00:00 – Intro
+01:48 – Dots, the Personal Agent Platform
+03:29 – OpenAI Doubles Down on Plugins
+05:02 – Decisions API
+06:43 – Agents API With Computer Use
+08:01 – Sign In With ChatGPT
+12:36 – Where should you build?
+13:46 – Idea: Real-World Work APIs
+15:04 – Idea: Analytics for Agent Discovery
+17:05 –Closing Thoughts
+
+Key Points
+
+• Dots gives plugin builders a front door to 1.2 billion weekly active users.
+• OpenAI is doubling down on plugins to make ChatGPT the app ecosystem for AI.
+• Sign in with ChatGPT lets users bring their current plan, so a free core app with paid upsells now works.
+• Workflows too niche for OpenAI to build become viable businesses.
+• The strongest businesses in this world own the trigger, the action, and the feedback.
+• Two open opportunities: real-world work APIs and an analytics layer for agent discovery
+
+Numbered Section Summaries
+
+1. The Launches Worth Your Attention
+
+OpenAI shipped 20-plus features at Dev Day 2026, and I focus on four: Dots, the Decisions API, the Agents API, and Sign in with ChatGPT. I cover GPT 6.1 Soul, Ultrafast, Private Intelligence, and Spaces briefly at the end.
+
+2. Dots and the Plugin Comeback
+
+Dots is OpenAI's answer to Muse by Meta and Instinct. A user asks for help, like fixing a permit or finding a restaurant, ChatGPT understands the job, and it selects a plugin, which is essentially a mini app. By my paraphrase, Sam admitted plugins got mixed reviews before, and now he plans to make them a thing. I think billions of dollars of transactions will flow through personal agent platforms, and maybe trillions over 10 to 20 years.
+
+3. Decisions API, OpenAI's Answer to Jev
+
+The Decisions API is in limited preview. It focuses Luna's intelligence on user-defined questions with finite, predefined answers, so developers can classify content, route requests, or choose an agent's next action. I'm hooked on Jev, and I see UI design as an underserved use case, like finding the highest-converting app store screenshots and direct response websites.
+
+4. Agents API and Vertical Harnesses
+
+The Agents API now supports computer use and brings Codex's multi-agent capabilities, tool search, tool calling, and context compaction into your application. OpenAI runs the infrastructure. If you have great data, a great brand, or deep knowledge of a vertical, I would be playing with this today.
+
+5. Sign In With ChatGPT and Free Core Apps
+
+Users can now sign in with their ChatGPT login and use their token allowance on other websites. I compare it to Facebook login, which helped create billion-dollar companies like Yelp. People hesitate to pay $20 or $30 a month for another AI app, so I would make the core app free and charge for enterprise features, team sharing, and more data. Before, the builder paid for inference, which made a free core app hard.
+
+6. Sell Workflows Over Tokens
+
+Tiny AI categories are now economically viable, like an agent that cleans architectural CAD files, a researcher that monitors one scientific field, a Shopify catalog cleanup desktop app, a video tool built around one editing workflow, or a contract review tool for one type of franchise agreement. The value comes from proprietary information, a specialist workflow, access to outside systems, collaboration and auditability, a network of humans or suppliers, and a measurable business result.
+
+7. Trigger, Decision, Action, Feedback
+
+My framework starts with a trigger, like an invoice coming due, inventory running low, or tax time. ChatGPT decides what to do next, an application takes the action, and feedback shows whether it was approved or rejected. The strongest businesses will own the trigger, the action, and the feedback.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
