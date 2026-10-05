@@ -414,3 +414,18 @@ feeds:
   url: "https://securityconversations.fireside.fm/rss"
   spotify_url: "https://open.spotify.com/show/6dXbRagTUo4fPfpYjIDlwO"
 
+- name: The Joe Rogan Experience
+  url: "https://feeds.megaphone.fm/GLT1412515089"
+
+- name: Dwarkesh Podcast
+  url: "https://api.substack.com/feed/podcast/69345.rss"
+
+- name: Stratechery
+  url: "https://stratechery.com/feed/"
+
+- name: Acquired
+  url: "https://feeds.transistor.fm/acquired"
+
+- name: TRIGGERnometry
+  url: "https://feeds.megaphone.fm/AALT9618167458"
+
