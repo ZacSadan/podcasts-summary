@@ -1,0 +1,57 @@
+Feed: Veritasium en Français
+Episode: Les lampes de sel, miracle ou arnaque ?
+Method: description
+Language: en
+Words: 314
+URL: https://www.youtube.com/watch?v=kZ3Cr-EKELY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Les ions négatifs dans l’air améliorent-ils l’humeur et la vigilance, et réduisent-ils l’anxiété et la dépression ?
+Une partie de cette vidéo a été sponsorisée par LastPass, cliquez ici pour en savoir plus : http://bit.ly/2RZZTZk
+
+Un grand merci au Professeur Jack Beauchamp et au Dr Nathan Dalleska de Caltech pour toute leur aide lors de la réalisation de ces expériences et pour leurs discussions sur la recherche. Pour en savoir plus, consultez les liens ci-dessous :
+http://www.cce.caltech.edu/people/jesse-l-jack-beauchamp
+http://beckmaninstitute.caltech.edu/eac.shtml
+
+Si vous souhaitez approfondir vous-même la recherche sur les ions négatifs, je vous suggère de commencer par les études de synthèse suivantes :
+
+Air ions and mood outcomes: a review and meta-analysis.
+Perez V, Alexander DD, Bailey WH.
+BMC Psychiatry. 2013 Jan 15;13:29.
+https://www.ncbi.nlm.nih.gov/pubmed/23320516
+
+Air ions and respiratory function outcomes: a comprehensive review
+Dominik D Alexander, William H Bailey, Vanessa Perez, Meghan E Mitchell, and Steave Su
+J Negat Results Biomed. 2013; 12: 14.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3848581/
+
+Exposure of laboratory animals to small air ions: a systematic review of biological and behavioral studies.
+Bailey WH, Williams AL, Leonhard MJ.
+Biomed Eng Online. 2018 Jun 5; 17(1):72.
+https://www.ncbi.nlm.nih.gov/pubmed/29866122
+
+Photographie de la miniature par Raquel Nuno
+
+Effets spéciaux par Alan Chamberlain
+
+Prise de son par Whitney Clavin
+
+Motion design par Charlie Kilman
+
+Musique provenant d’Epidemic Sound : http://epidemicsound.com « Capture a Picture 1 » et « Seaweed »
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+
+Music from Epidemic Sound: http://epidemicsound.com "Capture a Picture 1" and "Seaweed"
+
+0:00 - Introduction au sujet des ions négatifs
+0:53 - Les ions atmosphériques et leurs sources
+2:52 - Phénomènes naturels générant des ions négatifs
+4:04 - Expérience sur la lampe à sel
+4:10 - Influence de l'environnement sur la concentration d'ions
+6:23 - Effets des ions négatifs sur la santé
+8:21 - Test des appareils générateurs d'ions
+10:21 - Conclusion et recommandations sur les ions
