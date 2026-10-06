@@ -1,0 +1,26 @@
+Feed: Liam Ottley
+Episode: Exploring the NEW OpenAI Business Ecosystem: Dots, Spaces, Pages
+Method: description
+Language: en
+Words: 69
+URL: https://www.youtube.com/watch?v=AutfckkBP80
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join
+🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com
+
+💻 MY TECH STACK
+Kylon (AIOS workspace): https://kylon.io/liam
+Railway (agent & web hosting): https://railway.com?referralCode=liam
+Apify (web scraping): https://apify.com?fpr=makeover
+CodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+
+📲 FOLLOW ME
+Instagram: https://instagram.com/liamottley
+LinkedIn: https://www.linkedin.com/in/liamottley
+X: https://twitter.com/liamottley_
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
