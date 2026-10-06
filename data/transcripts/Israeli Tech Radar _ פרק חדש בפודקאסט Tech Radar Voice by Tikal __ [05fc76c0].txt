@@ -1,0 +1,19 @@
+Feed: Israeli Tech Radar
+Episode: פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+Method: description
+Language: he
+Words: 110
+URL: https://www.youtube.com/shorts/Y21IrYqndlI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+סדרת Chief Engineering ממשיכה עם הפרק התשיעי, בהובלת ליאור כנפי, Founder & CEO של Tikal.
+בפרק ליאור מארח את איקו אזולאי, EVP of Technology ב Salt Security, לשיחה על ניהול ארגון פיתוח בתקופה שבה הצוות מייצר יותר קוד ממה שכל אדם יכול לקרוא.
+הם מדברים על המעבר מניהול שנשען על שליטה בפרטים לניהול שנשען על אמון, ועל המקום של מפתחים ותיקים כשה Agents כותבים חלק גדול מהקוד.
+וגם על Scrum וספרינטים, על מה בכלל מודדים כשמספר ה PRs מאבד משמעות, ועל ההחלטה בין build ל buy כשאפשר לבנות בשבועות את מה שפעם קנינו.
+הפרק כבר באוויר 🎧
+
+
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Chief Engineering | Episode 9

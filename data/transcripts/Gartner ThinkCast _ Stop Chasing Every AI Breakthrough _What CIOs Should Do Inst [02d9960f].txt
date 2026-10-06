@@ -1,0 +1,11 @@
+Feed: Gartner ThinkCast
+Episode: Stop Chasing Every AI Breakthrough (What CIOs Should Do Instead)
+Method: description
+Language: en
+Words: 222
+URL: https://www.gartner.com/en/podcasts/thinkcast
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI headlines are moving at warp speed, but do business leaders really need to react to every piece of news? In this episode of ThinkCast, Gartner Senior Director Analyst Deepak Seth returns to unpack what matters most in enterprise AI right now. From separating hype from reality to managing rising AI costs and preparing organizations for "human + AI" ways of working, Deepak shares practical guidance for CIOs trying to stay focused amid constant disruption. Drawing on conversations with executives across industries, he explains why data, context and governance remain the true foundations of AI success. You'll learn: Why the latest AI model isn't always the right one for your business How CIOs can cut through AI hype and focus on fit-for-purpose outcomes What "human + AI" workflows mean for jobs, skills and organizational design Why data, context and organizational memory will shape AI's next phase Dig deeper: Become a client for the latest AI insights Join us at Gartner IT Symposium/Xpo™ See why Gartner is the world authority on AI Timestamps: (00:00)  Intro (02:40) The fundamentals leaders still can't ignore (05:00) Why the latest model isn't always the best (06:30) Preparing for human + AI work (09:22) Moving beyond productivity gains (11:31) Managing AI costs and business value (14:35 )The power of data, context and memory (17:22) The future of intelligence

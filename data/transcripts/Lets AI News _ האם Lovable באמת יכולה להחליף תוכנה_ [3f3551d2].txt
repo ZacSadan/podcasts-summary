@@ -1,0 +1,28 @@
+Feed: Lets AI News
+Episode: האם Lovable באמת יכולה להחליף תוכנה?
+Method: description
+Language: he
+Words: 145
+URL: https://www.youtube.com/watch?v=ww7S_-amXW0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+אם AI יכול לבנות עבורכם כלי עבודה או אפליקציה בתוך זמן קצר, האם עדיין יש סיבה לקנות תוכנה מוכנה? Lovable מאפשרת לתאר במילים את המוצר שאתם צריכים ולקבל אפליקציה עובדת, בלי לכתוב קוד. באייטם נבדוק עד כמה זה באמת פשוט, מה ההבדל בין Lovable לכלים כמו Claude Code, ומה מרוויחים כשכל תהליך הבנייה נמצא במקום אחד. ובעיקר — מתי כדאי לבנות לבד, ומתי עדיף פשוט לקנות תוכנה מהמדף.
+
+
+
+ עקבו אחרינו גם בטלוויזיה - "בינה אחרת" משודרת בימי חמישי ב-21:00 בערוץ 10
+=================================
+🔗 הישארו מעודכנים - חפשו אותנו בסושיאל:
+=================================
+◄ הרשמה לערוץ היוטיוב שלנו |  https://ltsai.co/ytub
+◄ הטיקטוק שלנו  |   https://www.tiktok.com/@letsai10
+◄ האינסטגרם שלנו  |   https://www.instagram.com/letsai.co.il/
+◄ הפייסבוק שלנו  |   https://www.facebook.com/letsai.il
+◄ הלינקדאין שלנו   |  https://linkedin.com/company/letsaicoil/
+◄ הטלגרם שלנו |    https://ltsai.co/tlgrm
+◄ עדכונים בוואטסאפ והרשמה לניוזלטר |    https://ltsai.co/gruops
+◄ קורסים והכשרות  |    https://ltsai.co/courses
+◄ ליווי וייעוץ בהטמעה |    https://ltsai.co/entrprz
+◄ הרצאות וסדנאות  |    https://ltsai.co/business

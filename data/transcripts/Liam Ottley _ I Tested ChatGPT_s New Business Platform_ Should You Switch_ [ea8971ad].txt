@@ -1,0 +1,44 @@
+Feed: Liam Ottley
+Episode: I Tested ChatGPT's New Business Platform. Should You Switch?
+Method: description
+Language: en
+Words: 252
+URL: https://www.youtube.com/watch?v=9C5hLJ1bIzk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+📚 Get my full breakdown of which AI platform to bet on: https://liamottley.com/waiting-room
+🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join
+🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com
+
+💻 MY TECH STACK
+Kylon (AIOS workspace): https://kylon.io/liam
+Railway (agent & web hosting): https://railway.com?referralCode=liam
+Apify (web scraping): https://apify.com?fpr=makeover
+CodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+
+📲 FOLLOW ME
+Instagram: https://instagram.com/liamottley
+LinkedIn: https://www.linkedin.com/in/liamottley
+X: https://twitter.com/liamottley_
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
+
+OpenAI just launched a full business platform inside ChatGPT, and I moved my own company onto it to test every new feature. I break down what they shipped for businesses (Dots, Space and Pages, ChatGPT in Slack and the new admin console), what it costs, where it still falls short, and the bigger change underneath it: AI is going from single-player to multiplayer, and businesses are about to lose the freedom to switch between AI tools whenever they like. If you run a business or an AI agency, this is how I'd decide whether to switch now or wait for Google, Microsoft and Anthropic to answer.
+
+0:00 OpenAI's new business platform
+0:49 Dots
+1:16 ChatGPT in Slack
+1:41 Space and Pages
+2:05 The admin console
+2:44 What it costs
+3:05 Why this is a big deal
+4:16 The switching cost
+4:57 Should you switch?
+6:00 If you sell AI to businesses
+7:11 Pick yours on purpose
+
+WATCH NEXT: I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)
+https://youtu.be/IXDYEF22CG8?si=ttZKEaLe7nQxlLWT
