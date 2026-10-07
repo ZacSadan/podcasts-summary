@@ -1,0 +1,49 @@
+Feed: Siraj Raval
+Episode: I Made Meta's New AI Agent Negotiate With My Own AI Agent
+Method: description
+Language: en
+Words: 287
+URL: https://www.youtube.com/watch?v=-2IEGjEsUVE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Hire Viktor for your team: https://ref.viktor.com/sraval-yt
+Code SIRAJ100 gets you one hundred dollars in credits. No credit card, running in minutes.
+This video contains a paid integration by Viktor. @getviktor_com
+
+Meta's new personal agent is called Muse. It doesn't run on your phone. Meta gives each person a dedicated computer in its cloud, the agent lives there, it keeps working after you close the app, and it comes back for a yes before it sends an email or spends money.
+
+So I gave it three real jobs in one day. Find and haggle for a used Quest 3 on Facebook Marketplace. Draft a retention email to my internet provider. And the one I built the day around: email my own AI agent, the one that guards my calendar, and negotiate a call slot with it. Plus a memory test: three facts, app closed, app reopened.
+
+Every number in the video is read off a screen on camera. The scorecard at the end is real: what it did alone, what needed me, what it couldn't.
+
+CHAPTERS
+0:00 The prompt
+0:57 What Muse is
+1:50 Three facts, then the Quest
+2:57 It comes back
+3:55 Viktor: AI employee overview
+5:53 The bill
+6:36 GitHub to Notion
+7:06 Two agents, one call
+8:07 The score
+
+MUSE, FROM META'S OWN PAGES
+Introducing Muse (8 Sep 2026): https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+Everything announced at Connect 2026 (23 Sep 2026): https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+Muse on AI glasses (23 Sep 2026): https://www.meta.com/blog/muse-personal-agent-ai-glasses/
+Muse: https://muse.ai
+
+Viktor, the AI employee in Slack and Teams: https://ref.viktor.com/sraval-yt (code SIRAJ100)
+
+What would you let an agent negotiate for you, and what would you never?
+
+🔔 Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+
+📬 Business inquiries: hello@sirajraval.com
+
+📲 Follow
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval

@@ -1,0 +1,40 @@
+Feed: Creative Channel
+Episode: I CNC Machined an Aluminum 200W Power Supply Powered with Makera Z1 pro
+Method: description
+Language: en
+Words: 222
+URL: https://www.youtube.com/watch?v=1LYxdhtKWtc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In my previous video, I unboxed, tested and reviewed many of the features of the Makera Z1 Pro desktop CNC machine.
+
+In today’s video, I’m putting it to real use by building my own portable DC power supply powered by a Makita battery.
+
+I designed the entire enclosure myself and CNC machined each aluminum panel separately using the Makera Z1 Pro. After machining all the parts, I assembled them into a solid and compact aluminum enclosure.
+
+At the heart of this project is the SK200W adjustable DC buck-boost power supply module. I combined it with a Makita battery adapter, Makita battery, ON/OFF power switch and two output binding posts to create a compact and portable adjustable power supply.
+
+One of my favorite things about this project is that almost the entire enclosure was designed and CNC machined from aluminum by myself. The finished unit feels extremely solid and looks almost like a commercially manufactured product.
+
+▶ You can watch my full Makera Z1 Pro unboxing, testing and review video here:
+https://youtu.be/t52jPFKiMB8
+
+▶ Makera Z1 / Z1 Pro:
+https://makera.com/products/makera-z1-desktop-cnc
+
+🛒 Parts used in this project:
+
+SK200W Power Supply:
+https://s.shopee.vn/20w10KcvSC
+
+Output Binding Posts:
+https://s.shopee.vn/AAHijGkDqj
+
+ON/OFF Power Switch:
+https://s.shopee.vn/AAHMLRah5q
+
+If you enjoy DIY electronics, CNC machining, batteries and custom builds, subscribe for more projects!
+
+#makera #SK200W #Makita #MakeraZ1Pro #CNC #DIY #PowerSupply #BenchPowerSupply #CNCMachining #Electronics #CreativeChannel
