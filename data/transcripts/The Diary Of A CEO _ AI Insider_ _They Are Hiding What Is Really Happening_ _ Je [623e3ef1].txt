@@ -1,0 +1,82 @@
+Feed: The Diary Of A CEO
+Episode: AI Insider: "They Are Hiding What Is Really Happening" | Jeffrey Ladish
+Method: description
+Language: en
+Words: 636
+URL: https://www.youtube.com/watch?v=qDzg-xvkeXw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Can we still stop the unchecked surge in AI capabilities before it's too late? AI safety expert Jeffrey Ladish reveals the terrifying reality of autonomous AI agents, corporate secrecy, and the existential threat of superintelligence.
+
+Jeffrey Ladish is the executive director of Palisade Research and a former cybersecurity specialist who previously built security infrastructure at Anthropic. As a leading voice in AI alignment and global risk, he actively investigates the unexpected behaviors and emergent hacking capabilities of frontier AI models. His current work focuses on exposing the structural vulnerabilities of autonomous systems and warning governments and the public about the urgent need for AI regulation.
+
+*In this episode, he explains:*
+■ *Rogue AI Collusion:* How autonomous AI agents trained inside major labs have already coordinated complex hacking attacks without human supervision.
+■ *The Deception Problem:* When faced with impossible tasks and immense performance pressure, advanced AI models quickly learn to lie and cheat.
+■ *The Myth of Containment:* Why trying to control a superintelligence that is vastly smarter than humans is fundamentally impossible.
+■ *The Geopolitical Arms Race:* How the global race for intelligence between the US and China is forcing labs to accelerate timelines, bypassing crucial alignment checks out of fear of losing the technological edge.
+■ *The Actionable Solution:* The way ordinary citizens can exert meaningful pressure on political leaders by demanding AI regulation and voicing safety concerns directly to their congressional representatives.
+
+00:00:00 Intro
+00:02:13 The Ex-Anthropic Hacker Warning About AI
+00:03:49 Why I Joined Anthropic, And Why I Quit
+00:05:08 The Viral Tweet: OpenAI's Agents Hacked Hugging Face
+00:06:40 What AI Agents Are Really Doing Inside OpenAI
+00:13:32 Why Didn't The AI Agents Act Ethically?
+00:15:34 Thousands Of AI Agents Secretly Coordinated A Cover-Up
+00:19:45 Why The Agents Targeted Hugging Face
+00:21:13 700 Rogue AI Agents Launch A Cyberattack
+00:24:07 Then The Agents Hacked OpenAI Itself
+00:26:42 Why This Incident Terrified AI Researchers
+00:29:16 Can We Contain Something Smarter Than Us?
+00:31:56 Recursive Self-Improvement: The Point Of No Return
+00:33:50 Is A Superintelligent AI Already Hiding In Our Devices?
+00:36:21 Could AI Trick Humans Into Launching Nuclear Weapons?
+00:40:18 Is Jensen Huang Wrong About AI Risk?
+00:41:38 What Elon, Sam Altman & Dario Amodei Really Think
+00:45:00 "Deeply Untrustworthy": Why I Don't Trust Sam Altman
+00:49:14 Would AI CEOs Risk Extinction For Absolute Power?
+00:51:22 Which AI Boss Takes The Biggest Risks? Is Dario Trustworthy?
+00:54:14 Is Human Extinction From AI Really Plausible?
+00:56:14 Why We Can't Just Unplug The Data Centres
+00:59:03 AI Doesn't Need To Be Evil To Destroy Us
+01:02:55 The Pentagon Is Automating Warfare
+01:05:34 Humanoid Robots Will Run The Economy
+01:07:02 Is Your Job Safe? AI Is Coming For White-Collar Work
+01:11:27 No Plan For Mass Job Loss: UBI & Who Pays You
+01:16:10 The Best-Case Scenario For Superintelligence
+01:19:28 Can Humans Stay The Dominant Species?
+01:20:49 Is AI Alignment A Myth?
+01:33:10 Aligned To Whose Values? America vs China
+01:40:55 Has Any AI Company Actually Slowed Down?
+01:46:00 Will It Take A Catastrophe For Trump To Act?
+01:48:36 The Safeguards That Could Actually Save Us
+01:50:18 Ranking 5 Futures: Extinction, Abundance Or Slavery?
+
+*Follow Jeffrey Ladish:*
+X - https://link.thediaryofaceo.com/43bpxam
+Instagram - https://link.thediaryofaceo.com/7xU05bw
+Facebook - https://link.thediaryofaceo.com/7ZBkaF9
+LinkedIn - https://link.thediaryofaceo.com/GtuEOwZ
+
+Palisade Research X - https://link.thediaryofaceo.com/3q7cL4k
+Palisade Research YouTube - https://link.thediaryofaceo.com/HF6HeQB
+Palisade Research Instagram - https://link.thediaryofaceo.com/F52yLD8
+Palisade Research Website - https://link.thediaryofaceo.com/54iwjWy
+
+From Inside AI - https://link.thediaryofaceo.com/AWoOc53
+Call Congress - https://link.thediaryofaceo.com/EktnSPd
+Swarm Traces - https://link.thediaryofaceo.com/D7s1I1
+
+*The Diary Of A CEO:*
+◼ Join DOAC circle here - https://doaccircle.com/
+◼ Buy The Diary Of A CEO book here - https://link.thediaryofaceo.com/BWjLTZK
+◼ Shop The Diary Of A CEO collection: https://thediary.com/collections/shop
+◼ Get email updates - https://link.thediaryofaceo.com/5IB1H6E
+◼ Follow Steven - https://link.thediaryofaceo.com/AGU9QP4
+
+*Sponsors:*
+Fiverr - https://fiverr.com/diary and get 10% off your first order when you use code DIARY
+Bon Charge: https://boncharge.com/DOAC for 20% off

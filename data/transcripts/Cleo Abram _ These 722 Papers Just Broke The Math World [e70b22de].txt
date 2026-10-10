@@ -1,0 +1,19 @@
+Feed: Cleo Abram
+Episode: These 722 Papers Just Broke The Math World
+Method: description
+Language: en
+Words: 95
+URL: https://www.youtube.com/shorts/Y0xrSNVeEHc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+These 722 new math papers claim to solve problems that have stumped the world’s best mathematicians and computers for decades.
+
+To see if those answers are right, they used a well-known software that’s kind of like spell-check but for math logic. 
+
+So far, the ones it’s checked look good, which is making mathematicians both very freaked out and very excited – because these problems COULD help them understand everything from patterns in prime numbers, why magnets are magnets, and how the stuff inside the Sun behaves… 
+
+To see more, subscribe!
+
+#openAI #math #problem #AI #computer

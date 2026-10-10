@@ -1,0 +1,21 @@
+Feed: DARPAtv
+Episode: Atomically Precise Molecules (APM)
+Method: description
+Language: en
+Words: 101
+URL: https://www.youtube.com/watch?v=cVFPz7CGvws
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What if we could design materials with atomic-level precision?
+
+Today's nonlinear optical materials enable technologies like LiDAR and high-speed communications, but their performance is constrained by limited control over molecular sequence, orientation, and composition.
+
+Our Atomically Precise Molecules (APM) program aims to change that by developing programmable precision polymers that could unlock a new class of tailored materials with dramatically improved performance.
+
+Want to get involved? We're seeking multidisciplinary teams of chemists, materials scientists, computational chemists, and device engineers to help translate this molecular-level control into functional hardware.
+
+⏳ Proposal abstracts are due Oct. 27, 2026, at 1 p.m. ET.
+
+www.darpa.mil/APM

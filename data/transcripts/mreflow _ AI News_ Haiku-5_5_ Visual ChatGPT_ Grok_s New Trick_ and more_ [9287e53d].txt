@@ -1,0 +1,80 @@
+Feed: mreflow
+Episode: AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!
+Method: description
+Language: en
+Words: 268
+URL: https://www.youtube.com/watch?v=NUizyuGj-kE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here's The AI News You Probably Missed This Week! Get $100 in free credits for @Hyperagent when you sign up for a paid plan here: https://hyperagent.com/invite/MATT100?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT100
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Claude Haiku 5.5: https://www.anthropic.com/claude-haiku-5-5
+Claude Dashboards & Motion: https://claude.com/resources/articles/dashboards-and-motion
+Codex 28-Day Improvements: https://x.com/thsottiaux/status/2106845241357824205
+GPT-6 for Everyone: https://openai.com/index/gpt-6-for-everyone/
+Codex Faster Default Speed: https://x.com/thsottiaux/status/2107158998495748264
+Free Codex Auto-Review: https://x.com/thsottiaux/status/2107368734981517634
+ChatGPT Meetings Plugin: https://x.com/ChatGPT/status/2107567930557026653
+OpenAI Decisions API: https://x.com/OpenAIDevs/status/2107573382229188645
+OpenAI Developers Post: https://x.com/OpenAIDevs/status/2107539647392096384
+GPT-6.1 Sol Ultrafast: https://x.com/OpenAIDevs/status/2108262812489531498
+Codex Instant Steering: https://x.com/thsottiaux/status/2108275041276420573
+Grok Multi-Model Backend: https://x.com/elonmusk/status/2107724314451878104
+Grok Bot Monitors X: https://x.com/bot/status/2107949161878606089
+Mistral Large 4: https://mistral.ai/news/mistral-large-4/
+Reflection Beam Model: https://reflection.ai/blog/introducing-beam
+Google Playground Games: https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
+Google Offline Note-Taker: https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline
+Gemini Agent Launch: https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
+SynthID Detector Expansion: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/
+Hark Pro Intro: https://www.youtube.com/watch?v=i3mfnrEwaA0
+Meta Muse Gadgets Open-Sourced: https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link
+Claude Abuse Policy: https://x.com/AndrewCurran_/status/2108244808494154089
+Andrew Curran Post: https://x.com/AndrewCurran_/status/2108278519163912412
+Suleyman on AI Jobs: https://x.com/mustafasuleyman/status/2107475087075197239
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+0:00 Intro
+0:11 Claude Haiku 5.5
+4:25 Claude Live Dashboards and Motion
+7:00 HyperAgent
+10:02 OpenAI 28-Days
+10:23 GPT-6 and Intelligent UI
+13:29 GPT Speed Update
+13:50 OpenAI Free Auto-Review
+14:47 ChatGPT Note Taker
+15:46 Decisions API
+16:46 OpenAI API Pricing Update
+17:02 GPT-6.1 Ultrafast
+18:05 GPT Better Course-Correct
+18:58 GrokBot Updates
+24:37 Mistral Large 4
+25:26 Reflections 501B
+26:39 Google Playground
+27:29 Google AI Notetaker
+28:23 Gemini Agent
+29:34 SynthID Update
+29:53 Hark Pro
+31:29 Muse AI Gadgets
+31:39 No Claude Abuse
+32:32 AI Won't Take As Many Jobs
+33:10 Final Thoughts

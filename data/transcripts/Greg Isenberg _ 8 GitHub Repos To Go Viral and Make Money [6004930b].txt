@@ -1,0 +1,87 @@
+Feed: Greg Isenberg
+Episode: 8 GitHub Repos To Go Viral and Make Money
+Method: description
+Language: en
+Words: 769
+URL: https://www.youtube.com/watch?v=rkK8ZyzYyEA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I walk through eight GitHub repos and AI skills that I test at night and on weekends. The list covers launch videos, social research, local voice and dubbing, editable decks, agent teams, lead-magnet tools, idea stress-testing, and design guidance. For each one, I explain what it does, how I'd set it up, and one concrete way to use it to make money or run a business more easily. Most are free to download, and you pay for the model you run them with.
+
+Timestamps
+
+00:00 – Intro
+01:25 – Brag: Launch Videos From a Link
+04:50 – Agent Reach for Customer Research
+07:46 – Voice Studio: Local AI Voice and Dubbing
+10:41 – PPT Master: Editable Decks From Notes
+12:59 – OpenRig: Coding Agents as a Team
+14:57 – Free Tools Skill by Corey Haynes
+17:25 – Grill Me Skill by Matt Pocock
+19:31 – Impeccable: Design Guidance for Agents
+23:03 – My Top Picks: Brag and Agent Reach
+24:07 – Closing Thoughts
+
+GitHub Repo Links:
+Brag: https://startup-ideas-pod.link/brag
+Agent Reach: https://startup-ideas-pod.link/agent-reach
+Voice Studio: https://startup-ideas-pod.link/voice-studio
+PPT Master: https://startup-ideas-pod.link/ppt-master
+OpenRig: https://startup-ideas-pod.link/openrig
+Free Tool: https://startup-ideas-pod.link/marketing-skills
+Grill Me Skill: https://startup-ideas-pod.link/grill-me
+Impeccable Skill: https://startup-ideas-pod.link/impeccable
+
+Key Points
+
+• Most of these tools are free to download, and the main cost is the model you run them with.
+• Work I do for someone up front, like a launch video or a design fix, starts a conversation in place of a cold email.
+• Posts on Reddit, X, and YouTube show tasks people still do by hand, and a small tool can fix them.
+• Translated onboarding videos make a recurring monthly service for other companies.
+• Grill Me logs my assumptions so I check them with a real customer before I build.
+• Ten clients at $1,000 a month is $10,000 a month, and that cash flow funds the move from services to technology.
+
+Numbered Section Summaries
+
+1. Brag
+
+I start with Brag, a skill that turns your project or a website link into a short launch video with music, motion, and post copy. I use Brag Slim, which is designed for Opus 5.5. You pick vertical, square, or landscape and redo any scene that feels off.
+
+2. Agent Reach
+
+Agent Reach sets up the tools your agent needs to research a topic across YouTube, Reddit, and X. I use it for customer research. I search phrases like "I export it," "I copy this into," and "does anyone know a workaround," then talk to the people behind the posts.
+
+3. Voice Studio
+Voice Studio is a desktop app for AI voice work, similar to 11 Labs. It runs local models on your own hardware, so a faster computer helps. It generates speech, works from a recording of your own voice, and dubs video into other languages. I'd start with a short recording of myself, then translate the tutorials behind the three most common support questions, with a fluent speaker checking the result.
+
+4. PPT Master
+
+PPT Master turns documents or notes into an editable presentation, and it accepts your own company template. I'd test it first on a proposal I already wrote, with the private information removed, so I know what a good result looks like.
+
+5. OpenRig
+
+OpenRig organizes coding agents into a team, so one agent builds a change, another checks it, and the work passes between them. It works with Codex and Claude Code, runs on Mac or Linux with Node and Tmux, and changes some agent settings, so read those before you run it.
+
+6. Free Tools 
+
+Free Tools is a skill from Corey Haynes's marketing collection. It helps you work out what to build and give away to attract the right customers. A skill is a reusable set of instructions for your agent, sometimes with scripts and examples, so you stop rewriting giant prompts every time.
+
+7. Grill Me
+
+Grill Me, a skill by Matt Pocock, interviews you about an idea or decision in rounds and follows up on your answers. I'd use it before I build something I'm excited about, because that's when I skip the awkward questions.
+
+8. Impeccable
+
+Impeccable, built by Paul Bakaus, gives coding agents specific design guidance once you tell it who the product is for. It has commands like critique, polish, bolder, and quieter. I'd run critique on a page
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

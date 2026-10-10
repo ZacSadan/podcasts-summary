@@ -1,0 +1,17 @@
+Feed: mreflow
+Episode: AI Design Hack Saves HOURS
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/shorts/grOilk8aCS0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+#ad I used @GensparkProduct Design to generate the UI for a FutureTools app... and it only took me about 30 minutes.
+
+It created the home feed, individual tool pages, and a layered, fully editable design. I could even generate a launch video in the same visual style, share the project with my team, and bring it into Genspark Code to start turning it into a working product.
+
+If you want to check out all their design templates, or start one from scratch, sign up and get free credits at the link in the pinned comment. 
+
+#Genspark #GensparkDesign #WorkwithGenspark #AI #AITools

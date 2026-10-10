@@ -1,0 +1,47 @@
+Feed: Liam Ottley
+Episode: How AI Turns 3 Days of Work Into 3 Minutes
+Method: description
+Language: en
+Words: 249
+URL: https://www.youtube.com/watch?v=HvjHt25RGyU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join
+🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com
+
+Work w/ Isaac:
+Imprint Genius: https://imprintgenius.com
+Instagram: https://instagram.com/thesourcingguy
+YouTube: https://youtube.com/@thesourcingguy
+
+💻 MY TECH STACK
+Kylon (AIOS workspace): https://kylon.io/liam
+Railway (agent & web hosting): https://railway.com?referralCode=liam
+Apify (web scraping): https://apify.com?fpr=makeover
+CodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+
+📲 FOLLOW ME
+Instagram: https://instagram.com/liamottley
+LinkedIn: https://www.linkedin.com/in/liamottley
+X: https://twitter.com/liamottley_
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
+
+In this video, I sit down with Isaac Hetzroni (@thesourcingguy) to break down the business model behind his personal brand and US-based sourcing agency, Imprint Genius. We map out his content strategy across Instagram, TikTok, and YouTube, trace his exact lead generation funnel from social traffic to high-ticket corporate and retail clients, and analyze his core operational bottleneck: the manual time required to source factory data and build proposal presentations under shifting pricing, tariffs, and shipping costs. To solve this, we design a custom Slack-based AI system that pulls brand assets, queries his factory database, generates instant tailored presentation decks, and uses AI video mockups to maximize speed-to-lead and close more deals.
+
+00:00 Isaac's 8-figure business
+00:31 How the business gets attention (with content)
+01:21 How followers become clients
+02:54 Target audience
+03:47 Lead conversion
+05:26 Sourcing process
+07:21 Bottleneck and how AI fixes it
+09:59 Data
+11:37 Isaac's dream solution
+12:49 Liam's AI blueprint
+
+WATCH NEXT: Give Me 22 minutes, I'll Give You 10,000 hours of Claude Knowledge
+https://youtu.be/ulJqlCPNGKI?si=Z_hAt7GFhPOGDCkD
