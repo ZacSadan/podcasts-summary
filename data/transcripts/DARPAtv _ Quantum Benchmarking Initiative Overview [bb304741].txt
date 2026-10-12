@@ -1,0 +1,18 @@
+Feed: DARPAtv
+Episode: Quantum Benchmarking Initiative Overview
+Method: description
+Language: en
+Words: 206
+URL: https://www.youtube.com/watch?v=_S5tfGBoiCE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In the simplest terms, the Quantum Benchmarking Initiative (QBI) seeks to determine whether it’s possible to build an industrially-useful computer by 2033. Specifically, QBI is designed to rigorously verify and validate whether any quantum computing approach can achieve utility-scale operation — meaning its computational value exceeds its cost.
+
+QBI is not a competition between performers: DARPA is interested in evaluating all viable approaches for which there is available funding. Successful performers will progress through three stages:
+
+Stage A: Describe a utility-scale quantum computer concept that has a plausible path to realization in the near term.
+Stage B: Describe a Research and Development Plan capable of realizing the utility-scale quantum computer, the risks associated with that plan and the planned risk mitigation steps, and the prototypes needed to burn down these risks.
+Stage C: Work with the Government to Verify and Validate that their utility-scale quantum computer concept can be constructed as designed and operated as intended. 
+In addition to funding performers, QBI will add value to their ongoing research and development efforts by providing unbiased third-party verification and validation of an organization’s path to a utility-scale quantum computer. QBI will also effectively communicate the results of this verification and validation effort to other U.S. government stakeholders.
