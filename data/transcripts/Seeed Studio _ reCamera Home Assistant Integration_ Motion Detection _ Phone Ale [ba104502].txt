@@ -1,0 +1,28 @@
+Feed: Seeed Studio
+Episode: reCamera Home Assistant Integration: Motion Detection & Phone Alerts
+Method: description
+Language: en
+Words: 159
+URL: https://www.youtube.com/watch?v=4UKzsEWkYnY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+reCamera is coming to Home Assistant. Watch this preview to see how motion detected in a selected area triggers a notification on your phone.
+
+Choose where to detect motion, adjust sensitivity, and let Home Assistant decide what happens next—from sending an alert to turning on an entryway light.
+
+With the integration, you can:
+
+-View live video and capture snapshots when alerts are triggered.
+-Manage multiple cameras and check device connectivity and app status in one place.
+-Use camera events to trigger notifications, lights, and alarms through Home Assistant automations.
+-Connect custom camera applications to your automation workflows.
+
+Want this in your own setup? The Home Assistant integration for reCamera and reCamera Pro is coming soon. Connect your camera with a plugin, then configure alerts and automations that fit your home. What feature would you like to see next? Let us know in the comments.
+
+Check more infos about our camera:
+reCamera:https://www.seeedstudio.com/reCamera-2002w-64GB-p-6249.html?utm_source=youtube&utm_medium=video&utm_campaign=recamera_home_assistant_integration
+reCamera Pro:https://www.seeedstudio.com/reCamera-Pro-2GB.html?utm_source=youtube&utm_medium=video&utm_campaign=recamera_home_assistant_integration
+
+#reCamera #reCameraPro #HomeAssistant #SmartHome #theGotoAIcameraforYOLOattheedge#Seeed #SeeedStudio#HowToBuildAnAICamera#EdgeAI
