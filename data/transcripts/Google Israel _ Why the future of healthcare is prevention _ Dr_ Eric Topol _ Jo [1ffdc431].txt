@@ -1,0 +1,25 @@
+Feed: Google Israel
+Episode: Why the future of healthcare is prevention | Dr. Eric Topol & Josh Woodward
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/watch?v=eSGqW_VMMXQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode of Dialogues, Josh Woodward, VP, Google Labs and Gemini, sits down with Dr. Eric Topol, practicing cardiologist, founder and director of the Scripps Research Translational Institute, and author of "Deep Medicine" and "Super Agers."
+
+They explore how generative tools and ambient note-taking can help return the gift of time to doctors. Dr. Topol dives into the core insights from his book "Super Agers,” and how he uses Gemini Notebook every day to understand complex medical research.
+
+03:00 - AI and ambient note-taking for clinicians
+08:21 - Key insights from Super Agers and preventive healthcare
+10:40 - Using Gemini Notebook for complex medical research
+
+Watch more: https://www.youtube.com/playlist?list=PL590L5WQmH8f8ID51T0_9JkWpeL9Dcb-S
+
+Subscribe to our Channel: https://www.youtube.com/google
+Find us on X: https://twitter.com/google
+Watch us on TikTok: https://tiktok.com/@google
+Follow us on Instagram: https://www.instagram.com/google
+Join us on Facebook: https://www.facebook.com/Google
