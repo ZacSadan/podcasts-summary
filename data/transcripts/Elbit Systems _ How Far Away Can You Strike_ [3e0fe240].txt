@@ -1,0 +1,20 @@
+Feed: Elbit Systems
+Episode: How Far Away Can You Strike?
+Method: description
+Language: en
+Words: 155
+URL: https://www.youtube.com/shorts/VmsihM0Pbzg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Commanders get two orders that pull in opposite directions: hit the target precisely, and keep the aircraft and crew out of reach of enemy air defenses.
+
+A longer launch distance usually makes precision harder. On top of that, enemy forces jam GPS and move mobile targets before a slow weapon can reach them.
+One way to satisfy both orders is to have the weapon carry more of the risk.
+
+That is the thinking behind Rampage. 
+The aircraft releases it from outside the enemy’s defensive envelope. It flies supersonic and keeps its navigation under jamming. Once launched it needs no further guidance, so the aircraft can leave the area right away.
+
+Rampage didn’t start out as an air weapon. Its technology came from ground-launched rockets. Moving it under a fighter’s wing gave it altitude, speed and a launch point the pilot can choose. Together, those changed how far it can reach.
+Read our latest article: https://tinyurl.com/7978b8bk

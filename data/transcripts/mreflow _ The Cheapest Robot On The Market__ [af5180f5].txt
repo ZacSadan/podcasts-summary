@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: The Cheapest Robot On The Market?!
+Method: description
+Language: en
+Words: 75
+URL: https://www.youtube.com/shorts/XEl4ZQKKxig
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+This week I discovered the Flourish 1, a $3,500 robot that uses a Raspberry Pi instead of expensive hardware and can learn household chores just by watching you move your phone.
+
+It focuses on practical tasks instead of flashy features, and the price reflects that.
+
+Only 50 are being made in the first batch with shipping planned for December.
+
+Would you rather get this instead of an ultra advanced $20,000 robot? 
+
+#Robotics #FutureTech #AI #AInews

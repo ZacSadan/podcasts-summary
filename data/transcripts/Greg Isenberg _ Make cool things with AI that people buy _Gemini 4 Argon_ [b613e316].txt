@@ -1,0 +1,69 @@
+Feed: Greg Isenberg
+Episode: Make cool things with AI that people buy (Gemini 4 Argon)
+Method: description
+Language: en
+Words: 817
+URL: https://www.youtube.com/watch?v=jEOUUAPC1sc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Gemini 4 Argon is LIVE, Google's most advanced AI model, try it for yourself: https://startup-ideas-pod.link/gemini4-argon
+
+In this solo episode, I share what I learned after a week with Gemini 4 Argon, Google's new frontier model. I show three places it shines: marketing with AI, physical AI, and complex engineering, with a real build for each. You'll see Argon rebuild my holding company's website, write a post in my voice, design a Shopify product customizer that exports STL files, and build a free quoting app for commercial cleaning companies. I close with six techniques that raise Argon's output quality and the Google AI plan I'd pick for building.
+
+Timestamps
+00:00 – Intro
+01:35 – What Gemini 4 Argon Does Well
+03:09 – Rebuilding the Late Checkout Website
+07:49 – Justine Moore's Apple Computer Museum
+09:20 – Using Argon for writing
+13:03 – Physical AI and Vibe Manufacturing
+17:41 – Made-to-Order Shopify Store
+19:01 – Building Boring SaaS
+21:59 – Commercial Cleaning Quote App
+25:12 – 6 techniques to get the most out of Argon
+28:39 – Closing Thoughts
+
+Key Points
+
+• Argon produces premium creative work once I give it reference images and a clear direction.
+• A skill built from my posts, newsletters, and videos lets Argon write in my voice.
+• Argon builds Shopify product customizers that export print-ready STL files.
+• Free, focused rebuilds of boring legacy SaaS put me in front of likely buyers.
+• Argon gets the engineering right on prompt one, and design takes a few more rounds.
+• /plan, /subagents, and /goal give me the biggest jumps in output quality.
+
+Numbered Section Summaries
+
+1. Where Argon Stands 
+
+After a week of testing, I see three strengths in Gemini 4 Argon: marketing with AI, physical AI, and complex engineering. Google now has a frontier-level model backed by a huge amount of data. I prefer other harnesses to Antigravity today and expect Google to catch up, and Argon also runs in Cursor and OpenCode.
+
+2. Marketing With AI 
+
+In 2021 my team spent 40,000 hours on the Late Checkout holding company website, which cost us around $200,000, and the business has brought in more than $40 million in revenue. I asked Argon for a better version in a Mondrian style, and it added cars, movement, a world passport, sounds, and mini games like shooting a three-pointer. Justine Moore of a16z had Argon build an interactive museum of Apple computers from scraped archival photos and 50 years of specs, the kind of project that goes viral on X, TikTok, and Instagram.
+
+3. Teaching Argon My Voice 
+
+I asked Argon to study my X posts, newsletters, and YouTube videos and turn them into a skill. It built a skill package with a core voice operating system, sentence rhythm rules, a lexicon of terms I coined, and verbatim samples and templates. Its post on marketing engineers covered micro products over PDF lead magnets and tweet-sized landing pages, signed off with "Be well, Greg," and earned a 9.2 out of 10 from me, which makes Argon probably the best frontier model for writing right now.
+
+4. Vibe Manufacturing on Shopify Argon built me a Vibe Manufacturing Studio, an embeddable Shopify widget that shows print time, material cost, and suggested retail price, then exports a print-ready STL file. The file goes to a Bambu Lab printer, or to the Slant 3D print-on-demand API for anyone who'd rather skip owning printers. A custom espresso portafilter station shows the demand signal, since r/espresso members spend $2,500 on machines and gladly pay $49 for one.
+
+5. Free Tools From Boring SaaS 
+
+The "SaaS is over" crowd is mostly indie hackers selling to indie hackers, and most people gladly pay for software that makes life easier. I find recurring, boring problems on G2, Capterra, Reddit, and Idea Browser, then give away a focused tool to that buyer. My test prompt asked Antigravity for a quoting app that turns a commercial cleaning company's site visit notes into a reviewed price proposal, and it nailed the engineering on prompt one.
+
+6. Six Techniques and Pricing 
+
+I use /plan to agree on scope, /subagents to run research in parallel, /goal for higher quality, /browser to test the user journey, /learn to turn corrections into project rules, and high effort as my default after a start on medium. I tested on Google AI Ultra at $100 a month, which includes the Antigravity app, the CLI, and up to 1 million output tokens, while the $19.99 Pro plan suits text generation and web search. I close with my rule to marry the niche and date the product.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

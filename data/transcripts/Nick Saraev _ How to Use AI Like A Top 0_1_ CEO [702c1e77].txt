@@ -1,0 +1,54 @@
+Feed: Nick Saraev
+Episode: How to Use AI Like A Top 0.1% CEO
+Method: description
+Language: en
+Words: 605
+URL: https://www.youtube.com/watch?v=He-NyJjzWM0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔥 Join Maker School & get customer #1 guaranteed: https://skool.com/makerschool/about
+💎 Get all course resources 100% free: https://skool.com/maker-zero/about
+➡️ If this is your first video: I'm Nick Saraev. I run LeftClick, an AI growth agency. We've done work for large brands you're likely familiar with, like Mr. Beast, Anthropic, OpenAI, and a few others.
+
+In plain English: I help people build systems that generate leads, close deals, and scale businesses, mostly using new AI models like Claude. I also make videos about how to do all of that here on YouTube.
+
+It hasn't always been this way. My family immigrated from a Soviet bloc country (People's Republic of Bulgaria) in the 90s. They worked extremely hard, and we were broke for a very long time. I grew up wishing for more security, stability, and freedom over my own life.
+
+I don't have a programming degree, and never took formal education for IT or workflows. I learned it all myself from YouTube videos like you're watching now.
+
+As for my path: I started my first business at 19 in college. We threw events (mostly parties) at campus bars, and charged people for entry. 
+
+That failed to provide me enough money to pay my bills, so at 21, I started another business, a door-to-door marketing agency.
+
+From there, every year, I would start several companies, over 10 in total. I did this in a variety of industries, like e-commerce, photography, videography, SaaS, credit repair, etc. Each grew slightly more profitable, until, at 25, I would start 1SecondCopy, a content writing company. A friend and I eventually scaled that to over $90,000/m. It was my first taste of financial independence, and the reason I'm here today.
+
+Since starting my journey, I've grown a fair bit of capital. To diversify my income, at 30, I began investing in other businesses and advising companies on how to grow in the AI era. These include SaaS businesses, like Clairvo, agencies like Dental Connect, and more. 
+
+Collectively, the businesses that I own outright or are a part of generate over $10 million per year. This returns far more than the 5-10% you would get in the stock market, but also requires a lot of my active time. There's a tradeoff there, but I greatly prefer active investing, where I have control over the entities I'm a part of.
+
+It wasn't easy to get here. But I did in the end! For anyone on their own entrepreneurial journey: I wish you luck, happiness, and perseverance. You can make it!
+
+Summary ⤵️
+The smartest people on earth don't use AI like you do! They use AI far more intelligently and more cleanly; and the difference isn't a better model, it is how they talk to it. I will walk you through how all of this works soon.
+
+Chapters
+0:00 How top AI users work differently
+0:19 Talk, don't type
+0:52 Set up an always-on voice stream
+2:16 Show, don't tell
+3:18 Have AI interview you
+3:59 Ask for flaws, not opinions
+4:51 Just ask it to do the thing
+6:06 Have an open mind
+6:40 Learn more
+
+Sources
+Stanford Report, speech recognition is three times faster than typing: https://news.stanford.edu/stories/2016/08/stanford-study-speech-recognition-faster-texting
+Sharma et al., Towards Understanding Sycophancy in Language Models: https://arxiv.org/abs/2310.13548
+OpenAI, Sycophancy in GPT-4o: https://openai.com/index/sycophancy-in-gpt-4o/
+CNBC, Jensen Huang on using AI for first drafts: https://www.cnbc.com/2025/01/31/nvidia-ceo-jensen-huang-i-use-ai-chatbots-to-write-my-first-drafts.html
+Hex: https://hex.kitlangton.com
+Three.js: https://threejs.org
+Clips: Jensen Huang on CNA (https://www.youtube.com/watch?v=XVoyL8rzhWs), Sam Altman at Sequoia AI Ascent (https://www.youtube.com/watch?v=ctcMA6chfDY), Mark Zuckerberg on the Joe Rogan Experience (https://www.youtube.com/watch?v=7k1ehaE0bdU), Elon Musk at the Grok 4 livestream (https://www.youtube.com/watch?v=MtYsUdfZPMA), plus keynote footage from OpenAI DevDay 2023, Tesla We, Robot, Meta Connect 2024 and NVIDIA Computex 2024

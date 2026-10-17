@@ -1,0 +1,21 @@
+Feed: Israeli Tech Radar
+Episode: כשסוכן AI קונה בשבילנו, הוא קונה בדיוק את מה שביקשנו.
+Method: description
+Language: he
+Words: 115
+URL: https://www.youtube.com/shorts/Vt2eaWKQ4iY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+וזה בדיוק מה שמדאיג חלק מאתרי ה eCommerce.
+מייש סיידל קייסינג, Developer Advocate ב AWS ישראל, מספר בפרק על ניסיון לשלוח דפדפן מבוסס AI לבצע רכישה בשם המשתמש.
+חלק גדול מהמודל העסקי בריטייל נשען על Impulse Buying, על Upsell ועל Cross-sell ברגע שהלקוח כבר מול העגלה.
+ה Agent לא מתפתה למבצע, לא נחשף למנוע ההמלצות ולא מגיב לבאנר.
+מי שבונה SaaS או פלטפורמת eCommerce צריך לשאול איך נראית חוויה שהלקוח שלה הוא תוכנה, ואיזה ערך אפשר להציע לה מעבר למה שהתבקש.
+ייתכן שמי שיצליח בעידן ה Agentic Commerce הוא מי שילמד למכור גם ללקוח שלא מתפתה.
+
+הפרק כבר באוויר 🎧
+
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא: Agent-Oriented Design: Architecting Software for Autonomous Execution
