@@ -1,0 +1,29 @@
+Feed: The Patent Yogi
+Episode: WHEELCHAIR THAT DRIVES ITSELF
+Method: description
+Language: en
+Words: 156
+URL: https://www.youtube.com/shorts/rIjUO883P2Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+♿🤖 **What if your wheelchair could navigate your home without you driving it?**
+
+Meet this **autonomous smart wheelchair**, designed to make everyday mobility more independent.
+
+With over 20 sensors, including LiDAR, it can scan its surroundings, detect obstacles, and build a 3D map of your home. 📡
+
+Need to move to another room? Choose your destination and let the wheelchair navigate. It can even **follow you automatically**. 🏠✨
+
+But here’s where the patent story gets interesting. 🔍
+
+PatentYogi Search Experts found a **2018 U.S. patent** describing an autonomous wheelchair with navigation and obstacle-detection capabilities.
+
+So, while this technology could make a meaningful difference in people's lives, its core concept had already been disclosed in earlier patent literature.
+
+🎥 **Watch the video** to see why this wheelchair scored **7/10 for commercial value**, but only **3/10 for novelty and overall patentability**.
+
+**Would you trust a self-driving wheelchair to navigate your home?** 👇
+
+#SmartWheelchair #Robotics #Accessibility #AssistiveTech #Innovation #Patentability

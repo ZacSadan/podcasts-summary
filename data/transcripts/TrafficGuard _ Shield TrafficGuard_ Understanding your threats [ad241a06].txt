@@ -1,0 +1,26 @@
+Feed: TrafficGuard
+Episode: Shield TrafficGuard: Understanding your threats
+Method: description
+Language: en
+Words: 136
+URL: https://www.youtube.com/watch?v=9UP9HR4OTwM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Learn how to understand the different types of invalid traffic detected by TrafficGuard Shield and identify the threats affecting your Google Ads campaigns.
+
+In this quick walkthrough, we explain the three threat categories in your Shield dashboard: Bots & Malware, Non-incremental Engagement and Non-genuine Engagement.
+
+You’ll learn how to:
+
+- Understand what each threat category means and how it affects your campaigns
+- Read the Threats widget to identify your biggest sources of invalid traffic
+- See how threat categories are ranked differently in Detection and Prevention modes
+- Open the Threats report to explore each category in more detail
+
+TrafficGuard Shield analyses over 200 signals in real time to detect invalid traffic and help advertisers understand where their ad spend may be wasted.
+
+Learn more about TrafficGuard Shield: https://www.trafficguard.ai/pricing
+
+#GoogleAds #ClickFraud #InvalidTraffic #ClickFraudProtection #PPC #TrafficGuard
