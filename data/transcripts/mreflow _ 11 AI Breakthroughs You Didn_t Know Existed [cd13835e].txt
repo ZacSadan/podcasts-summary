@@ -1,0 +1,55 @@
+Feed: mreflow
+Episode: 11 AI Breakthroughs You Didn’t Know Existed
+Method: description
+Language: en
+Words: 189
+URL: https://www.youtube.com/watch?v=umGZrkyTRtw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Try @OpenAI Dots here: https://chatgpt.com/features/dots/
+
+Some of the coolest AI advancements are flying under the radar. From AI-generated worlds and games to new voice models and 3D tools, here's a look at some of the lesser-known AI research and technology that you probably missed.
+
+Sharing the latest news and advancements in AI
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Fish Audio Drama 3: https://fish.audio/drama-3/
+BytePlus OmniHuman: https://www.byteplus.com/en/product/OmniHuman
+WorldCrafter: https://drexubery.github.io/WorldCrafter/?validation-demo=cat-vac-new
+TheoMediaAI Post: https://x.com/TheoMediaAI/status/2109643192920404199
+Matrix Game 4.0: https://matrix-game-v4-0.github.io/page/
+NVIDIA StreamRender-H3: https://nvlabs.github.io/Sana/Sol-Engine/StreamRender-H3/
+Odyssey Update: https://x.com/odysseyml/status/2111589148146749616
+T3lescope: https://pfnet-research.github.io/t3lescope/
+Gaussianimate: https://cookmaker.cn/gaussianimate/
+WorldGacha: https://tools.oyasumi-gamedev.com/worldgacha/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+00:00 Under-the-Radar AI Discoveries
+00:46 Fish Audio Drama 3: AI Voice Acting
+04:23 OmniHuman 2.0: Talking Photos
+06:48 WorldCrafter: AI Worlds That Remember
+08:56 ByteDance’s New World Model
+09:56 OpenAI Dots (Sponsor)
+11:01 Matrix Game 4.0: Game Engines Meet AI
+14:17 NVIDIA StreamRender-H3
+16:43 Odyssey: A Fruit Fly Brain in an AI World
+18:25 3D Reconstruction, Animation & World Building

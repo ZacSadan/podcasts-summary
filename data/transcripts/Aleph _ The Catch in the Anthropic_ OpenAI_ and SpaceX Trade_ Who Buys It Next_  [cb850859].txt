@@ -1,0 +1,66 @@
+Feed: Aleph
+Episode: The Catch in the Anthropic, OpenAI, and SpaceX Trade: Who Buys It Next? | Josh Kopelman on Invested
+Method: description
+Language: en
+Words: 744
+URL: https://www.youtube.com/watch?v=uMgQ6176_B0
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Josh Kopelman, founding partner of First Round Capital and Half.com founder, on OpenAI and Anthropic's valuations and whether AI breaks seed investing.
+On this episode of Invested, Michael Eisenberg talks with Josh Kopelman about building Half.com at the height of the dot-com era, when the company convinced Halfway, Oregon to rename itself Half.com, put coupon codes on 2 million fortune cookies, and sold to eBay in 2000. Josh compares that bubble to today's AI boom and explains why First Round's fund grew from a little under $150 million in 2004 to about half a billion without changing its strategy. He also argues that late-stage bets on SpaceX, Anthropic and OpenAI are a cyclical trade, while seed is a business that can make money in both risk-on and risk-off markets.
+Josh goes back to Infonautics, the company he co-founded as a Wharton student, which scanned newspapers and magazines into Homework Helper for AOL, CompuServe and Prodigy before search engines existed. He explains why founders are cartographers, why he stays up until 3 a.m. building MCP servers with Claude Code even though he is not a strong engineer, why he doesn't think AI breaks the seed model, and how The Philadelphia Inquirer, where he served as chairman, went from "default dead" to "default alive."
+Josh also describes publicly calling out Web Summit founder Paddy Cosgrave's tweets after October 7th, what it cost him, and what First Round looks for in Israeli founders.
+Josh is a founding Partner at First Round Capital, a seed-stage technology venture fund.  Josh has been an active entrepreneur and investor in the Internet industry since its commercialization.
+In 1992, while he was a student at the Wharton School of the University of Pennsylvania, Josh co-founded Infonautics Corporation – and took it public on the NASDAQ stock exchange in 1996. Josh founded Half.com in July of 1999, and led it to become one of the largest sellers of used books, movies and music in the world. Half.com was acquired by eBay in July 2000 -- and Josh remained with eBay for three years, running the Half.com business unit and growing eBay’s Media marketplace to almost half a billion dollars in annual gross merchandise sales. In late 2003 Josh helped to found TurnTide, an anti-spam company that created the world's first anti-spam router.
+Josh founded First Round Capital in 2004 to reinvent seed-stage investing. And since that time the firm has invested in over 350 emerging technology startups – becoming one of the most active venture capital firms in the country. Josh was ranked 3rd on the 2018 New York Times list of Top Venture Capitalists and consistently ranks in the top 20 of the Forbes Midas List of the top 100 tech investors. 
+
+KEY TOPICS
+00:00 - Intro
+01:46 - Half.com's Origin: eBay Meets Amazon
+04:22 - Renaming Halfway, Oregon to Half.com
+06:53 - Half.com Ads in Internet World Urinals
+08:21 - Why Rate Card Is for Suckers
+09:07 - Coupons on 2 Million Fortune Cookies
+11:58 - Dot-Com Bubble vs. Today's AI Boom
+16:20 - Why the Washout Belongs in Private Markets
+17:29 - First Round's Fund Size From $150M to Half a Billion
+19:28 - SpaceX, Anthropic and OpenAI vs. 20 Years of Exits
+25:05 - Why Late-Stage AI Bets Are a Cyclical Trade
+30:03 - Unvarnished Opinion, Unwavering Support
+33:24 - Venture Conviction and Knowing the Risks
+36:16 - Co-Founding Infonautics as a Wharton Student
+40:27 - Infonautics' Bet on Closed Information
+43:59 - Why Founders Are Cartographers
+47:58 - Building MCP Servers With Claude Code
+49:19 - What Y Combinator Got Right
+52:07 - Does AI Break the Seed Model?
+54:06 - First Round's "Imagine If" Brand
+56:02 - Saving The Philadelphia Inquirer
+59:32 - Calling Out Web Summit After October 7th
+1:01:30 - Digitizing the Jewish Encyclopedia for Sefaria
+1:02:18 - Investing in Israeli Founders
+1:02:42 - Imagine If the Truth Was Knowable
+
+RESOURCES
+Follow Josh on LinkedIn: https://www.linkedin.com/in/jkopelman/
+Follow Josh on X: https://x.com/joshk
+Learn more about First Round Capital: https://firstround.com/
+Subscribe to Invested: https://content.aleph.vc/invested
+Learn more about Aleph: https://www.aleph.vc/
+Sign up for Aleph’s monthly email newsletter: https://newsletter.aleph.vc/
+Subscribe to Aleph’s YouTube channel: https://www.youtube.com/@aleph-vc/
+Follow Michael on Twitter: https://twitter.com/mikeeisenberg
+Follow Michael on LinkedIn: https://www.linkedin.com/in/mieisenberg/
+Follow Aleph on Twitter: https://x.com/aleph?s=20
+Follow Aleph on LinkedIn: https://www.linkedin.com/company/aleph-vc/
+Follow Aleph on Instagram: https://www.instagram.com/aleph.vc/
+
+CREDITS
+Executive Producer: Erica Marom
+Producer: Sofi Levak, Dalit Merenfeld
+Video and Editing: Nadav Elovic
+Music and Creative Direction: Uri Ar
+Content and Editorial: Jackie Goldberg
+Design: Nimrod Sapir

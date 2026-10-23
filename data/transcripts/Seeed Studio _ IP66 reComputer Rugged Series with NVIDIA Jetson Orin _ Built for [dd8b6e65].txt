@@ -1,0 +1,38 @@
+Feed: Seeed Studio
+Episode: IP66 reComputer Rugged Series with NVIDIA Jetson Orin — Built for Tough and Industrial Automation
+Method: description
+Language: en
+Words: 144
+URL: https://www.youtube.com/watch?v=3podKc7Fx40
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The newest reComputer Rugged Series brings up to 100 TOPS of edge AI performance to demanding industrial and outdoor environments.
+
+Powered by NVIDIA Jetson Orin Nano 8GB / Orin NX 16GB, the reComputer Rugged combines AI computing with sealed industrial connectivity in an IP66-rated enclosure.
+
+Key Technical Features
+
+🔹 AI Computing
+NVIDIA Jetson Orin Nano / Orin NX | Up to 100 TOPS
+
+🔹 IP66 Protection
+Dust-tight enclosure with protection against powerful water jets, designed for demanding field deployments.
+
+🔹 Industrial Connectivity
+• 4× GbE PoE PSE + 1× GbE
+• 2× isolated CAN-FD
+• RS-232/422/485 + DI/DO
+• Sealed M12 connectors
+
+🔹 Deployment Ready
+• 19–48V DC input
+• Operating temperature: −20°C to +60°C*
+• M.2 Key B expansion for optional 5G/GPS modules
+
+Built for real-world applications:
+AMRs, outdoor robotics, smart agriculture, industrial automation, and maritime systems.
+
+Explore the reComputer Rugged Series:
+https://www.seeedstudio.com/reComputer-Rugged-J4012-p-6920.html
