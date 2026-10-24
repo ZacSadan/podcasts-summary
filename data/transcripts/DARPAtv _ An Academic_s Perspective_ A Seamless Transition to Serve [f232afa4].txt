@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: An Academic's Perspective: A Seamless Transition to Serve
+Method: description
+Language: en
+Words: 89
+URL: https://www.youtube.com/shorts/btM_6Xvd2hQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+DARPA Alum and Stanford Professor Thomas Kenny, Ph.D., discusses his rewarding experience as a program manager at the agency. He addresses the seamless transition process for academics, which allows them to serve without career disruption. Dr. Kenny emphasizes the incredible learning opportunities and mentorship from top experts, but highlights that his deepest motivation came from interacting with service members. He shares how this connection to the warfighter reinforced his commitment to DARPA's mission: providing a technological advantage to ensure our troops can do their job and return home safely.

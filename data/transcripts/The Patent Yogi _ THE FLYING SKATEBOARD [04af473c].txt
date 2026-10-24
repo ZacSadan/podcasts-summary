@@ -1,0 +1,29 @@
+Feed: The Patent Yogi
+Episode: THE FLYING SKATEBOARD
+Method: description
+Language: en
+Words: 163
+URL: https://www.youtube.com/shorts/rvpecSwqK3Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🛹🚀 **A skateboard that actually flies? This looks straight out of science fiction.**
+
+Meet this **flying skateboard**, an experimental build that uses powerful propulsion systems to lift a rider off the ground.
+
+The creator initially used jet engines, but exhaust-related overheating created problems. Switching to electric propellers helped address that issue, while controlling the board and maintaining balance remained a challenge. ⚙️
+
+To tackle the control problem, the creator used AI to analyze movement and help adjust body position.
+
+But here’s the patent twist... 👀
+
+PatentYogi Search Experts found a **U.S. patent granted in 2019** describing a flying skateboard with multiple power units, gyroscope-based balance control, and altitude sensors. 🔍
+
+That means the core flying-skateboard concept was already disclosed in earlier patent literature.
+
+🎥 **Watch the video** to see why this wild engineering project scored **8/10 for commercial value**, but only **2/10 for novelty and overall patentability** in our analysis.
+
+**Would YOU risk riding this flying skateboard?** 👇
+
+#FlyingSkateboard #Engineering #Aerospace #Innovation #Patents

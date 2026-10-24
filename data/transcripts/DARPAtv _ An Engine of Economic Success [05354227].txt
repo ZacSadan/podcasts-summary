@@ -1,0 +1,11 @@
+Feed: DARPAtv
+Episode: An Engine of Economic Success
+Method: description
+Language: en
+Words: 97
+URL: https://www.youtube.com/shorts/K8v-Hnm6rLE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Thomas Kenny, Ph.D., a DARPA alumnus and professor at Stanford University's School of Engineering, discusses how the agency’s strategic investments in high-risk, high-reward research act as a catalyst for technological breakthroughs and economic growth. Kenny highlights a past DARPA program that successfully merged MEMS and packaging technologies, leading to the creation of a multi-billion-dollar company whose technology is now integral to U.S. defense and telecommunications systems. He illustrates how DARPA's model of bringing together diverse communities to tackle ambitious challenges plants the seeds for innovations that build industries and careers, ultimately providing significant returns for the nation.

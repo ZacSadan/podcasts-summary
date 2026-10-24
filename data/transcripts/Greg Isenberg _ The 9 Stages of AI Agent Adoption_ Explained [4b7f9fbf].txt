@@ -1,0 +1,73 @@
+Feed: Greg Isenberg
+Episode: The 9 Stages of AI Agent Adoption, Explained
+Method: description
+Language: en
+Words: 839
+URL: https://www.youtube.com/watch?v=nRl-7Yhmbog
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I break down the war on AI agents, from Amazon blocking Meta's Muse to Delta treating outside booking agents as unauthorized automated activity to Yelp charging agents for access. I share how I think about an agent, as a customer with a credit card who reads your site instead of looking at it, and the ladder of trust that runs from research to prepare to pay. Then I walk through each big player's bet, my nine stages for how this war plays out, five moves any business can make this week, and the startup ideas I see between agents and the businesses they buy from. If you run a store or build products, this episode gives you a map for selling to customers who send an agent to shop for them.
+
+Timestamps
+
+00:00 – Intro
+02:09 –The Three Camps
+05:08 – How I Define an Agent
+06:52 – The Ladder of Trust
+08:54 – Real Reasons to Block Agents
+09:48 – What Agents Skip
+12:57 – How Each Company is Playing it
+17:06 – Lessons From Mint and Plaid
+17:49 – The 9 stages of The War on Agents
+21:56 – What to do this week
+24:39 – Startup Idea 1: Agent Readiness
+25:48 – Startup Idea 2: Plaid for One Vertical
+26:22 – Startup Idea 3: Insurance for Agents
+26:57 – Startup Idea 4: Analytics for Agent Traffic
+27:26 – Startup Idea 4: Agent Specialist
+28:05 – Closing Thoughts
+
+Key Points
+
+• Agents read product details, prices, shipping, and return policies, so plain-text facts on the page decide whether they pick you.
+• Agents climb a ladder of trust from research to prepare to pay, and the whole fight happens on the pay rung.
+• Many blocks protect the ad and upsell revenue that agents skip on the way to the sale.
+• The biggest stores block, the biggest audiences open the door, and payment and security companies want the toll booth.
+• I expect a Plaid moment for agent identity and payments, followed later by ads that buy an agent's first recommendation.
+• Vertical Plaids, agent insurance, and agent analytics are open lanes for startups right now.
+
+Numbered Section Summaries
+
+1. Who Blocks and Who Welcomes 
+
+Amazon started blocking Meta's Muse agent around September, Delta treats outside booking agents as unauthorized automated activity, and Yelp lets agents in only through its paid data licensing program. In the middle, Zillow welcomes agents acting for real customers while its anti-scraping tools sometimes stop them, and Walmart, a Muse partner, called its Muse failures an accident. On the welcoming side, Meta works with Walmart and Stripe on an open standard, Shopify lets merchants sell through AI channels, and Visa and Mastercard build ways to recognize trusted agents.
+
+2. A Customer Who Reads Instead of Looks 
+
+I think of an agent as a customer with a credit card who reads instead of looks. It skips your $100,000 homepage video, banners, and countdown pop-ups, and it reads your product details, prices, shipping costs, and return policy. When I ask my agent to find a replacement air purifier filter, compare delivered prices, and check with me before buying anything over $50, I give it a goal, rules, and a limit.
+
+3. The Ladder of Trust 
+
+Agents climb three rungs: research, prepare, and pay. Most companies accept the first rung because it works like search, and the whole war happens on the third, so I see businesses making a mistake when they block all three. An agent compares five suppliers in the time it takes me to open one tab and stays loyal to whatever worked last time, so a stuck checkout quietly sends it to a competitor.
+
+4. Why Companies Block 
+
+Some reasons to block hold up, since an agent might place 50 orders instead of five, the customer calls the store about it, and an airline has to prove you authorized a booking. Money drives a lot of it, because Amazon earns tens of billions a year from ads and airlines profit from seat upgrades, bags, and credit card offers that agents skip. Amazon and Delta also build their own agents
+
+5. The 9 Stages
+
+Banks fought Mint.com until Plaid built a proper connection between apps and banks, and the banks moved from blocking to signing deals to charging for access. I see agents on that same path, from blocking today to an arms race to a split where sales businesses let agents in, data businesses charge, and giants build their own, then a Plaid moment for agent identity and payments. After that, welcoming companies win customers, everyone competes for agents with faster checkouts and pages written for agents, ads come back to buy an agent's first recommendation
+
+
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

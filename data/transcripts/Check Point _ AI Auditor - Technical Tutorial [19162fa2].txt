@@ -1,0 +1,15 @@
+Feed: Check Point
+Episode: AI Auditor - Technical Tutorial
+Method: description
+Language: en
+Words: 142
+URL: https://www.youtube.com/watch?v=PavF7J7OKeo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Keep your Access Control policy aligned with your intended security architecture using Check Point AI Auditor. As networks evolve and firewall rules change, unintended access can introduce security risks and make policy reviews more demanding. AI Auditor helps security teams identify rules that conflict with organizational segmentation guidelines and focus their audit efforts.
+
+In this video, we introduce the AI Auditor workflow and demonstrate how network segments and permitted communication are represented in a visual matrix. Explore the Approved services and Rules and violations views, understand source-to-destination relationships, and review the rules associated with selected segments. We also explain how security teams can investigate violations, approve justified exceptions, or modify the relevant rules to address unintended access.
+
+Watch the overview and technical demo to learn how AI Auditor helps simplify policy auditing, strengthen network segmentation, and support your organization’s Zero Trust goals.

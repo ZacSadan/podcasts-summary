@@ -1,0 +1,15 @@
+Feed: Cheddar
+Episode: Kung Fu stunts, lifting cars, mall cop, what doesn’t this robot do?🤖
+Method: description
+Language: en
+Words: 109
+URL: https://www.youtube.com/shorts/atB18CV8gnw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Unitree just unveiled the H2-X “Kung Fu Legend Guardian,” a humanoid robot it’s pitching for security and rescue work.
+
+In the promo video, it kicks in car doors, flips off a car roof and jumps from a platform marked 13 foot. In staged scenes, it steps between a woman and a knife-wielding intruder and lifts the front of a car in a mock rescue. Unitree says the clip is real footage with no speed-up.
+
+The one spec Unitree gave is about 8 hours of endurance, which is on the fine print, and there’s no price, no spec sheet and no word on how much of the demo was autonomous.

@@ -1,0 +1,18 @@
+Feed: Check Point
+Episode: It's Time AI Had a Check Point
+Method: description
+Language: en
+Words: 81
+URL: https://www.youtube.com/watch?v=FU_kKmxZIWU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI is creating new decision points across every organization. A prompt accesses data. A model calls a tool. An agent takes action. These moments happen at machine speed, faster than people can review them. 
+The challenge for security leaders isn't stopping AI. Its knowing what should move forward, what needs guardrails, and what shouldn't proceed at all. 
+That's why every AI interaction needs a check point. 
+Not a barrier to innovation. 
+A way to keep innovation moving securely.
+
+Learn more: 
+https://www.checkpoint.com/ai/

@@ -1,0 +1,15 @@
+Feed: Cheddar
+Episode: Jensen and a flock of robot ducks🦆
+Method: description
+Language: en
+Words: 139
+URL: https://www.youtube.com/shorts/LqkDv-AQ1Rg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The keynote took place at Berlin’s Tempodrom, as Huang pitched Europe on building its own AI economy. The stars of the closing demo were Microducks, 9 inch robots from Hugging Face’s robotics team, Pollen Robotics.
+
+These tiny robots can walk, balance, sit, stand, kick a ball, roller-skate, pick things up with their beaks and get back up after a fall. They learned those skills in simulation with NVIDIA Isaac Sim that was trained in the cloud, and were tested on a laptop-sized RTX Spark before running on the real robot.
+
+As impressive as they are, they’re not flawless. Three fell over when told to “take a nap,” only two did the somersault, and one needed a stern “pay attention, stay focused.” Despite that, the $399 duck sold over 10,000 units within days of launch in August of this year.

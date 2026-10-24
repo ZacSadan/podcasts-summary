@@ -1,0 +1,26 @@
+Feed: Seeed Studio
+Episode: How to Deploy a Custom YOLO Model onto reCamera Pro
+Method: description
+Language: en
+Words: 111
+URL: https://www.youtube.com/watch?v=yvLm7f1G3_Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Your vision project needs to detect the objects that matter to your application. How do you bring your custom YOLO model onto reCamera Pro?
+In this video, we walk through deploying a custom YOLO model onto reCamera Pro, helping you take the next step from model development to an on-device vision application.
+Watch the deployment walkthrough and use it as a starting point for your own project.
+
+Device and version:
+reCamera Pro: https://www.seeedstudio.com/reCamera-Pro-2GB.html
+Web UI version: 1.2.2
+
+🔗 Wiki Guide:
+📖 How to deploy your model on reCamera Pro: https://wiki.seeedstudio.com/recamera_pro_model_path/
+🏷️ Use an AI Agent to convert your model: https://wiki.seeedstudio.com/recamera_pro_development_cpp_skill/
+
+💬 Contact Us:
+techsupport@seeed.io
+
+#reCameraPro #YOLO #theGotoAIcameraforYOLOattheedge #EdgeAI #Seeed #SeeedStudio #HowToBuildAnAICamera#Tutorial

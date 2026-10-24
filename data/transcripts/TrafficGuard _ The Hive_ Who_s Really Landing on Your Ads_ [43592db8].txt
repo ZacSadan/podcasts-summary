@@ -1,0 +1,25 @@
+Feed: TrafficGuard
+Episode: The Hive: Who’s Really Landing on Your Ads?
+Method: description
+Language: en
+Words: 132
+URL: https://www.youtube.com/watch?v=DD5C_CVtMQU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Ad fraud and invalid traffic quietly drain your ad spend, and The Hive tells that story through a meadow that pays for all 50,000 pollinator landings on its flowers every day.
+
+▶ Book a demo to see how TrafficGuard stops invalid traffic: https://www.trafficguard.ai/book-a-demo
+
+Most landings are money well spent, but Barry has visited the same flower 47 times without pollinating it once, and the drones landing all day can't pollinate anything despite wearing badges that say "Definitely a bee". TrafficGuard filters out the repeat clicks and bots that were never going to convert, so your budget goes to the visitors who actually matter.
+
+Pay for pollinators, not landings.
+
+00:00 50,000 landings a day
+00:20 Not just bees
+00:30 Meet Barry
+00:48 The drones
+01:03 Pay for pollinators, not landings
+
+#AdFraud #PPC #ClickFraud

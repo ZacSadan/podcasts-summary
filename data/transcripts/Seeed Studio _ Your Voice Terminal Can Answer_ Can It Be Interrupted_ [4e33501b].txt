@@ -1,0 +1,20 @@
+Feed: Seeed Studio
+Episode: Your Voice Terminal Can Answer. Can It Be Interrupted?
+Method: description
+Language: en
+Words: 97
+URL: https://www.youtube.com/shorts/qbkduJGXr4Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Real users don't wait for the end of an answer.
+At service counters, showrooms, and around machines, people interrupt, correct, and redirect. That's what makes a voice interface feel natural—or broken.
+The difference is the conversation layer: interruptible by design, local speech processing, and a model placed on-device or behind your own backend.
+
+For teams building voice-enabled products, it turns a one-off demo into a repeatable foundation. The value moves to the knowledge and workflows each customer needs—and the updates that keep them working.
+
+Plan yours: Voice AI Solution in our channel profile:
+https://www.seeed.cc/solutions/acoustic-audio-ai?utm_source=youtube&utm_medium=social&utm_campaign=202610_voice-ai-field-tests&utm_content=response-interrupt
+
+#VoiceAI #ConversationalAI #EdgeAI

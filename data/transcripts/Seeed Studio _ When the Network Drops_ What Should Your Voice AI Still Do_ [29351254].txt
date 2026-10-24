@@ -1,0 +1,21 @@
+Feed: Seeed Studio
+Episode: When the Network Drops, What Should Your Voice AI Still Do?
+Method: description
+Language: en
+Words: 98
+URL: https://www.youtube.com/shorts/VWI2IYC-qfw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+A kiosk that stops working with the internet isn't an offline problem—it's a service problem.
+Hotel rooms, reception counters, and warehouses all need core answers even when connectivity fails. Product info, directions, operational guidance can live on the device; live bookings and inventory stay connected.
+
+The practical question is where to draw that line—and where the model should run.
+That scope is what makes a deployment predictable: fewer emergency fixes, clearer acceptance, and maintenance you can package as a service.
+
+Explore the architecture: Voice AI Solution in our channel profile.
+Explore the reference design:
+https://www.seeed.cc/solutions/acoustic-audio-ai?utm_source=youtube&utm_medium=social&utm_campaign=202610_voice-ai-field-tests&utm_content=ethernet
+
+#VoiceAI #OnDeviceAI #EdgeComputing
