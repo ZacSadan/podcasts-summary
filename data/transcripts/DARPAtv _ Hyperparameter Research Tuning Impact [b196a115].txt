@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: Hyperparameter Research Tuning Impact
+Method: description
+Language: en
+Words: 101
+URL: https://www.youtube.com/watch?v=O62WZhBk6DI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr. Boris Hanin (Princeton) introduces their collaboration with Cerebras Systems under the AIQ program to develop evaluation of large parameter AI systems from smaller systems, which had the impact of reducing the cost of training a 3.8 billion parameter model by 2.4x. (May 2026). For the original research, see: https://arxiv.org/pdf/2505.01618. 
+
+• The views, opinions and/or findings expressed are those of the presenter and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
+
+This content was created prior to Executive Order 14434, directing the Government's use of the term Super Intelligence.

@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: Hyper Parameter Tuning Origins and Deep Dive
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/watch?v=GDTboKGBSNQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr.  Cengiz Pehlevan (Harvard) provides a deep dive into the origins of and technical details around his hyperparameter tuning research collaboration with Harvard and Cerebras Systems under the AIQ program. (May 2026) Dr. Pehlevan’s research is supported by and will continue under AIQ. For the original research, see: https://arxiv.org/pdf/2505.01618.
+
+•  The views, opinions and/or findings expressed are those of the presenter and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
+
+This content was created prior to Executive Order 14434, directing the Government's use of the term Super Intelligence.

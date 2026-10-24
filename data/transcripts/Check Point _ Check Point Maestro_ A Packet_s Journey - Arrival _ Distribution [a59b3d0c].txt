@@ -1,0 +1,21 @@
+Feed: Check Point
+Episode: Check Point Maestro: A Packet's Journey - Arrival & Distribution
+Method: description
+Language: en
+Words: 143
+URL: https://www.youtube.com/watch?v=ZGMGMO91yYQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+One packet. Multiple gateways. One Maestro Security Group. How does Check Point Maestro get a packet to the right destination?
+
+Join Check Point’s Technical Marketing Engineering team as we trace a packet’s journey into a Maestro deployment, revealing how traffic moves through the system and how the Orchestrators direct it toward the right Security Group Member (SGM).
+
+Follow the packet from its arrival at the Maestro system, through the core switches and uplink distribution process, to the Orchestrator’s decision-making and downlink selection. Discover how Maestro coordinates multiple gateways as one logical security system—and see exactly where the packet goes next.
+
+This is Part 1 of the Maestro Packet Journey series. In the next episode, we’ll go inside the Security Group to explore connection ownership, synchronization, and packet inspection.
+
+Follow the packet. Understand the architecture. Discover Check Point Maestro.
+
+#CheckPoint #Maestro #NetworkSecurity #Firewall #CyberSecurity

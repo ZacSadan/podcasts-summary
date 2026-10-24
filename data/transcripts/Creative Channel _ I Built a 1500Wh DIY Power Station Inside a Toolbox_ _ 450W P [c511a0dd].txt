@@ -1,0 +1,64 @@
+Feed: Creative Channel
+Episode: I Built a 1500Wh DIY Power Station Inside a Toolbox! | 450W Pure Sine Wave
+Method: description
+Language: en
+Words: 399
+URL: https://www.youtube.com/watch?v=UsjVvk7z10w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I BUILT A 1500Wh DIY POWER STATION INSIDE A TOOLBOX!
+
+Hey everyone! Welcome back to another DIY project!
+
+In today's video, I'm turning an ordinary plastic toolbox into a portable battery power station using 18 high-capacity LiPo cells and a 450W pure sine wave inverter.
+
+The battery pack consists of 18 LiPo cells rated at 3.7V and 20Ah each, arranged in a 3S6P configuration to provide a total capacity of 120Ah.
+
+The battery stores approximately 1,332Wh of nominal energy, or 1,512Wh when calculated using its fully charged voltage of 12.6V.
+
+I also installed two 220V AC outlets, dual USB-C PD charging ports, a USB QC 3.0 port, a 12V automotive socket, an XT60 connector, and digital power monitoring displays.
+
+Everything fits neatly inside a portable toolbox, making this a compact DIY power station for various off-grid and backup power applications.
+
+⚡ DIY POWER STATION SPECIFICATIONS:
+
+- Battery: 18 × 3.7V 20Ah LiPo cells
+- Battery configuration: 3S6P
+- Nominal voltage: 11.1V
+- Fully charged voltage: 12.6V
+- Battery capacity: 120Ah
+- Nominal energy capacity: 1,332Wh
+- Capacity calculated at full voltage: 1,512Wh
+- Inverter: 450W pure sine wave, 12V DC to 220V AC
+- Battery protection: 3S 200A BMS
+- AC outputs: 2 × 220V outlets
+- USB charging: 2 × USB-C PD + 1 × USB QC 3.0
+- DC outputs: 12V automotive socket and XT60 connector
+- Monitoring: Digital AC power meter and battery capacity display
+- Enclosure: Portable plastic toolbox
+
+🔧 MAIN COMPONENTS:
+- Plastic toolbox
+- 18 high-capacity LiPo battery cells
+- 450W pure sine wave inverter
+- 3S 200A battery management system
+- Digital AC power meter
+- Dual USB-C PD and USB QC 3.0 charger
+- 220V AC outlets
+- 12V cigarette lighter socket
+- XT60 panel connector
+- Battery capacity indicator
+- ON/OFF power switch
+
+⚠️ SAFETY NOTE:
+This project involves high-capacity lithium batteries and potentially dangerous 220V AC power. Proper battery protection, fuses, wiring, insulation, and electrical safety precautions are essential.
+
+I really enjoyed building this portable power station, especially finding a way to fit everything inside an ordinary toolbox!
+
+If you enjoy DIY electronics, lithium battery projects, portable power stations, and creative builds, please LIKE this video, SUBSCRIBE to my channel, and share your thoughts in the comments!
+
+Thanks for watching, and I'll see you in the next DIY project!
+
+#DIYPowerStation #1500Wh #PortablePowerStation #ToolboxDIY #LiPoBattery #PureSineWaveInverter #450WInverter #LithiumBattery #DIYEectronics #CreativeChannel

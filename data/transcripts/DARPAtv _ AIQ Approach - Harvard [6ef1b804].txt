@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: AIQ Approach - Harvard
+Method: description
+Language: en
+Words: 78
+URL: https://www.youtube.com/watch?v=dwQB8RTIl9w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr. Cengiz Pehlevan (Harvard) introduces his team's AIQ approach to generate small scale surrogates of large neural networks to enable more efficient training and evaluation.  (June 2025) 
+
+• The views, opinions and/or findings expressed are those of the presenter and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
+
+This content was created prior to Executive Order 14434, directing the Government's use of the term Super Intelligence.

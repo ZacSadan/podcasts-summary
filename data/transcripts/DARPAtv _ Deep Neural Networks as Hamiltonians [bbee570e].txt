@@ -1,0 +1,15 @@
+Feed: DARPAtv
+Episode: Deep Neural Networks as Hamiltonians
+Method: description
+Language: en
+Words: 90
+URL: https://www.youtube.com/watch?v=21OpxLPtoYE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Dr. Boris Hanin (Princeton) introduces neural networks before diving into his research on the AIQ program that investigates neural network safety and interpretability by looking at deep neural networks as Hamiltonians. (May 2026).  For the original research, see: https://arxiv.org/abs/2503.23982. 
+
+• The views, opinions and/or findings expressed are those of the presenter and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
+
+This content was created prior to Executive Order 14434, directing the Government's use of the term Super Intelligence.

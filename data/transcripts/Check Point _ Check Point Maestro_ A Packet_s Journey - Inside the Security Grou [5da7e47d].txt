@@ -1,0 +1,17 @@
+Feed: Check Point
+Episode: Check Point Maestro: A Packet's Journey - Inside the Security Group
+Method: description
+Language: en
+Words: 119
+URL: https://www.youtube.com/watch?v=0LUdUzl07sc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What happens to a packet after it leaves the Maestro Orchestrator? Follow its journey inside the Security Group and discover how Check Point Maestro distributes traffic, assigns connection ownership, and keeps connections synchronized for high availability.
+
+Part 2 of the Maestro Packet Journey series, takes you inside the Security Group to explore how SGMs process traffic, how the owner SGM handles inspection, and how return traffic finds its way back to the right member—even without NAT. You’ll also see how to trace the connection using tcpdump and get a first look at the Correction Layer, which steps in when NAT changes the packet’s path.
+
+Follow the packet. Uncover the mechanics. See Maestro in action.
+
+#CheckPoint #Maestro #NetworkSecurity #Firewall #CyberSecurity
