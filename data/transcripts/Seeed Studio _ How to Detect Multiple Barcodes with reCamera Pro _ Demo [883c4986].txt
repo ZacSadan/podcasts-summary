@@ -1,0 +1,18 @@
+Feed: Seeed Studio
+Episode: How to Detect Multiple Barcodes with reCamera Pro | Demo
+Method: description
+Language: en
+Words: 67
+URL: https://www.youtube.com/watch?v=XV1XmuT8nqw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Building a parcel-scanning station where several labels can enter the camera’s field of view?  See how reCamera Pro handles real-time barcode recognition, then follow the Wiki to build and deploy the application.
+
+Wiki :https://wiki.seeedstudio.com/recamera_pro_qr_code_barcode/
+reCamera Pro: https://www.seeedstudio.com/reCamera-Pro-2GB.html
+
+Subscribe for more tutorials on our AI camera hardware, and let us know in the comments what computer vision feature you want to see tested next.
+
+#reCameraPro #BarcodeRecognition #Tutorial#theGotoAIcameraforYOLOattheedge#Seeed #SeeedStudio#HowToBuildAnAICamera#EdgeAI

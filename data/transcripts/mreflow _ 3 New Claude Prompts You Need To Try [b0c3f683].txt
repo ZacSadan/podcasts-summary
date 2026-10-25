@@ -1,0 +1,19 @@
+Feed: mreflow
+Episode: 3 New Claude Prompts You Need To Try
+Method: description
+Language: en
+Words: 68
+URL: https://www.youtube.com/shorts/aIrrq3CLSKM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Claude just got 3 powerful new upgrades. Here's how to use them:
+
+1. Motion can transform boring reports into animated explainer videos in seconds. 
+2. Dashboards can turn your business data into interactive, live dashboards with a simple prompt.
+3. And Claude Haiku 5.5 let's you get everyday AI tasks done faster and cheaper.
+
+Follow for more AI tools, news, and future tech videos.
+
+#Claude #Anthropic #AITools #Productivityhack

@@ -1,0 +1,19 @@
+Feed: DARPAtv
+Episode: Reaching beyond the lab for real-world impact: Reach Power
+Method: description
+Language: en
+Words: 100
+URL: https://www.youtube.com/watch?v=6ugVcq6gIoQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What if drones and other autonomous systems could operate longer without stopping to recharge?
+ 
+Reach Power is developing wireless power-beaming technology that could transform how energy is delivered, extending operational capabilities and unlocking new possibilities for defense and commercial applications.
+ 
+Through DARPA's Embedded Entrepreneurship Initiative (EEI), Reach Power has refined its commercialization strategy, explored new markets, and identified opportunities across critical infrastructure, energy, and defense.
+ 
+Hear from Reach Power's leadership about the company's journey from breakthrough technology to real-world applications, and how DARPA is helping bridge the gap between innovation and impact.
+ 
+Learn more about DARPA's Embedded Entrepreneurship Initiative: https://www.darpa.mil/about/offices/commercial-strategy#initiatives

@@ -1,0 +1,25 @@
+Feed: Seeed Studio
+Episode: Estação Meteorológica Industrial LoRaWAN SenseCAP | S700-C + S2100
+Method: description
+Language: en
+Words: 118
+URL: https://www.youtube.com/shorts/DbTbQPuwh34
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Conheça de perto a Estação Meteorológica Industrial LoRaWAN da SenseCAP, diretamente da Meteorological Technology World Expo 2026! 🌦️
+
+No estande H33 da Seeed, nossa engenheira de aplicações Bianca demonstrou a estação meteorológica industrial LoRaWAN que combina o SenseCAP S700-C + S2100, uma solução completa e robusta, projetada para instalação rápida em ambientes extremos. 🌦️
+
+✅ Medição de sete variáveis meteorológicas
+✅ Sensores de estado sólido, menos manutenção
+✅ Proteção IP66 para instalação ao ar livre
+✅ Aquecimento integrado para condições de frio
+✅ Conectividade LoRaWAN de longo alcance
+
+Desenvolvida para aplicações em agricultura, cidades inteligentes, energias renováveis e sistemas de alerta precoce.
+
+Tem um projeto em mente? Entre em contato pelo e-mail [iot@seeed.cc](mailto:iot@seeed.cc).
+
+#LoRaWAN #WeatherStation #SenseCAP #EnvironmentalMonitoring #Shorts

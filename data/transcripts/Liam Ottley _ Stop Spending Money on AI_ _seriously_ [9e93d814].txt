@@ -1,0 +1,47 @@
+Feed: Liam Ottley
+Episode: Stop Spending Money on AI. (seriously)
+Method: description
+Language: en
+Words: 310
+URL: https://www.youtube.com/watch?v=skpYjEGOdCs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join
+🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com
+
+💻 MY TECH STACK
+Kylon (AIOS workspace): https://kylon.io/liam
+Railway (agent & web hosting): https://railway.com?referralCode=liam
+Apify (web scraping): https://apify.com?fpr=makeover
+CodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+
+📲 FOLLOW ME
+Instagram: https://instagram.com/liamottley
+LinkedIn: https://www.linkedin.com/in/liamottley
+X: https://twitter.com/liamottley_
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
+
+In this video, I explain why most businesses should pause spending on custom AI systems and wait for all-in-one AI platforms to mature. Drawing parallels to the early days of the automobile, I break down the shift from individual models and agent harnesses to unified platforms that bring together humans, AI agents, context and data. I walk through my seven-part framework for evaluating AI platforms and score what the major AI labs and startups offer right now. Finally, I cover the hidden costs and risks of custom builds, why you shouldn't build ahead of major lab updates, and a practical checklist for business owners and agency founders navigating the market.
+
+00:00 Why most businesses should stop spending on AI
+01:12 What Henry Ford's first cars teach us about AI
+01:57 Why harnesses are winning (for now)
+02:46 Welcome to the AI waiting room
+03:00 The all-in-one AI platform we're waiting for
+03:37 The 7 pieces of an AI platform
+05:53 Why you should NOT buy a custom AI build
+07:10 The real problem with custom AI builds
+08:30 You're about to get sold ...hard
+10:08 Go all in (or don't go at all)
+10:23 What this means for AI agencies
+10:54 Scoring each AI lab
+13:47 When will a platform actually be ready?
+14:28 AI Labs vs. AI startups: which is best?
+19:17 Don't sleep on this
+
+WATCH NEXT: If You Don't Understand This, You'll Never Make AI Work
+ - https://youtu.be/HvjHt25RGyU

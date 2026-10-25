@@ -1,0 +1,17 @@
+Feed: Cheddar
+Episode: “Robotics is going to be one of the most impactful shifts we've seen in society."
+Method: description
+Language: en
+Words: 104
+URL: https://www.youtube.com/shorts/YJWaDZgc3vM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Rivian CEO RJ Scaringe at TechCrunch Disrupt on Mind Robotics, the industrial robotics startup he founded in 2025 and spun out of Rivian.
+
+Mind is building AI models, robot hardware and deployment tools to automate hands-on, reasoning-heavy factory work. Rivian is a shareholder and partner, and its high-volume plant serves as a live environment for training and deploying the robots. The startup has raised more than $1B in under a year, most recently $400M led by Kleiner Perkins at a reported $3.4B valuation.
+
+Scaringe says Mind marks "the beginning of this inflection point" in how products are built and designed.
+
+#TechCrunchDisrupt #Rivian #MindRobotics #Robotics

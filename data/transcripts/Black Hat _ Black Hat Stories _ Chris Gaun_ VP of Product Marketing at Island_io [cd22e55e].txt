@@ -1,0 +1,13 @@
+Feed: Black Hat
+Episode: Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io
+Method: description
+Language: en
+Words: 71
+URL: https://www.youtube.com/watch?v=uQ3miEp_0Wo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+On this episode, Chris Gaun, VP of Product Marketing at Island.io, shares his experience exhibiting at Black Hat for the first time. From connecting with existing customers and meeting new prospects to seeing the scale of the event firsthand, Chris reflects on what sets Black Hat apart and why it remains a must-attend event for the cybersecurity community.
+
+Ready to be part of the conversation? Become a Black Hat sponsor: https://messages.blackhat.com/request-info

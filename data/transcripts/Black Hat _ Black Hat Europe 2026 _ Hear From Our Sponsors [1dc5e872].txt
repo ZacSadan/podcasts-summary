@@ -1,0 +1,15 @@
+Feed: Black Hat
+Episode: Black Hat Europe 2026 | Hear From Our Sponsors
+Method: description
+Language: en
+Words: 59
+URL: https://www.youtube.com/watch?v=Muk6elQ_qcs
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Black Hat Europe brings together cybersecurity innovators and leaders, creating opportunities to showcase solutions and build meaningful relationships.
+ 
+Hear directly from some of the brands that sponsored Black Hat Europe 2025. The connections they made, the conversations that mattered, and why the show floor energy keeps them coming back.
+ 
+Ready to join them in 2026? Explore sponsorship opportunities: https://blackhat.com/europe/sponsors.html

@@ -1,0 +1,25 @@
+Feed: Black Hat
+Episode: The AI Reality. The Human Response. | Black Hat Europe 2026, London
+Method: description
+Language: en
+Words: 105
+URL: https://www.youtube.com/watch?v=1PZ8fu1v14Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+7–10 December 2026, Excel London. Register: https://blackhat.com/europe/
+
+Everyone has a take on AI. Black Hat has the research.
+ 
+Black Hat Europe brings security researchers, practitioners and leaders together for four days of work that’s been tested before it reaches the stage.
+ 
+✔ Briefings: original research, peer-reviewed by the Black Hat Review Board
+✔ Trainings: hands-on courses taught by the people who do the work
+✔ Summits: security leaders comparing notes on the decisions that matter
+✔ Arsenal: open-source tools, demoed live by the people who built them
+✔ Business Hall: meet the teams building what’s next
+ 
+One Step Ahead.
+
+#BHEU #Cybersecurity #InfoSec #SecurityResearch #CyberSecurityTraining #BlackHat
