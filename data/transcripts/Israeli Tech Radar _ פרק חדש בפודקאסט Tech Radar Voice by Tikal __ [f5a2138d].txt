@@ -1,0 +1,18 @@
+Feed: Israeli Tech Radar
+Episode: פרק חדש בפודקאסט Tech Radar Voice by Tikal 🎙️
+Method: description
+Language: he
+Words: 117
+URL: https://www.youtube.com/shorts/DAHzsoSj0vo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+הפרק השלישי בסדרת Israeli Tech Radar Trends 2026-27, בהובלת איתן מסוארי, Head of Tech ב Tikal.
+איתן מארח את רן בר זיק, Principal Architect ב Palo Alto Networks, לשיחה על AI Economics, ועל הרגע שבו העלות של מודל הופכת לאילוץ ארכיטקטוני.
+הם מדברים על הדרך מ POC שעובד למוצר שמחזיק את עצמו כלכלית, על המעבר למודלים זולים יותר ועל ה Evaluation שחייב ללוות אותו, ועל הנדסה ישנה וטובה שמשפרת דיוק בלי להעלות את החשבון.
+וגם על Loop Engineering, על מה שכדאי להשאיר דטרמיניסטי לפני שפונים ל LLM, ועל ההחלטה בין לבנות לבין לקנות כשהבנייה נראית זולה.
+הפרק כבר באוויר 🎧
+🎧 רוצים לשמוע עוד?
+לחצו על הפרק המלא:
+ AI Economics: When Cost Becomes an Architectural Constraint Ep.3/4

@@ -1,0 +1,44 @@
+Feed: AI With Henry
+Episode: קרדיט API חינמי של עד 200 דולר בחודש למנויי Claude Max ו-Team: ככה מממשים
+Method: description
+Language: he
+Words: 280
+URL: https://www.youtube.com/shorts/tr8s-_wXXJY
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🔗 כל הקישורים שלי (קבוצת וואטסאפ שקטה + יצירת קשר + כל השירותים):
+https://taplink.cc/henry.ai
+
+🔗 קישורים ומדריכים קשורים:
+• המדריך המלא באתר, עם כל הלחיצות בתמונות - https://bintechai.com/claude-api-credits
+• Claude - https://claude.ai
+• Claude Console, האתר של המפתחים - https://platform.claude.com
+• מרכז העזרה של Claude: קרדיט API חודשי למנויי Max ו-Team - https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
+• התיעוד של Claude Platform - https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers
+
+מנוי Claude Max או Team כולל קרדיט חינמי ל-API בכל חודש: במנוי Max שעולה 100 דולר בחודש מקבלים 100 דולר, במנוי שעולה 200 דולר מקבלים 200, וב-Team מקבלים 20 דולר על כל מושב רגיל ו-100 דולר על מושב פרימיום, עד 500 דולר לכל הארגון. הקרדיט לא נכנס לבד: בסרטון עוברים שלב אחרי שלב, מההגדרות ב-claude.ai ועד יצירת מפתח בקונסולה, בלי כרטיס אשראי, ורואים מה אפשר לבנות איתו: בוט ללקוחות, מיון מיילים וחשבוניות, סיכום מסמכים והקלטות, בדיקת תמונות וסוכן שעובד לבד. הקרדיט לא עובד על Claude Code עצמו, ומה שלא ניצלתם עד סוף החודש נמחק. מתאים לכל מי שמשלם על Max או Team ולבעלי עסקים שרוצים לבנות בוטים ואוטומציות.
+
+⏱ פרקים:
+0:00 הקרדיט שרוב המנויים לא יודעים עליו
+0:08 מה זה קרדיט API
+0:17 מה אפשר לבנות איתו, לא רק בוטים
+0:30 כמה מקבלים בכל מנוי
+0:45 מתחילים לממש: Settings ו-Billing
+1:02 Link organization וכניסה ל-Claude Console
+1:16 בוחרים Organization ונותנים שם
+1:31 Link and claim: הקרדיט נכנס
+1:43 איפה רואים את היתרה
+1:49 יוצרים מפתח: API keys ו-Create key
+2:11 מה עושים עם המפתח
+2:23 כמה זה שווה: תשובה של בוט עולה פחות מסנט
+2:33 שני הגבולות: לא לקלוד קוד, ונמחק כל חודש
+
+תשובה אחת של בוט בפלייגראונד עלתה בערך 0.7 סנט, לפי מדידה שלי ב-20.10.2026 על Claude Opus.
+
+---
+📧 henrystauber22@gmail.com
+📸 אינסטגרם: @bintech.ai
+
+#בינהמלאכותית #AI #קלוד #Claude #Anthropic
