@@ -1,0 +1,17 @@
+Feed: Cheddar
+Episode: Was this a prototype demo? or product?
+Method: description
+Language: en
+Words: 130
+URL: https://www.youtube.com/shorts/I7VZe1J0Vd4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Last week on October 15, Tesla unveiled the long-delayed Next Gen Roadster in a livestream demo at a SpaceX test site in Texas. It claims 0 to 60 mph in under a second across three versions, with the top "Rocket" trim invite-only and not road-legal.
+
+The reaction has split across the board, with AI researcher Yann LeCun questioned whether short thruster bursts are practical, and American entrepreneur Palmer Luckey defended the physics, while Ferrari's CEO praised the showmanship.
+
+There's also the fine print. Tesla's reservation agreement says the car may never be delivered and that specs and pricing are estimates, and deposits are refundable. The Roadster was first promised in 2017, and production is now targeted for 2028.
+
+Do you think it will deliver to the hype this time around?

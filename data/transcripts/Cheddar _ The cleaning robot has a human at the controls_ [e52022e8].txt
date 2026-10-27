@@ -1,0 +1,17 @@
+Feed: Cheddar
+Episode: The cleaning robot has a human at the controls🤖
+Method: description
+Language: en
+Words: 125
+URL: https://www.youtube.com/shorts/_2MWbCGZnMQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Tau Robotics runs what it calls the world’s only humanoid cleaning service, and it’s live now in San Francisco, invite-only. Staff drop the robots off, usually two per visit. A trained operator then steers them in real time from Tau’s facility, through the robots’ cameras, with AI handling some tasks. They vacuum, mop, wipe counters and clean toilets.
+
+It costs $50 per robot per hour, so a standard one-hour clean with two robots runs $100. The average San Francisco house cleaning costs about $85 an hour, according to Angi.
+
+There’s a catch. Every visit is recorded, and Tau keeps the footage to train the AI it hopes will one day do the job without a person.
+
+Would you let a remote-controlled robot clean your home?

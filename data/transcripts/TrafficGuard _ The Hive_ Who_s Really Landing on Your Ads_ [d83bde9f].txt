@@ -1,0 +1,32 @@
+Feed: TrafficGuard
+Episode: The Hive: Who’s Really Landing on Your Ads?
+Method: description
+Language: en
+Words: 183
+URL: https://www.youtube.com/watch?v=AQap4UTTiis
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Paying for clicks that never convert? Meet Barry, the bee who’s visited the same flower 47 times and never pollinated it once. 🐝
+
+The Hive is a short animated film from TrafficGuard about click fraud, bots and wasted ad spend.
+
+👉 See how TrafficGuard works: https://www.trafficguard.ai/product-overview
+
+In our meadow, we pay for every bee that lands on our flowers. Most of them are worth it. But some are drones that can’t pollinate, and some are Barry, who just really likes that one flower. Paid ads work the same way. You pay for every click, including bots, fake traffic and the same people coming back again and again. TrafficGuard helps you find the clicks that are never going to turn into anything, so you can stop paying for them.
+
+Pay for pollinators, not landings.
+
+Chapters
+0:00 The meadow
+0:30 Meet Barry
+0:48 The drones
+0:59 Pay for pollinators
+
+📅 Book a demo: https://www.trafficguard.ai/book-a-demo
+
+About TrafficGuard
+TrafficGuard protects advertisers from invalid traffic across Google Ads, Meta and other platforms, so your budget goes on real people who might actually buy from you.
+
+#ClickFraud #AdFraud #TheHive
