@@ -1,0 +1,53 @@
+Feed: mreflow
+Episode: 6 AI Updates Worth Knowing & A Bubble-Bursting IPO
+Method: description
+Language: en
+Words: 189
+URL: https://www.youtube.com/watch?v=eDiQNFa-zYg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Check out Warp Factories here: http://warp.dev/mreflow
+
+This week’s biggest AI news: OpenAI’s GPT-6.1 Terra brings faster computer use at a lower API cost, and Google’s Genie 4 brings real-time AI worlds to life. We’re also covering Gemini 4 Carbon, Kimi K3.1 Pro, and Anthropic’s IPO filing.
+
+Sharing the latest news and advancements in AI
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Anthropic S-1 Filing: https://www.anthropic.com/news/s1-sec
+Who makes what: https://x.com/andrewbenson/status/2115458726396310008
+GPT-6.1 Terra Launch: https://openai.com/index/introducing-gpt-6-1-terra/
+Gemini 4 Carbon Launch: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+Kimi K3.1 Pro: https://x.com/Kimi_Moonshot/status/2113680701770068067
+DeepMind Genie 4: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+OpenAI Academic Partnerships: https://openai.com/index/building-scientific-understanding-with-academic-communities/
+OpenAI Disproves ETH: https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills
+
+The Andrew Benson post had no title, so I labeled it with his handle.
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: business@mattwolfe.com
+
+#AINews #OpenAI #artificialintelligence 
+
+Time Stamps:
+00:00 Anthropic's $2 Trillion IPO
+06:17 Warp Factories (Sponsor)
+07:23 OpenAI's GPT-6.1 Tera
+12:00 Google's Gemini 4 Carbon
+13:39 Kimi K3.1 Pro: Powerful Open-Weight AI
+18:07 Testing Google's Genie 4 World Model
+24:21 OpenAI's Major Mathematical Breakthrough
+28:05 Final Thoughts
