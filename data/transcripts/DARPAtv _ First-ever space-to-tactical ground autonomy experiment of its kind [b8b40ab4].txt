@@ -1,0 +1,13 @@
+Feed: DARPAtv
+Episode: First-ever space-to-tactical ground autonomy experiment of its kind
+Method: description
+Language: en
+Words: 57
+URL: https://www.youtube.com/watch?v=np0YmuzT2dI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The RACER program keeps proving what autonomous systems can do on the battlefield. Recently, we ran the first space-to-tactical ground autonomous experiment that detected, tracked, and engaged simulated threats, all while keeping humans in control.
+
+Now, teams across the services can build on our work to improve and expand these technologies for real-world missions. Learn more: https://www.darpa.mil/news/2026/autonomous-vehicles-deliver

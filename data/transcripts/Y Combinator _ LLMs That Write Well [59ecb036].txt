@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: LLMs That Write Well
+Method: description
+Language: en
+Words: 56
+URL: https://www.youtube.com/shorts/674Efd5Scfg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+LLMs have gotten much better at coding and math, but their writing increasingly sounds flat and robotic.
+
+The same reward signals that improve coding and agentic work can flatten voice and style. That leaves room for models built specifically to write well and be enjoyable to talk to.
+
+Apply for the Winter 2027 batch at ycombinator.com/apply.

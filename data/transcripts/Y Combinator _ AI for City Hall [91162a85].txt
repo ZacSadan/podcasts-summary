@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: AI for City Hall
+Method: description
+Language: en
+Words: 60
+URL: https://www.youtube.com/shorts/VoSVN7H07-Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In some cities, getting a building permit takes longer than building the house.
+
+AI can help with plan reviews, zoning checks, inspections, licensing, public records, and other work that still happens largely by hand. There are 19,000 cities in America. City Hall could be one of the biggest untouched markets for AI.
+
+Apply for the Winter 2027 batch at ycombinator.com/apply.

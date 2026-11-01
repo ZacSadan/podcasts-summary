@@ -1,0 +1,17 @@
+Feed: Cheddar
+Episode: The drone war is fought at 300 feet
+Method: description
+Language: en
+Words: 65
+URL: https://www.youtube.com/shorts/Zrd7G5ZZoUw
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Most battery packs are full of empty space. At AUSA, startup @Material_HM showed batteries 3D printed to fit the shape of the drone, which it says gives class 1 UAS about 30% more energy density. "I don't think anyone's produced a battery that has a hole in it."
+
+Connect with Cheddar!
+On Facebook: https://facebook.com/cheddar
+On Instagram: https://instagram.com/cheddar
+On the web: https://cheddar.com
+In your inbox: https://need2know.cheddar.com/subscribe

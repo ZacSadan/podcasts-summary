@@ -1,0 +1,34 @@
+Feed: Cheddar
+Episode: Why Is America Spending $50 Billion On Drones?
+Method: description
+Language: en
+Words: 171
+URL: https://www.youtube.com/watch?v=tRAPjL81VBA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+The battle "is not really taking place at 30,000 feet anymore. It's really taking place at 300 feet." 
+
+At AUSA in Washington, D.C., the Army's biggest annual gathering, defense startups and primes showed how they plan to win it.
+
+In this episode of the Business of Defense, we cover Sig Sauer's machine gun-armed Firestorm drone, Smart Shooter's AI targeting system, Aurelius Systems' compact lasers and CX2's drones that hunt the pilot, not the drone. It also looks at the batteries that keep it all running.
+
+0:00 Intro
+2:04 Drone classes, from Group 1 to Group 5
+2:19 Sig Sauer's Firestorm machine-gun drone
+4:26 Orchid's satellite-linked ISR drone
+7:10 CX2: hunting the pilot, not the drone
+9:10 Drone defense starts with the soldier: Smart Shooter
+13:01 Sig's remote weapon station
+13:50 Aurelius Systems' compact lasers
+16:03 KBR's Firefly high-energy laser
+18:15 The battery problem: Badland Batteries
+21:17 Material's 3D-printed batteries
+22:48 Can America keep pace?
+
+Connect with Cheddar!
+On Facebook: https://facebook.com/cheddar
+On Instagram: https://instagram.com/cheddar
+On the web: https://cheddar.com
+In your inbox: https://need2know.cheddar.com/subscribe

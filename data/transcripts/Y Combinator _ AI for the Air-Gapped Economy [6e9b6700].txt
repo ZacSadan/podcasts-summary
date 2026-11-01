@@ -1,0 +1,15 @@
+Feed: Y Combinator
+Episode: AI for the Air-Gapped Economy
+Method: description
+Language: en
+Words: 67
+URL: https://www.youtube.com/shorts/x21EgQzfZaM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Some of the most valuable data in the world can never leave the building. Defense contractors, banks, hospitals, and nuclear plants can’t simply send it to a cloud AI API.
+
+That creates an opportunity to bring frontier AI inside those walls: on-prem models, deployment tooling, security accreditation, and hardware for the parts of the economy the cloud can’t reach.
+
+Apply for the Winter 2027 batch at ycombinator.com/apply.

@@ -1,0 +1,70 @@
+Feed: Greg Isenberg
+Episode: SaaS is dead?
+Method: description
+Language: en
+Words: 780
+URL: https://www.youtube.com/watch?v=AqqjH_uv-_w
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I explain why I say SaaS is dead and what I see taking its place. For 15 years, SaaS meant paying engineers to build a tool and charging per seat, and now models like Opus 5.5, GPT-6, and Argon make the tool easy to build. I walk through what I call smart SaaS: give the tool away for free, collect data and network effects, and make money by upselling AI agents and human services. I share a calorie tracking example, three ways to charge, and why enterprises still pay per seat. If you build software, this episode gives you a map for building something people want in a market where the tool is free.
+
+Timestamps
+00:00 – Intro
+00:47 – SaaS 1.0
+02:56 – SaaS 2.0: The New Business Model
+05:12 – How to monetize SaaS 2.0
+06:18 – Service is the new Software
+07:22 – SaaS Is Dead, Long Live SaaS
+08:58 – SMB vs Enterprise
+10:31 – Closing Thoughts
+
+Key Points
+
+• AI makes the tool easy to build, so the per-seat model of the last 15 years has run its course.
+• Smart SaaS gives the tool away and collects data and network effects as payment.
+• The money comes from upselling intelligence from AI agents and services from humans.
+• Agents can charge by token or by outcome, and human services by the week or month.
+• SaaS for SMBs, prosumers, and individuals trends toward free, while enterprises still pay something per seat.
+• The market for getting things done is bigger than the market for tools, so the total market for SaaS grows.
+
+Numbered Section Summaries
+
+1. How SaaS Worked 
+
+For the last 15 years, the hard part of SaaS was getting enough smart engineers in a room to code a high-quality tool for a human to use. Customers paid per seat, at prices like $9.99 or $29.99, to use that tool in the cloud. The model made people billions of dollars, and Slack, which I believe sold for $29 billion, shows how well it worked.
+
+2. AI Makes the Tool Easy 
+
+Models at the level of Opus 5.5, GPT-6, Astra, Argon, and Carbon make building the software easy. One or two people with AI can now build what used to take a team of 20, so charging per seat for a tool stops working.
+
+3. Give the Tool Away 
+
+In smart SaaS, I still build a tool, and I give it away for free: the CRM, the dashboard, the app. I look for niches where people pay for a tool in the old model and hand them that tool at zero cost. Users pay with data, which I can sell or use to make the tool better, and with network effects that build a moat.
+
+4. Upselling Intelligence 
+
+I call the old model dumb SaaS because it is only a tool, and the new model smart SaaS because it is intelligent. With a free CRM, I charge when the customer wants AI agents to do work in it, or I upsell a service delivered by humans, which lines up with Sequoia's view of trillion-dollar services as the new software. A calorie tracking app can give away the tracker, charge for agents that build personalized meal plans or track calories more precisely, and sell a weekly weight coach.
+
+5. A Product Studio of Free Tools 
+
+Per-seat pricing limited the market, since only some people want to pay for tools. I see a product studio built around free tools, with upsells to agents or humans, as a way into the many niches that are wide open right now. That is why I say SaaS is dead, long live SaaS.
+
+6. Pricing Agents and Services 
+
+Agents can charge by token or by outcome, so the customer pays when the agents complete the work. Human services can charge a weekly or monthly fee. The market for people accomplishing things is bigger than the market for people using a tool, so I see the total market for SaaS growing.
+
+7. Where Enterprises Fit 
+
+SaaS for SMBs, prosumers, and individuals trends toward free. Fortune 500 and Fortune 2000 companies may still pay something per seat, a number I expect to drop over time, plus upsells to humans and superintelligence. Some enterprises want to pay for the security and for the feeling of being taken care of.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

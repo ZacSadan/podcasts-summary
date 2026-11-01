@@ -1,0 +1,29 @@
+Feed: Y Combinator
+Episode: What Happens When Everyone Can Build Software
+Method: description
+Language: en
+Words: 145
+URL: https://www.youtube.com/watch?v=vl7HiMdGfjo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this episode of the Lightcone, the hosts sit down with Paul Copplestone, co-founder and CEO of Supabase. Since starting in the YC summer batch of 2020, the company has exploded to 13 million users and over 50 million databases under management. Supabase is now positioning for a future where everyone can write their own software, billions have access to personal databases and agents are driving much of the demand.  
+
+Apply to Y Combinator: https://www.ycombinator.com/apply
+Work at a startup: https://www.ycombinator.com/jobs
+
+Chapters:
+00:00 Intro
+01:18 Growth and 4x Revenue 
+02:35 Three Eras of Supabase
+04:34 “Builders” vs. Traditional Devs
+08:42 Personalized Apps 
+12:12 Personal Databases & Data Ownership
+15:56 Scaling to Billions
+17:58 AI Adoption At Supabase
+19:58 Lessons Learned Along The Way
+27:29 Building For Personal Agents, Dogfooding
+30:01 Agent-First Design and Evals
+38:42 The Future Of Coding
+42:36 Opening Up More Entrepreneurship + Outro

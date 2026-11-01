@@ -1,0 +1,26 @@
+Feed: DoiT
+Episode: How Jupiter Closes a 20% to 40% Spend Visibility Gap with DoiT DataHub
+Method: description
+Language: en
+Words: 209
+URL: https://www.youtube.com/watch?v=eiqQhFAmMkg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Infrastructure cost visibility breaks down when spend lives outside the cloud bill. Jupiter closed a 20% to 40% gap with DoiT DataHub.
+
+Jupiter, a crypto company on Solana, runs primarily on AWS, with acquired workloads on Cloudflare Workers, GCP and bare metal, and a large piece of its infrastructure spend on RPC providers that bill by invoice.
+
+• The problem: invoices from RPC providers and other vendors were paid outside any cost system, leaving 20% to 40% of spend unaccounted for.
+• What changed: DoiT support built the first ingestion pipeline. Invoices forwarded to a Google Drive folder are converted to DataHub format and ingested into DoiT Cloud Intelligence™.
+• The result: 26 outside vendors now sit beside the cloud provider billing, with alerts, budgets, reports and forecasting across all of it.
+
+"It's a massive unlock to get from 60% to 100% into one system, and DataHub is a great tool that is flexible and really lets us fill the gaps, but leverage all of the reporting."
+Kyle Espinola, Head of Platform Engineering, Jupiter
+
+Read the full story: https://www.doit.com/customers/Jupiter
+
+Jupiter, Kyle Espinola, Solana, crypto, DoiT, DoiT DataHub, DataHub, DoiT Cloud Intelligence, FinOps, infrastructure cost visibility, third-party vendor costs, invoice ingestion, multi-cloud cost management, AWS, customer story
+
+#DoiT #FinOps #AWS
