@@ -1,0 +1,78 @@
+Feed: Greg Isenberg
+Episode: The $1M+ Solo Grok Bot Business (Full Course)
+Method: description
+Language: en
+Words: 841
+URL: https://www.youtube.com/watch?v=67BmkptgTms
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Nick, co-founder of Orgo, to break down how to build a custom Grok Bot for a business and sell it for $25,000 up front with a $3,000-a-month retainer. Nick demos Bops, the agent platform he built in a 36-hour weekend, where each bot has its own phone number, email, and computer with four screens. He walks me through his research, design, and build process, the stack behind each bot, and the offer he takes to business owners. We also cover how to pick a niche by calling 50 people you know and how to turn one free case study into warm referrals. If you want to sell AI employees to businesses, this episode gives you the stack, the offer, and an open source repo you can fork today.
+
+Links Mentioned
+
+Nick’s Bops: https://startup-ideas-pod.link/bops 
+
+Timestamps
+00:00 – Intro
+03:09 – Bops, Custom Grok Bot Team
+05:07 – Dumb SaaS vs. Custom Apps
+07:02 – Selling AI Agent Teams
+09:49 – Demoing Bop
+13:57 – One Agent per Platform
+15:07 – Step 1: Research
+17:49 – Step 2: Design
+22:12 – Step 3: Picking The Stack
+26:43 – Step 4 and 5: Hosting and Shipping Fast
+27:21 – The Offer and Business Model
+38:02 – Why start this now
+40:21 – Finding your first client
+47:27 – Closing Thoughts
+
+Key Points
+
+• Busy owners want their problems solved, so a GrokBot built for their industry wins over a platform they have to set up.
+• Nick builds in three steps: research the category, design in Paper, then pick a stack and read the docs.
+• Each bot gets its own email, phone number, computer, and connectors through Agent Mail, Agent Phone, Orgo, and Composio.
+• The SMB offer is $25,000 up front for a system the owner keeps, plus an optional $3,000-a-month retainer.
+• A free website redesign, a money-back guarantee, and free lead magnets make the offer easy to accept.
+• Call 50 people you know, do the first build free, and trade the case study for warm intros.
+
+Numbered Section Summaries
+
+1. Why Businesses Want a Custom GrokBot 
+
+Nick built Bops, short for business ops, as a GrokBot clone in a weekend, and his demo video got 75K views on Twitter. I see the price of software trending toward zero, with the money in upselling agents and human intelligence, and Nick sees purpose-built apps for one business taking off. Owners are too busy to set up GrokBot or Dots themselves, so Nick ships agents pre-built for an industry like insurance or dental clinics, each with its own phone number, email, and Slack connector.
+
+2. Research, Design, Build 
+
+Nick built Bops in one long-running T3 Code thread with Opus 5.5 over 36 hours, with loops running overnight. He starts by having the model research GrokBot, Meta's Muse, and OpenAI's Dots, then designs in Paper through the Paper MCP, asking for three or four variations and combining the best parts, a process he calls diverge and then converge. He tried T3 Code after seeing Theo's content on Twitter and likes that it is simple, free, and works with a Claude subscription.
+
+3. The Stack Behind Each Bot 
+
+Orgo provides each bot's computer, Agent Mail its email, Agent Phone its phone number, and Composio its connectors through one API connection. For every feature, Nick tells his agent to read the docs and the API references, then sends CleanShot screenshots of bugs or of GrokBot UI elements he likes, and I keep a swipe file of references for the same job. Bops gives each bot a full computer for privacy and multitasking, where GrokBot gives each bot a screen, and Nick hosts on Orgo, Fly, or Vercel and ships fast.
+
+4. The $25,000 Offer 
+
+For SMBs, Nick sells the system for $25,000 up front, maybe collected in two halves, then offers an optional $3,000-a-month retainer after a 30-day implementation. When I play a dental clinic owner and ask about the return, Nick compares one bot to a front desk hire at $50,000 to $70,000 a year, out of 15 bots the owner keeps. Owners like owning the system over feeling held by the neck on a retainer for AI employees.
+
+8. Landing the First Clients 
+
+Nick suggests calling 50 people you know who run a business or work high up in one, then doing the first build free for a case study, which is how he found the promotional products industry. Shadow that first client while they share their screen on manual work like invoices, and the right agents become clear. I'd frame the free build as a $50,000-a-year service and ask for intros to three local peers in return
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND NICK ON SOCIAL
+
+Youtube: https://www.youtube.com/@nickvasiles
+Instagram: https://www.instagram.com/nickvasilescu/
+Personal Website: https://www.nickvasilescu.com/
