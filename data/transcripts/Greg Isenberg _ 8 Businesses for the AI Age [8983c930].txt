@@ -1,0 +1,72 @@
+Feed: Greg Isenberg
+Episode: 8 Businesses for the AI Age
+Method: description
+Language: en
+Words: 826
+URL: https://www.youtube.com/watch?v=b3tMAOFB71o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+In this solo episode, I lay out how I think about building an AI-proof business now that anyone can press a few buttons and spin up a company in seconds. Layoffs keep coming, people copy products pixel for pixel, and I still see more opportunity than ever. I walk through eight categories: atoms, permission, attention, timing, belonging, liquidity, unique data, and outcomes. I share examples like Hampton, final.com, and Cars & Bids, say how I'd rank the categories, and show how to mix them. If you're an employee looking at a startup or a founder worried about getting copied, this episode gives you a map for building something with value when AI makes software, content, and answers almost free.
+
+Timestamps
+
+00:00 – Intro
+01:17 – Atoms: Physical Businesses
+02:26 – Permission: Licenses, Regulation, and Partnerships
+04:10 – Attention: Building a Media Machine
+06:28 – Timing: Spotting Trends Early
+08:24 – Belonging: Paid Communities and IRL Events
+10:59 – Liquidity: Marketplaces
+14:38 – Unique Data: Data Brokers and Curated Directories
+18:31 – Outcomes: Customers Paying for Results
+20:44 – Closing Thoughts
+
+Key Points
+
+• Physical businesses hold up against overnight clones, and I expect their valuations to rise as tech money moves in.
+• Licenses, regulation, and preferred-vendor deals are permission that a copycat has a hard time getting on day one.
+• Media is underrated, and AI lets you run a content machine around a micro niche.
+• A first mover's product may be easy to copy, while the data, brand, and trust it collects stay AI-proof.
+• Marketplaces rank among the stickiest businesses of all time, and agents let a team of one to five run one.
+
+Section Summaries
+
+1. Atoms and Permission 
+
+Pixels are software businesses and atoms are physical ones, like a coffee shop or the plumber who fixes your clogged toilet. They're harder to run, they hold up against overnight clones, and I think their valuations go up once AI and tech money spots the moat. Permission covers licenses, regulation, and deals, so you could partner with a lawyer and handle marketing, growth, and AI while they run the firm.
+
+3. Attention 
+
+Attention is somehow underrated right now, and people follow people. I used to hate making short form video, and now Opus 5.5 is my editor, I create on my own schedule, and I got hundreds of thousands of views in the last week. I'd pick a micro niche and build a media company around it with newsletters, meme pages, or founder-led content, aiming for a trustworthy brand that people come to for that niche.
+
+4. Timing 
+
+I see more trends in more micro niches than ever, and sometimes I'm shocked by how few people have built for them. I'd use ideabrowser.com, GrokBot, Claude Duet, or any personal agent platform to monitor your niches, then build first, whether that's software, a physical product, or a media company. 
+
+5. Belonging 
+
+People are as connected as ever and feel as disconnected as ever, so I see a big opportunity in paid communities built around a shared goal, like a Circle or Skool group or a weekly virtual event that keeps people accountable. As I understand it, my friend Sam Parr's company, Hampton, runs meetups around North America for entrepreneurs doing at least $3 million a year in revenue. We threw an IRL event in Nashville last week for founders deploying agents, and demand ran past what we knew how to meet.
+
+6. Liquidity 
+
+People tell me software is done, and marketplaces are the example I give back. A friend of mine launched final.com, I think last week, where you bid every week on curated high-end collectible cars, and he markets it to his big Instagram audience, while Cars & Bids sold for many millions of dollars.
+
+7. Unique Data 
+
+You see data brokers making millions of dollars a week, and platforms like, I think, Mercor and micro1 got coding data and sold it to the big models, which stay hungry for new types of data. You can also sell access to a curated directory, and I expect a huge explosion of curated websites and apps as LLMs and social feeds give people infinite content, with polarized, gamed restaurant reviews on Google and Yelp as one example.
+
+8. Outcomes and Mixing the Map 
+
+Customers are starting to pay for results through automated AI services, like a creative agency that makes logos and landing pages on the fly or a machine that studies Fiverr and Upwork and bids on the work. Your defense comes from feeding the best possible agents the best data, insights, and inspiration, plus permission like a deal with a particular company.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
