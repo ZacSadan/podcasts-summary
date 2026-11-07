@@ -1,0 +1,32 @@
+Feed: Seeed Studio
+Episode: reGoggles Is On The Way — Open Smart Goggles For Industrial AI Assistance
+Method: description
+Language: en
+Words: 221
+URL: https://www.youtube.com/watch?v=PNeF1Rv6bpg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🛠️ Check the reGoggles landing page for specs, and launch updates: https://www.seeedstudio.com/regoggles
+📌 Follow our Discord for early access: https://discord.gg/9ePZ5Sg6G
+
+👓Goggle-Form Capture and Protection
+Designed to replace standard safety goggles — protection and capture in one device.
+🔧Modular Expansion
+Two open expansion ports for additional cameras, TOF depth sensors, IMUs, or custom modules.
+👋Hands-Free Interaction
+3 mics and 2 speakers for voice commands and audio feedback — hands-free, eyes on the job.
+🔓Open Firmware and SDK
+Built on the open Allwinner V881 platform — free to develop your own custom apps without lock-in.
+👀Synchronized Multimodal Capture
+Video, audio, and IMU data streams on one synced timeline.
+🌎Universal Connectivity
+Standard Wi-Fi and BLE interfaces transmit data to your edge AI, cloud AI, and other applications.
+
+With a variety of applications：
+🏭 Industrial AI Assistance — First-person data on the shop floor enables real-time SOP guidance, visual inspection, PPE monitoring, and hands-free remote expert collaboration.
+🤖 Ego Data for Embodied AI — Synchronized video, audio, and IMU streams form egocentric datasets that bridge the sim-to-real gap, turning every shift into a scalable data engine.
+🛠 An Open Platform for Builders — Supports deep application integration and customization, enabling makers and developers to build on their own terms.
+
+#SeeedStudio #reGoggles #SmartGlasses #WearableAI #Allwinner #IndustrialWearables #IndustrialAI #PhysicalAI #EmbodiedAI #EdgeAI #ComputerVision #SmartManufacturing #FutureOfWork #WorkplaceSafety #OpenSmartGogglesForIndustrialAIAssistance #TheAIHardwarePartner
