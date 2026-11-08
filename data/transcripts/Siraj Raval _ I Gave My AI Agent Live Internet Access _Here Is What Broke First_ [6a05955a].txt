@@ -1,0 +1,48 @@
+Feed: Siraj Raval
+Episode: I Gave My AI Agent Live Internet Access (Here Is What Broke First)
+Method: description
+Language: en
+Words: 320
+URL: https://www.youtube.com/watch?v=ibdmyMFd_z8
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+https://oxylabs.io/siraj
+
+$5 in free credits, no credit card, no time limit. Use code SIRAJ for 20% off additional Oxylabs credits.
+
+This video is a paid promotion for Oxylabs.
+
+I ran the same agent twice. One version answers from training data alone. The other searches the live internet through the Oxylabs Web API. Same model, same prompts, four scored rounds and a two hour mission where it has to find something I could actually buy.
+
+Every answer gets checked against the real source on camera. Where there is a measurable price difference I work out what relying on the stale answer could have cost, and I am careful to call that hypothetical exposure rather than money lost.
+
+The blind agent is confident and wrong. It quotes prices that moved, libraries that changed under it, and listings that are already gone. The cited agent opens the actual page, reads it, and links where every claim came from. The scrape endpoint returns clean markdown instead of raw HTML, which matters more than it sounds: raw pages burn the context window before the model gets to think.
+
+Chapters
+0:00 Same question, two agents
+0:28 Why a training cutoff costs you money
+0:50 The rules: four rounds and one mission
+2:08 What the Oxylabs Web API actually does
+3:55 Round 1, prices that moved
+5:37 Changing one parameter: geo targeting
+6:16 Round 2, what is true today
+7:58 Round 3, real estate listings
+9:43 Round 4, code against live docs
+11:21 Scoreboard, and why I verify everything
+12:59 Inside the dashboard and usage limits
+14:36 The two hour mission
+15:56 Results, and what I will not call profit
+17:30 Final scoreboard
+18:21 Three takeaways
+
+The MCP server used in the coding round: https://github.com/oxylabs/web-api-mcp
+
+Every number on screen was measured during the run, including the ones that went against me.
+
+Subscribe for more real-world AI builds: https://youtube.com/@SirajRaval
+Business inquiries: hello@sirajraval.com
+X: https://x.com/sirajraval
+Instagram: https://instagram.com/sirajraval
+LinkedIn: https://linkedin.com/in/sirajraval
