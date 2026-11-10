@@ -1,0 +1,16 @@
+Feed: Elbit Systems
+Episode: FUSE Autonomous Systems Demonstration
+Method: description
+Language: en
+Words: 84
+URL: https://www.youtube.com/watch?v=1A2jLge3BVk
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Every mission sends soldiers into the most exposed position on the battlefield. The more of that exposure machines can take on, the fewer people have to.
+At Robotics Day we put that to work in the field: drones launching from unmanned ground vehicles, coordinated swarms, a truck driving with no one at the wheel, and an armed robot moving in first.
+
+FUSE’s systems have already logged more than 1,000,000 operational flight hours and over 100,000 autonomous ground operation hours.
+
+Your IMPACT on tomorrow’s Battlefield.

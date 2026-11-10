@@ -1,0 +1,16 @@
+Feed: Lets AI News
+Episode: מה זה Forward Engineering ולמה כל מפתחים, מהנדסים ואנשי Product חייבים להכיר את זה?
+Method: description
+Language: he
+Words: 56
+URL: https://www.youtube.com/watch?v=KysIT0IgoMM
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+שוק התעסוקה עובר שיפט. AI כבר לא כלי צדדי, הוא חלק בלתי נפרד מכל תפקיד טכנולוגי. Agents, MCP, RAG, LLM APIs, Evals, אלו המיומנויות שהתעשייה דורשת עכשיו.
+
+בקורס AI Engineer של LetsAI, נבנה את הכלים הכי מתקדמים בעולם ונלמד איך להיכנס לשוק התעסוקה החדש.
+
+🎓 מתאים למתכנתים, מהנדסים, אנשי R&D ו-Product.
+📅 לתיאום בדיקת התאמה: https://ltsai.co/booking/

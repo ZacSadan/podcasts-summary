@@ -1,0 +1,25 @@
+Feed: Seeed Studio
+Episode: Face Recognition Door Access with reCamera | Mask Test
+Method: description
+Language: en
+Words: 117
+URL: https://www.youtube.com/watch?v=JsvPgx1xHAc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Watch reCamera run on-device face recognition, match an ID, and send an unlock signal to a door access system—an edge AI demo for unmanned store access control by Seeed. See the recognition interface, door response, and a masked-face test.
+
+This demo shows how reCamera enables fast, private, on-device face access for unmanned store and door access control scenarios. Explore the Unmanned Store Face Access reference design for hardware requirements, setup steps, and deployment information:
+https://www.seeed.cc/solutions/reference-designs/unmanned_store_access?utm_source=youtube&utm_medium=social&utm_campaign=unmanned_store_access
+
+Subscribe to our channel. In the next video, we’ll explain how it works and walk you through the setup.
+
+Device info:
+reCamera: https://www.seeedstudio.com/recamera?utm_source=youtube&utm_medium=social&utm_campaign=recamera
+reCamera Pro: https://www.seeedstudio.com/reCamera-Pro-2GB.html
+
+💬 Contact Us:
+techsupport@seeed.io
+
+#reCamera #reCameraPro #AccessControl #FaceRecognition #DoorAccess #UnmannedStore #EdgeAI #theGotoAIcameraforYOLOattheedge #Solution #Seeed #SeeedStudio #HowToBuildAnAICamera

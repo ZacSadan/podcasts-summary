@@ -1,0 +1,75 @@
+Feed: Greg Isenberg
+Episode: AI Agents are too good at marketing now
+Method: description
+Language: en
+Words: 639
+URL: https://www.youtube.com/watch?v=uJuxenfe-NU
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I sit down with Cody Schneider, to break down how to become a top 0.1% marketer with GrokBot, Claude Code, and the tools around them. Cody shows the environment an agent needs to do marketing work: data in a warehouse, write access to ad platforms, and API tools for images, video, and leads. We build static ads live for Idea Browser, Late Checkout, Cursor, and more, then make a UGC avatar video ad with motion graphics for about $5. I add two pieces of my own: a swipe warehouse of creative references and a creative director agent that scores every ad. If you build products and hear crickets, this episode gives you workflows you can set up today.
+
+Timestamps
+
+00:00 – Intro
+04:29 – Agents are now Marketers
+09:56 – Data Pipelines & Warehouses
+13:56 – Getting your agent access to data
+16:15 – The tools for your agent
+18:08 – Agents become.1% marketers
+20:43 – Swipe Warehouse and Context
+22:35 – Creating Static Ads
+29:08 – Static Ads Results
+30:03 – Creating UGC Avatar Ads
+36:28 – Running the Workflow
+37:58 – UGC Ad Results
+39:51 – Human Creators Through Tribe and Sideshift
+41:42 – Reviewing the Static Ads
+43:29 – The role of Creative Director
+50:49 – Closing Thoughts
+
+Links Mentioned: 
+
+Cody's Marketing Skills: https://startup-ideas-pod.link/cody-marketing-skills
+Guide for setting up Facebook Developer Token: https://startup-ideas-pod.link/Facebook-ads-developer-token-setup
+
+Key Points
+
+• Agents do marketing's middle work once they have data, platform access, and tools.
+• A data pipeline into a warehouse gives agents full-funnel data and keeps them off rate-limited APIs.
+• Agents write to Facebook and Google Ads through their APIs and read data only from the warehouse.
+• One skill turns a brand URL into five researched, on-brand static ads.
+• A UGC avatar ad with motion graphics costs about $5, compared with $300 to $500 from humans.
+• Creative velocity wins, since Facebook's algorithm matches good creative to the right buyer.
+
+Numbered Section Summaries
+
+1. Agents are now Marketers
+
+Cody says a static ad used to need a graphic designer and a copywriter, and a UGC video needed a creator, a video editor, and a motion graphics designer. Now GrokBot, Claude Code, or Dots handles that work with code and tokens, and Mirage Tesseract one-shot edits a 90-minute podcast, cutting silence and retakes and tracking the active speaker. I see the job of anyone building a business in 2027 as building the system around these agents, and Cody compares that role to a conductor, or a StarCraft player coordinating swarms.
+
+2. Giving Agents the Data 
+
+Cody warns that agents querying ad APIs directly flood their context, hallucinate, or build their own local database full of duplicates. He uses Airbyte as a data pipeline from Facebook Ads, Google Analytics, HubSpot, and the payment processor into a ClickHouse data warehouse, a Graft partner. With everything in one place, the agent queries as often as it likes and ties an ad all the way to revenue and customer lifetime value.
+
+3. Tools for Agents
+
+The third piece is tools: Kai AI for images and video, FAL for transcription, OpenRouter for LLMs, and Git Leads or Apollo for email and person data. With these, Cody's Google Ads agent checks in real time whether each search term carries buyer intent for its landing page, auditing 5,000 terms in 20 seconds. Graft bundles the data, access, and tools, with a free start and multiplayer access for teams, and the open source route works too.
+
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+FIND CODY ON SOCIAL:
+
+Cody’s startup: https://www.graphed.com/
+X/Twitter: https://x.com/codyschneiderxx
+Youtube: https://www.youtube.com/@codyschneiderx

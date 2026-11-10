@@ -1,0 +1,43 @@
+Feed: Veritasium en Français
+Episode: Lance-flammes contre aérogel
+Method: description
+Language: en
+Words: 332
+URL: https://www.youtube.com/watch?v=Grtmr9DAIOE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Nous avons mis l’aérogel à l’épreuve face à un appareil baptisé « Pas un lance-flammes » : une énorme flamme à 2 000 °C appliquée sur une grande couverture en fibre de verre imprégnée d’aérogel de silice — autrefois le solide le plus léger (ce titre appartient désormais à l’aérogel de graphène).
+
+Un grand merci à :
+Aerogel Technologies: https://ve42.co/aerogeltech
+Aspen Aerogels: https://ve42.co/aspen
+Ben: @BenScho999999
+Dr. Stephen Steiner et l’équipe d’Aerogel Technologies
+
+Les images des matériaux en aérogel dans des environnements froids ont été fournies gracieusement par Aspen Aerogels. Leur produit, le cryogel, s’est révélé souple dans l’azote liquide tout en protégeant la main des brûlures par le froid. C’est eux qui fabriquent la couverture utilisée dans la majeure partie de cette vidéo.
+
+Voici le dernier volet de ma série en trois parties sur l’aérogel. Je mets les liens vers les autres volets ci-dessous :
+Le solide le plus léger du monde : https://youtu.be/AeJ9q45PfD0
+Je me suis imperméabilisé avec de l’aérogel : https://youtu.be/GcdB5bFwio4
+
+Un immense merci aux mécènes sur Patreon :
+Alfred Wallace, Arjun Chakroborty, Bryan Baker, Chris Vargas, Chuck Lauer Vose, Dale Horne, Donal Botkin, Eric Velazquez, halyoav, James Knight, Jasper Xin, Joar Wandborg, Kevin Beavers, kkm, Leah Howard, Lyvann Ferrusca, Michael Krugman, Mohammed Al Sahaf, Noel Braganza, Philipp Volgger, Pindex, Ron Neal, Sam Lutfi, Stan Presolski, Tige Thorman
+
+Cette vidéo à visée éducative présente des expériences scientifiques réalisées par des professionnels. Les spectateurs ne doivent pas essayer de les reproduire.
+
+Musique d’Epidemic Sound : http://epidemicsound.com "Running Against the Clock" "Dangerous Forests"
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+
+Music from Epidemic Sound: http://epidemicsound.com "Running Against the Clock" "Dangerous Forests"
+
+0:06 - Les propriétés isolantes de l’aérogel
+1:43 - Préparation et test du lance-flammes
+3:30 - L’épreuve de la couverture d’aérogel
+6:28 - Le revêtement airlon face à la chaleur
+9:18 - L’aérogel aux températures cryogéniques
+10:52 - L’aérogel dans les oléoducs sous-marins
+12:36 - Le bilan du duel contre le lance-flammes

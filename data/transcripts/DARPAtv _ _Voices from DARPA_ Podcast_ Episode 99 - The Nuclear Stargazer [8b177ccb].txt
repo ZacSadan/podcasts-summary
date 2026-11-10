@@ -1,0 +1,23 @@
+Feed: DARPAtv
+Episode: "Voices from DARPA" Podcast, Episode 99 - The Nuclear Stargazer
+Method: description
+Language: en
+Words: 271
+URL: https://www.youtube.com/watch?v=p7kl0kh8isE
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+What will it take to move beyond the nuclear equivalent of rubbing sticks together and harness nuclear energy wherever enduring power is needed? 
+
+For centuries, humanity has relied on heat-driven energy conversion, essentially using steam-age technology even when harnessing the power of the atom. To push further into space and power mission-critical systems in extreme, remote environments, we need entirely new ways to generate, convert, and control nuclear power. 
+
+In this episode, we sit down with Tabitha Dodson, Ph.D., a nuclear physicist, aerospace engineer, and program manager in the Defense Sciences Office (DSO). Dodson shares her unconventional journey, from stargazing as a child on a farm in West Virginia to spearheading leading-edge nuclear space initiatives at DARPA. 
+
+She shares how her DARPA program portfolio aims to bend the development and adoption curve for nuclear energy: 
+
+Fat Cat: Aims to achieve a first-of-its-kind demonstration of 100% autonomous nuclear reactor control on a small, unmoderated fast-spectrum reactor. By developing predictive nuclear reactor physics models, radiation-hardened (rad-hard) electronics, and fast-acting sensors, the program seeks to enable compact, safe, self-regulating reactors for space exploration, undersea operations, and other remote environments. 
+
+Rads to Watts: Aims to deliver ~10 times the power efficiency of traditional radioisotope thermoelectric generators (RTGs) by bypassing heat entirely. Using advanced multilayer radiovoltaic cells that function similarly to solar panels (powered by nuclear radiation particles rather than photons) the program seeks to directly convert radioactive decay into kilowatts of enduring electrical power. 
+
+Tune in to hear how Dodson is bridging the gap between theoretical physics and practical engineering to unlock the enduring power systems that could one day take humanity to the stars.

@@ -1,0 +1,25 @@
+Feed: mreflow
+Episode: Claude Code Just Called My Phone
+Method: description
+Language: en
+Words: 114
+URL: https://www.youtube.com/shorts/A5SfzBD6M3o
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Your AI agent can now call you when it needs help 🤯
+
+Here's how I'm using it with Claude Code to edit my videos:
+
+1. If it needs a creative decision, it calls my phone and asks.
+2. If a render finishes, it just sends me a text.
+3. If it doesn't need my input, it keeps working without interrupting me.
+
+No more AI agents sitting in a terminal waiting for me to respond.
+
+@birdHQ makes this possible by letting AI agents make phone calls, send texts, and emails. And it works with Claude Code, ChatGPT, Cursor, and Codex.
+
+Check out Bird at the link in my pinned comment.
+
+#BirdPartner #ClaudeCode #AIAgents #AITools #AI

@@ -1,0 +1,22 @@
+Feed: AI With Henry
+Episode: קלוד בחינם בונה מסמך אמיתי, עורך בהערות ומייצא ל-Word
+Method: description
+Language: he
+Words: 100
+URL: https://www.youtube.com/shorts/iAtw7Y7Q1CQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+מבקשים מקלוד מסמך ומקבלים גוש טקסט בצ׳אט שצריך להעתיק לוורד? יש דרך טובה יותר, וגם בחינם.
+
+ב-Claude Docs כותבים /docs (או פשוט מבקשים מסמך), קלוד שואל כמה שאלות ובונה מסמך אמיתי על המסך. לשינוי כותבים הערה ומזכירים @Claude, והוא מתקן ומסביר מה שינה. בסוף מייצאים ל-Word, ל-PDF או ל-Google Docs.
+
+מה שחשוב לדעת בתוכנית החינמית: שיתוף רק בקישור לצפייה בלבד (והצופה צריך חשבון Claude), שיתוף לא משנים מהאפליקציה בטלפון, ומחיקת מסמך סופית, בלי פח. כדאי לייצא ל-Word לפני שמוחקים.
+
+המדריך הרשמי של Claude Docs:
+https://support.claude.com/en/articles/16923645-get-started-with-claude-docs
+
+כל הקישורים שלי (קבוצת וואטסאפ שקטה, יצירת קשר וכל השירותים): https://taplink.cc/henry.ai
+
+#קלוד #Claude #בינהמלאכותית #טיפים
