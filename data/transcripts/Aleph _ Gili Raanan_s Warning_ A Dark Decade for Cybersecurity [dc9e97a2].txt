@@ -1,0 +1,10 @@
+Feed: Aleph
+Episode: Gili Raanan's Warning: A Dark Decade for Cybersecurity
+Method: youtube_captions_yt_dlp
+Language: en
+Words: 172
+URL: https://www.youtube.com/shorts/G9U97C4Q7fo
+
+--- TRANSCRIPT ---
+
+Kind: captions Language: en I'm absolutely confident that we face I'm absolutely confident that we face I'm absolutely confident that we face some catastrophic events in the next few some catastrophic events in the next few some catastrophic events in the next few years driven by misuse or intentional years driven by misuse or intentional years driven by misuse or intentional harmful use of AI [music] harmful use of AI [music] harmful use of AI [music] by by by the inability to keep models within the inability to keep models within the inability to keep models within world garden. It's impossible. world garden. It's impossible. world garden. It's impossible. Therefore, I I think that we we we are Therefore, I I think that we we we are Therefore, I I think that we we we are facing a very dark decade in terms of facing a very dark decade in terms of facing a very dark decade in terms of cyber security consequences cyber security consequences cyber security consequences driven by AI.
