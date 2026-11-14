@@ -1,0 +1,19 @@
+Feed: Seeed Studio
+Episode: Wio Tracker L2 Pro Unboxing | What’s Inside?
+Method: description
+Language: en
+Words: 64
+URL: https://www.youtube.com/shorts/O_duZdl6m4Q
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Come for the unboxing. Stay for the part where we take the case off. 👀
+
+Get a close-up of the Wio Tracker L2 Pro, then peek inside this little Meshtastic node at its 3,000 mAh battery and ESP32-S3 chip.
+
+Check more product details here: https://www.seeedstudio.com/Wio-Tracker-L2-Pro-for-Meshtastic-p-0000.html?utm_source=social&utm_medium=media&utm_campaign=L2
+
+What else would you like to see in our next L2 Pro video?
+
+#Meshtastic #LoRa #Unboxing #WioTrackerL2Pro #ESP32 #OpenSourceHardware

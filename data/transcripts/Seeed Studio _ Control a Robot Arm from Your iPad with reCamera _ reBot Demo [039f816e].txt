@@ -1,0 +1,25 @@
+Feed: Seeed Studio
+Episode: Control a Robot Arm from Your iPad with reCamera | reBot Demo
+Method: description
+Language: en
+Words: 134
+URL: https://www.youtube.com/watch?v=XRqh-EDIrdc
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Control a reBot robotic arm from an iPad with reCamera. This browser-based teleoperation demo combines live camera streaming and onboard arm control—no external PC needed for arm control.
+
+Inspired by Gold Miner, we used the tablet interface to manually position the gripper, lift a plush toy, and drop a real prize.
+
+Mounted on the arm, reCamera streams the live view and runs the armd control software. The B4 CAN board connects it to reBot B601-DM, turning touchscreen commands into physical movement.
+
+Build on this open-source reference design for your own robotics prototypes, teleoperation projects, or test-bench workflows.
+
+Explore the open-source project and build your own:
+https://www.seeed.cc/solutions/reference-designs/rebot_agent_arm?utm_source=youtube&utm_medium=social&utm_campaign=202611_rebot-agent-arm
+
+
+What would you use this setup for? Share your application in the comments, and subscribe for more robotics demos.
+
+#reCamera #Robotics #Solution #reCameraPro #theGotoAIcameraforYOLOattheedge #RoboticsSolutions #Seeed #SeeedStudio #EdgeAI
