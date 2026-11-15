@@ -1,0 +1,29 @@
+Feed: Black Hat
+Episode: Black Hat USA 2026 | ChatMate: Remote Prompt Execution on AI Assistants through Sandbox Escaping
+Method: description
+Language: en
+Words: 316
+URL: https://www.youtube.com/watch?v=MspRSCAb6uI
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Imagine a user asks an LLM a question about a document. An attacker then gains an interactive prompt on the user's chat session, enabling the attacker to instruct the AI assistant to take actions on behalf of the victim.
+
+In this Briefing, we will reveal a novel vulnerability class we call "Remote Prompt Execution" where, similar to remote code execution, an attacker is able to "run" arbitrary prompts on the user's chat session. We will detail a full Copilot chain demonstrating a scenario where uploading a document to Copilot can lead to a full takeover of the Copilot's chat session.
+
+We will begin with a bypass of Copilot's safety filters to gain a foothold on its code execution infrastructure running on Azure. Although sandboxed, we chain a privilege escalation (PE) vulnerability to elevate an unprivileged user to root permissions, unlocking a new attack surface.
+
+The research culminates in a critical vulnerability discovery in the ACR Image Streaming service, accessible from the sandbox due to the container's network architecture. We will detail the black-box methodology leading to an arbitrary file write primitive on the host filesystem as root, leading to a full compromise. Ultimately, these vulnerabilities impacted many Azure services beyond Copilot.
+
+This is the first demonstration of an escape from the Copilot code execution sandbox to its host, enabling full compromise of a user's Copilot session by simply querying a single document—allowing the attacker to steal information from the user's Microsoft 365 environment.
+
+Takeaway
+1. Techniques for bypassing LLM execution safeguards and obfuscating payloads to execute arbitrary code in AI sandboxes.
+2. Methodologies for mapping, analyzing, and exploiting undocumented, host-networked daemons from within a restricted container.
+3. Exploiting container misconfigurations to achieve privilege escalation and container escape, leading to data leakage, and how such misconfigurations can lead to new classes of vulnerabilities in the AI world.
+
+By: 
+Ori Lahav |  Security Researcher, Rubrik Zero Labs
+
+https://blackhat.com/us-26/briefings/schedule/index.html#chatmate-remote-prompt-execution-on-ai-assistants-through-sandbox-escaping-52326

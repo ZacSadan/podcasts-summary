@@ -1,0 +1,21 @@
+Feed: Black Hat
+Episode: Black Hat USA 2026 | AI and the Future of Cyber Defense Panel
+Method: description
+Language: en
+Words: 161
+URL: https://www.youtube.com/watch?v=bmoCcesBvI4
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+AI and Cyber from Frontier AI models are crossing capability thresholds that reshape both the offensive and defensive sides of cybersecurity. They can now meaningfully accelerate vulnerability discovery, exploit development, and attack execution — compressing timelines for attackers targeting critical infrastructure. At the same time, these capabilities offer defenders an asymmetric advantage if deployed responsibly and at scale.
+
+This panel will examine how governments, frontier developers, and the cyber defense community can ensure AI's net effect on cybersecurity is defensive. Discussion will cover staged-release models for cyber-capable systems, how to operationalize AI-enabled defense across critical infrastructure, and the industry-wide norms and public-private coordination needed to stay ahead of AI-enabled threats.
+
+Morgan Adamski |  Principal, US Cyber, Data & Technology Risk, Platform Leader, PwC
+Fotios (Fotis) Chantzis |  Agent Security Lead, OpenAI
+Sergiy Konovalov |  Global Technology Partner Lead, Anthropic
+Katie Moussouris |  Founder and CEO, Luta Security
+Michael Sulmeyer |  Professor of the Practice, Georgetown University, School of Foreign Service
+
+https://blackhat.com/us-26/briefings/schedule/index.html#ai-and-the-future-of-cyber-defense-panel-55782

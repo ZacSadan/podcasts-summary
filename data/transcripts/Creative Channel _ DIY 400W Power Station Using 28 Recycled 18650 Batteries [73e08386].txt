@@ -1,0 +1,18 @@
+Feed: Creative Channel
+Episode: DIY 400W Power Station Using 28 Recycled 18650 Batteries
+Method: description
+Language: en
+Words: 54
+URL: https://www.youtube.com/watch?v=BX54o0aKsJQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+I built a DIY 400W portable power station using 28 recycled Samsung 18650 cells in a 4S7P 17,5Ah configuration.
+Featuring a 220V pure sine wave inverter, approximately 260Wh battery capacity, and a custom 3D printed enclosure.
+
+Pure sine wave Inverter 220v 400W: https://s.shopee.vn/7KyXayK5fh
+
+📁 3D Printing Files: https://makerworld.com/vi/models/3609740-building-a-400w-power-station-old-18650-batteries#profileId-4137053
+
+#DIYPowerStation #18650Battery #BatteryRecycling #PureSineWave #3DPrinting #DIYElectronics

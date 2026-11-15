@@ -1,0 +1,73 @@
+Feed: mreflow
+Episode: AI News: Things Will Never Be The Same
+Method: description
+Language: en
+Words: 326
+URL: https://www.youtube.com/watch?v=G_Jrexy_5Bg
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Try @OpenAI Decisions API here: https://developers.openai.com/api/docs/guides/decisions 
+
+Here's the AI news from one of the wildest weeks we've ever seen! Jensen Huang steps down as NVIDIA CEO, Anthropic launches Claude Fable 5.2, and Google's Gemini 4 Carbon finally becomes available. Plus, new AI features from Adobe MAX, big updates to Claude, and a rapid-fire roundup of everything else happening in AI.
+
+Sharing the latest news and advancements in AI
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Jensen Huang Allegations — Financial Times: https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790
+NVIDIA Company Statement: https://nvidianews.nvidia.com/news/a-message-to-our-company
+NVIDIA China Chip Sales Report: https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china
+Jensen Huang Allegations — New York Times: https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html
+NVIDIA CEO Transition Announcement: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+Claude Fable 5.2 & Mythos 5.2: https://www.anthropic.com/claude-fable-and-mythos-5-2
+Gemini 4 Carbon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+Gemini 4 Hydrogen: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+Adobe Creative Cloud AI Workflows: https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools
+Adobe Firefly Updates: https://news.adobe.com/news/2026/11/adobe-firefly-expands
+Adobe MAX 2026 Announcements: https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity
+Adobe MAX AI Sneaks: https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai
+Businesses in ChatGPT: https://openai.com/index/introducing-businesses-chatgpt/
+Meta Muse Ember: https://dev.meta.ai/resources/blog/build-with-muse-ember
+Anthropic IPO Roadshow: https://www.anthropic.com/news/roadshow-launch
+Claude Sheets, Whiteboards & Connectors: https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors
+Claude Sheets, Whiteboards & Data Tools: https://claude.com/resources/articles/sheets-whiteboards-data
+Claude Interactive Apps: https://claude.com/resources/articles/interactive-connectors-full-tool
+MiniMax H3-Image: https://x.com/MiniMax_AI/status/2120179737695826420
+Gemini Decisions API: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+Automattic Spacefast: https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: business@mattwolfe.com
+
+#AINews #AITools #ArtificialIntelligence
+
+Time Stamps:
+00:00 NVIDIA Controversy: The Allegations Against Jensen Huang
+06:32 Jensen Huang’s CEO Transition
+07:33 What Jensen’s Departure Means for AI
+09:52 OpenAI’s New Decisions API (Sponsor)
+11:08 Anthropic Launches Claude Fable 5.2 and Mythos 5.2
+13:15 Google Releases Gemini 4 Carbon
+16:16 Google Introduces Gemini 4 Hydrogen
+18:43 Adobe MAX: New AI Agents and Creative Tools
+21:36 OpenAI Launches Businesses in ChatGPT
+22:15 Meta Releases Muse Ember
+22:33 Google Introduces Gemini Decisions API
+22:51 Anthropic’s Latest IPO Updates
+23:05 Claude Adds App Integrations
+23:22 Claude Gets Whiteboards, Sheets, Data and Meetings
+24:05 MiniMax Launches H3 Image
+24:42 Automattic Launches Spacefast for AI-Built Apps
+25:17 Final Thoughts
