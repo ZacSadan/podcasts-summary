@@ -1,0 +1,71 @@
+Feed: Veritasium en Français
+Episode: J’ai enfin vu la mécanique quantique de mes propres yeux… (C’est encore plus flippant que prévu)
+Method: description
+Language: en
+Words: 550
+URL: https://www.youtube.com/watch?v=HuUyL6TqqsA
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Le liquide le plus froid du monde est bien plus étrange que vous ne l’imaginez. Avec le soutien de Ground News — rendez-vous sur https://ground.news/Ve et abonnez-vous pour bénéficier de 40 % de réduction sur l’offre Vantage avec accès illimité. Restez informé de l’actualité et comparez les points de vue.
+
+L’an dernier, nous avons lancé Elements of Truth sur Kickstarter. La production touche à sa fin et les récompenses seront bientôt expédiées. Si vous avez manqué la campagne, précommandez l’édition commerciale sur notre nouveau site : https://ve42.co/YTDEcl  
+Si vous nous avez soutenus sur Kickstarter, pas d’inquiétude : votre jeu sera expédié avant les précommandes.
+
+Vous cherchez un kit de modélisation moléculaire ? Découvrez Snatoms, un kit que j’ai inventé, où les atomes s’assemblent grâce à des aimants : https://ve42.co/SnatomsV
+
+Inscrivez-vous à la newsletter Veritasium pour recevoir chaque semaine des nouvelles scientifiques : https://ve42.co/Newsletter
+
+Rejoignez notre Patreon pour tenter de recevoir un autocollant de la NASA envoyé aux confins de l’espace pendant l’éclipse, et accéder en avant-première à nos vidéos en cours de réalisation : https://ve42.co/VePatreon
+
+▀▀▀
+Chapitres : 
+0:00 Le liquide « impossible »
+1:59 La course au zéro absolu
+6:33 Pourquoi l’hélium semblait impossible à liquéfier
+15:04 La première production d’hélium liquide
+19:08 Peut-on fabriquer de l’hélium solide ?
+21:42 Qu’est-ce que la supraconductivité ?
+28:41 Viscosité nulle et superfluidité
+36:15 Que sont les condensats de Bose-Einstein ?
+43:20 Comment Kapitsa a sauvé Landau de la prison
+46:20 La fontaine superfluide alimentée par la lumière
+47:46 La théorie des phonons de Landau
+58:32 Pourquoi l’hélium ne gèle (presque) jamais
+1:01:58 À retenir
+
+▀▀▀
+Un grand merci au Pr Dirk van Delft pour ses conseils et son expertise sur la vie et les travaux d’Onnes. Son livre « Freezing Physics » est disponible gratuitement en PDF ici : https://ve42.co/Freezing_physics 
+Merci au Pr Martin Zwierlein pour son aide à vérifier les détails sur la superfluidité et les condensats de Bose-Einstein.
+Merci également aux Pr Kostas Gavroglu, Dr Philippe Lebrun, Pr David Kaiser, Dr John G Weisend II, Pr Ad Maas et Pr Robert Taylor pour leurs précieux commentaires.
+Merci au Rijksmuseum Boerhaave, pour nous avoir fait découvrir ses archives et le matériel d’origine d’Onnes : https://www.rijksmuseumboerhaave.nl/ 
+Merci à toute l’équipe du Gravity Laboratory et de l’université de Nottingham, qui a recréé toutes les expériences. Découvrez le laboratoire ici : ve42.co/GravityLaboratory
+
+▀▀▀
+Références : https://ve42.co/SuperfluidsReferences
+
+▀▀▀
+Un merci particulier à nos soutiens sur Patreon.
+
+▀▀▀
+Crédits : 
+Écriture : Casper Mebius et Derek Muller
+Production et réalisation : Casper Mebius
+Présentation : Derek Muller et Casper Mebius
+Montage : Trenton Oliver, George Reynolds et Axel Oliver
+Animation : Domonkos Jozsa, Emma Wright, Fabio Albertelli, Andrew Neet, Alex Drakoulis, Rokas Viksraitis et Mike Radjabov
+Recherche : Sophia Rose, Gabe Strong et Fred Green
+Miniature : Abdallah Rabah, Ben Powell et Patryk Ziolkowski
+Production exécutive : Emilia Gyles, Derek Muller et Casper Mebius
+
+👉 Cette chaîne est réalisée en collaboration avec https://www.youtube.com/@veritasium et localisée dans votre langue par https://www.linguana.com
+
+0:00:00 - L’hélium superfluide, un phénomène étrange
+0:02:02 - La course vers le zéro absolu
+0:07:55 - Onnes liquéfie l’hélium
+0:23:45 - Les indices d’une superfluidité
+0:35:41 - De Bose-Einstein à Landau
+0:46:19 - La théorie de Landau et ses effets
+0:59:07 - Pourquoi l’hélium ne gèle pas
+1:06:15 - Les mystères restent à explorer
