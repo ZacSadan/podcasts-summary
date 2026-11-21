@@ -1,0 +1,76 @@
+Feed: mreflow
+Episode: AI News: This Is The Make or Break Week!!
+Method: description
+Language: en
+Words: 323
+URL: https://www.youtube.com/watch?v=wqNIzUmNt9M
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Hire your own team of agents with Hyperagent for free here: https://hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=MATT
+
+Anthropic’s IPO puts the AI bubble to the test as OpenAI and Google launch powerful new models for less.
+
+This week, I test GPT-6.2 Astra, Sol, and Gemini 4 Neon, break down Microsoft’s latest AI releases, and try Gemini Notebook’s new website builder. Plus, ChatGPT Wallet, HeyGen Avatar 6, and more AI news.
+
+Watch my full GPT-6.2 breakdown: https://youtu.be/JVHkb8PTMvc
+
+Sharing the latest news and advancements in AI
+
+Discover More:
+🛠️ Explore AI Tools & News: https://futuretools.io/
+📰 Weekly Newsletter: https://futuretools.io/newsletter
+
+Socials:
+❌ Twiter/X: https://x.com/mreflow
+🖼️ Instagram: https://instagram.com/mr.eflow
+🧵 Threads: https://www.threads.net/@mr.eflow
+🟦 LinkedIn: https://www.linkedin.com/in/matt-wolfe-30841712/
+👍 Facebook: https://www.facebook.com/mattrwolfe
+
+Resources From Today's Video:
+Anthropic IPO: https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq
+GPT-6.2 Astra & Sol: https://openai.com/index/introducing-gpt-6-2-astra-sol/
+Gemini 4 Neon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+Microsoft MAI Code 2 & Code 2 Flash: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/
+Microsoft MAI Image 2.7: https://microsoft.ai/news/introducing-mai-image-2-7/
+Microsoft MAI Realtime 1: https://microsoft.ai/news/introducing-mai-realtime-1/
+Gemini Notebook Interactive Sites: https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/
+HeyGen Avatar 6: https://www.heygen.com/research/avatar-6-model
+Suno Visuals: https://suno.com/blog/introducing-visuals
+Gemini Computer Use on Mac: https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/
+Claude Duet Access Expansion: https://x.com/ahuja_karan/status/2121332990836163033
+Claude Code Custom Themes: https://x.com/ClaudeDevs/status/2121392666244186327
+Google Stitch Loop: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/
+ChatGPT Wallet: https://openai.com/index/introducing-chatgpt-wallet/
+ChatGPT Live Dictation: https://x.com/ChatGPT/status/2123114715257946334
+ChatGPT for Sales: https://openai.com/index/introducing-chatgpt-for-sales/
+Google DeepMind Genie 4: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/
+
+Let’s work together!
+- Brand, sponsorship & business inquiries: business@mattwolfe.com
+
+#AINews #Anthropic #gemini 
+
+Time Stamps:
+00:00 Anthropic Goes Public
+05:33 OpenAI Launches GPT-6.2 Astra and Sol
+10:36 HyperAgent Adds iMessage Support (Sponsor)
+11:34 Google Launches Gemini 4 Neon
+16:35 Astra vs. Sol vs. Neon: Website Test
+21:55 Microsoft Introduces MAI Code 2
+23:40 Microsoft Releases MAI Image 2.7
+24:00 Microsoft Launches MAI Real-Time One
+24:21 Gemini Notebook Can Build Websites
+26:15 HeyGen Launches Avatar 6
+27:10 Suno Launches Visuals
+27:38 Gemini for Mac Gets Computer Use
+28:20 Claude Duet Expands Access
+28:42 Claude Code Adds Custom Desktop Themes
+29:06 Google Labs Introduces Stitch Loop
+29:47 OpenAI Launches ChatGPT Wallet
+30:30 ChatGPT Adds Live Dictation
+30:44 OpenAI Launches ChatGPT for Sales
+31:10 Google DeepMind Releases Genie 4
+31:44 Google Extends Genie 3 Sessions

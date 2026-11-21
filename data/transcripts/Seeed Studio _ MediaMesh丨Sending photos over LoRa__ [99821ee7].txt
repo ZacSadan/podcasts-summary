@@ -1,0 +1,17 @@
+Feed: Seeed Studio
+Episode: MediaMesh丨Sending photos over LoRa!!
+Method: description
+Language: en
+Words: 62
+URL: https://www.youtube.com/shorts/iGgXCY8Q4Ts
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Here’s a photo travelling over LoRa 📷
+
+Sharing a MediaMesh demo on Wio Tracker L2 Pro. It compresses the photo before transmission, then reconstructs it on the receiving device. Voice messages and short video clips are supported too.
+
+Wondering about congestion? Media uses a separate frequency with wider bandwidth, keeping bulk media traffic off the main mesh frequency.
+
+#seeed #meshcore #esp32project #offgrid
