@@ -1,0 +1,68 @@
+Feed: Greg Isenberg
+Episode: Gemini 4 Neon: the most underrated model of the year
+Method: description
+Language: en
+Words: 751
+URL: https://www.youtube.com/watch?v=tCY7zMknCJQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Gemini 4 Neon is LIVE, brining frontier-level intelligence with fast end-to-end task completion, try it for yourself: https://startup-ideas-pod.link/gemini-4-neon
+
+In this solo episode, I break down Gemini 4 Neon, Google's new model, after testing it inside Antigravity. I start with builds from the community: motion design for a Pelican product, a robot dog on uneven limestone, and two pinball games with multiball physics,. Then I cover where to run Neon, five ways to get the most out of it, and five ways to make money or save time with it. I close with four honest caveats about brevity, writing habits, confusing naming, and Antigravity itself.
+
+Timestamps
+
+00:00 – Intro
+01:24 – Great Builds and Demos
+06:26 – Where to run Neon
+07:59 – Get the Most Out of Neon
+09:55 – Ways to Make Money With Neon
+13:13 – Honest Caveats
+15:16 – Closing Thoughts
+
+Key Points
+
+• Neon handles physics, motion graphics, and 3D at a level that opens up games, hardware prototypes, and vibe manufacturing.
+• The same model jumped from 12.8% to 39% on coding inside Antigravity, so I do my big builds there.
+• High thinking is my sweet spot: 32% cheaper than Carbon, while extra high burns 70% more for under two points.
+• /swarm spins up an AI team of researchers, designers, and engineers that can finish a big build overnight.
+• Playable lead magnets and custom demos for prospects are two of the fastest ways I see to earn with Neon.
+• Neon writes well once I ask for longer answers and tell it to drop em dashes and contrast clichés.
+
+Numbered Section Summaries
+
+1. Community Builds That Show the Range 
+
+Chetasula shared Neon's motion design for a Pelican product, and as someone who builds apps and hunts for mascots and motion design, I find it stunning. Another builder's piece got me thinking about hardware companies and prototypes, which ties back to my Argon episode on vibe manufacturing. Neon feels strong at this kind of hardware work.
+
+2. Physics That Holds Up 
+
+One builder pushed Neon to add uneven limestone terrain to stress test robot dog biomechanics, and it added per-paw slope adaptation, five-point obstacle scanning, and spine torsion. It reminds me of the Boston Dynamics dogs, and I can picture whole games and worlds built this way. Next to GPT 6.2 Astra on the pelican-riding-a-bike test, Neon's physics feel like a different world.
+
+3. Games and Apps From a Prompt 
+
+One builder made two pinball games with Blender and WebGPU, with generated play field art, PBR and stained glass maps, multiball physics, and procedural audio. They remind me of the Windows XP pinball game, and they're live with people playing them. 
+
+4. Five Ways to Get the Most Out of Neon 
+
+I set thinking to high, and I build inside Antigravity instead of the bare wrapper, which explains why people on X split so hard on this model. I use the orchestrator for daily work and /swarm for big builds, assigning a researcher, a front-end designer, a front-end engineer, and a back-end engineer before I go to sleep. I always give it a verification loop (open the browser, click buttons, fix bugs), and I put context first and demand facts, which triggers automatic caching and stops drift.
+
+5. Lead Magnets and Trojan Horse Demos 
+
+Neon builds playable lead magnets, 3D configurators, and mini games that capture emails and get shared on X and Instagram, work agencies charge $10,000 to $100,000 for. For a Trojan horse demo, I paste in a business URL, like a Chick-fil-A in Toronto, let Neon scrape it, build that store a calculator or tool, and send it over. If I were 20 and chasing cash flow, I'd redesign stale websites and offer them for $50 or $100 a month.
+
+6. Finance, Back Office, and Overnight Products 
+
+Neon is great with data: messy invoices go in, and a working financial model and audit come out. I ran my own company's numbers through it, and it feels like having a CFO-like partner. It also handles lead routing, CRM ops, and reconciliation for less than the competition, and with swarms, agent teams research, build, and QA micro products and directories while I ship.
+
+The #1 tool to find startup ideas/trends - https://www.ideabrowser.com
+
+LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+FIND ME ON SOCIAL
+
+X/Twitter: https://twitter.com/gregisenberg
+Instagram: https://instagram.com/gregisenberg/
+LinkedIn: https://www.linkedin.com/in/gisenberg/

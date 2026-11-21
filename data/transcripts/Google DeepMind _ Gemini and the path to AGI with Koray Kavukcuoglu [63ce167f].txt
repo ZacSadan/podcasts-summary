@@ -1,0 +1,28 @@
+Feed: Google DeepMind
+Episode: Gemini and the path to AGI with Koray Kavukcuoglu
+Method: description
+Language: en
+Words: 127
+URL: https://www.youtube.com/watch?v=FORdPIWOH5k
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. 
+
+In this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves, and the topic on everyone's mind: recursive self-improvement (RSI).
+
+00:00 Introduction 
+01:26 Evolution of Google DeepMind
+04:41 Products as a path to AGI
+13:01 Architectures and models 
+24:40 Recursive self improvement 
+30:50 Safety and agent teams 
+40:35 Benchmarks 
+
+___
+
+Subscribe to our channel https://www.youtube.com/@googledeepmind
+Find us on X https://twitter.com/GoogleDeepMind
+Follow us on Instagram https://instagram.com/googledeepmind
+Add us on Linkedin https://www.linkedin.com/company/deepmind/

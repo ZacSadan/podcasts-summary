@@ -1,0 +1,49 @@
+Feed: Liam Ottley
+Episode: 6 Lessons I Learned From Installing AI in a $10M Business
+Method: description
+Language: en
+Words: 272
+URL: https://www.youtube.com/watch?v=0k4x9YDrWMo
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join
+🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com
+Link to grab the AIOS template: https://liamottley.com/aios
+Try Viktor, the AI employee that lives in your Slack: https://viktor.com/
+
+💻 MY TECH STACK
+Kylon (AIOS workspace): https://kylon.io/liam
+Railway (agent & web hosting): https://railway.com?referralCode=liam
+Apify (web scraping): https://apify.com?fpr=makeover
+CodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw
+Glaido (voice transcription): https://get.glaido.com/liam-ottley
+
+Work w/ Isaac:
+Imprint Genius: https://imprintgenius.com
+Instagram: https://instagram.com/thesourcingguy
+YouTube: https://youtube.com/@thesourcingguy
+
+📲 FOLLOW ME
+Instagram: https://instagram.com/liamottley
+LinkedIn: https://www.linkedin.com/in/liamottley
+X: https://twitter.com/liamottley_
+
+Some links above are affiliate links. Using them supports the channel at no extra cost.
+
+In this video, I break down 6 lessons from my AI makeover of Isaac, the sourcing guy, and his eight-figure custom merch business. We built an AI system that makes custom sales pitches, with branded product photos and videos, for about $4 per pitch, and put an AI employee called Viktor into his team's Slack. I share what worked, like how the team "audibly gasped" at a pitch Isaac made the day after we left, and what didn't, like a client saying it "felt AI" and $100 of credits burnt in just two days.
+
+0:00 The AI Makeover That Made a Client Gasp
+0:55 Meet Isaac, The Sourcing Guy
+1:27 Lesson 1: AI Does 80%, Taste Does 20%
+2:58 Lesson 2: Fix One Bottleneck
+5:48 Lesson 3: Your Data Sets the Ceiling
+7:19 Lesson 4: Teach Them to Fish
+9:10 Lesson 5: Make AI Multiplayer
+11:04 Lesson 6: Watch the Token Bill
+12:08 Recap
+12:21 The Biggest Lesson: Get Out of the Way
+
+WATCH NEXT: I Built a Real-Life Jarvis for His Business
+ - https://youtu.be/UbVSJW1uxmM
