@@ -1,0 +1,17 @@
+Feed: Seeed Studio
+Episode: What can your Wio Tracker L2 Pro Become?丨Tiny Games, Big Ideas
+Method: description
+Language: en
+Words: 51
+URL: https://www.youtube.com/shorts/EY49dXBMSzQ
+
+--- TRANSCRIPT ---
+
+[SHOW NOTES]
+Different firmware. Different games. Different ways to play. 🕹️
+
+A quick look at what happens when an off-grid LoRa mesh device becomes a maker playground—from tiny games to custom interfaces and experiments.
+
+The games are just the beginning. What would you build on L2 Pro?
+
+#ESP32 #LoRa #DIYelectronics #Meshtastic #embedded systems
